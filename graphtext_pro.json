@@ -35,16 +35,16 @@
 "fY1" : 0,
 "fX2" : 1,
 "fY2" : 1,
-"fXtoAbsPixelk" : 5e-5,
-"fXtoPixelk" : 5e-5,
+"fXtoAbsPixelk" : 0,
+"fXtoPixelk" : 0,
 "fXtoPixel" : 696,
-"fYtoAbsPixelk" : 472.00005,
-"fYtoPixelk" : 472.00005,
+"fYtoAbsPixelk" : 472,
+"fYtoPixelk" : 472,
 "fYtoPixel" : -472,
-"fUtoAbsPixelk" : 5e-5,
-"fUtoPixelk" : 5e-5,
+"fUtoAbsPixelk" : 0,
+"fUtoPixelk" : 0,
 "fUtoPixel" : 696,
-"fVtoAbsPixelk" : 472.00005,
+"fVtoAbsPixelk" : 472,
 "fVtoPixelk" : 472,
 "fVtoPixel" : -472,
 "fAbsPixeltoXk" : 0,
@@ -362,26 +362,19 @@
 "fFunctions" : {
 "_typename" : "TList",
 "name" : "TList",
-"arr" : [],
-"opt" : []
+"arr" : [{
+"_typename" : "TExec",
+"fUniqueID" : 0,
+"fBits" : 0,
+"fName" : "ex",
+"fTitle" : "drawtext();"
+}],
+"opt" : [""]
 },
 "fHistogram" : null,
 "fMinimum" : -1111,
-"fMaximum" : -1111
-}
-}, {
-"_typename" : "TWebSnapshot",
-"fUniqueID" : 0,
-"fBits" : 0,
-"fObjectID" : "",
-"fOption" : "",
-"fKind" : 2,
-"fSnapshot" : {
-"_typename" : "TWebPainting",
-"fUniqueID" : 0,
-"fBits" : 0,
-"fOper" : "o600:42:-25:21:0;t(0.00,1.99);o600:42:-25:21:0;t(0.10,2.96);o600:42:-25:21:0;t(0.20,3.89);o600:42:-25:21:0;t(0.30,4.79);o600:42:-25:21:0;t(0.40,5.65);o600:42:-25:21:0;t(0.50,6.44);o600:42:-25:21:0;t(0.60,7.17);o600:42:-25:21:0;t(0.70,7.83);o600:42:-25:21:0;t(0.80,8.41);o600:42:-25:21:0;t(0.90,8.91)",
-"fBuf" : [0, 2.186693, 0.1, 3.155202, 0.2, 4.094183, 0.3, 4.994256, 0.4, 5.846425, 0.5, 6.642177, 0.6, 7.373561, 0.7, 8.033269, 0.8, 8.61471, 0.9, 9.112074]
+"fMaximum" : -1111,
+"fOption" : ""
 }
 }],
 "fScripts" : "",

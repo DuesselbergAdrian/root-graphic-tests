@@ -9,7 +9,7 @@ To run the C++ test, you need to have ROOT installed on your system. ROOT is a f
 #### Running the Test:
 Open a terminal and execute the following command:
 ```shell
-root -b -l -q /home/adrianduesselberg/root-graphic-tests/test.cxx
+root -b -l -q /home/adrianduesselberg/root-graphic-tests test.cxx
 ```
 
 ### 2. Java Script Test with Node.js
