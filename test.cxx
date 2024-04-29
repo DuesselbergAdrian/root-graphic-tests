@@ -54,7 +54,6 @@ bool graphtext(){
       x = i*0.1;
       y = 10*sin(x+0.2);
       gr->SetPoint(i,x,y);
-
    }
    gr->Draw("ALP");
    
@@ -62,11 +61,10 @@ bool graphtext(){
    TWebCanvas *webCanvas = new TWebCanvas(c, "WebCanvas1", 100, 100, 700, 500);
    TString jsonOutput = webCanvas->CreateCanvasJSON(c, 1, kFALSE);
    
-   /*Save JSON to a file
-   std::ofstream jsonFile("graphtext.json");
+   //Save JSON to a file
+   std::ofstream jsonFile("graphtext_pro.json");
    jsonFile << jsonOutput.Data();
    jsonFile.close();
-   return false;*/
 
    //Compare the generated JSON to a reference JSON file
    if (compare_json(jsonOutput, "graphtext.json")) {
@@ -129,11 +127,11 @@ bool piechart()
    TWebCanvas *webCanvas = new TWebCanvas(cpie, "WebCanvas2", 100, 100, 700, 700);
    TString jsonOutput = webCanvas->CreateCanvasJSON(cpie, 1, kFALSE);
    
-   /*Save JSON to a file
-   std::ofstream jsonFile("piechart.json");
+   //Save JSON to a file
+   std::ofstream jsonFile("piechart_pro.json");
    jsonFile << jsonOutput.Data();
    jsonFile.close();
-   return false;*/
+   //TString json = TBufferJSON::ToJSON(h1); ???
 
    //Compare the generated JSON to a reference JSON file
    if (compare_json(jsonOutput, "piechart.json")) {
@@ -252,11 +250,10 @@ bool AtlasExample()
    TWebCanvas *webCanvas = new TWebCanvas(canvas, "WebCanvas3", 50, 50, 600, 600);
    TString jsonOutput = webCanvas->CreateCanvasJSON(canvas, 1, kFALSE);
    
-   /*Save JSON to a file
-   std::ofstream jsonFile("AtlasExample.json");
+   //Save JSON to a file
+   std::ofstream jsonFile("AtlasExample_pro.json");
    jsonFile << jsonOutput.Data();
    jsonFile.close();
-   return false;*/
 
    //Compare the generated JSON to a reference JSON file
    if (compare_json(jsonOutput, "AtlasExample.json")) {
@@ -377,6 +374,92 @@ void AddtoBand(TGraphErrors* g1, TGraphAsymmErrors* g2) {
    }
 }
 
+/*fit from tutorials/fit
+
+bool fit1() {
+   TCanvas *c1 = new TCanvas("c1_fit1","The Fit Canvas",200,10,700,500);
+   c1->SetGridx();
+   c1->SetGridy();
+   c1->GetFrame()->SetFillColor(21);
+   c1->GetFrame()->SetBorderMode(-1);
+   c1->GetFrame()->SetBorderSize(5);
+
+   gBenchmark->Start("fit1");
+   //
+   // We connect the ROOT file generated in a previous tutorial
+   // (see <a href="fillrandom.C.nbconvert.ipynb">Filling histograms with random numbers from a function</a>)
+   //
+   TString dir = gROOT->GetTutorialDir();
+   dir.Append("/fit/");
+   TFile *file = nullptr;
+   if (!gSystem->AccessPathName("fillrandom.root")) {
+      // file exists
+      file = TFile::Open("fillrandom.root");
+   } else {
+      gROOT->ProcessLine(Form(".x %s../hist/fillrandom.C(0)",dir.Data()));
+      file = TFile::Open("fillrandom.root");
+      if (!file) return false;
+   }
+
+   //
+   // The function "ls()" lists the directory contents of this file
+   //
+   file->ls();
+
+   //
+   // Get object "sqroot" from the file. Undefined objects are searched
+   // for using gROOT->FindObject("xxx"), e.g.:
+   // TF1 *sqroot = (TF1*) gROOT.FindObject("sqroot")
+   //
+   TF1 * sqroot = nullptr;
+   file->GetObject("sqroot",sqroot);
+   if (!sqroot){
+      Error("fit1.C","Cannot find object sqroot of type TF1\n");
+      return false;
+   }
+   sqroot->Print();
+
+   //
+   // Now get and fit histogram h1f with the function sqroot
+   //
+   TH1F* h1f = nullptr;
+   file->GetObject("h1f",h1f);
+   if (!h1f){
+      Error("fit1.C","Cannot find object h1f of type TH1F\n");
+      return false;
+   }
+   h1f->SetFillColor(45);
+   h1f->Fit("sqroot");
+
+   // We now annotate the picture by creating a PaveText object
+   // and displaying the list of commands in this macro
+   //
+   TPaveText * fitlabel = new TPaveText(0.6,0.4,0.9,0.75,"NDC");
+   fitlabel->SetTextAlign(12);
+   fitlabel->SetFillColor(42);
+   fitlabel->ReadFile(Form("%sfit1_C.txt",dir.Data()));
+   fitlabel->Draw();
+   c1->Update();
+   gBenchmark->Show("fit1");
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas4", 200, 10, 700, 500);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("fit1.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
+   return false;
+
+   //Compare the generated JSON to a reference JSON file
+   if (compare_json(jsonOutput, "fit1.json")) {
+        return true;
+   } else {
+        return false;
+   }
+}*/
+
 void test(){
    std::cout << "**********************************************************************" <<std::endl;
    std::cout << "*  Starting  Graphics - TEST suite                                   *" <<std::endl;
@@ -396,4 +479,9 @@ void test(){
    } else {
       std::cout << "*  Example  AtlasEx    - JSON FAIL                                   *" <<std::endl;
    };
+   /*if (fit1()){
+      std::cout << "*  Example  Fit1       - JSON MATCH                                  *" <<std::endl;
+   } else {
+      std::cout << "*  Example  Fit1       - JSON FAIL                                   *" <<std::endl;
+   };*/
 }

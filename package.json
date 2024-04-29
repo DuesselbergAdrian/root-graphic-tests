@@ -1,0 +1,19 @@
+{
+    "name": "root-graphic-tests",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=0.18"
+    },
+    "description": "JSROOT test suite for Node.js",
+    "main": "test.js",
+    "type": "module",
+    "author": "Adrian D.",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AdrianDuesselberg/root-graphic-test.git"
+    },
+    "dependencies": {
+        "jsroot": "file:../jsroot"
+    }
+}
