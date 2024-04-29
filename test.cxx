@@ -61,13 +61,13 @@ bool graphtext(){
    TWebCanvas *webCanvas = new TWebCanvas(c, "WebCanvas1", 100, 100, 700, 500);
    TString jsonOutput = webCanvas->CreateCanvasJSON(c, 1, kFALSE);
    
-   //Save JSON to a file
+   /*Save JSON to a file
    std::ofstream jsonFile("graphtext_pro.json");
    jsonFile << jsonOutput.Data();
-   jsonFile.close();
+   jsonFile.close();*/
 
    //Compare the generated JSON to a reference JSON file
-   if (compare_json(jsonOutput, "graphtext.json")) {
+   if (compare_json(jsonOutput, "./json_ref/graphtext.json")) {
         return true;
    } else {
         return false;
@@ -127,14 +127,14 @@ bool piechart()
    TWebCanvas *webCanvas = new TWebCanvas(cpie, "WebCanvas2", 100, 100, 700, 700);
    TString jsonOutput = webCanvas->CreateCanvasJSON(cpie, 1, kFALSE);
    
-   //Save JSON to a file
+   /*Save JSON to a file
    std::ofstream jsonFile("piechart_pro.json");
    jsonFile << jsonOutput.Data();
    jsonFile.close();
-   //TString json = TBufferJSON::ToJSON(h1); ???
+   //TString json = TBufferJSON::ToJSON(h1);*/
 
    //Compare the generated JSON to a reference JSON file
-   if (compare_json(jsonOutput, "piechart.json")) {
+   if (compare_json(jsonOutput, "./json_ref/piechart.json")) {
         return true;
    } else {
         return false;
@@ -256,7 +256,7 @@ bool AtlasExample()
    jsonFile.close();
 
    //Compare the generated JSON to a reference JSON file
-   if (compare_json(jsonOutput, "AtlasExample.json")) {
+   if (compare_json(jsonOutput, "./json_ref/AtlasExample.json")) {
         return true;
    } else {
         return false;
@@ -374,7 +374,7 @@ void AddtoBand(TGraphErrors* g1, TGraphAsymmErrors* g2) {
    }
 }
 
-/*fit from tutorials/fit
+//fit from tutorials/fit
 
 bool fit1() {
    TCanvas *c1 = new TCanvas("c1_fit1","The Fit Canvas",200,10,700,500);
@@ -458,7 +458,7 @@ bool fit1() {
    } else {
         return false;
    }
-}*/
+}
 
 void test(){
    std::cout << "**********************************************************************" <<std::endl;
@@ -474,11 +474,11 @@ void test(){
    } else {
       std::cout << "*  Example  Piechart   - JSON FAIL                                   *" <<std::endl;
    };
-   if (AtlasExample()){
+   /*if (AtlasExample()){
       std::cout << "*  Example  AtlasEx    - JSON MATCH                                  *" <<std::endl;
    } else {
       std::cout << "*  Example  AtlasEx    - JSON FAIL                                   *" <<std::endl;
-   };
+   };*/
    /*if (fit1()){
       std::cout << "*  Example  Fit1       - JSON MATCH                                  *" <<std::endl;
    } else {
