@@ -459,6 +459,18 @@ bool fit1() {
         return false;
    }
 }
+//Run macro from test: analyze.C
+bool runMacro() {
+
+   // Path to the macro that generates JSON
+   TString macroPath = "/home/adrianduesselberg/root-graphic-tests/graphics/analyze.C";
+
+   // Load and compile the macro if it is not already loaded
+   if (!gROOT->GetClass("analyze", kTRUE)) {
+        gROOT->LoadMacro(macroPath + "+"); // The '+' compiles the macro
+   }
+   return false;
+}
 
 void test(){
    std::cout << "**********************************************************************" <<std::endl;
@@ -484,4 +496,9 @@ void test(){
    } else {
       std::cout << "*  Example  Fit1       - JSON FAIL                                   *" <<std::endl;
    };*/
+   if (runMacro()){
+      std::cout << "*  Example  Analyze    - JSON MATCH                                  *" <<std::endl;
+   } else {
+      std::cout << "*  Example  Analyze    - JSON FAIL                                   *" <<std::endl;
+   };
 }

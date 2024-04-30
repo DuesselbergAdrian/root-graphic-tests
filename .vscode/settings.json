@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "arrows.C": "cpp",
+        "canvas.C": "cpp",
+        "analyze.C": "cpp",
+        "anim.C": "cpp",
+        "archi.C": "cpp",
+        "AtlasExample.C": "cpp",
+        "basic3d.C": "cpp",
+        "annotation3d.C": "cpp"
+    }
+}
