@@ -1,16 +1,24 @@
 cmake_minimum_required(VERSION 3.10)
 project(Root-Graphic-Tests)
 
-# Enable testing with CTest
+set(This Test_JSON)
+
+project(${This} C CXX)
+
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 enable_testing()
 
-# Include GoogleTest
 add_subdirectory(googletest)
-include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
-# Define your test executable
-add_executable(root_macro_tests test.cpp)
-target_link_libraries(root_macro_tests gtest gtest_main)
+set(Headers
+    Test_JSON.hpp
+)
+set(Sources
+    Test_JSON.cpp
+)
 
-# Add the tests to CTest
-add_test(NAME RootMacroTest COMMAND root_macro_tests)
+add_library(${This} STATIC ${Sources} ${Headers}) 
+add_subdirectory(test)

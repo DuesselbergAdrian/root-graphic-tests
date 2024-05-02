@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/JsonTests.dir/JsonTests.cpp.o -o JsonTests  ../lib/libgtest_main.a ../libTest_JSON.a ../lib/libgtest.a 
