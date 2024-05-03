@@ -1,37 +1,37 @@
 [
 {
   "directory": "/home/adrianduesselberg/root-graphic-tests/build",
-  "command": "/usr/bin/g++   -g -std=gnu++11 -fPIC -o CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o -c /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp",
+  "command": "/usr/bin/clang++  -I/home/adrianduesselberg/build/include -g -std=gnu++17 -o CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o -c /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp",
   "file": "/home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp",
   "output": "CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o"
 },
 {
   "directory": "/home/adrianduesselberg/root-graphic-tests/build/googletest/googlemock",
-  "command": "/usr/bin/g++  -I/home/adrianduesselberg/root-graphic-tests/googletest/googlemock/include -I/home/adrianduesselberg/root-graphic-tests/googletest/googlemock -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest -g -std=c++14 -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/adrianduesselberg/root-graphic-tests/googletest/googlemock/src/gmock-all.cc",
+  "command": "/usr/bin/clang++  -I/home/adrianduesselberg/build/include -I/home/adrianduesselberg/root-graphic-tests/googletest/googlemock/include -I/home/adrianduesselberg/root-graphic-tests/googletest/googlemock -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest -g -std=c++17 -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/adrianduesselberg/root-graphic-tests/googletest/googlemock/src/gmock-all.cc",
   "file": "/home/adrianduesselberg/root-graphic-tests/googletest/googlemock/src/gmock-all.cc",
   "output": "googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
 },
 {
   "directory": "/home/adrianduesselberg/root-graphic-tests/build/googletest/googlemock",
-  "command": "/usr/bin/g++  -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googlemock/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googlemock -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest -g -std=c++14 -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/adrianduesselberg/root-graphic-tests/googletest/googlemock/src/gmock_main.cc",
+  "command": "/usr/bin/clang++  -isystem /home/adrianduesselberg/build/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googlemock/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googlemock -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest -g -std=c++17 -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/adrianduesselberg/root-graphic-tests/googletest/googlemock/src/gmock_main.cc",
   "file": "/home/adrianduesselberg/root-graphic-tests/googletest/googlemock/src/gmock_main.cc",
   "output": "googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
 },
 {
   "directory": "/home/adrianduesselberg/root-graphic-tests/build/googletest/googletest",
-  "command": "/usr/bin/g++  -I/home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -I/home/adrianduesselberg/root-graphic-tests/googletest/googletest -g -std=c++14 -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest-all.cc",
+  "command": "/usr/bin/clang++  -I/home/adrianduesselberg/build/include -I/home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -I/home/adrianduesselberg/root-graphic-tests/googletest/googletest -g -std=c++17 -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest-all.cc",
   "file": "/home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest-all.cc",
   "output": "googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
 },
 {
   "directory": "/home/adrianduesselberg/root-graphic-tests/build/googletest/googletest",
-  "command": "/usr/bin/g++  -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest -g -std=c++14 -fPIC -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc",
+  "command": "/usr/bin/clang++  -I/home/adrianduesselberg/build/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest -g -std=c++17 -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc",
   "file": "/home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc",
   "output": "googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
 },
 {
   "directory": "/home/adrianduesselberg/root-graphic-tests/build/test",
-  "command": "/usr/bin/g++  -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest -g -std=gnu++14 -fPIE -o CMakeFiles/JsonTests.dir/JsonTests.cpp.o -c /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp",
+  "command": "/usr/bin/clang++  -I/home/adrianduesselberg/build/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest -g -std=gnu++17 -o CMakeFiles/JsonTests.dir/JsonTests.cpp.o -c /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp",
   "file": "/home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp",
   "output": "test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o"
 }

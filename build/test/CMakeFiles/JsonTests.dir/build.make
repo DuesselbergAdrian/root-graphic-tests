@@ -73,15 +73,15 @@ test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o: test/CMakeFiles/JsonTests.dir/fla
 test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o: /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp
 test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o: test/CMakeFiles/JsonTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o"
-	cd /home/adrianduesselberg/root-graphic-tests/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o -MF CMakeFiles/JsonTests.dir/JsonTests.cpp.o.d -o CMakeFiles/JsonTests.dir/JsonTests.cpp.o -c /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp
+	cd /home/adrianduesselberg/root-graphic-tests/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o -MF CMakeFiles/JsonTests.dir/JsonTests.cpp.o.d -o CMakeFiles/JsonTests.dir/JsonTests.cpp.o -c /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp
 
 test/CMakeFiles/JsonTests.dir/JsonTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JsonTests.dir/JsonTests.cpp.i"
-	cd /home/adrianduesselberg/root-graphic-tests/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp > CMakeFiles/JsonTests.dir/JsonTests.cpp.i
+	cd /home/adrianduesselberg/root-graphic-tests/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp > CMakeFiles/JsonTests.dir/JsonTests.cpp.i
 
 test/CMakeFiles/JsonTests.dir/JsonTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JsonTests.dir/JsonTests.cpp.s"
-	cd /home/adrianduesselberg/root-graphic-tests/build/test && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp -o CMakeFiles/JsonTests.dir/JsonTests.cpp.s
+	cd /home/adrianduesselberg/root-graphic-tests/build/test && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp -o CMakeFiles/JsonTests.dir/JsonTests.cpp.s
 
 # Object files for target JsonTests
 JsonTests_OBJECTS = \
@@ -92,9 +92,47 @@ JsonTests_EXTERNAL_OBJECTS =
 
 test/JsonTests: test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o
 test/JsonTests: test/CMakeFiles/JsonTests.dir/build.make
+test/JsonTests: /home/adrianduesselberg/build/lib/libCore.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libImt.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libRIO.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libNet.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libHist.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libGraf.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libGraf3d.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libGpad.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libROOTDataFrame.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libTree.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libTreePlayer.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libRint.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libPostscript.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libMatrix.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libPhysics.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libMathCore.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libThread.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libMultiProc.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libROOTVecOps.so
 test/JsonTests: lib/libgtest_main.a
 test/JsonTests: libTest_JSON.a
 test/JsonTests: lib/libgtest.a
+test/JsonTests: /home/adrianduesselberg/build/lib/libCore.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libImt.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libRIO.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libNet.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libHist.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libGraf.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libGraf3d.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libGpad.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libROOTDataFrame.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libTree.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libTreePlayer.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libRint.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libPostscript.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libMatrix.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libPhysics.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libMathCore.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libThread.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libMultiProc.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libROOTVecOps.so
 test/JsonTests: test/CMakeFiles/JsonTests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable JsonTests"
 	cd /home/adrianduesselberg/root-graphic-tests/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JsonTests.dir/link.txt --verbose=$(VERBOSE)

@@ -127,7 +127,7 @@ void analyze() {
    TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
 
    //Save JSON to a file
-   std::ofstream jsonFile("analyze_pro.json");
+   std::ofstream jsonFile("./json_pro/analyze_pro.json");
    jsonFile << jsonOutput.Data();
    jsonFile.close();
 }

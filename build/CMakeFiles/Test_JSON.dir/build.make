@@ -73,15 +73,15 @@ CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o: CMakeFiles/Test_JSON.dir/flags.make
 CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o: /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp
 CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o: CMakeFiles/Test_JSON.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o -MF CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o.d -o CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o -c /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o -MF CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o.d -o CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o -c /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp
 
 CMakeFiles/Test_JSON.dir/Test_JSON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Test_JSON.dir/Test_JSON.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp > CMakeFiles/Test_JSON.dir/Test_JSON.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp > CMakeFiles/Test_JSON.dir/Test_JSON.cpp.i
 
 CMakeFiles/Test_JSON.dir/Test_JSON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Test_JSON.dir/Test_JSON.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp -o CMakeFiles/Test_JSON.dir/Test_JSON.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp -o CMakeFiles/Test_JSON.dir/Test_JSON.cpp.s
 
 # Object files for target Test_JSON
 Test_JSON_OBJECTS = \

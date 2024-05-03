@@ -18,10 +18,10 @@
 BUILD_GMOCK:BOOL=ON
 
 //Path to a program.
-CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
+CMAKE_ADDR2LINE:FILEPATH=/usr/bin/llvm-addr2line
 
 //Path to a program.
-CMAKE_AR:FILEPATH=/usr/bin/ar
+CMAKE_AR:FILEPATH=/usr/bin/llvm-ar
 
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Debug
@@ -30,15 +30,16 @@ CMAKE_BUILD_TYPE:STRING=Debug
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++
 
-//A wrapper around 'ar' adding the appropriate '--plugin' option
-// for the GCC compiler
-CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar
+//LLVM archiver
+CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/llvm-ar
 
-//A wrapper around 'ranlib' adding the appropriate '--plugin' option
-// for the GCC compiler
-CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib
+//`clang-scan-deps` dependency scanner
+CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS:FILEPATH=CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND
+
+//Generate index for LLVM archive
+CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/llvm-ranlib
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -56,15 +57,16 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/clang
 
-//A wrapper around 'ar' adding the appropriate '--plugin' option
-// for the GCC compiler
-CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar
+//LLVM archiver
+CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/llvm-ar
 
-//A wrapper around 'ranlib' adding the appropriate '--plugin' option
-// for the GCC compiler
-CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib
+//`clang-scan-deps` dependency scanner
+CMAKE_C_COMPILER_CLANG_SCAN_DEPS:FILEPATH=CMAKE_C_COMPILER_CLANG_SCAN_DEPS-NOTFOUND
+
+//Generate index for LLVM archive
+CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/llvm-ranlib
 
 //Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -82,7 +84,7 @@ CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //Path to a program.
-CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
+CMAKE_DLLTOOL:FILEPATH=/usr/bin/llvm-dlltool
 
 //Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=
@@ -183,13 +185,13 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_NM:FILEPATH=/usr/bin/nm
+CMAKE_NM:FILEPATH=/usr/bin/llvm-nm
 
 //Path to a program.
-CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
+CMAKE_OBJCOPY:FILEPATH=/usr/bin/llvm-objcopy
 
 //Path to a program.
-CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
+CMAKE_OBJDUMP:FILEPATH=/usr/bin/llvm-objdump
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -216,10 +218,10 @@ CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //Path to a program.
-CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
+CMAKE_RANLIB:FILEPATH=/usr/bin/llvm-ranlib
 
 //Path to a program.
-CMAKE_READELF:FILEPATH=/usr/bin/readelf
+CMAKE_READELF:FILEPATH=/usr/bin/llvm-readelf
 
 //Flags used by the linker during the creation of shared libraries
 // during all build types.
@@ -269,7 +271,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
-CMAKE_STRIP:FILEPATH=/usr/bin/strip
+CMAKE_STRIP:FILEPATH=/usr/bin/llvm-strip
 
 //Path to a program.
 CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
@@ -288,6 +290,105 @@ GTEST_HAS_ABSL:BOOL=OFF
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
 
+//Path to a library.
+ROOT_Core_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libCore.so
+
+//The directory containing a CMake configuration file for ROOT.
+ROOT_DIR:PATH=/home/adrianduesselberg/build
+
+//Path to a library.
+ROOT_Gpad_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libGpad.so
+
+//Path to a library.
+ROOT_Graf3d_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libGraf3d.so
+
+//Path to a library.
+ROOT_Graf_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libGraf.so
+
+//Path to a library.
+ROOT_Hist_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libHist.so
+
+//Path to a library.
+ROOT_Imt_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libImt.so
+
+//Path to a library.
+ROOT_MathCore_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libMathCore.so
+
+//Path to a library.
+ROOT_Matrix_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libMatrix.so
+
+//Path to a library.
+ROOT_MultiProc_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libMultiProc.so
+
+//Path to a library.
+ROOT_Net_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libNet.so
+
+//Path to a library.
+ROOT_Physics_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libPhysics.so
+
+//Path to a library.
+ROOT_Postscript_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libPostscript.so
+
+//Path to a library.
+ROOT_RIO_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libRIO.so
+
+//Path to a library.
+ROOT_ROOTDataFrame_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libROOTDataFrame.so
+
+//Path to a library.
+ROOT_ROOTVecOps_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libROOTVecOps.so
+
+//Path to a library.
+ROOT_Rint_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libRint.so
+
+//Path to a library.
+ROOT_Thread_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libThread.so
+
+//Path to a library.
+ROOT_TreePlayer_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libTreePlayer.so
+
+//Path to a library.
+ROOT_Tree_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libTree.so
+
+//Path to a program.
+ROOT_genmap_CMD:FILEPATH=ROOT_genmap_CMD-NOTFOUND
+
+//Path to a program.
+ROOT_genreflex_CMD:FILEPATH=/home/adrianduesselberg/build/bin/genreflex
+
+//Path to a program.
+ROOT_hadd_CMD:FILEPATH=/home/adrianduesselberg/build/bin/hadd
+
+//Path to a program.
+ROOT_root_CMD:FILEPATH=/home/adrianduesselberg/build/bin/root
+
+//Path to a program.
+ROOT_rootbrowse_CMD:FILEPATH=/home/adrianduesselberg/build/bin/rootbrowse
+
+//Path to a program.
+ROOT_rootcint_CMD:FILEPATH=/home/adrianduesselberg/build/bin/rootcint
+
+//Path to a program.
+ROOT_rootcling_CMD:FILEPATH=/home/adrianduesselberg/build/bin/rootcling
+
+//Path to a program.
+ROOT_rootcp_CMD:FILEPATH=/home/adrianduesselberg/build/bin/rootcp
+
+//Path to a program.
+ROOT_rootdraw_CMD:FILEPATH=ROOT_rootdraw_CMD-NOTFOUND
+
+//Path to a program.
+ROOT_rootls_CMD:FILEPATH=/home/adrianduesselberg/build/bin/rootls
+
+//Path to a program.
+ROOT_rootmkdir_CMD:FILEPATH=/home/adrianduesselberg/build/bin/rootmkdir
+
+//Path to a program.
+ROOT_rootmv_CMD:FILEPATH=/home/adrianduesselberg/build/bin/rootmv
+
+//Path to a program.
+ROOT_rootrm_CMD:FILEPATH=/home/adrianduesselberg/build/bin/rootrm
+
 //Value Computed by CMake
 Root-Graphic-Tests_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build
 
@@ -303,8 +404,17 @@ Test_JSON_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build
 //Value Computed by CMake
 Test_JSON_IS_TOP_LEVEL:STATIC=ON
 
+//Dependencies for the target
+Test_JSON_LIB_DEPENDS:STATIC=general;/home/adrianduesselberg/build/lib/libCore.so;general;/home/adrianduesselberg/build/lib/libImt.so;general;/home/adrianduesselberg/build/lib/libRIO.so;general;/home/adrianduesselberg/build/lib/libNet.so;general;/home/adrianduesselberg/build/lib/libHist.so;general;/home/adrianduesselberg/build/lib/libGraf.so;general;/home/adrianduesselberg/build/lib/libGraf3d.so;general;/home/adrianduesselberg/build/lib/libGpad.so;general;/home/adrianduesselberg/build/lib/libROOTDataFrame.so;general;/home/adrianduesselberg/build/lib/libTree.so;general;/home/adrianduesselberg/build/lib/libTreePlayer.so;general;/home/adrianduesselberg/build/lib/libRint.so;general;/home/adrianduesselberg/build/lib/libPostscript.so;general;/home/adrianduesselberg/build/lib/libMatrix.so;general;/home/adrianduesselberg/build/lib/libPhysics.so;general;/home/adrianduesselberg/build/lib/libMathCore.so;general;/home/adrianduesselberg/build/lib/libThread.so;general;/home/adrianduesselberg/build/lib/libMultiProc.so;general;/home/adrianduesselberg/build/lib/libROOTVecOps.so;
+
 //Value Computed by CMake
 Test_JSON_SOURCE_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests
+
+//Path to a file.
+VDT_INCLUDE_DIR:PATH=/include
+
+//Path to a library.
+VDT_LIBRARY:FILEPATH=/usr/lib/libvdt.so
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build/googletest/googlemock
@@ -381,6 +491,8 @@ CMAKE_CTEST_COMMAND:INTERNAL=/usr/bin/ctest
 CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
 CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS
+CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
 CMAKE_CXX_COMPILER_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
@@ -397,6 +509,8 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_AR
 CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER_CLANG_SCAN_DEPS
+CMAKE_C_COMPILER_CLANG_SCAN_DEPS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
 CMAKE_C_COMPILER_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
@@ -538,6 +652,72 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Details about finding Vdt
+FIND_PACKAGE_MESSAGE_DETAILS_Vdt:INTERNAL=[/include][/usr/lib/libvdt.so][v0.4()]
+//ADVANCED property for variable: ROOT_Core_LIBRARY
+ROOT_Core_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Gpad_LIBRARY
+ROOT_Gpad_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Graf3d_LIBRARY
+ROOT_Graf3d_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Graf_LIBRARY
+ROOT_Graf_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Hist_LIBRARY
+ROOT_Hist_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Imt_LIBRARY
+ROOT_Imt_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_MathCore_LIBRARY
+ROOT_MathCore_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Matrix_LIBRARY
+ROOT_Matrix_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_MultiProc_LIBRARY
+ROOT_MultiProc_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Net_LIBRARY
+ROOT_Net_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Physics_LIBRARY
+ROOT_Physics_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Postscript_LIBRARY
+ROOT_Postscript_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_RIO_LIBRARY
+ROOT_RIO_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_ROOTDataFrame_LIBRARY
+ROOT_ROOTDataFrame_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_ROOTVecOps_LIBRARY
+ROOT_ROOTVecOps_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Rint_LIBRARY
+ROOT_Rint_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Thread_LIBRARY
+ROOT_Thread_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_TreePlayer_LIBRARY
+ROOT_TreePlayer_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Tree_LIBRARY
+ROOT_Tree_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_genreflex_CMD
+ROOT_genreflex_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_hadd_CMD
+ROOT_hadd_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_root_CMD
+ROOT_root_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_rootbrowse_CMD
+ROOT_rootbrowse_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_rootcint_CMD
+ROOT_rootcint_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_rootcling_CMD
+ROOT_rootcling_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_rootcp_CMD
+ROOT_rootcp_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_rootls_CMD
+ROOT_rootls_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_rootmkdir_CMD
+ROOT_rootmkdir_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_rootmv_CMD
+ROOT_rootmv_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_rootrm_CMD
+ROOT_rootrm_CMD-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: VDT_INCLUDE_DIR
+VDT_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: VDT_LIBRARY
+VDT_LIBRARY-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
