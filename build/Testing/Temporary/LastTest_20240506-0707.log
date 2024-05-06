@@ -1,10 +1,10 @@
-Start testing: May 06 15:46 CEST
+Start testing: May 06 17:02 CEST
 ----------------------------------------------------------
 1/1 Testing: JsonTests
 1/1 Test: JsonTests
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"JsonTests" start time: May 06 15:46 CEST
+"JsonTests" start time: May 06 17:02 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -12,27 +12,27 @@ Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/google
 [----------] Global test environment set-up.
 [----------] 4 tests from TestGraphicJSON
 [ RUN      ] TestGraphicJSON.AnalyzeFunction
-[       OK ] TestGraphicJSON.AnalyzeFunction (265 ms)
+[       OK ] TestGraphicJSON.AnalyzeFunction (261 ms)
 [ RUN      ] TestGraphicJSON.ArchiFunction
 Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
-[       OK ] TestGraphicJSON.ArchiFunction (51 ms)
+[       OK ] TestGraphicJSON.ArchiFunction (49 ms)
 [ RUN      ] TestGraphicJSON.ArrowsFunction
 Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
 [       OK ] TestGraphicJSON.ArrowsFunction (12 ms)
 [ RUN      ] TestGraphicJSON.Basic3dFunction
 Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
-[       OK ] TestGraphicJSON.Basic3dFunction (23 ms)
-[----------] 4 tests from TestGraphicJSON (353 ms total)
+[       OK ] TestGraphicJSON.Basic3dFunction (22 ms)
+[----------] 4 tests from TestGraphicJSON (346 ms total)
 
 [----------] Global test environment tear-down
-[==========] 4 tests from 1 test suite ran. (353 ms total)
+[==========] 4 tests from 1 test suite ran. (346 ms total)
 [  PASSED  ] 4 tests.
 <end of output>
-Test time =   0.39 sec
+Test time =   0.38 sec
 ----------------------------------------------------------
 Test Passed.
-"JsonTests" end time: May 06 15:46 CEST
+"JsonTests" end time: May 06 17:02 CEST
 "JsonTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 06 15:46 CEST
+End testing: May 06 17:02 CEST
