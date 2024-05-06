@@ -100,4 +100,13 @@ void basic3d(){
    TText *click=title->AddText("Click anywhere on the picture to rotate");
    click->SetTextColor(4);
    title->Draw();
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas4", 200, 10, 700, 500);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/basic3d_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

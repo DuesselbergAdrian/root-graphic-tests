@@ -21,3 +21,9 @@ TEST(TestGraphicJSON, ArrowsFunction){
     EXPECT_TRUE(TestMacros(macroPath));
 
 }
+
+TEST(TestGraphicJSON, Basic3dFunction){
+    std::string macroPath = "basic3d";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}

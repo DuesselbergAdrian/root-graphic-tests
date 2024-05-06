@@ -73,3 +73,4 @@ async function createSVGFromJSON(filePath) {
 createSVGFromJSON('./build/test/json_ref/analyze.json');
 createSVGFromJSON('./build/test/json_ref/archi.json');
 createSVGFromJSON('./build/test/json_ref/arrows.json');
+createSVGFromJSON('./build/test/json_ref/basic3d.json');
