@@ -286,6 +286,18 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
 
+//Value Computed by CMake
+GraphicTests_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build
+
+//Value Computed by CMake
+GraphicTests_IS_TOP_LEVEL:STATIC=ON
+
+//Dependencies for the target
+GraphicTests_LIB_DEPENDS:STATIC=general;/home/adrianduesselberg/build/lib/libCore.so;general;/home/adrianduesselberg/build/lib/libImt.so;general;/home/adrianduesselberg/build/lib/libRIO.so;general;/home/adrianduesselberg/build/lib/libNet.so;general;/home/adrianduesselberg/build/lib/libHist.so;general;/home/adrianduesselberg/build/lib/libGraf.so;general;/home/adrianduesselberg/build/lib/libGraf3d.so;general;/home/adrianduesselberg/build/lib/libGpad.so;general;/home/adrianduesselberg/build/lib/libROOTDataFrame.so;general;/home/adrianduesselberg/build/lib/libTree.so;general;/home/adrianduesselberg/build/lib/libTreePlayer.so;general;/home/adrianduesselberg/build/lib/libRint.so;general;/home/adrianduesselberg/build/lib/libPostscript.so;general;/home/adrianduesselberg/build/lib/libMatrix.so;general;/home/adrianduesselberg/build/lib/libPhysics.so;general;/home/adrianduesselberg/build/lib/libMathCore.so;general;/home/adrianduesselberg/build/lib/libThread.so;general;/home/adrianduesselberg/build/lib/libMultiProc.so;general;/home/adrianduesselberg/build/lib/libROOTVecOps.so;
+
+//Value Computed by CMake
+GraphicTests_SOURCE_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests
+
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON

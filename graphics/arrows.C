@@ -38,4 +38,13 @@ void arrows(){
    ar5->SetFillStyle(3008);
    ar5->SetFillColor(2);
    ar5->Draw();
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas3", 100, 100, 300, 300);//?? boundaries
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/arrows_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

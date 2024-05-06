@@ -1566,6 +1566,54 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "GraphicTests_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/adrianduesselberg/root-graphic-tests/build"
+		},
+		{
+			"name" : "GraphicTests_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "GraphicTests_LIB_DEPENDS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Dependencies for the target"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "general;/home/adrianduesselberg/build/lib/libCore.so;general;/home/adrianduesselberg/build/lib/libImt.so;general;/home/adrianduesselberg/build/lib/libRIO.so;general;/home/adrianduesselberg/build/lib/libNet.so;general;/home/adrianduesselberg/build/lib/libHist.so;general;/home/adrianduesselberg/build/lib/libGraf.so;general;/home/adrianduesselberg/build/lib/libGraf3d.so;general;/home/adrianduesselberg/build/lib/libGpad.so;general;/home/adrianduesselberg/build/lib/libROOTDataFrame.so;general;/home/adrianduesselberg/build/lib/libTree.so;general;/home/adrianduesselberg/build/lib/libTreePlayer.so;general;/home/adrianduesselberg/build/lib/libRint.so;general;/home/adrianduesselberg/build/lib/libPostscript.so;general;/home/adrianduesselberg/build/lib/libMatrix.so;general;/home/adrianduesselberg/build/lib/libPhysics.so;general;/home/adrianduesselberg/build/lib/libMathCore.so;general;/home/adrianduesselberg/build/lib/libThread.so;general;/home/adrianduesselberg/build/lib/libMultiProc.so;general;/home/adrianduesselberg/build/lib/libROOTVecOps.so;"
+		},
+		{
+			"name" : "GraphicTests_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/adrianduesselberg/root-graphic-tests"
+		},
+		{
 			"name" : "INSTALL_GTEST",
 			"properties" : 
 			[

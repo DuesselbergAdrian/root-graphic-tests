@@ -1,6 +1,6 @@
-test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o: \
-  /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp \
-  /home/adrianduesselberg/root-graphic-tests/test/../Test_JSON.hpp \
+CMakeFiles/GraphicTests.dir/Test_JSON.cpp.o: \
+  /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp \
+  /home/adrianduesselberg/root-graphic-tests/Test_JSON.hpp \
   /home/adrianduesselberg/build/include/TString.h \
   /home/adrianduesselberg/build/include/Rtypes.h \
   /home/adrianduesselberg/build/include/RtypesCore.h \
@@ -346,74 +346,4 @@ test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/bits/fstream.tcc \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/sstream \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/bits/sstream.tcc \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/iostream \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest.h \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/set \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/bits/stl_set.h \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/bits/stl_multiset.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest-assertion-result.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest-message.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/internal/gtest-port.h \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/version \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/ciso646 \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/stdlib.h \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/locale \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/bits/locale_facets_nonio.h \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/x86_64-redhat-linux/bits/time_members.h \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/x86_64-redhat-linux/bits/messages_members.h \
-  /usr/include/libintl.h \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/bits/locale_facets_nonio.tcc \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/bits/locale_conv.h \
-  /usr/include/sys/stat.h /usr/include/bits/statx.h \
-  /usr/include/linux/stat.h /usr/include/linux/types.h \
-  /usr/include/asm/types.h /usr/include/asm-generic/types.h \
-  /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
-  /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/bits/statx-generic.h \
-  /usr/include/bits/types/struct_statx_timestamp.h \
-  /usr/include/bits/types/struct_statx.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/internal/custom/gtest-port.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/internal/gtest-port-arch.h \
-  /usr/include/regex.h \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/condition_variable \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/any \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/optional \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/span \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/variant \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest-death-test.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest-matchers.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest-printers.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/internal/gtest-internal.h \
-  /usr/include/sys/wait.h /usr/include/signal.h \
-  /usr/include/bits/signum-generic.h /usr/include/bits/signum-arch.h \
-  /usr/include/bits/types/sig_atomic_t.h \
-  /usr/include/bits/types/siginfo_t.h \
-  /usr/include/bits/types/__sigval_t.h /usr/include/bits/siginfo-arch.h \
-  /usr/include/bits/siginfo-consts.h \
-  /usr/include/bits/siginfo-consts-arch.h \
-  /usr/include/bits/types/sigval_t.h \
-  /usr/include/bits/types/sigevent_t.h \
-  /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
-  /usr/include/bits/sigcontext.h /usr/include/bits/types/stack_t.h \
-  /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
-  /usr/include/bits/sigstksz.h /usr/include/bits/ss_flags.h \
-  /usr/include/bits/types/struct_sigstack.h \
-  /usr/include/bits/sigthread.h /usr/include/bits/signal_ext.h \
-  /usr/include/bits/types/idtype_t.h \
-  /usr/bin/../lib/clang/17/include/float.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/internal/gtest-filepath.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/internal/gtest-string.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/internal/gtest-type-util.h \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/cxxabi.h \
-  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/x86_64-redhat-linux/bits/cxxabi_tweaks.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/internal/custom/gtest-printers.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest-param-test.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/internal/gtest-param-util.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest-test-part.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest-typed-test.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest_pred_impl.h \
-  /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include/gtest/gtest_prod.h
+  /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/iostream

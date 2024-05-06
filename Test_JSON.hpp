@@ -12,12 +12,14 @@
 #include "TString.h"
 #include "TApplication.h"
 #include "TString.h"
+#include <TSystem.h>
 
 #include <string>
 #include <fstream> 
 #include <sstream>
 #include <iostream>
 
-bool TestMacros();
+bool TestMacros(const std::string& path);
 bool compare_json(const TString& created_json, const std::string& ref_filename);
+
 #endif /* TEST_JSON_HPP */

@@ -1,4 +1,4 @@
-test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o: \
+test/CMakeFiles/JSONTests.dir/JsonTests.cpp.o: \
   /home/adrianduesselberg/root-graphic-tests/test/JsonTests.cpp \
   /home/adrianduesselberg/root-graphic-tests/test/../Test_JSON.hpp \
   /home/adrianduesselberg/build/include/TString.h \

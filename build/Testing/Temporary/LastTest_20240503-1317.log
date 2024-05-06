@@ -1,10 +1,10 @@
-Start testing: May 03 16:16 CEST
+Start testing: May 03 16:28 CEST
 ----------------------------------------------------------
 1/1 Testing: JsonTests
 1/1 Test: JsonTests
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"JsonTests" start time: May 03 16:16 CEST
+"JsonTests" start time: May 03 16:28 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -12,7 +12,7 @@ Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/google
 [----------] Global test environment set-up.
 [----------] 1 test from TestJSON
 [ RUN      ] TestJSON.AnalyzeFunction
-Info in <THttpEngine::Create>: Starting HTTP server on port 127.0.0.1:9473
+Info in <THttpEngine::Create>: Starting HTTP server on port 127.0.0.1:9353
 
 ROOT comes with a web-based canvas, which is now being started. 
 Revert to the legacy canvas by setting "Canvas.Name: TRootCanvas" in rootrc file or
@@ -24,11 +24,11 @@ Value of: TestMacros()
   Actual: false
 Expected: true
 
-[  FAILED  ] TestJSON.AnalyzeFunction (356 ms)
-[----------] 1 test from TestJSON (356 ms total)
+[  FAILED  ] TestJSON.AnalyzeFunction (364 ms)
+[----------] 1 test from TestJSON (364 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (356 ms total)
+[==========] 1 test from 1 test suite ran. (364 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
 [  FAILED  ] TestJSON.AnalyzeFunction
@@ -41,8 +41,8 @@ Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland
 Test time =   0.89 sec
 ----------------------------------------------------------
 Test Failed.
-"JsonTests" end time: May 03 16:16 CEST
+"JsonTests" end time: May 03 16:28 CEST
 "JsonTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 03 16:16 CEST
+End testing: May 03 16:28 CEST

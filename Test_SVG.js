@@ -45,7 +45,7 @@ async function createSVGFromJSON(filePath) {
     console.log(baseName);
 
     // Get file name
-    const outputFileName = `svg_pro/${baseName}_pro.svg`;
+    const outputFileName = `${baseName}_pro.svg`;
     try {
         // Read and parse the JSON file
         const jsonData = await fs.readFile(filePath, 'utf8');
@@ -68,8 +68,3 @@ async function createSVGFromJSON(filePath) {
         console.error('Failed to read, parse, or render the file:', error);
     }
 }
-
-// TESTS
-createSVGFromJSON('./build/test/json_ref/analyze.json');
-createSVGFromJSON('./build/test/json_ref/archi.json');
-createSVGFromJSON('./build/test/json_ref/arrows.json');

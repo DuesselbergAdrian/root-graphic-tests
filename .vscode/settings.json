@@ -8,6 +8,9 @@
         "AtlasExample.C": "cpp",
         "basic3d.C": "cpp",
         "annotation3d.C": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "atomic": "cpp",
+        "sstream": "cpp",
+        "new": "cpp"
     }
 }

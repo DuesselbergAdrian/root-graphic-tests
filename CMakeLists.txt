@@ -10,22 +10,11 @@ set(CMAKE_CXX_STANDARD 17)
 # set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 
-
-#############################################################################################
-# If no explicit ROOTSYS is set, use ${ROOTSYS} environment variable to search
-# for ROOT. This may be set by sourcing thisroot.sh from an installation.
 if(NOT DEFINED ROOTSYS AND DEFINED ENV{ROOTSYS})
   file(TO_CMAKE_PATH $ENV{ROOTSYS} ROOTSYS)
   list(INSERT CMAKE_PREFIX_PATH 0 ${ROOTSYS})
 endif()
 
-# Use ${ROOTSYS} CMake variable to search for ROOT. This is set when roottest is
-# built as part of ROOT, i.e., when ROOT is configured with -Droottest=ON. It
-# may also be set by passing -DROOTSYS=<PATH> to CMake when configuring a
-# standalone roottest against an installation of ROOT. If this is set, it takes
-# precedence over the environment to ensure that when roottest is being built in
-# a ROOT build configured with -Droottest=ON, it will find the ROOT being built,
-# and not a ROOT installation sourced with thisroot.sh or found in $PATH.
 if(DEFINED ROOTSYS)
   list(INSERT CMAKE_PREFIX_PATH 0 ${ROOTSYS})
 endif()
