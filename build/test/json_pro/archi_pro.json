@@ -370,7 +370,7 @@
 "fTextAlign" : 22,
 "fTextColor" : 1,
 "fTextFont" : 62,
-"fLabel" : "Analyze.mac"
+"fLabel" : "Dictionary Architecture"
 }
 }, {
 "_typename" : "TWebSnapshot",
