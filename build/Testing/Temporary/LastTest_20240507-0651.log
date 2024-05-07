@@ -1,10 +1,10 @@
-Start testing: May 07 14:08 CEST
+Start testing: May 07 14:18 CEST
 ----------------------------------------------------------
 1/1 Testing: JsonTests
 1/1 Test: JsonTests
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"JsonTests" start time: May 07 14:08 CEST
+"JsonTests" start time: May 07 14:18 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -12,7 +12,7 @@ Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/google
 [----------] Global test environment set-up.
 [----------] 10 tests from TestGraphicJSON
 [ RUN      ] TestGraphicJSON.AnalyzeFunction
-[       OK ] TestGraphicJSON.AnalyzeFunction (259 ms)
+[       OK ] TestGraphicJSON.AnalyzeFunction (257 ms)
 [ RUN      ] TestGraphicJSON.ArchiFunction
 [       OK ] TestGraphicJSON.ArchiFunction (49 ms)
 [ RUN      ] TestGraphicJSON.ArrowsFunction
@@ -30,18 +30,18 @@ Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/google
 [ RUN      ] TestGraphicJSON.EventFunction
 [       OK ] TestGraphicJSON.EventFunction (18 ms)
 [ RUN      ] TestGraphicJSON.FeynmanFunction
-[       OK ] TestGraphicJSON.FeynmanFunction (21 ms)
-[----------] 10 tests from TestGraphicJSON (433 ms total)
+[       OK ] TestGraphicJSON.FeynmanFunction (20 ms)
+[----------] 10 tests from TestGraphicJSON (430 ms total)
 
 [----------] Global test environment tear-down
-[==========] 10 tests from 1 test suite ran. (434 ms total)
+[==========] 10 tests from 1 test suite ran. (430 ms total)
 [  PASSED  ] 10 tests.
 <end of output>
-Test time =   0.48 sec
+Test time =   0.47 sec
 ----------------------------------------------------------
 Test Passed.
-"JsonTests" end time: May 07 14:08 CEST
+"JsonTests" end time: May 07 14:18 CEST
 "JsonTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 07 14:08 CEST
+End testing: May 07 14:18 CEST

@@ -10,8 +10,8 @@
 
 void archi() {
    TCanvas *c2 = new TCanvas("c2","Dictionary Architecture",20,10,750,930);
-   c1->SetBorderSize(0);
-   c1->Range(0,0,20.5,26);
+   c2->SetBorderSize(0);
+   c2->Range(0,0,20.5,26);
 
 
    TPaveLabel *title = new TPaveLabel(4,24,16,25.5,c2->GetTitle());
