@@ -40,7 +40,7 @@ bool TestMacros(const std::string& path){
     gROOT->SetBatch(kTRUE);
 
     // 1. Call the macro
-    std::string fullPath = ".x /home/adrianduesselberg/root-graphic-tests/graphics/" + path + ".C";
+    std::string fullPath = ".x ./graphics/" + path + ".C";
     gROOT->ProcessLine(fullPath.c_str());
 
     // 2. Compare it to the reference file

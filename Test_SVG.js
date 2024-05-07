@@ -31,9 +31,9 @@ async function compareSVG(svgFile1, svgFile2, baseName) {
 
         // Compare the parsed SVG objects
         if (isEqual(parsedSVG1, parsedSVG2)) {
-            console.log(`${baseName} SVG files are identical.`);
+            console.log(`${baseName} SVG files: MATCH`);
         } else {
-            console.log(`${baseName} SVG files are different.`);
+            console.log(`${baseName} SVG files: DIFF`);
         }
     } catch (error) {
         console.error(`Failed to compare ${baseName} SVG files:`, error);
@@ -43,8 +43,7 @@ async function compareSVG(svgFile1, svgFile2, baseName) {
 async function createSVGFromJSON(filePath) {
     // Extract the base filename without extension
     const baseName = path.basename(filePath, path.extname(filePath));
-    console.log(baseName);
-
+    
     // Get file name
     const outputFileName = `svg_pro/${baseName}_pro.svg`;
     try {
@@ -60,7 +59,7 @@ async function createSVGFromJSON(filePath) {
 
         // Write to an SVG file
         await fs.writeFile(outputFileName, svg);
-        console.log(`Created ${outputFileName} size ${svg.length}`);
+        //console.log(`Created ${outputFileName} size ${svg.length}`);
 
         // Compare
         const svgFileRef = `./svg_ref/${baseName}.svg`;
