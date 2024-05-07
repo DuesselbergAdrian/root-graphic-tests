@@ -25,15 +25,19 @@ async function compareSVG(svgFile1, svgFile2, baseName) {
         const svgContent1 = await fs.readFile(svgFile1, 'utf8');
         const svgContent2 = await fs.readFile(svgFile2, 'utf8');
 
+        // Get lengths
+        const length_svgFile1 = svgContent1.length;
+        const length_svgFile2 = svgContent2.length;
+
         // Parse XML content of SVG files
         const parsedSVG1 = xmlParser(svgContent1);
         const parsedSVG2 = xmlParser(svgContent2);
 
         // Compare the parsed SVG objects
         if (isEqual(parsedSVG1, parsedSVG2)) {
-            console.log(`${baseName} SVG files: MATCH`);
+            console.log(`${baseName} SVG files: MATCH -> Length_Pro: ${length_svgFile1} Length_Ref: ${length_svgFile2}`);
         } else {
-            console.log(`${baseName} SVG files: DIFF`);
+            console.log(`${baseName} SVG files: DIFF  -> Length_Pro: ${length_svgFile1} Length_Ref: ${length_svgFile2}`);
         }
     } catch (error) {
         console.error(`Failed to compare ${baseName} SVG files:`, error);
@@ -55,15 +59,17 @@ async function createSVGFromJSON(filePath) {
         let obj = parse(data);  // This step might need customization
 
         // Use JSROOT to create an SVG
-        let svg = await makeSVG({ object: obj, option: 'lego2,pal50', width: 1200, height: 800 });
+        let svg_pro = await makeSVG({ object: obj, option: 'lego2,pal50', width: 1200, height: 800 });
 
         // Write to an SVG file
-        await fs.writeFile(outputFileName, svg);
+        await fs.writeFile(outputFileName, svg_pro);
         //console.log(`Created ${outputFileName} size ${svg.length}`);
 
+        // Get reference file
+        const svg_ref = `./svg_ref/${baseName}.svg`;
+
         // Compare
-        const svgFileRef = `./svg_ref/${baseName}.svg`;
-        await compareSVG(outputFileName, svgFileRef, baseName);
+        await compareSVG(outputFileName, svg_ref, baseName);
     } catch (error) {
         console.error('Failed to read, parse, or render the file:', error);
     }
