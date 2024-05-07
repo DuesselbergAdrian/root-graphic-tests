@@ -26,4 +26,13 @@ void crown(){
    cr4->SetFillColor(4);
    cr4->SetFillStyle(3008);
    cr4->Draw();
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas6", 100, 100, 400, 400);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/crown_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

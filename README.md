@@ -20,6 +20,6 @@ To run the test, you need to have JSROOT and Node installed on your system.
 Open a terminal and execute the following command:
 ```shell
 cd root-graphic-tests
-node test.js
+node Test_SVG.js
 ```
 

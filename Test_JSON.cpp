@@ -36,7 +36,7 @@ bool compare_json(const TString& created_json, const std::string& ref_filename){
 
 
 bool TestMacros(const std::string& path){
-    // Initialize ROOT application
+    //Set batch mode
     gROOT->SetBatch(kTRUE);
 
     // 1. Call the macro

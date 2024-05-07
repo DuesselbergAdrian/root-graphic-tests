@@ -11,6 +11,12 @@
         "fstream": "cpp",
         "atomic": "cpp",
         "sstream": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "canvas2.C": "cpp",
+        "compile.C": "cpp",
+        "crown.C": "cpp",
+        "diamond.C": "cpp",
+        "earth.C": "cpp",
+        "ellipse.C": "cpp"
     }
 }

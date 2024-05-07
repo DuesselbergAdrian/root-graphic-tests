@@ -45,7 +45,7 @@ async function createSVGFromJSON(filePath) {
     console.log(baseName);
 
     // Get file name
-    const outputFileName = `${baseName}_pro.svg`;
+    const outputFileName = `svg_pro/${baseName}_pro.svg`;
     try {
         // Read and parse the JSON file
         const jsonData = await fs.readFile(filePath, 'utf8');
@@ -74,3 +74,6 @@ createSVGFromJSON('./build/test/json_ref/analyze.json');
 createSVGFromJSON('./build/test/json_ref/archi.json');
 createSVGFromJSON('./build/test/json_ref/arrows.json');
 createSVGFromJSON('./build/test/json_ref/basic3d.json');
+createSVGFromJSON('./build/test/json_ref/compile.json');
+createSVGFromJSON('./build/test/json_ref/crown.json');
+createSVGFromJSON('./build/test/json_ref/ellipse.json');

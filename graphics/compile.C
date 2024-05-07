@@ -31,4 +31,13 @@ void compile(){
    ar2->SetLineWidth(6);
    ar2->SetLineColor(4);
    ar2->Draw();
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas5", 100, 100, 200, 200); // boundaries??
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/compile_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

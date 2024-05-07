@@ -31,4 +31,13 @@ void ellipse(){
    el4->SetLineColor(4);
    el4->SetLineWidth(6);
    el4->Draw();
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas7", 100, 100, 200, 200);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/ellipse_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

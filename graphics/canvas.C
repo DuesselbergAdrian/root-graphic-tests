@@ -122,13 +122,4 @@ void canvas(){
       c1->Update();
    }
   gBenchmark->Show("canvas");
-
-  //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas5", 200, 10, 600, 480);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
-   
-   //Save JSON to a file
-   std::ofstream jsonFile("./json_pro/canvas_pro.json");
-   jsonFile << jsonOutput.Data();
-   jsonFile.close();
 }
