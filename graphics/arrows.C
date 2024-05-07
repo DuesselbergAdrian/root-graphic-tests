@@ -9,8 +9,8 @@
 /// \author Rene Brun
 
 void arrows(){
-   auto c1 = new TCanvas("c1");
-   c1->Range(0,0,1,1);
+   auto c3 = new TCanvas("c3");
+   c3->Range(0,0,1,1);
 
    auto par = new TPaveLabel(0.1,0.8,0.9,0.95,"Examples of various arrows formats");
    par->SetFillColor(42);
@@ -40,8 +40,8 @@ void arrows(){
    ar5->Draw();
 
    //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas3", 100, 100, 300, 300);//?? boundaries
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   TWebCanvas *webCanvas = new TWebCanvas(c3, "WebCanvas3", 0, 0, 1, 1);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c3, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/arrows_pro.json");

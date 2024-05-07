@@ -9,8 +9,8 @@
 /// \author Rene Brun
 
 void compile(){
-   TCanvas *c1 = new TCanvas("c1");
-   c1->Range(0,0,1,1);
+   TCanvas *c5 = new TCanvas("c5");
+   c5->Range(0,0,1,1);
    TPaveLabel *ptc = new TPaveLabel(0.02,0.42,0.2,0.58,"Compile");
    ptc->SetTextSize(0.40);
    ptc->SetFillColor(32);
@@ -33,8 +33,8 @@ void compile(){
    ar2->Draw();
 
    //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas5", 100, 100, 200, 200); // boundaries??
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   TWebCanvas *webCanvas = new TWebCanvas(c5, "WebCanvas5", 0, 0, 1, 1);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c5, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/compile_pro.json");

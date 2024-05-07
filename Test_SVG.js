@@ -18,8 +18,9 @@ function isEqual(obj1, obj2) {
 }
 
 // Function to compare the content of two SVG files
-async function compareSVG(svgFile1, svgFile2) {
+async function compareSVG(svgFile1, svgFile2, baseName) {
     try {
+
         // Read SVG files
         const svgContent1 = await fs.readFile(svgFile1, 'utf8');
         const svgContent2 = await fs.readFile(svgFile2, 'utf8');
@@ -30,12 +31,12 @@ async function compareSVG(svgFile1, svgFile2) {
 
         // Compare the parsed SVG objects
         if (isEqual(parsedSVG1, parsedSVG2)) {
-            console.log('SVG files are identical.');
+            console.log(`${baseName} SVG files are identical.`);
         } else {
-            console.log('SVG files are different.');
+            console.log(`${baseName} SVG files are different.`);
         }
     } catch (error) {
-        console.error('Failed to compare SVG files:', error);
+        console.error(`Failed to compare ${baseName} SVG files:`, error);
     }
 }
 
@@ -63,7 +64,7 @@ async function createSVGFromJSON(filePath) {
 
         // Compare
         const svgFileRef = `./svg_ref/${baseName}.svg`;
-        await compareSVG(outputFileName, svgFileRef);
+        await compareSVG(outputFileName, svgFileRef, baseName);
     } catch (error) {
         console.error('Failed to read, parse, or render the file:', error);
     }
@@ -77,3 +78,6 @@ createSVGFromJSON('./build/test/json_ref/basic3d.json');
 createSVGFromJSON('./build/test/json_ref/compile.json');
 createSVGFromJSON('./build/test/json_ref/crown.json');
 createSVGFromJSON('./build/test/json_ref/ellipse.json');
+createSVGFromJSON('./build/test/json_ref/eval.json');
+createSVGFromJSON('./build/test/json_ref/event.json');
+createSVGFromJSON('./build/test/json_ref/feynman.json');

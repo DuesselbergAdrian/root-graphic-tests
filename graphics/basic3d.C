@@ -9,7 +9,7 @@
 /// \author Rene Brun
 
 void basic3d(){
-   TCanvas *c1 = new TCanvas("c1","PolyLine3D & PolyMarker3D Window",200,10,700,500);
+   TCanvas *c4 = new TCanvas("c4","PolyLine3D & PolyMarker3D Window",200,10,700,500);
 
    // create a pad
    TPad *p1 = new TPad("p1","p1",0.05,0.02,0.95,0.82,46,3,1);
@@ -93,7 +93,7 @@ void basic3d(){
    pm3d2->Draw();
    //
    // draw a title/explanation in the canvas pad
-   c1->cd();
+   c4->cd();
    TPaveText *title = new TPaveText(0.1,0.85,0.9,0.97);
    title->SetFillColor(24);
    title->AddText("Examples of 3-D primitives");
@@ -102,8 +102,8 @@ void basic3d(){
    title->Draw();
 
    //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas4", 200, 10, 700, 500);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   TWebCanvas *webCanvas = new TWebCanvas(c4, "WebCanvas4", 200, 10, 700, 500);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c4, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/basic3d_pro.json");

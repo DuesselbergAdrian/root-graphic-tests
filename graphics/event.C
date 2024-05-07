@@ -9,8 +9,8 @@
 /// \author Rene Brun
 
 void event(){
-   TCanvas *c1 = new TCanvas("c1","ROOT Event description",700,500);
-   c1->Range(0,0,14,15.5);
+   TCanvas *c9 = new TCanvas("c9","ROOT Event description",700,500);
+   c9->Range(0,0,14,15.5);
    TPaveText *event = new TPaveText(1,13,3,15);
    event->SetFillColor(11);
    event->Draw();
@@ -72,4 +72,13 @@ void event(){
    text.DrawText(9.2,5.5,"Calorimeters");
    text.DrawText(10.2,3.5,"Forward_Detectors");
    text.DrawText(11.2,1.5,"TPCs");
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c9, "WebCanvas9", 100, 100, 700, 500);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c9, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/event_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

@@ -9,7 +9,7 @@
 /// \author Rene Brun
 
 void archi() {
-   TCanvas *c1 = new TCanvas("c1","Dictionary Architecture",20,10,750,930);
+   TCanvas *c2 = new TCanvas("c2","Dictionary Architecture",20,10,750,930);
    c1->SetBorderSize(0);
    c1->Range(0,0,20.5,26);
 
@@ -230,11 +230,11 @@ void archi() {
    daq.DrawText(10.,0.7,"Attributes");
    daq.DrawText(10.,0.3,"Containers");
 
-   c1->cd();
+   c2->cd();
 
    //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas2", 100, 100, 620, 790);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   TWebCanvas *webCanvas = new TWebCanvas(c2, "WebCanvas2", 20, 10, 750, 930);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c2, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/archi_pro.json");

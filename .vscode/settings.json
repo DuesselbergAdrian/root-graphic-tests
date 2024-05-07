@@ -17,6 +17,13 @@
         "crown.C": "cpp",
         "diamond.C": "cpp",
         "earth.C": "cpp",
-        "ellipse.C": "cpp"
+        "ellipse.C": "cpp",
+        "approx.C": "cpp",
+        "exclusiongraph.C": "cpp",
+        "gerrors.C": "cpp",
+        "exclusiongraph2.C": "cpp",
+        "eval.C": "cpp",
+        "event.C": "cpp",
+        "feynman.C": "cpp"
     }
 }

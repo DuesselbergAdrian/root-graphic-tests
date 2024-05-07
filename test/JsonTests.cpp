@@ -46,3 +46,21 @@ TEST(TestGraphicJSON, EllipseFunction){
     EXPECT_TRUE(TestMacros(macroPath));
 
 }
+
+TEST(TestGraphicJSON, EvalFunction){
+    std::string macroPath = "eval";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, EventFunction){
+    std::string macroPath = "event";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, FeynmanFunction){
+    std::string macroPath = "feynman";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}

@@ -21,11 +21,11 @@
 	TotalVirtualMemory="8191"
 	TotalPhysicalMemory="31418"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="1400"
+	ProcessorClockFrequency="3697.96"
 	>
 	<Testing>
-		<StartDateTime>May 07 10:09 CEST</StartDateTime>
-		<StartTestTime>1715069379</StartTestTime>
+		<StartDateTime>May 07 13:31 CEST</StartDateTime>
+		<StartTestTime>1715081510</StartTestTime>
 		<TestList>
 			<Test>./test/JsonTests</Test>
 		</TestList>
@@ -36,7 +36,7 @@
 			<FullCommandLine>/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.414713</Value>
+					<Value>0.474238</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -51,12 +51,12 @@
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJy9k1FLwzAQx9/7Ke6xe2hr50QpKujEgcIGc+LDGJKltybQ5kqSbs5Pb9rKmAXpnnYP4cL9c/8fF25eKSVVBgWTyh/ARlMBkaACI5ZqyVRaoTGYr1FnkSayQaZZKSQPLBproowoy7HOj1OjeZTV2WfdNuTcW94dYgXzX89raJq0pnFzAVNJi6G3DA6xgklOa5a3dVRbqUkVqJwWbVCVHfGfpguXTlrgl7fZ1FvC/H0KTay6xfBBsXz/jc+V4laScuI2Zq/9YvCHVzdQmEGPheZCHgw+mG7mIBXcLsZMbZlJkjEpY3XFLen7BJ7QjbTW8KYMO2kFGFYgKHckwOMezGND8EcnMWramfNCHjuCHw/7KR+ZkfwyPSdmx9J9+QmcYypKmeM5OTuWbp7x/5xh6PZnIaSBkmkLtAErsF01qmxZWdg5BI0FbTEFIxVHkG4Nvzhialqx0GgE5Wn9Or4YjmC9dw3ClfcDK/Rw5A==</Value>
+					<Value encoding="base64" compression="gzip">eJyNk89LwzAUx+/9K96xO7RdN/XmQWUOFDaY8zSKZOlbG0jzSn5szr/edBWpRVje6ZV8+vm+JGTjlBKqgoYJFU/goKmBrKYGM1ZqwVTp0BiUe9RVpolsUmnW1oInFo01WUVUSez6YWs0z6qu++i0KefR7v63Ctj8ZOZTuFj61PzyAcYJi2m0S36rgKWkPZP9Oqqj0KQaVJ5Fm7h2BP+1bn277Ed+eVuvoh1s3ldwqWK8mD4oJs9f+OwUt4KUh/tav16HIZ7dTaExkysRmtciMGCIQnwbZNd0MqH6IQtxPrvuf2RG8HkZFjCC/QEFJDxR0woZeAUj2O8hD0jw21aB/iEadkILKUVrAucfwWHzL45MBuoHpHfP/3OnqX8+21oYaJm2QAewNfYvjZxtnYUTM6CxoSOWYITiCMK/wk+OWJoerjWammTZ/Z1PZzewP3tBWkTf4pVkHA==</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 07 10:09 CEST</EndDateTime>
-		<EndTestTime>1715069379</EndTestTime>
+		<EndDateTime>May 07 13:31 CEST</EndDateTime>
+		<EndTestTime>1715081511</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

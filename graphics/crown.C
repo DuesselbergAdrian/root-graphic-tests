@@ -9,7 +9,7 @@
 /// \author Olivier Couet
 
 void crown(){
-   auto c1 = new TCanvas("c1","c1",400,400);
+   auto c6 = new TCanvas("c6","c6",400,400);
    auto cr1 = new TCrown(.5,.5,.3,.4);
    cr1->SetLineStyle(2);
    cr1->SetLineWidth(4);
@@ -28,8 +28,8 @@ void crown(){
    cr4->Draw();
 
    //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas6", 100, 100, 400, 400);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   TWebCanvas *webCanvas = new TWebCanvas(c6, "WebCanvas6", 100, 100, 400, 400);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c6, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/crown_pro.json");

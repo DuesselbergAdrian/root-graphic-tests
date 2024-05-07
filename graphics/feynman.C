@@ -10,8 +10,8 @@
 
 void feynman()
 {
-   TCanvas *c1 = new TCanvas("c1", "A canvas", 10,10, 600, 300);
-   c1->Range(0, 0, 140, 60);
+   TCanvas *c10 = new TCanvas("c10", "A canvas", 10,10, 600, 300);
+   c10->Range(0, 0, 140, 60);
    Int_t linsav = gStyle->GetLineWidth();
    gStyle->SetLineWidth(3);
    TLatex t;
@@ -54,6 +54,15 @@ void feynman()
    t.DrawLatex(135,6,"#bar{q}");
    t.DrawLatex(135,55,"q");
    t.DrawLatex(135,30,"g");
-   c1->Update();
+   c10->Update();
    gStyle->SetLineWidth(linsav);
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c10, "WebCanvas10", 10, 10, 600, 300);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c10, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/feynman_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

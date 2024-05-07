@@ -1,47 +1,47 @@
-Start testing: May 07 10:09 CEST
+Start testing: May 07 13:31 CEST
 ----------------------------------------------------------
 1/1 Testing: JsonTests
 1/1 Test: JsonTests
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"JsonTests" start time: May 07 10:09 CEST
+"JsonTests" start time: May 07 13:31 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
-[==========] Running 7 tests from 1 test suite.
+[==========] Running 10 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 7 tests from TestGraphicJSON
+[----------] 10 tests from TestGraphicJSON
 [ RUN      ] TestGraphicJSON.AnalyzeFunction
-[       OK ] TestGraphicJSON.AnalyzeFunction (258 ms)
+[       OK ] TestGraphicJSON.AnalyzeFunction (260 ms)
 [ RUN      ] TestGraphicJSON.ArchiFunction
-Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
-[       OK ] TestGraphicJSON.ArchiFunction (48 ms)
+[       OK ] TestGraphicJSON.ArchiFunction (50 ms)
 [ RUN      ] TestGraphicJSON.ArrowsFunction
-Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
 [       OK ] TestGraphicJSON.ArrowsFunction (12 ms)
 [ RUN      ] TestGraphicJSON.Basic3dFunction
-Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
 [       OK ] TestGraphicJSON.Basic3dFunction (22 ms)
 [ RUN      ] TestGraphicJSON.CompileFunction
-Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
 [       OK ] TestGraphicJSON.CompileFunction (11 ms)
 [ RUN      ] TestGraphicJSON.CrownFunction
-Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
 [       OK ] TestGraphicJSON.CrownFunction (12 ms)
 [ RUN      ] TestGraphicJSON.EllipseFunction
-Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
 [       OK ] TestGraphicJSON.EllipseFunction (11 ms)
-[----------] 7 tests from TestGraphicJSON (377 ms total)
+[ RUN      ] TestGraphicJSON.EvalFunction
+[       OK ] TestGraphicJSON.EvalFunction (13 ms)
+[ RUN      ] TestGraphicJSON.EventFunction
+[       OK ] TestGraphicJSON.EventFunction (18 ms)
+[ RUN      ] TestGraphicJSON.FeynmanFunction
+[       OK ] TestGraphicJSON.FeynmanFunction (20 ms)
+[----------] 10 tests from TestGraphicJSON (434 ms total)
 
 [----------] Global test environment tear-down
-[==========] 7 tests from 1 test suite ran. (377 ms total)
-[  PASSED  ] 7 tests.
+[==========] 10 tests from 1 test suite ran. (434 ms total)
+[  PASSED  ] 10 tests.
 <end of output>
-Test time =   0.41 sec
+Test time =   0.47 sec
 ----------------------------------------------------------
 Test Passed.
-"JsonTests" end time: May 07 10:09 CEST
+"JsonTests" end time: May 07 13:31 CEST
 "JsonTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 07 10:09 CEST
+End testing: May 07 13:31 CEST
