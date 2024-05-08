@@ -9,10 +9,10 @@
 
 void gtime()
 {
-   auto c1 = (TCanvas *) gROOT->FindObject("c1");
-   if (c1) delete c1;
+   //auto c1 = (TCanvas *) gROOT->FindObject("c1");
+   //if (c1) delete c1;
 
-   c1 = new TCanvas("c1");
+   TCanvas *c17 = new TCanvas("c17");
    const Int_t ng = 100;
    const Int_t kNMAX = 10000;
    std::vector<Double_t> X(kNMAX), Y(kNMAX);
@@ -40,10 +40,19 @@ void gtime()
       g->SetLineColor(kGreen);
       g->SetBit(kCanDelete); // let canvas delete graph when call TCanvas::Clear()
 
-      c1->Clear();
+      c17->Clear();
       g->Draw("alp");
-      c1->Update();
+      c17->Update();
 
       gSystem->Sleep(10);
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c17, "WebCanvas17", 0, 0, 200, 200);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c17, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/gtime_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
    }
 }

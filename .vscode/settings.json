@@ -32,6 +32,16 @@
         "gaxis2.C": "cpp",
         "gaxis3.C": "cpp",
         "graph_edit_playback.C": "cpp",
-        "greyscale.C": "cpp"
+        "greyscale.C": "cpp",
+        "gtime.C": "cpp",
+        "inside.C": "cpp",
+        "latex.C": "cpp",
+        "latex2.C": "cpp",
+        "latex3.C": "cpp",
+        "latex4.C": "cpp",
+        "latex5.C": "cpp",
+        "mandelbrot.C": "cpp",
+        "markerwarning.C": "cpp",
+        "mass_spectrum.C": "cpp"
     }
 }

@@ -36,7 +36,7 @@ void DrawArrow (Double_t x1, Double_t y1, Double_t x2, Double_t y2, Int_t ls)
 
 void mass_spectrum()
 {
-   TCanvas *C = new TCanvas("C","C",800,500);
+   TCanvas *c24 = new TCanvas("c24","C",800,500);
 
    hline (0.10,0.25);
    hline (0.10,0.80);
@@ -124,4 +124,13 @@ void mass_spectrum()
    l3.DrawLatex(0.295, 0.50, "#pi#pi");
    l3.DrawLatex(0.345, 0.53, "#eta,#pi^{0}");
    l3.DrawLatex(0.70, 0.65, "#pi^{0}");
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c24, "WebCanvas24", 0,0,800,500);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c24, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/mass_spectrum_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

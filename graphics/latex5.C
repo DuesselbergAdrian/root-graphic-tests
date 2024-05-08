@@ -16,7 +16,7 @@
 /// \author Rene Brun
 
 void latex5() {
-   auto c1 = new TCanvas("mathsymb","Mathematical Symbols",600,600);
+   auto c22 = new TCanvas("c22","Mathematical Symbols",600,600);
 
    TLatex l;
    l.SetTextSize(0.03);
@@ -117,9 +117,18 @@ void latex5() {
    y -= step ; l.DrawLatex(x1, y-0.015, "#int")      ; l.DrawText(x2, y, "#int");
    y -= step ; l.DrawLatex(x1, y, "#odot")           ; l.DrawText(x2, y, "#odot");
 
-   // Save the picture in various formats
+   /* Save the picture in various formats
    c1->Print("mathsymb.ps");
    c1->Print("mathsymb.png");
    c1->Print("mathsymb.pdf");
-   c1->Print("mathsymb.svg");
+   c1->Print("mathsymb.svg");*/
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c22, "WebCanvas22", 0, 0, 600, 600);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c22, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/latex5_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

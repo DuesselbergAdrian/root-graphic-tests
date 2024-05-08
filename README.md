@@ -6,24 +6,24 @@ Our project includes two types of tests: one written in C++ using the ROOT frame
 
 To run the C++ test, you need to have ROOT installed on your system. ROOT is a framework for data processing, developed by CERN. If you do not have ROOT installed, please visit the [ROOT Installation Guide](https://root.cern/install/) for installation instructions.
 
-#### Running the Example-Test:
+#### Running the Example-Test (dont use):
 Open a terminal and execute the following command:
 ```shell
 root -b -l -q /home/adrianduesselberg/root-graphic-tests test.cxx
 ```
-#### Running the CTest:
+#### Running the CTest in root-graphic-tests:
 ```shell
-something
+cd build
+ctest
 ```
 
 ### 2. Java Script Test with Node.js
 
 To run the test, you need to have JSROOT and Node installed on your system.
 
-#### Running the Test:
+#### Running the Test in root-graphic-tests:
 Open a terminal and execute the following command:
 ```shell
-cd root-graphic-tests
 xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' node Test_SVG.js
 ```
 

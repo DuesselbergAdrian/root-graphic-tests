@@ -75,7 +75,7 @@ async function createSVGFromJSON(filePath) {
     }
 }
 
-// TESTS
+// Tutorial Graphic TESTS
 createSVGFromJSON('./build/test/json_ref/analyze.json');
 createSVGFromJSON('./build/test/json_ref/archi.json');
 createSVGFromJSON('./build/test/json_ref/arrows.json');
@@ -92,3 +92,10 @@ createSVGFromJSON('./build/test/json_ref/framework.json');
 createSVGFromJSON('./build/test/json_ref/gaxis.json');
 createSVGFromJSON('./build/test/json_ref/gaxis3.json');
 createSVGFromJSON('./build/test/json_ref/greyscale.json');
+createSVGFromJSON('./build/test/json_ref/latex.json');
+createSVGFromJSON('./build/test/json_ref/latex2.json');
+createSVGFromJSON('./build/test/json_ref/latex3.json');
+createSVGFromJSON('./build/test/json_ref/latex4.json');
+createSVGFromJSON('./build/test/json_ref/latex5.json');
+createSVGFromJSON('./build/test/json_ref/markerwarning.json');
+createSVGFromJSON('./build/test/json_ref/mass_spectrum.json');

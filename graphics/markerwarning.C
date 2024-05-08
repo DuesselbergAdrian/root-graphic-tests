@@ -52,11 +52,11 @@ void markerwarning()
    float Nc_130_Min   = 1.51;
    float Nc_130_Max   = 3.89;
 
-   TCanvas *canvasNc = new TCanvas("canvasNc", "Multiplicity",630,10,600,500);
+   TCanvas *c23 = new TCanvas("c23", "Multiplicity",630,10,600,500);
 
    gStyle->SetOptStat(0);
-   canvasNc->SetFillColor(10);
-   canvasNc->SetBorderSize(0);
+   c23->SetFillColor(10);
+   c23->SetBorderSize(0);
 
    // Primitives in Nc200 pad
    TPad *padNcUP = new TPad("padNcUP","200 GeV",0.07,0.60,1.,1.00);
@@ -87,7 +87,7 @@ void markerwarning()
    phDN->SetMarkerSize (2);
    phDN->Draw("P");
 
-   canvasNc->cd();
+   c23->cd();
 
    // Primitives in Nc130 pad
    TPad *padNcDN = new TPad("padNcDN","130 GeV",0.07,0.02,1.,0.60);
@@ -129,5 +129,14 @@ void markerwarning()
    t1.DrawLatex(-5,0.2,"symbol choice, the two plots on the top appear further apart "
                        "than for the bottom example.");
 
-   canvasNc->cd();
+   c23->cd();
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c23, "WebCanvas23", 630,10,600,500);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c23, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/markerwarning_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

@@ -4,7 +4,7 @@
 
 //Test all macros from tutorials/graphics
 //Except: AtlasExample (random), canvas (crash), canvas2, diamond (no canvas), earth (not void), gaxis2 (no canvas)
-// graph_edit_playback (no macro)
+// graph_edit_playback (no macro), inside (random, no canvas), madelbrot.C (maybe include), 
 
 TEST(TestGraphicJSON, AnalyzeFunction){
     std::string macroPath = "analyze";
@@ -98,6 +98,54 @@ TEST(TestGraphicJSON, Gaxis3Function){
 
 TEST(TestGraphicJSON, GreyscaleFunction){
     std::string macroPath = "greyscale";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+/*TEST(TestGraphicJSON, GtimeFunction){
+    std::string macroPath = "gtime";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+} Not useable: Infinite loop */
+
+TEST(TestGraphicJSON, LatexFunction){
+    std::string macroPath = "latex";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, Latex2Function){
+    std::string macroPath = "latex2";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, Latex3Function){
+    std::string macroPath = "latex3";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, Latex4Function){
+    std::string macroPath = "latex4";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, Latex5Function){
+    std::string macroPath = "latex5";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, MarkerwarningFunction){
+    std::string macroPath = "markerwarning";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, Mass_SpectrumFunction){
+    std::string macroPath = "mass_spectrum";
     EXPECT_TRUE(TestMacros(macroPath));
 
 }

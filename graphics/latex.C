@@ -9,7 +9,7 @@
 /// \author Rene Brun
 
 void latex() {
-   TCanvas *c1 = new TCanvas("c1","test",600,700);
+   TCanvas *c18 = new TCanvas("c18","test",600,700);
    // write formulas
    TLatex l;
    l.SetTextAlign(12);
@@ -23,5 +23,14 @@ void latex() {
    l.DrawLatex(0.1,0.3,
    "4)   F(t) = #sum_{i=-#infty}^{#infty}A(i)cos#[]{#frac{i}{t+i}}");
    l.DrawLatex(0.1,0.1,"5)   {}_{3}^{7}Li");
-   c1->Print("latex.ps");
+   c18->Print("latex.ps");
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c18, "WebCanvas18", 0, 0, 600, 700);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c18, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/latex_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

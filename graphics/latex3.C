@@ -10,7 +10,7 @@
 
 void latex3() {
 
-   TCanvas *c1 = new TCanvas("c1");
+   TCanvas *c20 = new TCanvas("c20");
    TPaveText *pt = new TPaveText(.05,.1,.95,.8);
 
    pt->AddText("#frac{2s}{#pi#alpha^{2}}  #frac{d#sigma}{dcos#theta} "
@@ -29,4 +29,13 @@ void latex3() {
 
    pt->SetLabel("Born equation");
    pt->Draw();
+
+    //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c20, "WebCanvas20", 0, 0, 600, 700);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c20, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/latex3_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

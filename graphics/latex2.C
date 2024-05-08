@@ -9,7 +9,7 @@
 /// \author Rene Brun
 
 void latex2(){
-   TCanvas *c1 = new TCanvas("c1");
+   TCanvas *c19 = new TCanvas("c19");
    TLatex l;
    l.SetTextAlign(23);
    l.SetTextSize(0.1);
@@ -19,5 +19,14 @@ void latex2(){
    #Leftrightarrow(#Box+m^{2})#psi=0");
    l.DrawLatex(0.5,0.3,"L_{em}=eJ^{#mu}_{em}A_{#mu} , J^{#mu}_{em}=#bar{I}\
    #gamma_{#mu}I , M^{j}_{i}=#SigmaA_{#alpha}#tau^{#alphaj}_{i}");
-   c1->Print("latex2.ps");
+   c19->Print("latex2.ps");
+
+    //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c19, "WebCanvas18", 0, 0, 600, 700);
+   TString jsonOutput = webCanvas->CreateCanvasJSON(c19, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/latex2_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }
