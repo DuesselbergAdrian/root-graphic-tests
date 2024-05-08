@@ -1,10 +1,10 @@
-Start testing: May 08 14:44 CEST
+Start testing: May 08 15:11 CEST
 ----------------------------------------------------------
 1/1 Testing: JsonTests
 1/1 Test: JsonTests
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"JsonTests" start time: May 08 14:44 CEST
+"JsonTests" start time: May 08 15:11 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -12,27 +12,27 @@ Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/google
 [----------] Global test environment set-up.
 [----------] 23 tests from TestGraphicJSON
 [ RUN      ] TestGraphicJSON.AnalyzeFunction
-[       OK ] TestGraphicJSON.AnalyzeFunction (257 ms)
+[       OK ] TestGraphicJSON.AnalyzeFunction (256 ms)
 [ RUN      ] TestGraphicJSON.ArchiFunction
 [       OK ] TestGraphicJSON.ArchiFunction (50 ms)
 [ RUN      ] TestGraphicJSON.ArrowsFunction
 [       OK ] TestGraphicJSON.ArrowsFunction (12 ms)
 [ RUN      ] TestGraphicJSON.Basic3dFunction
-[       OK ] TestGraphicJSON.Basic3dFunction (24 ms)
+[       OK ] TestGraphicJSON.Basic3dFunction (23 ms)
 [ RUN      ] TestGraphicJSON.CompileFunction
 [       OK ] TestGraphicJSON.CompileFunction (12 ms)
 [ RUN      ] TestGraphicJSON.CrownFunction
-[       OK ] TestGraphicJSON.CrownFunction (13 ms)
+[       OK ] TestGraphicJSON.CrownFunction (12 ms)
 [ RUN      ] TestGraphicJSON.EllipseFunction
-[       OK ] TestGraphicJSON.EllipseFunction (13 ms)
+[       OK ] TestGraphicJSON.EllipseFunction (12 ms)
 [ RUN      ] TestGraphicJSON.EvalFunction
 [       OK ] TestGraphicJSON.EvalFunction (14 ms)
 [ RUN      ] TestGraphicJSON.EventFunction
-[       OK ] TestGraphicJSON.EventFunction (19 ms)
+[       OK ] TestGraphicJSON.EventFunction (18 ms)
 [ RUN      ] TestGraphicJSON.FeynmanFunction
-[       OK ] TestGraphicJSON.FeynmanFunction (23 ms)
+[       OK ] TestGraphicJSON.FeynmanFunction (22 ms)
 [ RUN      ] TestGraphicJSON.FirstFunction
-[       OK ] TestGraphicJSON.FirstFunction (81 ms)
+[       OK ] TestGraphicJSON.FirstFunction (80 ms)
 [ RUN      ] TestGraphicJSON.Formula1Function
 
 Object statistics
@@ -54,42 +54,42 @@ TOrdCollection                  4          4       72           288          288
 Total:                        288        286     2064         29504        28672
 ================================================================================
 
-[       OK ] TestGraphicJSON.Formula1Function (36 ms)
+[       OK ] TestGraphicJSON.Formula1Function (37 ms)
 [ RUN      ] TestGraphicJSON.FrameworkFunction
-[       OK ] TestGraphicJSON.FrameworkFunction (16 ms)
+[       OK ] TestGraphicJSON.FrameworkFunction (17 ms)
 [ RUN      ] TestGraphicJSON.GaxisFunction
 [       OK ] TestGraphicJSON.GaxisFunction (17 ms)
 [ RUN      ] TestGraphicJSON.Gaxis3Function
-[       OK ] TestGraphicJSON.Gaxis3Function (14 ms)
+[       OK ] TestGraphicJSON.Gaxis3Function (15 ms)
 [ RUN      ] TestGraphicJSON.GreyscaleFunction
-[       OK ] TestGraphicJSON.GreyscaleFunction (300 ms)
+[       OK ] TestGraphicJSON.GreyscaleFunction (297 ms)
 [ RUN      ] TestGraphicJSON.LatexFunction
 Info in <TCanvas::Print>: ps file latex.ps has been created
-[       OK ] TestGraphicJSON.LatexFunction (31 ms)
+[       OK ] TestGraphicJSON.LatexFunction (30 ms)
 [ RUN      ] TestGraphicJSON.Latex2Function
 Info in <TCanvas::Print>: ps file latex2.ps has been created
 [       OK ] TestGraphicJSON.Latex2Function (13 ms)
 [ RUN      ] TestGraphicJSON.Latex3Function
-[       OK ] TestGraphicJSON.Latex3Function (11 ms)
+[       OK ] TestGraphicJSON.Latex3Function (10 ms)
 [ RUN      ] TestGraphicJSON.Latex4Function
 [       OK ] TestGraphicJSON.Latex4Function (22 ms)
 [ RUN      ] TestGraphicJSON.Latex5Function
-[       OK ] TestGraphicJSON.Latex5Function (26 ms)
+[       OK ] TestGraphicJSON.Latex5Function (27 ms)
 [ RUN      ] TestGraphicJSON.MarkerwarningFunction
 [       OK ] TestGraphicJSON.MarkerwarningFunction (24 ms)
 [ RUN      ] TestGraphicJSON.Mass_SpectrumFunction
 [       OK ] TestGraphicJSON.Mass_SpectrumFunction (18 ms)
-[----------] 23 tests from TestGraphicJSON (1059 ms total)
+[----------] 23 tests from TestGraphicJSON (1048 ms total)
 
 [----------] Global test environment tear-down
-[==========] 23 tests from 1 test suite ran. (1059 ms total)
+[==========] 23 tests from 1 test suite ran. (1048 ms total)
 [  PASSED  ] 23 tests.
 <end of output>
-Test time =   1.14 sec
+Test time =   1.12 sec
 ----------------------------------------------------------
 Test Passed.
-"JsonTests" end time: May 08 14:44 CEST
+"JsonTests" end time: May 08 15:11 CEST
 "JsonTests" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-End testing: May 08 14:44 CEST
+End testing: May 08 15:11 CEST

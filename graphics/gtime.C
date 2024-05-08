@@ -46,13 +46,4 @@ void gtime()
 
       gSystem->Sleep(10);
 
-   //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c17, "WebCanvas17", 0, 0, 200, 200);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c17, 1, kFALSE);
-   
-   //Save JSON to a file
-   std::ofstream jsonFile("./json_pro/gtime_pro.json");
-   jsonFile << jsonOutput.Data();
-   jsonFile.close();
-   }
 }

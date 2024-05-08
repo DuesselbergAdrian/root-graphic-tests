@@ -5,7 +5,7 @@
         "node": ">=0.18"
     },
     "description": "JSROOT test suite for Node.js",
-    "main": "test.js",
+    "main": "Test_SVG.js",
     "type": "module",
     "author": "Adrian D.",
     "license": "MIT",
