@@ -24,6 +24,14 @@
         "exclusiongraph2.C": "cpp",
         "eval.C": "cpp",
         "event.C": "cpp",
-        "feynman.C": "cpp"
+        "feynman.C": "cpp",
+        "first.C": "cpp",
+        "formula1.C": "cpp",
+        "framework.C": "cpp",
+        "gaxis.C": "cpp",
+        "gaxis2.C": "cpp",
+        "gaxis3.C": "cpp",
+        "graph_edit_playback.C": "cpp",
+        "greyscale.C": "cpp"
     }
 }

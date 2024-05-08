@@ -11,7 +11,7 @@ Open a terminal and execute the following command:
 ```shell
 root -b -l -q /home/adrianduesselberg/root-graphic-tests test.cxx
 ```
-#### Running teh CTest-Test:
+#### Running the CTest:
 ```shell
 something
 ```

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240508-0758-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.27.7"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="pc-phsft-victus-85"
+	OSRelease="6.8.8-200.fc39.x86_64"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Sat Apr 27 17:42:13 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="8191"
+	TotalPhysicalMemory="31418"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4359.58"
+	>
+	<Testing>
+		<StartDateTime>May 08 11:45 CEST</StartDateTime>
+		<StartTestTime>1715161558</StartTestTime>
+		<TestList>
+			<Test>./test/JsonTests</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>JsonTests</Name>
+			<Path>./test</Path>
+			<FullName>./test/JsonTests</FullName>
+			<FullCommandLine>/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.935412</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNk0FLwzAUx+/9FO/YHdrabYgePKjMgcIGc55GkSx9awNpXknSzfnpTVcZtQjNO72SX3//l4RsGqWEKqBiQoUTOGiqICmpwoTlWjCVN2gMyj3qItFENio0q0vBI4vGmqQgKiS2fb81midF23222pjzYPdwrQw2v5npLVwsXWp6+QDTCItxsIuulcFS0p7Jbh3VUWhSFSrHoo2aegD/tW5du+xGfn1fr4IdbD5WcKlsuBg/KibP3/jSKG4FKQd3tX4bhyGczu+gMpORCM1L4RnQRyGc3/vYNZ2Mr77PQphOx/1PzAg+y/0CBrA7II+EZ6pqIT2vYAC7PaQeCW7bytPfR/1OaCGlqI3n/APYb/7FkUlPfY907tl/7jh2z2dbCgM10xboALbE7qVRY+vGwokZ0FjREXMwQnEE4V7hF0fMTQeXGk1JMm//Tm+mc9ifnSDOgh83DWQ2====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 08 11:45 CEST</EndDateTime>
+		<EndTestTime>1715161559</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

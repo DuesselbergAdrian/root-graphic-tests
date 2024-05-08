@@ -3,7 +3,8 @@
 #include <gtest/gtest.h>
 
 //Test all macros from tutorials/graphics
-//Except: AtlasExample (random), canvas (crash), canvas2, diamond (no canvas), earth (not void), 
+//Except: AtlasExample (random), canvas (crash), canvas2, diamond (no canvas), earth (not void), gaxis2 (no canvas)
+// graph_edit_playback (no macro)
 
 TEST(TestGraphicJSON, AnalyzeFunction){
     std::string macroPath = "analyze";
@@ -61,6 +62,42 @@ TEST(TestGraphicJSON, EventFunction){
 
 TEST(TestGraphicJSON, FeynmanFunction){
     std::string macroPath = "feynman";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, FirstFunction){
+    std::string macroPath = "first";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, Formula1Function){
+    std::string macroPath = "formula1";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, FrameworkFunction){
+    std::string macroPath = "framework";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, GaxisFunction){
+    std::string macroPath = "gaxis";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, Gaxis3Function){
+    std::string macroPath = "gaxis3";
+    EXPECT_TRUE(TestMacros(macroPath));
+
+}
+
+TEST(TestGraphicJSON, GreyscaleFunction){
+    std::string macroPath = "greyscale";
     EXPECT_TRUE(TestMacros(macroPath));
 
 }

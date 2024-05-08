@@ -1,0 +1,79 @@
+Start testing: May 08 11:45 CEST
+----------------------------------------------------------
+1/1 Testing: JsonTests
+1/1 Test: JsonTests
+Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests"
+Directory: /home/adrianduesselberg/root-graphic-tests/build/test
+"JsonTests" start time: May 08 11:45 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
+[==========] Running 16 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 16 tests from TestGraphicJSON
+[ RUN      ] TestGraphicJSON.AnalyzeFunction
+[       OK ] TestGraphicJSON.AnalyzeFunction (248 ms)
+[ RUN      ] TestGraphicJSON.ArchiFunction
+[       OK ] TestGraphicJSON.ArchiFunction (49 ms)
+[ RUN      ] TestGraphicJSON.ArrowsFunction
+[       OK ] TestGraphicJSON.ArrowsFunction (12 ms)
+[ RUN      ] TestGraphicJSON.Basic3dFunction
+[       OK ] TestGraphicJSON.Basic3dFunction (22 ms)
+[ RUN      ] TestGraphicJSON.CompileFunction
+[       OK ] TestGraphicJSON.CompileFunction (11 ms)
+[ RUN      ] TestGraphicJSON.CrownFunction
+[       OK ] TestGraphicJSON.CrownFunction (12 ms)
+[ RUN      ] TestGraphicJSON.EllipseFunction
+[       OK ] TestGraphicJSON.EllipseFunction (11 ms)
+[ RUN      ] TestGraphicJSON.EvalFunction
+[       OK ] TestGraphicJSON.EvalFunction (13 ms)
+[ RUN      ] TestGraphicJSON.EventFunction
+[       OK ] TestGraphicJSON.EventFunction (17 ms)
+[ RUN      ] TestGraphicJSON.FeynmanFunction
+[       OK ] TestGraphicJSON.FeynmanFunction (21 ms)
+[ RUN      ] TestGraphicJSON.FirstFunction
+[       OK ] TestGraphicJSON.FirstFunction (75 ms)
+[ RUN      ] TestGraphicJSON.Formula1Function
+
+Object statistics
+class                         cnt    on heap     size    total size    heap size
+================================================================================
+TList                         131        130      104         13624        13520
+TObjectTable                    1          1       32            32           32
+TROOT                           1          0      728           728            0
+TPluginManager                  1          1       40            40           40
+THashTable                      2          2       72           144          144
+TClassTable                     1          1       16            16           16
+THashList                       1          1      112           112          112
+TEnv                            1          1       56            56           56
+TEnvRec                       143        143       96         13728        13728
+TNamed                          1          1       64            64           64
+TUnixSystem                     1          1      672           672          672
+TOrdCollection                  4          4       72           288          288
+--------------------------------------------------------------------------------
+Total:                        288        286     2064         29504        28672
+================================================================================
+
+[       OK ] TestGraphicJSON.Formula1Function (33 ms)
+[ RUN      ] TestGraphicJSON.FrameworkFunction
+[       OK ] TestGraphicJSON.FrameworkFunction (15 ms)
+[ RUN      ] TestGraphicJSON.GaxisFunction
+[       OK ] TestGraphicJSON.GaxisFunction (15 ms)
+[ RUN      ] TestGraphicJSON.Gaxis3Function
+[       OK ] TestGraphicJSON.Gaxis3Function (13 ms)
+[ RUN      ] TestGraphicJSON.GreyscaleFunction
+[       OK ] TestGraphicJSON.GreyscaleFunction (288 ms)
+[----------] 16 tests from TestGraphicJSON (863 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 1 test suite ran. (863 ms total)
+[  PASSED  ] 16 tests.
+<end of output>
+Test time =   0.94 sec
+----------------------------------------------------------
+Test Passed.
+"JsonTests" end time: May 08 11:45 CEST
+"JsonTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 08 11:45 CEST
