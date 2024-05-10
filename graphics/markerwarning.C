@@ -133,7 +133,7 @@ void markerwarning()
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c23, "WebCanvas23", 630,10,600,500);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c23, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c23, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/markerwarning_pro.json");

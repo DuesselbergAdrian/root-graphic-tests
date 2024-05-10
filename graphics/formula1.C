@@ -32,7 +32,7 @@ void formula1() {
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c12, "WebCanvas12", 200, 10, 700, 500);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c12, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c12, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/formula1_pro.json");

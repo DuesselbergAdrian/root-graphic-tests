@@ -75,7 +75,7 @@ void event(){
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c9, "WebCanvas9", 100, 100, 700, 500);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c9, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c9, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/event_pro.json");

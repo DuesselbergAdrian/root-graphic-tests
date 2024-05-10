@@ -52,7 +52,7 @@ void gaxis3() {
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c15, "WebCanvas15", 10, 10, 800, 400);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c15, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c15, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/gaxis3_pro.json");

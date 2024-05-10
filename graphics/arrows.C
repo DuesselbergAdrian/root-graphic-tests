@@ -41,7 +41,7 @@ void arrows(){
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c3, "WebCanvas3", 0, 0, 1, 1);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c3, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c3, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/arrows_pro.json");

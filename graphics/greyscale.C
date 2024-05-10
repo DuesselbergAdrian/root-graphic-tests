@@ -37,7 +37,7 @@ void greyscale()
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c16, "WebCanvas16", 0, 0, 500, 500);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c16, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c16, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/greyscale_pro.json");

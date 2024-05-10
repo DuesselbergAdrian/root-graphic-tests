@@ -22,8 +22,8 @@ void latex2(){
    c19->Print("latex2.ps");
 
     //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c19, "WebCanvas18", 0, 0, 600, 700);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c19, 1, kFALSE);
+   TWebCanvas *webCanvas = new TWebCanvas(c19, "WebCanvas19", 0, 0, 600, 700);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c19, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/latex2_pro.json");

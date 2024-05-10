@@ -34,7 +34,7 @@ void compile(){
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c5, "WebCanvas5", 0, 0, 1, 1);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c5, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c5, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/compile_pro.json");

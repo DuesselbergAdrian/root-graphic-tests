@@ -127,7 +127,7 @@ void mass_spectrum()
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c24, "WebCanvas24", 0,0,800,500);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c24, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c24, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/mass_spectrum_pro.json");

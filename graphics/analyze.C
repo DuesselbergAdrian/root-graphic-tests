@@ -124,7 +124,7 @@ void analyze() {
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas1", 100, 100, 620, 790);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c1, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/analyze_pro.json");

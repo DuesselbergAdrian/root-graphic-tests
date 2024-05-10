@@ -46,7 +46,7 @@ void eval(){
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c8, "WebCanvas8", 0, 0, 20, 10);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c8, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c8, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/eval_pro.json");

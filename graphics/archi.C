@@ -234,7 +234,7 @@ void archi() {
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c2, "WebCanvas2", 20, 10, 750, 930);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c2, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c2, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/archi_pro.json");

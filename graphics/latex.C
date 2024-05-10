@@ -27,7 +27,7 @@ void latex() {
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c18, "WebCanvas18", 0, 0, 600, 700);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c18, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c18, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/latex_pro.json");

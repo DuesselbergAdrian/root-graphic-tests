@@ -49,7 +49,7 @@ void framework() {
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c13, "WebCanvas13", 200, 10, 700, 500);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c13, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c13, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/framework_pro.json");

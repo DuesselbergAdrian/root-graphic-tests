@@ -29,7 +29,7 @@ void crown(){
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c6, "WebCanvas6", 100, 100, 400, 400);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c6, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c6, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/crown_pro.json");

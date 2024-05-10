@@ -59,7 +59,7 @@ void feynman()
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c10, "WebCanvas10", 10, 10, 600, 300);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c10, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c10, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/feynman_pro.json");

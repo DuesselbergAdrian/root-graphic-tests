@@ -54,7 +54,7 @@ void first() {
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c11, "WebCanvas11", 100, 10, 700, 900);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c11, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c11, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/first_pro.json");

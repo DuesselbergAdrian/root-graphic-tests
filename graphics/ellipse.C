@@ -34,7 +34,7 @@ void ellipse(){
 
    //Create TWebCanvas
    TWebCanvas *webCanvas = new TWebCanvas(c7, "WebCanvas7", 0, 0, 1, 1);
-   TString jsonOutput = webCanvas->CreateCanvasJSON(c7, 1, kFALSE);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c7, 1, kFALSE);
    
    //Save JSON to a file
    std::ofstream jsonFile("./json_pro/ellipse_pro.json");
