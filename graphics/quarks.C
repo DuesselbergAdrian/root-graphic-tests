@@ -9,8 +9,8 @@
 /// \author Rene Brun
 
 void quarks () {
-   TCanvas *c1 = new TCanvas("c1", "c1",10,10,630,760);
-   c1->SetFillColor(kBlack);
+   TCanvas *c27 = new TCanvas("c27", "c27",10,10,630,760);
+   c27->SetFillColor(kBlack);
    Int_t quarkColor  = 50;
    Int_t leptonColor = 16;
    Int_t forceColor  = 38;
@@ -117,5 +117,14 @@ void quarks () {
    gPad->SetBorderSize(border);
    tex.DrawLatex(.5,.5,"W");
 
-   c1->cd();
+   c27->cd();
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c27, "WebCanvas27", 10,10,630,760);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c27, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/quarks_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

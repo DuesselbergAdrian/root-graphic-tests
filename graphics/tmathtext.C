@@ -8,8 +8,8 @@
 ///
 /// \author Yue Shi Lai
 
-{
-   TCanvas *c1 = new TCanvas("c1");
+void tmathtext(){
+   TCanvas *c28 = new TCanvas("c28");
 
    TMathText l;
    l.SetTextAlign(23);
@@ -23,8 +23,12 @@
    l.DrawMathText(0.27, 0.110, "\\mathbb{N} \\subset \\mathbb{R}");
    l.DrawMathText(0.63, 0.100, "\\hbox{RHIC スピン物理 Нью-Йорк}");
 
-   c1->Print("c1.png");
-   c1->Print("c1.ps");
-
-   return c1;
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c28, "WebCanvas28", 0,0, 100, 100);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c28, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/tmathtext_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

@@ -5,9 +5,9 @@
 /// \macro_image
 /// \author Olivier Couet
 
-TCanvas * tmathtext2()
+void tmathtext2()
 {
-   TCanvas *c1 = new TCanvas("mathtext","TMathText symbol",1200,1400);
+   TCanvas *c29 = new TCanvas("c29","TMathText symbol",1200,1400);
 
    TMathText l;
    l.SetTextSize(0.013);
@@ -653,5 +653,12 @@ TCanvas * tmathtext2()
    y -= step ; l.DrawMathText(x1, y, "\\tan"); l.DrawText(x2, y, "\\tan");
    y -= step ; l.DrawMathText(x1, y, "\\tanh"); l.DrawText(x2, y, "\\tanh");
 
-   return c1;
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c29, "WebCanvas29", 0,0, 1200, 1400);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c29, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/tmathtext2_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

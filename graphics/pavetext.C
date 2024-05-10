@@ -17,8 +17,8 @@
 ///
 /// \author Olivier Couet
 
-TCanvas *pavetext(){
-   TCanvas *c = new TCanvas("c");
+void pavetext(){
+   TCanvas *c25 = new TCanvas("c25");
    TPaveText *pt = new TPaveText(.05,.1,.95,.8);
 
    pt->AddText("A TPaveText can contain severals line of text.");
@@ -34,5 +34,12 @@ TCanvas *pavetext(){
    TText *t2 = pt->GetLineWith("Even");
    t2->SetTextColor(kOrange+1);
 
-   return c;
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c25, "WebCanvas25", 0,0,100,100);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c25, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/pavetext_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

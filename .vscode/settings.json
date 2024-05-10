@@ -42,6 +42,22 @@
         "latex5.C": "cpp",
         "mandelbrot.C": "cpp",
         "markerwarning.C": "cpp",
-        "mass_spectrum.C": "cpp"
-    }
+        "mass_spectrum.C": "cpp",
+        "palettes.C": "cpp",
+        "pavetext.C": "cpp",
+        "perceptualcolormap.C": "cpp",
+        "piechart.C": "cpp",
+        "polytest1.C": "cpp",
+        "polytest2.C": "cpp",
+        "pstable.C": "cpp",
+        "psview.C": "cpp",
+        "quarks.C": "cpp",
+        "saveall.C": "cpp",
+        "schroedinger_hydrogen.C": "cpp",
+        "tmathtext.C": "cpp",
+        "tmathtext2.C": "cpp",
+        "tornado.C": "cpp",
+        "transparency.C": "cpp"
+    },
+    "cmake.configureOnOpen": false
 }

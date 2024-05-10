@@ -14,8 +14,8 @@ void piechart()
    Int_t colors[] = {2,3,4,5,6};
    Int_t nvals = sizeof(vals)/sizeof(vals[0]);
 
-   TCanvas *cpie = new TCanvas("cpie","TPie test",700,700);
-   cpie->Divide(2,2);
+   TCanvas *c26 = new TCanvas("c26","TPie test",700,700);
+   c26->Divide(2,2);
 
    TPie *pie1 = new TPie("pie1",
       "Pie with offset and no colors",nvals,vals);
@@ -26,13 +26,13 @@ void piechart()
    TPie *pie4 = new TPie("pie4",
       "Pie with verbose labels",nvals,vals,colors);
 
-   cpie->cd(1);
+   c26->cd(1);
    pie1->SetAngularOffset(30.);
    pie1->SetEntryRadiusOffset( 4, 0.1);
    pie1->SetRadius(.35);
    pie1->Draw("3d");
 
-   cpie->cd(2);
+   c26->cd(2);
    pie2->SetEntryRadiusOffset(2,.05);
    pie2->SetEntryLineColor(2,2);
    pie2->SetEntryLineWidth(2,5);
@@ -41,7 +41,7 @@ void piechart()
    pie2->SetCircle(.5,.45,.3);
    pie2->Draw("rsc");
 
-   cpie->cd(3);
+   c26->cd(3);
    pie3->SetY(.32);
    pie3->GetSlice(0)->SetValue(.8);
    pie3->GetSlice(1)->SetFillStyle(3031);
@@ -50,9 +50,18 @@ void piechart()
    TLegend *pieleg = pie3->MakeLegend();
    pieleg->SetY1(.56); pieleg->SetY2(.86);
 
-   cpie->cd(4);
+   c26->cd(4);
    pie4->SetRadius(.2);
    pie4->SetLabelsOffset(.01);
    pie4->SetLabelFormat("#splitline{%val (%perc)}{%txt}");
    pie4->Draw("nol <");
+
+   //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c26, "WebCanvas26", 0,0,700,700);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c26, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/piechart_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

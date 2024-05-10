@@ -99,3 +99,8 @@ createSVGFromJSON('./build/test/json_ref/latex4.json');
 createSVGFromJSON('./build/test/json_ref/latex5.json');
 createSVGFromJSON('./build/test/json_ref/markerwarning.json');
 createSVGFromJSON('./build/test/json_ref/mass_spectrum.json');
+createSVGFromJSON('./build/test/json_ref/pavetext.json');
+createSVGFromJSON('./build/test/json_ref/piechart.json');
+createSVGFromJSON('./build/test/json_ref/quarks.json');
+createSVGFromJSON('./build/test/json_ref/tmathtext.json');
+createSVGFromJSON('./build/test/json_ref/tmathtext2.json');
