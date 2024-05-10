@@ -91,5 +91,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "test/CMakeFiles/JsonTests.dir/DependInfo.cmake"
+  "test/CMakeFiles/GraphicsTest.dir/DependInfo.cmake"
+  "test/CMakeFiles/GraphsTest.dir/DependInfo.cmake"
   )

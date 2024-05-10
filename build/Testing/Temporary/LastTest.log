@@ -1,24 +1,24 @@
-Start testing: May 10 08:23 CEST
+Start testing: May 10 14:32 CEST
 ----------------------------------------------------------
-1/1 Testing: JsonTests
-1/1 Test: JsonTests
-Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests"
+1/2 Testing: GraphicsTest
+1/2 Test: GraphicsTest
+Command: "/home/adrianduesselberg/root-graphic-tests/build/test/GraphicsTest"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"JsonTests" start time: May 10 08:23 CEST
+"GraphicsTest" start time: May 10 14:32 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
-[==========] Running 23 tests from 1 test suite.
+[==========] Running 28 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 23 tests from TestGraphicJSON
+[----------] 28 tests from TestGraphicJSON
 [ RUN      ] TestGraphicJSON.AnalyzeFunction
-[       OK ] TestGraphicJSON.AnalyzeFunction (250 ms)
+[       OK ] TestGraphicJSON.AnalyzeFunction (255 ms)
 [ RUN      ] TestGraphicJSON.ArchiFunction
 [       OK ] TestGraphicJSON.ArchiFunction (49 ms)
 [ RUN      ] TestGraphicJSON.ArrowsFunction
-[       OK ] TestGraphicJSON.ArrowsFunction (12 ms)
+[       OK ] TestGraphicJSON.ArrowsFunction (13 ms)
 [ RUN      ] TestGraphicJSON.Basic3dFunction
-[       OK ] TestGraphicJSON.Basic3dFunction (23 ms)
+[       OK ] TestGraphicJSON.Basic3dFunction (24 ms)
 [ RUN      ] TestGraphicJSON.CompileFunction
 [       OK ] TestGraphicJSON.CompileFunction (12 ms)
 [ RUN      ] TestGraphicJSON.CrownFunction
@@ -32,7 +32,7 @@ Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/google
 [ RUN      ] TestGraphicJSON.FeynmanFunction
 [       OK ] TestGraphicJSON.FeynmanFunction (21 ms)
 [ RUN      ] TestGraphicJSON.FirstFunction
-[       OK ] TestGraphicJSON.FirstFunction (80 ms)
+[       OK ] TestGraphicJSON.FirstFunction (77 ms)
 [ RUN      ] TestGraphicJSON.Formula1Function
 
 Object statistics
@@ -54,7 +54,7 @@ TOrdCollection                  4          4       72           288          288
 Total:                        288        286     2064         29504        28672
 ================================================================================
 
-[       OK ] TestGraphicJSON.Formula1Function (35 ms)
+[       OK ] TestGraphicJSON.Formula1Function (34 ms)
 [ RUN      ] TestGraphicJSON.FrameworkFunction
 [       OK ] TestGraphicJSON.FrameworkFunction (16 ms)
 [ RUN      ] TestGraphicJSON.GaxisFunction
@@ -62,10 +62,10 @@ Total:                        288        286     2064         29504        28672
 [ RUN      ] TestGraphicJSON.Gaxis3Function
 [       OK ] TestGraphicJSON.Gaxis3Function (14 ms)
 [ RUN      ] TestGraphicJSON.GreyscaleFunction
-[       OK ] TestGraphicJSON.GreyscaleFunction (298 ms)
+[       OK ] TestGraphicJSON.GreyscaleFunction (296 ms)
 [ RUN      ] TestGraphicJSON.LatexFunction
 Info in <TCanvas::Print>: ps file latex.ps has been created
-[       OK ] TestGraphicJSON.LatexFunction (28 ms)
+[       OK ] TestGraphicJSON.LatexFunction (29 ms)
 [ RUN      ] TestGraphicJSON.Latex2Function
 Info in <TCanvas::Print>: ps file latex2.ps has been created
 [       OK ] TestGraphicJSON.Latex2Function (12 ms)
@@ -79,17 +79,73 @@ Info in <TCanvas::Print>: ps file latex2.ps has been created
 [       OK ] TestGraphicJSON.MarkerwarningFunction (24 ms)
 [ RUN      ] TestGraphicJSON.Mass_SpectrumFunction
 [       OK ] TestGraphicJSON.Mass_SpectrumFunction (18 ms)
-[----------] 23 tests from TestGraphicJSON (1031 ms total)
+[ RUN      ] TestGraphicJSON.PavetextFunction
+[       OK ] TestGraphicJSON.PavetextFunction (15 ms)
+[ RUN      ] TestGraphicJSON.PiechartFunction
+[       OK ] TestGraphicJSON.PiechartFunction (26 ms)
+[ RUN      ] TestGraphicJSON.QuarksFunction
+[       OK ] TestGraphicJSON.QuarksFunction (31 ms)
+[ RUN      ] TestGraphicJSON.TmathtextFunction
+[       OK ] TestGraphicJSON.TmathtextFunction (12 ms)
+[ RUN      ] TestGraphicJSON.Tmathtext2Function
+[       OK ] TestGraphicJSON.Tmathtext2Function (162 ms)
+[----------] 28 tests from TestGraphicJSON (1282 ms total)
 
 [----------] Global test environment tear-down
-[==========] 23 tests from 1 test suite ran. (1031 ms total)
-[  PASSED  ] 23 tests.
+[==========] 28 tests from 1 test suite ran. (1282 ms total)
+[  PASSED  ] 28 tests.
 <end of output>
-Test time =   1.10 sec
+Test time =   1.37 sec
 ----------------------------------------------------------
 Test Passed.
-"JsonTests" end time: May 10 08:23 CEST
-"JsonTests" time elapsed: 00:00:01
+"GraphicsTest" end time: May 10 14:32 CEST
+"GraphicsTest" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-End testing: May 10 08:23 CEST
+2/2 Testing: GraphsTest
+2/2 Test: GraphsTest
+Command: "/home/adrianduesselberg/root-graphic-tests/build/test/GraphsTest"
+Directory: /home/adrianduesselberg/root-graphic-tests/build/test
+"GraphsTest" start time: May 10 14:32 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestGraphsJSON
+[ RUN      ] TestGraphsJSON.GraphFunction
+ i 0 0.000000 1.986693 
+ i 1 0.100000 2.955202 
+ i 2 0.200000 3.894183 
+ i 3 0.300000 4.794255 
+ i 4 0.400000 5.646425 
+ i 5 0.500000 6.442177 
+ i 6 0.600000 7.173561 
+ i 7 0.700000 7.833269 
+ i 8 0.800000 8.414710 
+ i 9 0.900000 8.912074 
+ i 10 1.000000 9.320391 
+ i 11 1.100000 9.635582 
+ i 12 1.200000 9.854497 
+ i 13 1.300000 9.974950 
+ i 14 1.400000 9.995736 
+ i 15 1.500000 9.916648 
+ i 16 1.600000 9.738476 
+ i 17 1.700000 9.463001 
+ i 18 1.800000 9.092974 
+ i 19 1.900000 8.632094 
+[       OK ] TestGraphsJSON.GraphFunction (263 ms)
+[----------] 1 test from TestGraphsJSON (263 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (263 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.29 sec
+----------------------------------------------------------
+Test Passed.
+"GraphsTest" end time: May 10 14:32 CEST
+"GraphsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 10 14:32 CEST

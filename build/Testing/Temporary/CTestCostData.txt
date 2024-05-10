@@ -1,2 +1,5 @@
-JsonTests 45 0.310748
+JsonTests 50 0.056478
+JsonMoreTests 2 0.0101752
+GraphsTest 5 0.0587394
+GraphicsTest 5 0.274862
 ---

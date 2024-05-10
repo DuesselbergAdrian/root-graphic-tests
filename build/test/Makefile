@@ -172,42 +172,80 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/JsonTests.dir/rule:
-	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/JsonTests.dir/rule
-.PHONY : test/CMakeFiles/JsonTests.dir/rule
+test/CMakeFiles/GraphicsTest.dir/rule:
+	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/GraphicsTest.dir/rule
+.PHONY : test/CMakeFiles/GraphicsTest.dir/rule
 
 # Convenience name for target.
-JsonTests: test/CMakeFiles/JsonTests.dir/rule
-.PHONY : JsonTests
+GraphicsTest: test/CMakeFiles/GraphicsTest.dir/rule
+.PHONY : GraphicsTest
 
 # fast build rule for target.
-JsonTests/fast:
-	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/JsonTests.dir/build.make test/CMakeFiles/JsonTests.dir/build
-.PHONY : JsonTests/fast
+GraphicsTest/fast:
+	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/GraphicsTest.dir/build.make test/CMakeFiles/GraphicsTest.dir/build
+.PHONY : GraphicsTest/fast
 
-JsonTests.o: JsonTests.cpp.o
-.PHONY : JsonTests.o
+# Convenience name for target.
+test/CMakeFiles/GraphsTest.dir/rule:
+	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/GraphsTest.dir/rule
+.PHONY : test/CMakeFiles/GraphsTest.dir/rule
+
+# Convenience name for target.
+GraphsTest: test/CMakeFiles/GraphsTest.dir/rule
+.PHONY : GraphsTest
+
+# fast build rule for target.
+GraphsTest/fast:
+	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/GraphsTest.dir/build.make test/CMakeFiles/GraphsTest.dir/build
+.PHONY : GraphsTest/fast
+
+GraphicsJsonTests.o: GraphicsJsonTests.cpp.o
+.PHONY : GraphicsJsonTests.o
 
 # target to build an object file
-JsonTests.cpp.o:
-	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/JsonTests.dir/build.make test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o
-.PHONY : JsonTests.cpp.o
+GraphicsJsonTests.cpp.o:
+	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/GraphicsTest.dir/build.make test/CMakeFiles/GraphicsTest.dir/GraphicsJsonTests.cpp.o
+.PHONY : GraphicsJsonTests.cpp.o
 
-JsonTests.i: JsonTests.cpp.i
-.PHONY : JsonTests.i
+GraphicsJsonTests.i: GraphicsJsonTests.cpp.i
+.PHONY : GraphicsJsonTests.i
 
 # target to preprocess a source file
-JsonTests.cpp.i:
-	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/JsonTests.dir/build.make test/CMakeFiles/JsonTests.dir/JsonTests.cpp.i
-.PHONY : JsonTests.cpp.i
+GraphicsJsonTests.cpp.i:
+	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/GraphicsTest.dir/build.make test/CMakeFiles/GraphicsTest.dir/GraphicsJsonTests.cpp.i
+.PHONY : GraphicsJsonTests.cpp.i
 
-JsonTests.s: JsonTests.cpp.s
-.PHONY : JsonTests.s
+GraphicsJsonTests.s: GraphicsJsonTests.cpp.s
+.PHONY : GraphicsJsonTests.s
 
 # target to generate assembly for a file
-JsonTests.cpp.s:
-	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/JsonTests.dir/build.make test/CMakeFiles/JsonTests.dir/JsonTests.cpp.s
-.PHONY : JsonTests.cpp.s
+GraphicsJsonTests.cpp.s:
+	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/GraphicsTest.dir/build.make test/CMakeFiles/GraphicsTest.dir/GraphicsJsonTests.cpp.s
+.PHONY : GraphicsJsonTests.cpp.s
+
+GraphsJsonTests.o: GraphsJsonTests.cpp.o
+.PHONY : GraphsJsonTests.o
+
+# target to build an object file
+GraphsJsonTests.cpp.o:
+	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/GraphsTest.dir/build.make test/CMakeFiles/GraphsTest.dir/GraphsJsonTests.cpp.o
+.PHONY : GraphsJsonTests.cpp.o
+
+GraphsJsonTests.i: GraphsJsonTests.cpp.i
+.PHONY : GraphsJsonTests.i
+
+# target to preprocess a source file
+GraphsJsonTests.cpp.i:
+	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/GraphsTest.dir/build.make test/CMakeFiles/GraphsTest.dir/GraphsJsonTests.cpp.i
+.PHONY : GraphsJsonTests.cpp.i
+
+GraphsJsonTests.s: GraphsJsonTests.cpp.s
+.PHONY : GraphsJsonTests.s
+
+# target to generate assembly for a file
+GraphsJsonTests.cpp.s:
+	cd /home/adrianduesselberg/root-graphic-tests/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/GraphsTest.dir/build.make test/CMakeFiles/GraphsTest.dir/GraphsJsonTests.cpp.s
+.PHONY : GraphsJsonTests.cpp.s
 
 # Help Target
 help:
@@ -222,10 +260,14 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... JsonTests"
-	@echo "... JsonTests.o"
-	@echo "... JsonTests.i"
-	@echo "... JsonTests.s"
+	@echo "... GraphicsTest"
+	@echo "... GraphsTest"
+	@echo "... GraphicsJsonTests.o"
+	@echo "... GraphicsJsonTests.i"
+	@echo "... GraphicsJsonTests.s"
+	@echo "... GraphsJsonTests.o"
+	@echo "... GraphsJsonTests.i"
+	@echo "... GraphsJsonTests.s"
 .PHONY : help
 
 

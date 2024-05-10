@@ -66,3 +66,35 @@ bool TestMacros(const std::string& path){
 
     return result;
 }
+// Todo: one only need one function. This is only for testing puporses.
+bool TestMacrosG(const std::string& path){
+    //Set batch mode
+    gROOT->SetBatch(kTRUE);
+
+    // 1. Call the macro
+    std::string fullPath = ".x /home/adrianduesselberg/root-graphic-tests/graphs/" + path + ".C";
+    gROOT->ProcessLine(fullPath.c_str());
+
+    // 2. Compare it to the reference file
+    TString created_json_path = TString::Format("./json_pro/%s_pro.json", path.c_str());
+
+    // Read the generated JSON content from file
+    std::ifstream createdFile(created_json_path.Data());
+    if (!createdFile.is_open()) {
+        std::cerr << "Failed to open generated JSON file: " << created_json_path << std::endl;
+        return false;
+    }
+    std::stringstream createdBuffer;
+    createdBuffer << createdFile.rdbuf();
+    createdFile.close();
+
+    TString created_json = createdBuffer.str().c_str();
+
+    // Path to the reference JSON file
+    std::string ref_filename = "./json_ref/" + path + ".json";
+
+    // Compare the created JSON to the reference JSON
+    bool result = compare_json(created_json, ref_filename);
+
+    return result;
+}

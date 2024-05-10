@@ -34,4 +34,13 @@ void graph() {
    c1->Update();
    c1->GetFrame()->SetBorderSize(12);
    c1->Modified();
+
+     //Create TWebCanvas
+   TWebCanvas *webCanvas = new TWebCanvas(c1, "WebCanvas", 200,10,700,500);
+   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
+   
+   //Save JSON to a file
+   std::ofstream jsonFile("./json_pro/graph_pro.json");
+   jsonFile << jsonOutput.Data();
+   jsonFile.close();
 }

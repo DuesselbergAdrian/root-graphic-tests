@@ -1,105 +1,49 @@
-Start testing: May 10 12:04 CEST
+Start testing: May 10 14:31 CEST
 ----------------------------------------------------------
-1/1 Testing: JsonTests
-1/1 Test: JsonTests
-Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests"
+2/2 Testing: GraphsTest
+2/2 Test: GraphsTest
+Command: "/home/adrianduesselberg/root-graphic-tests/build/test/GraphsTest"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"JsonTests" start time: May 10 12:04 CEST
+"GraphsTest" start time: May 10 14:31 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
-[==========] Running 28 tests from 1 test suite.
+[==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 28 tests from TestGraphicJSON
-[ RUN      ] TestGraphicJSON.AnalyzeFunction
-[       OK ] TestGraphicJSON.AnalyzeFunction (260 ms)
-[ RUN      ] TestGraphicJSON.ArchiFunction
-[       OK ] TestGraphicJSON.ArchiFunction (62 ms)
-[ RUN      ] TestGraphicJSON.ArrowsFunction
-[       OK ] TestGraphicJSON.ArrowsFunction (13 ms)
-[ RUN      ] TestGraphicJSON.Basic3dFunction
-[       OK ] TestGraphicJSON.Basic3dFunction (25 ms)
-[ RUN      ] TestGraphicJSON.CompileFunction
-[       OK ] TestGraphicJSON.CompileFunction (13 ms)
-[ RUN      ] TestGraphicJSON.CrownFunction
-[       OK ] TestGraphicJSON.CrownFunction (13 ms)
-[ RUN      ] TestGraphicJSON.EllipseFunction
-[       OK ] TestGraphicJSON.EllipseFunction (13 ms)
-[ RUN      ] TestGraphicJSON.EvalFunction
-[       OK ] TestGraphicJSON.EvalFunction (14 ms)
-[ RUN      ] TestGraphicJSON.EventFunction
-[       OK ] TestGraphicJSON.EventFunction (19 ms)
-[ RUN      ] TestGraphicJSON.FeynmanFunction
-[       OK ] TestGraphicJSON.FeynmanFunction (23 ms)
-[ RUN      ] TestGraphicJSON.FirstFunction
-[       OK ] TestGraphicJSON.FirstFunction (83 ms)
-[ RUN      ] TestGraphicJSON.Formula1Function
-
-Object statistics
-class                         cnt    on heap     size    total size    heap size
-================================================================================
-TList                         131        130      104         13624        13520
-TObjectTable                    1          1       32            32           32
-TROOT                           1          0      728           728            0
-TPluginManager                  1          1       40            40           40
-THashTable                      2          2       72           144          144
-TClassTable                     1          1       16            16           16
-THashList                       1          1      112           112          112
-TEnv                            1          1       56            56           56
-TEnvRec                       143        143       96         13728        13728
-TNamed                          1          1       64            64           64
-TUnixSystem                     1          1      672           672          672
-TOrdCollection                  4          4       72           288          288
---------------------------------------------------------------------------------
-Total:                        288        286     2064         29504        28672
-================================================================================
-
-[       OK ] TestGraphicJSON.Formula1Function (38 ms)
-[ RUN      ] TestGraphicJSON.FrameworkFunction
-[       OK ] TestGraphicJSON.FrameworkFunction (17 ms)
-[ RUN      ] TestGraphicJSON.GaxisFunction
-[       OK ] TestGraphicJSON.GaxisFunction (17 ms)
-[ RUN      ] TestGraphicJSON.Gaxis3Function
-[       OK ] TestGraphicJSON.Gaxis3Function (14 ms)
-[ RUN      ] TestGraphicJSON.GreyscaleFunction
-[       OK ] TestGraphicJSON.GreyscaleFunction (298 ms)
-[ RUN      ] TestGraphicJSON.LatexFunction
-Info in <TCanvas::Print>: ps file latex.ps has been created
-[       OK ] TestGraphicJSON.LatexFunction (31 ms)
-[ RUN      ] TestGraphicJSON.Latex2Function
-Info in <TCanvas::Print>: ps file latex2.ps has been created
-[       OK ] TestGraphicJSON.Latex2Function (13 ms)
-[ RUN      ] TestGraphicJSON.Latex3Function
-[       OK ] TestGraphicJSON.Latex3Function (10 ms)
-[ RUN      ] TestGraphicJSON.Latex4Function
-[       OK ] TestGraphicJSON.Latex4Function (22 ms)
-[ RUN      ] TestGraphicJSON.Latex5Function
-[       OK ] TestGraphicJSON.Latex5Function (26 ms)
-[ RUN      ] TestGraphicJSON.MarkerwarningFunction
-[       OK ] TestGraphicJSON.MarkerwarningFunction (24 ms)
-[ RUN      ] TestGraphicJSON.Mass_SpectrumFunction
-[       OK ] TestGraphicJSON.Mass_SpectrumFunction (18 ms)
-[ RUN      ] TestGraphicJSON.PavetextFunction
-[       OK ] TestGraphicJSON.PavetextFunction (15 ms)
-[ RUN      ] TestGraphicJSON.PiechartFunction
-[       OK ] TestGraphicJSON.PiechartFunction (27 ms)
-[ RUN      ] TestGraphicJSON.QuarksFunction
-[       OK ] TestGraphicJSON.QuarksFunction (31 ms)
-[ RUN      ] TestGraphicJSON.TmathtextFunction
-[       OK ] TestGraphicJSON.TmathtextFunction (11 ms)
-[ RUN      ] TestGraphicJSON.Tmathtext2Function
-[       OK ] TestGraphicJSON.Tmathtext2Function (157 ms)
-[----------] 28 tests from TestGraphicJSON (1322 ms total)
+[----------] 1 test from TestGraphsJSON
+[ RUN      ] TestGraphsJSON.GraphFunction
+ i 0 0.000000 1.986693 
+ i 1 0.100000 2.955202 
+ i 2 0.200000 3.894183 
+ i 3 0.300000 4.794255 
+ i 4 0.400000 5.646425 
+ i 5 0.500000 6.442177 
+ i 6 0.600000 7.173561 
+ i 7 0.700000 7.833269 
+ i 8 0.800000 8.414710 
+ i 9 0.900000 8.912074 
+ i 10 1.000000 9.320391 
+ i 11 1.100000 9.635582 
+ i 12 1.200000 9.854497 
+ i 13 1.300000 9.974950 
+ i 14 1.400000 9.995736 
+ i 15 1.500000 9.916648 
+ i 16 1.600000 9.738476 
+ i 17 1.700000 9.463001 
+ i 18 1.800000 9.092974 
+ i 19 1.900000 8.632094 
+[       OK ] TestGraphsJSON.GraphFunction (262 ms)
+[----------] 1 test from TestGraphsJSON (262 ms total)
 
 [----------] Global test environment tear-down
-[==========] 28 tests from 1 test suite ran. (1322 ms total)
-[  PASSED  ] 28 tests.
+[==========] 1 test from 1 test suite ran. (262 ms total)
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   1.41 sec
+Test time =   0.29 sec
 ----------------------------------------------------------
 Test Passed.
-"JsonTests" end time: May 10 12:04 CEST
-"JsonTests" time elapsed: 00:00:01
+"GraphsTest" end time: May 10 14:31 CEST
+"GraphsTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 10 12:04 CEST
+End testing: May 10 14:31 CEST

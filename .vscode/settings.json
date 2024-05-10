@@ -57,7 +57,9 @@
         "tmathtext.C": "cpp",
         "tmathtext2.C": "cpp",
         "tornado.C": "cpp",
-        "transparency.C": "cpp"
+        "transparency.C": "cpp",
+        "triangles.C": "cpp",
+        "graph.C": "cpp"
     },
     "cmake.configureOnOpen": false
 }

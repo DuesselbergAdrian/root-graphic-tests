@@ -104,3 +104,6 @@ createSVGFromJSON('./build/test/json_ref/piechart.json');
 createSVGFromJSON('./build/test/json_ref/quarks.json');
 createSVGFromJSON('./build/test/json_ref/tmathtext.json');
 createSVGFromJSON('./build/test/json_ref/tmathtext2.json');
+
+// Tutorial Graphs TESTS
+createSVGFromJSON('./build/test/json_ref/graph.json');

@@ -31,7 +31,8 @@
 /home/adrianduesselberg/root-graphic-tests/build/googletest/googletest/CMakeFiles/install.dir
 /home/adrianduesselberg/root-graphic-tests/build/googletest/googletest/CMakeFiles/install/local.dir
 /home/adrianduesselberg/root-graphic-tests/build/googletest/googletest/CMakeFiles/install/strip.dir
-/home/adrianduesselberg/root-graphic-tests/build/test/CMakeFiles/JsonTests.dir
+/home/adrianduesselberg/root-graphic-tests/build/test/CMakeFiles/GraphicsTest.dir
+/home/adrianduesselberg/root-graphic-tests/build/test/CMakeFiles/GraphsTest.dir
 /home/adrianduesselberg/root-graphic-tests/build/test/CMakeFiles/test.dir
 /home/adrianduesselberg/root-graphic-tests/build/test/CMakeFiles/edit_cache.dir
 /home/adrianduesselberg/root-graphic-tests/build/test/CMakeFiles/rebuild_cache.dir

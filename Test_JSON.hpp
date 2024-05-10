@@ -20,6 +20,7 @@
 #include <iostream>
 
 bool TestMacros(const std::string& path);
+bool TestMacrosG(const std::string& path); //only for testing reasons
 bool compare_json(const TString& created_json, const std::string& ref_filename);
 
 #endif /* TEST_JSON_HPP */
