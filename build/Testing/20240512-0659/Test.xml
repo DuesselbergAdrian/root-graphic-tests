@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240512-0659-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.27.7"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="pc-phsft-victus-85"
+	OSRelease="6.8.8-200.fc39.x86_64"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Sat Apr 27 17:42:13 UTC 2024"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="8191"
+	TotalPhysicalMemory="31418"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1400"
+	>
+	<Testing>
+		<StartDateTime>May 12 09:09 CEST</StartDateTime>
+		<StartTestTime>1715497773</StartTestTime>
+		<TestList>
+			<Test>./test/GraphsTest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>GraphsTest</Name>
+			<Path>./test</Path>
+			<FullName>./test/GraphsTest</FullName>
+			<FullCommandLine>/home/adrianduesselberg/root-graphic-tests/build/test/GraphsTest</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.162002</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/adrianduesselberg/root-graphic-tests/build/test/GraphsTest</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUctOwzAQvPsr9tgc4qjAASFxQDwqgdSiBE5RG7nJklpK1tHaAT4fOylViUB0fPBIO97xzqY9kaYaWqVpFsEbmxaSnWkxURVrRVWP1mKzRa4TNsbFNatup8vYoXU2qY2pGwz8mFoukzqwIrSVZSny6wPWkO495xA0o+ee2147lCKPD1jDojFb1Yx1pHfNhlokr0UX991EfNzzxbNF+K59zFZLkUP6uoQB60lNDvShp9JpQ0JT17ui0YTF5dWZP4DMhv312WHpsAqEfTBBDFL+mszQfLzkrYCN9x+xevrHH2bz8wtobXTqaN8PwBmnmkiclp9DxXFlPujndv7aCrAiOXXyMz3fZNn9Xch0VEvxBXLUwTA=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 12 09:09 CEST</EndDateTime>
+		<EndTestTime>1715497774</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
