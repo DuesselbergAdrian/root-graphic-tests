@@ -1,10 +1,10 @@
-Start testing: May 13 08:46 CEST
+Start testing: May 13 10:56 CEST
 ----------------------------------------------------------
 1/2 Testing: GraphicsTest
 1/2 Test: GraphicsTest
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/GraphicsTest"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"GraphicsTest" start time: May 13 08:46 CEST
+"GraphicsTest" start time: May 13 10:56 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -160,7 +160,7 @@ input_line_35:2:2: error: expected expression
 Test time =   0.18 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphicsTest" end time: May 13 08:46 CEST
+"GraphicsTest" end time: May 13 10:56 CEST
 "GraphicsTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -168,7 +168,7 @@ Test Passed.
 2/2 Test: GraphsTest
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/GraphsTest"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"GraphsTest" start time: May 13 08:46 CEST
+"GraphsTest" start time: May 13 10:56 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -179,18 +179,18 @@ Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/google
 input_line_8:2:2: error: expected expression
  ../root-graphic-tests/graphs/graph.C
  ^
-[       OK ] TestGraphsJSON.GraphFunction (140 ms)
-[----------] 1 test from TestGraphsJSON (140 ms total)
+[       OK ] TestGraphsJSON.GraphFunction (138 ms)
+[----------] 1 test from TestGraphsJSON (138 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (140 ms total)
+[==========] 1 test from 1 test suite ran. (138 ms total)
 [  PASSED  ] 1 test.
 <end of output>
 Test time =   0.17 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphsTest" end time: May 13 08:46 CEST
+"GraphsTest" end time: May 13 10:56 CEST
 "GraphsTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 13 08:46 CEST
+End testing: May 13 10:56 CEST

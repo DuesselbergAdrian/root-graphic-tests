@@ -75,10 +75,16 @@ async function createSVGFromJSON(filePath) {
     }
 }*/
 
+const rootSys = process.env.ROOTSYS;
+const path1 = `${rootSys}/js/modules/main.mjs`;
+const { version, parse, makeSVG } = await import(path1);
+
+//import { version, parse, makeSVG} from '../build/js/modules/main.mjs';
+//import { version, parse, makeSVG } from 'jsroot'; specify jsroot path in package.json
 
 import { promises as fs } from 'fs';
-import { version, parse, makeSVG } from 'jsroot';
 import path from 'path';
+
 import xmlParser from 'xml-parser-xo';
 import chalk from 'chalk';
 

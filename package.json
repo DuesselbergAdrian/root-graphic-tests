@@ -15,7 +15,6 @@
     },
     "dependencies": {
         "chalk": "^5.3.0",
-        "jsroot": "file:../jsroot",
         "xml-formatter": "^3.6.2"
     }
 }
