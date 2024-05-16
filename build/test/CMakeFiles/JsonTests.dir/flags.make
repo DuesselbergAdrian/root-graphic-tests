@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/adrianduesselberg/build/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest
 
-CXX_FLAGS = -g -std=gnu++17
+CXX_FLAGS =   -pipe -fsigned-char -pthread -g -std=gnu++17
 

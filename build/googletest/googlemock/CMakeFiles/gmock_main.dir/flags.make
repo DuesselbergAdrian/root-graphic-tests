@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /home/adrianduesselberg/build/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googlemock/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googlemock -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest
 
-CXX_FLAGS = -g -std=c++17 -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts
+CXX_FLAGS =   -pipe -fsigned-char -pthread -g -std=c++17 -Wall -Wshadow -Wconversion -Wundef -DGTEST_HAS_PTHREAD=1 -fexceptions -W -Wpointer-arith -Wreturn-type -Wcast-qual -Wwrite-strings -Wswitch -Wunused-parameter -Wcast-align -Winline -Wredundant-decls -Wchar-subscripts
 

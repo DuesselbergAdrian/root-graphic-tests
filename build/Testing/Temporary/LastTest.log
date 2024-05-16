@@ -1,196 +1,121 @@
-Start testing: May 13 10:56 CEST
+Start testing: May 16 16:53 CEST
 ----------------------------------------------------------
-1/2 Testing: GraphicsTest
-1/2 Test: GraphicsTest
-Command: "/home/adrianduesselberg/root-graphic-tests/build/test/GraphicsTest"
+1/6 Testing: analyze
+1/6 Test: analyze
+Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "MacroTests.RunMacro/analyze"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"GraphicsTest" start time: May 13 10:56 CEST
+"analyze" start time: May 16 16:53 CEST
 Output:
 ----------------------------------------------------------
-Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
-[==========] Running 28 tests from 1 test suite.
+[==========] Running 6 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 28 tests from TestGraphicJSON
-[ RUN      ] TestGraphicJSON.AnalyzeFunction
-input_line_8:2:2: error: expected expression
- ../root-graphic-tests/graphics/analyze.C
- ^
-[       OK ] TestGraphicJSON.AnalyzeFunction (140 ms)
-[ RUN      ] TestGraphicJSON.ArchiFunction
-input_line_9:2:2: error: expected expression
- ../root-graphic-tests/graphics/archi.C
- ^
-[       OK ] TestGraphicJSON.ArchiFunction (0 ms)
-[ RUN      ] TestGraphicJSON.ArrowsFunction
-input_line_10:2:2: error: expected expression
- ../root-graphic-tests/graphics/arrows.C
- ^
-[       OK ] TestGraphicJSON.ArrowsFunction (0 ms)
-[ RUN      ] TestGraphicJSON.Basic3dFunction
-input_line_11:2:2: error: expected expression
- ../root-graphic-tests/graphics/basic3d.C
- ^
-[       OK ] TestGraphicJSON.Basic3dFunction (0 ms)
-[ RUN      ] TestGraphicJSON.CompileFunction
-input_line_12:2:2: error: expected expression
- ../root-graphic-tests/graphics/compile.C
- ^
-[       OK ] TestGraphicJSON.CompileFunction (0 ms)
-[ RUN      ] TestGraphicJSON.CrownFunction
-input_line_13:2:2: error: expected expression
- ../root-graphic-tests/graphics/crown.C
- ^
-[       OK ] TestGraphicJSON.CrownFunction (0 ms)
-[ RUN      ] TestGraphicJSON.EllipseFunction
-input_line_14:2:2: error: expected expression
- ../root-graphic-tests/graphics/ellipse.C
- ^
-[       OK ] TestGraphicJSON.EllipseFunction (0 ms)
-[ RUN      ] TestGraphicJSON.EvalFunction
-input_line_15:2:2: error: expected expression
- ../root-graphic-tests/graphics/eval.C
- ^
-[       OK ] TestGraphicJSON.EvalFunction (0 ms)
-[ RUN      ] TestGraphicJSON.EventFunction
-input_line_16:2:2: error: expected expression
- ../root-graphic-tests/graphics/event.C
- ^
-[       OK ] TestGraphicJSON.EventFunction (0 ms)
-[ RUN      ] TestGraphicJSON.FeynmanFunction
-input_line_17:2:2: error: expected expression
- ../root-graphic-tests/graphics/feynman.C
- ^
-[       OK ] TestGraphicJSON.FeynmanFunction (0 ms)
-[ RUN      ] TestGraphicJSON.FirstFunction
-input_line_18:2:2: error: expected expression
- ../root-graphic-tests/graphics/first.C
- ^
-[       OK ] TestGraphicJSON.FirstFunction (0 ms)
-[ RUN      ] TestGraphicJSON.Formula1Function
-input_line_19:2:2: error: expected expression
- ../root-graphic-tests/graphics/formula1.C
- ^
-[       OK ] TestGraphicJSON.Formula1Function (0 ms)
-[ RUN      ] TestGraphicJSON.FrameworkFunction
-input_line_20:2:2: error: expected expression
- ../root-graphic-tests/graphics/framework.C
- ^
-[       OK ] TestGraphicJSON.FrameworkFunction (0 ms)
-[ RUN      ] TestGraphicJSON.GaxisFunction
-input_line_21:2:2: error: expected expression
- ../root-graphic-tests/graphics/gaxis.C
- ^
-[       OK ] TestGraphicJSON.GaxisFunction (0 ms)
-[ RUN      ] TestGraphicJSON.Gaxis3Function
-input_line_22:2:2: error: expected expression
- ../root-graphic-tests/graphics/gaxis3.C
- ^
-[       OK ] TestGraphicJSON.Gaxis3Function (0 ms)
-[ RUN      ] TestGraphicJSON.GreyscaleFunction
-input_line_23:2:2: error: expected expression
- ../root-graphic-tests/graphics/greyscale.C
- ^
-[       OK ] TestGraphicJSON.GreyscaleFunction (3 ms)
-[ RUN      ] TestGraphicJSON.LatexFunction
-input_line_24:2:2: error: expected expression
- ../root-graphic-tests/graphics/latex.C
- ^
-[       OK ] TestGraphicJSON.LatexFunction (0 ms)
-[ RUN      ] TestGraphicJSON.Latex2Function
-input_line_25:2:2: error: expected expression
- ../root-graphic-tests/graphics/latex2.C
- ^
-[       OK ] TestGraphicJSON.Latex2Function (0 ms)
-[ RUN      ] TestGraphicJSON.Latex3Function
-input_line_26:2:2: error: expected expression
- ../root-graphic-tests/graphics/latex3.C
- ^
-[       OK ] TestGraphicJSON.Latex3Function (0 ms)
-[ RUN      ] TestGraphicJSON.Latex4Function
-input_line_27:2:2: error: expected expression
- ../root-graphic-tests/graphics/latex4.C
- ^
-[       OK ] TestGraphicJSON.Latex4Function (0 ms)
-[ RUN      ] TestGraphicJSON.Latex5Function
-input_line_28:2:2: error: expected expression
- ../root-graphic-tests/graphics/latex5.C
- ^
-[       OK ] TestGraphicJSON.Latex5Function (0 ms)
-[ RUN      ] TestGraphicJSON.MarkerwarningFunction
-input_line_29:2:2: error: expected expression
- ../root-graphic-tests/graphics/markerwarning.C
- ^
-[       OK ] TestGraphicJSON.MarkerwarningFunction (0 ms)
-[ RUN      ] TestGraphicJSON.Mass_SpectrumFunction
-input_line_30:2:2: error: expected expression
- ../root-graphic-tests/graphics/mass_spectrum.C
- ^
-[       OK ] TestGraphicJSON.Mass_SpectrumFunction (0 ms)
-[ RUN      ] TestGraphicJSON.PavetextFunction
-input_line_31:2:2: error: expected expression
- ../root-graphic-tests/graphics/pavetext.C
- ^
-[       OK ] TestGraphicJSON.PavetextFunction (0 ms)
-[ RUN      ] TestGraphicJSON.PiechartFunction
-input_line_32:2:2: error: expected expression
- ../root-graphic-tests/graphics/piechart.C
- ^
-[       OK ] TestGraphicJSON.PiechartFunction (0 ms)
-[ RUN      ] TestGraphicJSON.QuarksFunction
-input_line_33:2:2: error: expected expression
- ../root-graphic-tests/graphics/quarks.C
- ^
-[       OK ] TestGraphicJSON.QuarksFunction (0 ms)
-[ RUN      ] TestGraphicJSON.TmathtextFunction
-input_line_34:2:2: error: expected expression
- ../root-graphic-tests/graphics/tmathtext.C
- ^
-[       OK ] TestGraphicJSON.TmathtextFunction (0 ms)
-[ RUN      ] TestGraphicJSON.Tmathtext2Function
-input_line_35:2:2: error: expected expression
- ../root-graphic-tests/graphics/tmathtext2.C
- ^
-[       OK ] TestGraphicJSON.Tmathtext2Function (0 ms)
-[----------] 28 tests from TestGraphicJSON (149 ms total)
-
-[----------] Global test environment tear-down
-[==========] 28 tests from 1 test suite ran. (149 ms total)
-[  PASSED  ] 28 tests.
+[----------] 6 tests from MacroTests/TestJSON
+[ RUN      ] MacroTests/TestJSON.RunMacro/0
+Running macro: analyze
 <end of output>
-Test time =   0.18 sec
+Test time =   0.23 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphicsTest" end time: May 13 10:56 CEST
-"GraphicsTest" time elapsed: 00:00:00
+"analyze" end time: May 16 16:53 CEST
+"analyze" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/2 Testing: GraphsTest
-2/2 Test: GraphsTest
-Command: "/home/adrianduesselberg/root-graphic-tests/build/test/GraphsTest"
+2/6 Testing: archi
+2/6 Test: archi
+Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "MacroTests.RunMacro/archi"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"GraphsTest" start time: May 13 10:56 CEST
+"archi" start time: May 16 16:53 CEST
 Output:
 ----------------------------------------------------------
-Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
-[==========] Running 1 test from 1 test suite.
+[==========] Running 6 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from TestGraphsJSON
-[ RUN      ] TestGraphsJSON.GraphFunction
-input_line_8:2:2: error: expected expression
- ../root-graphic-tests/graphs/graph.C
- ^
-[       OK ] TestGraphsJSON.GraphFunction (138 ms)
-[----------] 1 test from TestGraphsJSON (138 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (138 ms total)
-[  PASSED  ] 1 test.
+[----------] 6 tests from MacroTests/TestJSON
+[ RUN      ] MacroTests/TestJSON.RunMacro/0
+Running macro: analyze
 <end of output>
-Test time =   0.17 sec
+Test time =   0.23 sec
 ----------------------------------------------------------
 Test Passed.
-"GraphsTest" end time: May 13 10:56 CEST
-"GraphsTest" time elapsed: 00:00:00
+"archi" end time: May 16 16:53 CEST
+"archi" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 13 10:56 CEST
+3/6 Testing: basic3d
+3/6 Test: basic3d
+Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "MacroTests.RunMacro/basic3d"
+Directory: /home/adrianduesselberg/root-graphic-tests/build/test
+"basic3d" start time: May 16 16:53 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from MacroTests/TestJSON
+[ RUN      ] MacroTests/TestJSON.RunMacro/0
+Running macro: analyze
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"basic3d" end time: May 16 16:53 CEST
+"basic3d" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: compile
+4/6 Test: compile
+Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "MacroTests.RunMacro/compile"
+Directory: /home/adrianduesselberg/root-graphic-tests/build/test
+"compile" start time: May 16 16:53 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from MacroTests/TestJSON
+[ RUN      ] MacroTests/TestJSON.RunMacro/0
+Running macro: analyze
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"compile" end time: May 16 16:53 CEST
+"compile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: crown
+5/6 Test: crown
+Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "MacroTests.RunMacro/crown"
+Directory: /home/adrianduesselberg/root-graphic-tests/build/test
+"crown" start time: May 16 16:53 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from MacroTests/TestJSON
+[ RUN      ] MacroTests/TestJSON.RunMacro/0
+Running macro: analyze
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"crown" end time: May 16 16:53 CEST
+"crown" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: SVGTest
+6/6 Test: SVGTest
+Command: "/usr/bin/node" "Test_SVG.js"
+Directory: /home/adrianduesselberg/root-graphic-tests/build/test
+"SVGTest" start time: May 16 16:53 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: analyze - Lengths [Pro: 11643, Ref: 11643]
+<end of output>
+Test time =   0.63 sec
+----------------------------------------------------------
+Test Passed.
+"SVGTest" end time: May 16 16:53 CEST
+"SVGTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 16 16:53 CEST

@@ -1,0 +1,2 @@
+/usr/bin/llvm-ar qc libTest.a CMakeFiles/Test.dir/Test_JSON.cpp.o
+/usr/bin/llvm-ranlib libTest.a

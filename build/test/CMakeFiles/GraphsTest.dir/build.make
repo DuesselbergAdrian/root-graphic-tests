@@ -92,28 +92,8 @@ GraphsTest_EXTERNAL_OBJECTS =
 
 test/GraphsTest: test/CMakeFiles/GraphsTest.dir/GraphsJsonTests.cpp.o
 test/GraphsTest: test/CMakeFiles/GraphsTest.dir/build.make
-test/GraphsTest: /home/adrianduesselberg/build/lib/libCore.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libImt.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libRIO.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libNet.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libHist.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libGraf.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libGraf3d.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libGpad.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libROOTDataFrame.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libTree.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libTreePlayer.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libRint.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libPostscript.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libMatrix.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libPhysics.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libMathCore.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libThread.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libMultiProc.so
-test/GraphsTest: /home/adrianduesselberg/build/lib/libROOTVecOps.so
 test/GraphsTest: lib/libgtest_main.a
 test/GraphsTest: libTest_JSON.a
-test/GraphsTest: lib/libgtest.a
 test/GraphsTest: /home/adrianduesselberg/build/lib/libCore.so
 test/GraphsTest: /home/adrianduesselberg/build/lib/libImt.so
 test/GraphsTest: /home/adrianduesselberg/build/lib/libRIO.so
@@ -133,6 +113,8 @@ test/GraphsTest: /home/adrianduesselberg/build/lib/libMathCore.so
 test/GraphsTest: /home/adrianduesselberg/build/lib/libThread.so
 test/GraphsTest: /home/adrianduesselberg/build/lib/libMultiProc.so
 test/GraphsTest: /home/adrianduesselberg/build/lib/libROOTVecOps.so
+test/GraphsTest: /home/adrianduesselberg/build/lib/libWebGui6.so
+test/GraphsTest: lib/libgtest.a
 test/GraphsTest: test/CMakeFiles/GraphsTest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GraphsTest"
 	cd /home/adrianduesselberg/root-graphic-tests/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GraphsTest.dir/link.txt --verbose=$(VERBOSE)

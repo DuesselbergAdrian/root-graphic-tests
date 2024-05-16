@@ -92,28 +92,8 @@ JsonTests_EXTERNAL_OBJECTS =
 
 test/JsonTests: test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o
 test/JsonTests: test/CMakeFiles/JsonTests.dir/build.make
-test/JsonTests: /home/adrianduesselberg/build/lib/libCore.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libImt.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libRIO.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libNet.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libHist.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libGraf.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libGraf3d.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libGpad.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libROOTDataFrame.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libTree.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libTreePlayer.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libRint.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libPostscript.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libMatrix.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libPhysics.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libMathCore.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libThread.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libMultiProc.so
-test/JsonTests: /home/adrianduesselberg/build/lib/libROOTVecOps.so
-test/JsonTests: lib/libgtest_main.a
 test/JsonTests: libTest_JSON.a
-test/JsonTests: lib/libgtest.a
+test/JsonTests: lib/libgtest_main.a
 test/JsonTests: /home/adrianduesselberg/build/lib/libCore.so
 test/JsonTests: /home/adrianduesselberg/build/lib/libImt.so
 test/JsonTests: /home/adrianduesselberg/build/lib/libRIO.so
@@ -133,6 +113,8 @@ test/JsonTests: /home/adrianduesselberg/build/lib/libMathCore.so
 test/JsonTests: /home/adrianduesselberg/build/lib/libThread.so
 test/JsonTests: /home/adrianduesselberg/build/lib/libMultiProc.so
 test/JsonTests: /home/adrianduesselberg/build/lib/libROOTVecOps.so
+test/JsonTests: /home/adrianduesselberg/build/lib/libWebGui6.so
+test/JsonTests: lib/libgtest.a
 test/JsonTests: test/CMakeFiles/JsonTests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable JsonTests"
 	cd /home/adrianduesselberg/root-graphic-tests/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JsonTests.dir/link.txt --verbose=$(VERBOSE)

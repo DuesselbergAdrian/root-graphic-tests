@@ -185,6 +185,19 @@ Test_JSON/fast:
 .PHONY : Test_JSON/fast
 
 #=============================================================================
+# Target rules for targets named JsonTests
+
+# Build rule for target.
+JsonTests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 JsonTests
+.PHONY : JsonTests
+
+# fast build rule for target.
+JsonTests/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/JsonTests.dir/build.make test/CMakeFiles/JsonTests.dir/build
+.PHONY : JsonTests/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -236,32 +249,6 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-#=============================================================================
-# Target rules for targets named GraphicsTest
-
-# Build rule for target.
-GraphicsTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GraphicsTest
-.PHONY : GraphicsTest
-
-# fast build rule for target.
-GraphicsTest/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/GraphicsTest.dir/build.make test/CMakeFiles/GraphicsTest.dir/build
-.PHONY : GraphicsTest/fast
-
-#=============================================================================
-# Target rules for targets named GraphsTest
-
-# Build rule for target.
-GraphsTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GraphsTest
-.PHONY : GraphsTest
-
-# fast build rule for target.
-GraphsTest/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/GraphsTest.dir/build.make test/CMakeFiles/GraphsTest.dir/build
-.PHONY : GraphsTest/fast
-
 Test_JSON.o: Test_JSON.cpp.o
 .PHONY : Test_JSON.o
 
@@ -299,8 +286,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... GraphicsTest"
-	@echo "... GraphsTest"
+	@echo "... JsonTests"
 	@echo "... Test_JSON"
 	@echo "... gmock"
 	@echo "... gmock_main"

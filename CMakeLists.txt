@@ -1,31 +1,20 @@
 cmake_minimum_required(VERSION 3.10)
-
 project(Root-Graphic-Tests)
-
-set(This Test_JSON)
-
-project(${This} CXX)
-
 set(CMAKE_CXX_STANDARD 17)
-# set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
-
+#ROOT
 if(NOT DEFINED ROOTSYS AND DEFINED ENV{ROOTSYS})
   file(TO_CMAKE_PATH $ENV{ROOTSYS} ROOTSYS)
   list(INSERT CMAKE_PREFIX_PATH 0 ${ROOTSYS})
 endif()
-
 if(DEFINED ROOTSYS)
   list(INSERT CMAKE_PREFIX_PATH 0 ${ROOTSYS})
 endif()
 
-find_package(ROOT REQUIRED CONFIG)
-
-include_directories(${ROOT_INCLUDE_DIRS})
+find_package(ROOT REQUIRED COMPONENTS RIO Net Hist Graf Gpad Tree Matrix Physics MathCore Graf3d WebGui6)
+include(${ROOT_USE_FILE})
 
 enable_testing()
-
-add_subdirectory(googletest)
 
 set(Headers
     Test_JSON.hpp
@@ -34,9 +23,10 @@ set(Sources
     Test_JSON.cpp
 )
 
-# Link against ROOT libraries
-link_libraries(${ROOT_LIBRARIES})
+#Libraries
+add_library(Test_JSON STATIC ${Sources} ${Headers})
+target_link_libraries(Test_JSON PUBLIC ${ROOT_LIBRARIES})
 
-add_library(${This} STATIC ${Sources} ${Headers})
-
+#Subdirectories
 add_subdirectory(test)
+add_subdirectory(googletest)

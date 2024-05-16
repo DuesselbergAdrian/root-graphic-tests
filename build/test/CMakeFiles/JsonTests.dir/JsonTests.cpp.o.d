@@ -286,6 +286,8 @@ test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o: \
   /home/adrianduesselberg/build/include/TText.h \
   /home/adrianduesselberg/build/include/TArrow.h \
   /home/adrianduesselberg/build/include/TLine.h \
+  /home/adrianduesselberg/build/include/TApplication.h \
+  /home/adrianduesselberg/build/include/TApplicationImp.h \
   /home/adrianduesselberg/build/include/TWebCanvas.h \
   /home/adrianduesselberg/build/include/TCanvasImp.h \
   /home/adrianduesselberg/build/include/TWebPadOptions.h \
@@ -312,8 +314,6 @@ test/CMakeFiles/JsonTests.dir/JsonTests.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/bits/std_thread.h \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/bits/this_thread_sleep.h \
   /usr/bin/../lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/chrono \
-  /home/adrianduesselberg/build/include/TApplication.h \
-  /home/adrianduesselberg/build/include/TApplicationImp.h \
   /home/adrianduesselberg/build/include/TSystem.h /usr/include/fcntl.h \
   /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
   /usr/include/bits/types/struct_iovec.h /usr/include/linux/falloc.h \

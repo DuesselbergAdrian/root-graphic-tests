@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/adrianduesselberg/build/ROOTConfig-targets.cmake"
   "/home/adrianduesselberg/build/ROOTConfig-version.cmake"
   "/home/adrianduesselberg/build/ROOTConfig.cmake"
+  "/home/adrianduesselberg/build/ROOTUseFile.cmake"
   "/home/adrianduesselberg/build/RootMacros.cmake"
   "/home/adrianduesselberg/root-graphic-tests/CMakeLists.txt"
   "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
@@ -72,6 +73,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "googletest/googletest/generated/gmock.pc"
   "googletest/googletest/generated/gmock_main.pc"
@@ -81,16 +83,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "googletest/googletest/generated/gtest.pc"
   "googletest/googletest/generated/gtest_main.pc"
   "googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Test_JSON.dir/DependInfo.cmake"
+  "test/CMakeFiles/JsonTests.dir/DependInfo.cmake"
   "googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   "googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "test/CMakeFiles/GraphicsTest.dir/DependInfo.cmake"
-  "test/CMakeFiles/GraphsTest.dir/DependInfo.cmake"
   )

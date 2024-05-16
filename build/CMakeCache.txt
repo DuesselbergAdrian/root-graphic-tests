@@ -200,7 +200,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Test_JSON
+CMAKE_PROJECT_NAME:STATIC=Root-Graphic-Tests
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.14.0
@@ -282,9 +282,42 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a file.
+GMOCK_INCLUDE_DIRS:PATH=GMOCK_INCLUDE_DIRS-NOTFOUND
+
+//Path to a library.
+GMOCK_LIBRARIES:FILEPATH=GMOCK_LIBRARIES-NOTFOUND
+
+//Path to a library.
+GMOCK_MAIN_LIBRARIES:FILEPATH=GMOCK_MAIN_LIBRARIES-NOTFOUND
+
+//Path to a file.
+GMOCK_MAIN_SRC_DIR:PATH=GMOCK_MAIN_SRC_DIR-NOTFOUND
+
+//Path to a file.
+GMOCK_SRC_DIR:PATH=GMOCK_SRC_DIR-NOTFOUND
+
 //Use Abseil and RE2. Requires Abseil and RE2 to be separately
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
+
+//Path to a file.
+GTEST_INCLUDE_DIRS:PATH=GTEST_INCLUDE_DIRS-NOTFOUND
+
+//Path to a library.
+GTEST_LIBRARIES:FILEPATH=GTEST_LIBRARIES-NOTFOUND
+
+//Path to a library.
+GTEST_MAIN_LIBRARIES:FILEPATH=GTEST_MAIN_LIBRARIES-NOTFOUND
+
+//Value Computed by CMake
+GraphicTest_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build/test
+
+//Value Computed by CMake
+GraphicTest_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+GraphicTest_SOURCE_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/test
 
 //Value Computed by CMake
 GraphicTests_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build
@@ -302,6 +335,15 @@ GraphicTests_SOURCE_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests
 // may want to turn this OFF.)
 INSTALL_GTEST:BOOL=ON
 
+//Value Computed by CMake
+JSONTest_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build/test
+
+//Value Computed by CMake
+JSONTest_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+JSONTest_SOURCE_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/test
+
 //Path to a library.
 ROOT_Core_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libCore.so
 
@@ -318,10 +360,16 @@ ROOT_Graf3d_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libGraf3d.so
 ROOT_Graf_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libGraf.so
 
 //Path to a library.
+ROOT_Gui_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libGui.so
+
+//Path to a library.
 ROOT_Hist_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libHist.so
 
 //Path to a library.
 ROOT_Imt_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libImt.so
+
+//The directory containing a CMake configuration file for ROOT_LIBRARIES.
+ROOT_LIBRARIES_DIR:PATH=ROOT_LIBRARIES_DIR-NOTFOUND
 
 //Path to a library.
 ROOT_MathCore_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libMathCore.so
@@ -361,6 +409,15 @@ ROOT_TreePlayer_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libTreePlayer
 
 //Path to a library.
 ROOT_Tree_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libTree.so
+
+//Path to a library.
+ROOT_WebGui6_LIBRARY:FILEPATH=/home/adrianduesselberg/build/lib/libWebGui6.so
+
+//Path to a library.
+ROOT_Web_LIBRARY:FILEPATH=ROOT_Web_LIBRARY-NOTFOUND
+
+//Path to a library.
+ROOT_Webgui6_LIBRARY:FILEPATH=ROOT_Webgui6_LIBRARY-NOTFOUND
 
 //Path to a program.
 ROOT_genmap_CMD:FILEPATH=ROOT_genmap_CMD-NOTFOUND
@@ -410,6 +467,15 @@ Root-Graphic-Tests_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Root-Graphic-Tests_SOURCE_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests
 
+//Dependencies for the target
+STATIC_LIB_DEPENDS:STATIC=general;Core;general;RIO;general;Net;general;Hist;general;Gpad;general;Tree;general;Rint;general;Matrix;general;MathCore;general;WebGui6;
+
+//Value Computed by CMake
+Test_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build
+
+//Value Computed by CMake
+Test_IS_TOP_LEVEL:STATIC=ON
+
 //Value Computed by CMake
 Test_JSON_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build
 
@@ -417,16 +483,25 @@ Test_JSON_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build
 Test_JSON_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-Test_JSON_LIB_DEPENDS:STATIC=general;/home/adrianduesselberg/build/lib/libCore.so;general;/home/adrianduesselberg/build/lib/libImt.so;general;/home/adrianduesselberg/build/lib/libRIO.so;general;/home/adrianduesselberg/build/lib/libNet.so;general;/home/adrianduesselberg/build/lib/libHist.so;general;/home/adrianduesselberg/build/lib/libGraf.so;general;/home/adrianduesselberg/build/lib/libGraf3d.so;general;/home/adrianduesselberg/build/lib/libGpad.so;general;/home/adrianduesselberg/build/lib/libROOTDataFrame.so;general;/home/adrianduesselberg/build/lib/libTree.so;general;/home/adrianduesselberg/build/lib/libTreePlayer.so;general;/home/adrianduesselberg/build/lib/libRint.so;general;/home/adrianduesselberg/build/lib/libPostscript.so;general;/home/adrianduesselberg/build/lib/libMatrix.so;general;/home/adrianduesselberg/build/lib/libPhysics.so;general;/home/adrianduesselberg/build/lib/libMathCore.so;general;/home/adrianduesselberg/build/lib/libThread.so;general;/home/adrianduesselberg/build/lib/libMultiProc.so;general;/home/adrianduesselberg/build/lib/libROOTVecOps.so;
+Test_JSON_LIB_DEPENDS:STATIC=general;/home/adrianduesselberg/build/lib/libCore.so;general;/home/adrianduesselberg/build/lib/libImt.so;general;/home/adrianduesselberg/build/lib/libRIO.so;general;/home/adrianduesselberg/build/lib/libNet.so;general;/home/adrianduesselberg/build/lib/libHist.so;general;/home/adrianduesselberg/build/lib/libGraf.so;general;/home/adrianduesselberg/build/lib/libGraf3d.so;general;/home/adrianduesselberg/build/lib/libGpad.so;general;/home/adrianduesselberg/build/lib/libROOTDataFrame.so;general;/home/adrianduesselberg/build/lib/libTree.so;general;/home/adrianduesselberg/build/lib/libTreePlayer.so;general;/home/adrianduesselberg/build/lib/libRint.so;general;/home/adrianduesselberg/build/lib/libPostscript.so;general;/home/adrianduesselberg/build/lib/libMatrix.so;general;/home/adrianduesselberg/build/lib/libPhysics.so;general;/home/adrianduesselberg/build/lib/libMathCore.so;general;/home/adrianduesselberg/build/lib/libThread.so;general;/home/adrianduesselberg/build/lib/libMultiProc.so;general;/home/adrianduesselberg/build/lib/libROOTVecOps.so;general;/home/adrianduesselberg/build/lib/libWebGui6.so;
 
 //Value Computed by CMake
 Test_JSON_SOURCE_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests
+
+//Dependencies for the target
+Test_LIB_DEPENDS:STATIC=general;Core;general;RIO;general;Net;general;Hist;general;Gpad;general;Tree;general;Rint;general;Matrix;general;MathCore;general;WebGui6;
+
+//Value Computed by CMake
+Test_SOURCE_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests
 
 //Path to a file.
 VDT_INCLUDE_DIR:PATH=/include
 
 //Path to a library.
 VDT_LIBRARY:FILEPATH=/usr/lib/libvdt.so
+
+//The directory containing a CMake configuration file for WebGui6.
+WebGui6_DIR:PATH=WebGui6_DIR-NOTFOUND
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build/googletest/googlemock
@@ -448,6 +523,9 @@ googletest-distribution_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 googletest-distribution_SOURCE_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/googletest
+
+//The directory containing a CMake configuration file for googletest.
+googletest_DIR:PATH=googletest_DIR-NOTFOUND
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/adrianduesselberg/root-graphic-tests/build/googletest/googletest
@@ -674,6 +752,8 @@ ROOT_Gpad_LIBRARY-ADVANCED:INTERNAL=1
 ROOT_Graf3d_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ROOT_Graf_LIBRARY
 ROOT_Graf_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_Gui_LIBRARY
+ROOT_Gui_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ROOT_Hist_LIBRARY
 ROOT_Hist_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ROOT_Imt_LIBRARY
@@ -704,6 +784,8 @@ ROOT_Thread_LIBRARY-ADVANCED:INTERNAL=1
 ROOT_TreePlayer_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ROOT_Tree_LIBRARY
 ROOT_Tree_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ROOT_WebGui6_LIBRARY
+ROOT_WebGui6_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ROOT_genreflex_CMD
 ROOT_genreflex_CMD-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ROOT_hadd_CMD
