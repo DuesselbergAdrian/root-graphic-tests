@@ -21,14 +21,45 @@
 	TotalVirtualMemory="8191"
 	TotalPhysicalMemory="31418"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3885.59"
+	ProcessorClockFrequency="3549.63"
 	>
 	<Testing>
-		<StartDateTime>May 16 16:44 CEST</StartDateTime>
-		<StartTestTime>1715870649</StartTestTime>
-		<TestList/>
-		<EndDateTime>May 16 16:44 CEST</EndDateTime>
-		<EndTestTime>1715870649</EndTestTime>
+		<StartDateTime>May 16 17:05 CEST</StartDateTime>
+		<StartTestTime>1715871920</StartTestTime>
+		<TestList>
+			<Test>./test/SVGTest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>SVGTest</Name>
+			<Path>./test</Path>
+			<FullName>./test/SVGTest</FullName>
+			<FullCommandLine>/usr/bin/node "Test_SVG.js"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.61495</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/node "Test_SVG.js"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: analyze - Lengths [Pro: 11643, Ref: 11643]
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 16 17:05 CEST</EndDateTime>
+		<EndTestTime>1715871921</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

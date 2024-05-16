@@ -23,7 +23,7 @@ TEST_P(TestJSON, RunMacro) {
 }
 
 // Instantiate the test case with the list of macros
-//INSTANTIATE_TEST_SUITE_P(MacroTests, TestJSON, ::testing::ValuesIn(macros));
+INSTANTIATE_TEST_SUITE_P(MacroTests, TestJSON, ::testing::ValuesIn(macros));
 
 //int main(int argc, char **argv) {
 //    ::testing::InitGoogleTest(&argc, argv);
