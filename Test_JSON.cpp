@@ -39,17 +39,18 @@ bool compare_json(const TString& created_json, const std::string& ref_filename){
 
 bool TestMacros(const std::string& path){
     // Set paths
-    std::string macroPath = "/home/adrianduesselberg/root-graphic-tests/macros/" + path + ".C";
+    std::string macroPath = "./macros/" + path + ".C";
     std::string jsonFilePath = "./json_pro/" + path + "_pro.json";
 
-    gROOT->Reset();
-    //Set batch mode.
-    gROOT->SetBatch(kTRUE);
+    //gROOT->Reset();
 
     // Initialize the ROOT application (necessary for ROOT to run macros correctly)
     //int argc = 0;
     //char* argv[] = {nullptr};
     //TApplication app("ROOT Application", &argc, argv);
+
+    //Set batch mode.
+    gROOT->SetBatch(kTRUE);
 
     // 1. Call the macro to generate the canvas
     std::string command = ".x " + macroPath;
@@ -97,8 +98,8 @@ bool TestMacros(const std::string& path){
     bool result = compare_json(created_json, ref_filename);
 
     // Close the ROOT application
+    //std::string command2 = ".q ";
+    //gROOT->ProcessLine(command2.c_str());
     //app.Terminate(0);
-    std::string command2 = ".q ";
-    gROOT->ProcessLine(command2.c_str());
     return result;
 }
