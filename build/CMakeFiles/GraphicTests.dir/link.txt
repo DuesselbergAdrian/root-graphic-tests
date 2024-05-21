@@ -1,2 +1,0 @@
-/usr/bin/llvm-ar qc libGraphicTests.a CMakeFiles/GraphicTests.dir/Test_JSON.cpp.o
-/usr/bin/llvm-ranlib libGraphicTests.a

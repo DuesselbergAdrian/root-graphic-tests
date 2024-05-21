@@ -42,13 +42,14 @@ bool TestMacros(const std::string& path){
     std::string macroPath = "/home/adrianduesselberg/root-graphic-tests/macros/" + path + ".C";
     std::string jsonFilePath = "./json_pro/" + path + "_pro.json";
 
-    //Set batch mode
+    gROOT->Reset();
+    //Set batch mode.
     gROOT->SetBatch(kTRUE);
 
     // Initialize the ROOT application (necessary for ROOT to run macros correctly)
-    int argc = 0;
-    char* argv[] = {nullptr};
-    TApplication app("ROOT Application", &argc, argv);
+    //int argc = 0;
+    //char* argv[] = {nullptr};
+    //TApplication app("ROOT Application", &argc, argv);
 
     // 1. Call the macro to generate the canvas
     std::string command = ".x " + macroPath;
@@ -60,6 +61,7 @@ bool TestMacros(const std::string& path){
         std::cerr << "Error: No canvas found in gPad" << std::endl;
         return false;
     }
+    std::cout << "Canvas was created";
 
     // Create JSON from the canvas
     TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
@@ -96,7 +98,7 @@ bool TestMacros(const std::string& path){
     bool result = compare_json(created_json, ref_filename);
 
     // Close the ROOT application
-    app.Terminate(0);
-
+    //app.Terminate(0);
+    std::cout << result;
     return result;
 }

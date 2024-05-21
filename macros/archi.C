@@ -14,7 +14,7 @@ void archi() {
    c1->Range(0,0,20.5,26);
 
 
-   TPaveLabel *title = new TPaveLabel(4,24,16,25.5,c2->GetTitle());
+   TPaveLabel *title = new TPaveLabel(4,24,16,25.5,c1->GetTitle());
    title->SetFillColor(46);
    title->Draw();
 

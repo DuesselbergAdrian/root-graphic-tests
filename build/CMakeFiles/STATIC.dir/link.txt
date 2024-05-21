@@ -1,2 +1,0 @@
-/usr/bin/llvm-ar qc libSTATIC.a CMakeFiles/STATIC.dir/Test_JSON.cpp.o
-/usr/bin/llvm-ranlib libSTATIC.a

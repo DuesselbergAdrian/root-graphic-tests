@@ -1,12 +1,11 @@
 #include "../Test_JSON.hpp"
 #include <gtest/gtest.h>
 
-// List of macros to test
+/*List of macros to test
 const std::vector<std::string> macros = {
     "analyze",
     "archi",
     "arrows",
-    "basic3d",
     "compile",
     "crown"
     // Add more macros here as needed
@@ -19,16 +18,12 @@ class TestJSON : public ::testing::TestWithParam<std::string> {};
 TEST_P(TestJSON, RunMacro) {
     std::string macroPath = GetParam();
     std::cout << "Running macro: " << macroPath << std::endl;  // Debug print
-    EXPECT_TRUE(TestMacros(macroPath));
+    EXPECT_TRUE(TestMacros(macroPath)) << "Macro failed: " << macroPath;;
 }
 
 // Instantiate the test case with the list of macros
-INSTANTIATE_TEST_SUITE_P(MacroTests, TestJSON, ::testing::ValuesIn(macros));
+INSTANTIATE_TEST_SUITE_P(MacroTests, TestJSON, ::testing::ValuesIn(macros));*/
 
-//int main(int argc, char **argv) {
-//    ::testing::InitGoogleTest(&argc, argv);
-//    return RUN_ALL_TESTS();
-//}
 
 //Test all macros from tutorials/graphics
 //Except: AtlasExample (random), canvas (crash), canvas2, diamond (no canvas), earth (not void), gaxis2 (no canvas),
@@ -36,38 +31,44 @@ INSTANTIATE_TEST_SUITE_P(MacroTests, TestJSON, ::testing::ValuesIn(macros));
 // perceptualcolormap (no canvas), polytest1 (maybe possible), polytest2 (maybe possible), pstable (more than one canvas),
 // psview, saveall, schroedinger_hydrogen (more than one canvas), 
 
-/*TEST(TestGraphicJSON, AnalyzeFunction){
+TEST(TestGraphicJSON, analyzeFunction){
     std::string macroPath = "analyze";
     EXPECT_TRUE(TestMacros(macroPath));
 }
 
-TEST(TestGraphicJSON, ArchiFunction){
+TEST(TestGraphicJSON, archiFunction){
     std::string macroPath = "archi";
+
     EXPECT_TRUE(TestMacros(macroPath));
 }
 
-TEST(TestGraphicJSON, ArrowsFunction){
+TEST(TestGraphicJSON, arrowsFunction){
     std::string macroPath = "arrows";
+    EXPECT_TRUE(TestMacros(macroPath));
+}
+
+TEST(TestGraphicJSON, compileFunction){
+    std::string macroPath = "compile";
+    EXPECT_TRUE(TestMacros(macroPath));
+}
+
+TEST(TestGraphicJSON, crownFunction){
+    std::string macroPath = "crown";
+    EXPECT_TRUE(TestMacros(macroPath));
+}
+/*
+//int main(int argc, char **argv) {
+//    ::testing::InitGoogleTest(&argc, argv);
+//    return RUN_ALL_TESTS();
+//}
+
+TEST(TestGraphicJSON, EllipseFunction){
+    std::string macroPath = "ellipse";
     EXPECT_TRUE(TestMacros(macroPath));
 }
 
 TEST(TestGraphicJSON, Basic3dFunction){
     std::string macroPath = "basic3d";
-    EXPECT_TRUE(TestMacros(macroPath));
-}
-
-TEST(TestGraphicJSON, CompileFunction){
-    std::string macroPath = "compile";
-    EXPECT_TRUE(TestMacros(macroPath));
-}
-
-TEST(TestGraphicJSON, CrownFunction){
-    std::string macroPath = "crown";
-    EXPECT_TRUE(TestMacros(macroPath));
-}
-
-TEST(TestGraphicJSON, EllipseFunction){
-    std::string macroPath = "ellipse";
     EXPECT_TRUE(TestMacros(macroPath));
 }
 

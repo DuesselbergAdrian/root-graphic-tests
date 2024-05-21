@@ -1,11 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
-project(JSONTest)
 
 # List of macros to test
 set(macros
     analyze
     archi
-    basic3d
+    arrows
     compile
     crown
     # Add more macros here as needed
@@ -18,14 +17,17 @@ target_link_libraries(JsonTests PUBLIC
     gtest_main
     ${ROOT_LIBRARIES}
 )
-
-# Add each macro as a separate test
+#JSON tests for each macro
 foreach(macro ${macros})
-    add_test(NAME ${macro} COMMAND JsonTests MacroTests.RunMacro/${macro})
+    add_test(
+        NAME ${macro}_JSONTest
+        COMMAND JsonTests --gtest_filter=TestGraphicJSON.${macro}Function)
 endforeach()
 
-# Add SVG Test: here iI need to find a waty to run each test seperate from a list
-add_test(
-    NAME SVGTest
-    COMMAND node Test_SVG.js
-)
+#SVG tests for each macro
+foreach(macro ${macros})
+    add_test(
+        NAME ${macro}_SVGTest
+        COMMAND node Test_SVG.js ${macro}
+    )
+endforeach()
