@@ -31,30 +31,24 @@ INSTANTIATE_TEST_SUITE_P(MacroTests, TestJSON, ::testing::ValuesIn(macros));*/
 // perceptualcolormap (no canvas), polytest1 (maybe possible), polytest2 (maybe possible), pstable (more than one canvas),
 // psview, saveall, schroedinger_hydrogen (more than one canvas), 
 
-TEST(TestGraphicJSON, analyzeFunction){
-    std::string macroPath = "analyze";
-    EXPECT_TRUE(TestMacros(macroPath));
+TEST(TestGraphicJSON, analyzeFunction) {
+    EXPECT_TRUE(TestMacros("analyze"));
 }
 
-TEST(TestGraphicJSON, archiFunction){
-    std::string macroPath = "archi";
-
-    EXPECT_TRUE(TestMacros(macroPath));
+TEST(TestGraphicJSON, archiFunction) {
+    EXPECT_TRUE(TestMacros("archi"));
 }
 
-TEST(TestGraphicJSON, arrowsFunction){
-    std::string macroPath = "arrows";
-    EXPECT_TRUE(TestMacros(macroPath));
+TEST(TestGraphicJSON, arrowsFunction) {
+    EXPECT_TRUE(TestMacros("arrows"));
 }
 
-TEST(TestGraphicJSON, compileFunction){
-    std::string macroPath = "compile";
-    EXPECT_TRUE(TestMacros(macroPath));
+TEST(TestGraphicJSON, compileFunction) {
+    EXPECT_TRUE(TestMacros("compile"));
 }
 
-TEST(TestGraphicJSON, crownFunction){
-    std::string macroPath = "crown";
-    EXPECT_TRUE(TestMacros(macroPath));
+TEST(TestGraphicJSON, crownFunction) {
+    EXPECT_TRUE(TestMacros("crown"));
 }
 /*
 //int main(int argc, char **argv) {

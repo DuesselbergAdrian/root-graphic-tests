@@ -8,6 +8,11 @@
 ///
 /// \author Olivier Couet
 
+/// Included intepreter and compile mode
+//IMPORTS
+#include "TCanvas.h"
+#include "TCrown.h"
+
 void crown(){
    auto c1 = new TCanvas("c1","c1",400,400);
    auto cr1 = new TCrown(.5,.5,.3,.4);
@@ -26,4 +31,9 @@ void crown(){
    cr4->SetFillColor(4);
    cr4->SetFillStyle(3008);
    cr4->Draw();
+}
+
+int main(int argc, char **argv) {
+    crown();
+    return 0;
 }

@@ -8,6 +8,15 @@
 ///
 /// \author Rene Brun
 
+/// Included intepreter and compile mode
+//IMPORTS
+#include "TCanvas.h"
+#include "TPaveLabel.h"
+#include "TPaveText.h"
+#include "TText.h"
+#include "TArrow.h"
+#include "TLine.h"
+
 void analyze() {
    TCanvas *c1 = new TCanvas("c1","Analyze.mac",620,790);
    c1->Range(-1,0,19,30);
@@ -121,4 +130,9 @@ void analyze() {
    tb->DrawText(4.2, 8.1,"not found");
    TLine *l1 = new TLine(12,16.5,12,23);
    l1->Draw();
+}
+
+int main(int argc, char **argv) {
+    analyze();
+    return 0;
 }

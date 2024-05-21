@@ -8,6 +8,12 @@
 ///
 /// \author Rene Brun
 
+/// Included intepreter and compile mode
+//IMPORTS
+#include "TCanvas.h"
+#include "TPaveLabel.h"
+#include "TArrow.h"
+
 void arrows(){
    auto c1 = new TCanvas("c1");
    c1->Range(0,0,1,1);
@@ -38,4 +44,9 @@ void arrows(){
    ar5->SetFillStyle(3008);
    ar5->SetFillColor(2);
    ar5->Draw();
+}
+
+int main(int argc, char **argv) {
+    arrows();
+    return 0;
 }

@@ -8,6 +8,17 @@
 ///
 /// \author Rene Brun
 
+/// Included intepreter and compile mode
+//IMPORTS
+#include "TCanvas.h"
+#include "TPaveLabel.h"
+#include "TPavesText.h"
+#include "TArrow.h"
+#include "TWbox.h"
+#include "TText.h"
+#include "TBox.h"
+#include "TPad.h"
+
 void archi() {
    TCanvas *c1 = new TCanvas("c2","Dictionary Architecture",20,10,750,930);
    c1->SetBorderSize(0);
@@ -231,4 +242,9 @@ void archi() {
    daq.DrawText(10.,0.3,"Containers");
 
    c1->cd();
+}
+
+int main(int argc, char **argv) {
+    archi();
+    return 0;
 }

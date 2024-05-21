@@ -8,6 +8,14 @@
 ///
 /// \author Rene Brun
 
+/// Included intepreter and compile mode
+//IMPORTS
+#include "TCanvas.h"
+#include "TPaveLabel.h"
+#include "TPaveText.h"
+#include "TText.h"
+#include "TArrow.h"
+
 void compile(){
    TCanvas *c1 = new TCanvas("c1");
    c1->Range(0,0,1,1);
@@ -31,4 +39,9 @@ void compile(){
    ar2->SetLineWidth(6);
    ar2->SetLineColor(4);
    ar2->Draw();
+}
+
+int main(int argc, char **argv) {
+    compile();
+    return 0;
 }

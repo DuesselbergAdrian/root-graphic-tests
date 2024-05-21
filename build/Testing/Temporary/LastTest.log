@@ -1,10 +1,10 @@
-Start testing: May 21 11:35 CEST
+Start testing: May 21 14:35 CEST
 ----------------------------------------------------------
 1/10 Testing: analyze_JSONTest
 1/10 Test: analyze_JSONTest
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestGraphicJSON.analyzeFunction"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"analyze_JSONTest" start time: May 21 11:35 CEST
+"analyze_JSONTest" start time: May 21 14:35 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -13,17 +13,11 @@ Note: Google Test filter = TestGraphicJSON.analyzeFunction
 [----------] Global test environment set-up.
 [----------] 1 test from TestGraphicJSON
 [ RUN      ] TestGraphicJSON.analyzeFunction
-Canvas was created1[       OK ] TestGraphicJSON.analyzeFunction (202 ms)
-[----------] 1 test from TestGraphicJSON (202 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (202 ms total)
-[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.23 sec
 ----------------------------------------------------------
 Test Passed.
-"analyze_JSONTest" end time: May 21 11:35 CEST
+"analyze_JSONTest" end time: May 21 14:35 CEST
 "analyze_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +25,7 @@ Test Passed.
 2/10 Test: archi_JSONTest
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestGraphicJSON.archiFunction"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"archi_JSONTest" start time: May 21 11:35 CEST
+"archi_JSONTest" start time: May 21 14:35 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -40,17 +34,11 @@ Note: Google Test filter = TestGraphicJSON.archiFunction
 [----------] Global test environment set-up.
 [----------] 1 test from TestGraphicJSON
 [ RUN      ] TestGraphicJSON.archiFunction
-Canvas was created1[       OK ] TestGraphicJSON.archiFunction (249 ms)
-[----------] 1 test from TestGraphicJSON (249 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (249 ms total)
-[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.28 sec
+Test time =   0.27 sec
 ----------------------------------------------------------
 Test Passed.
-"archi_JSONTest" end time: May 21 11:35 CEST
+"archi_JSONTest" end time: May 21 14:35 CEST
 "archi_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +46,7 @@ Test Passed.
 3/10 Test: arrows_JSONTest
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestGraphicJSON.arrowsFunction"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"arrows_JSONTest" start time: May 21 11:35 CEST
+"arrows_JSONTest" start time: May 21 14:35 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -67,17 +55,11 @@ Note: Google Test filter = TestGraphicJSON.arrowsFunction
 [----------] Global test environment set-up.
 [----------] 1 test from TestGraphicJSON
 [ RUN      ] TestGraphicJSON.arrowsFunction
-Canvas was created1[       OK ] TestGraphicJSON.arrowsFunction (189 ms)
-[----------] 1 test from TestGraphicJSON (189 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (189 ms total)
-[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.22 sec
+Test time =   0.23 sec
 ----------------------------------------------------------
 Test Passed.
-"arrows_JSONTest" end time: May 21 11:35 CEST
+"arrows_JSONTest" end time: May 21 14:35 CEST
 "arrows_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +67,7 @@ Test Passed.
 4/10 Test: compile_JSONTest
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestGraphicJSON.compileFunction"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"compile_JSONTest" start time: May 21 11:35 CEST
+"compile_JSONTest" start time: May 21 14:35 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -94,17 +76,11 @@ Note: Google Test filter = TestGraphicJSON.compileFunction
 [----------] Global test environment set-up.
 [----------] 1 test from TestGraphicJSON
 [ RUN      ] TestGraphicJSON.compileFunction
-Canvas was created1[       OK ] TestGraphicJSON.compileFunction (194 ms)
-[----------] 1 test from TestGraphicJSON (194 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (194 ms total)
-[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.22 sec
+Test time =   0.23 sec
 ----------------------------------------------------------
 Test Passed.
-"compile_JSONTest" end time: May 21 11:35 CEST
+"compile_JSONTest" end time: May 21 14:35 CEST
 "compile_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +88,7 @@ Test Passed.
 5/10 Test: crown_JSONTest
 Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestGraphicJSON.crownFunction"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"crown_JSONTest" start time: May 21 11:35 CEST
+"crown_JSONTest" start time: May 21 14:35 CEST
 Output:
 ----------------------------------------------------------
 Running main() from /home/adrianduesselberg/root-graphic-tests/googletest/googletest/src/gtest_main.cc
@@ -121,17 +97,11 @@ Note: Google Test filter = TestGraphicJSON.crownFunction
 [----------] Global test environment set-up.
 [----------] 1 test from TestGraphicJSON
 [ RUN      ] TestGraphicJSON.crownFunction
-Canvas was created1[       OK ] TestGraphicJSON.crownFunction (188 ms)
-[----------] 1 test from TestGraphicJSON (188 ms total)
-
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (188 ms total)
-[  PASSED  ] 1 test.
 <end of output>
 Test time =   0.22 sec
 ----------------------------------------------------------
 Test Passed.
-"crown_JSONTest" end time: May 21 11:35 CEST
+"crown_JSONTest" end time: May 21 14:35 CEST
 "crown_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,17 +109,17 @@ Test Passed.
 6/10 Test: analyze_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "analyze"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"analyze_SVGTest" start time: May 21 11:35 CEST
+"analyze_SVGTest" start time: May 21 14:35 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: analyze - Lengths [Pro: 11643, Ref: 11643]
 <end of output>
-Test time =   0.59 sec
+Test time =   0.60 sec
 ----------------------------------------------------------
 Test Passed.
-"analyze_SVGTest" end time: May 21 11:35 CEST
+"analyze_SVGTest" end time: May 21 14:35 CEST
 "analyze_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -157,17 +127,17 @@ Test Passed.
 7/10 Test: archi_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "archi"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"archi_SVGTest" start time: May 21 11:35 CEST
+"archi_SVGTest" start time: May 21 14:35 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: archi - Lengths [Pro: 41892, Ref: 41892]
 <end of output>
-Test time =   0.67 sec
+Test time =   0.69 sec
 ----------------------------------------------------------
 Test Passed.
-"archi_SVGTest" end time: May 21 11:35 CEST
+"archi_SVGTest" end time: May 21 14:35 CEST
 "archi_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -175,17 +145,17 @@ Test Passed.
 8/10 Test: arrows_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "arrows"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"arrows_SVGTest" start time: May 21 11:35 CEST
+"arrows_SVGTest" start time: May 21 14:35 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: arrows - Lengths [Pro: 1572, Ref: 1572]
 <end of output>
-Test time =   0.55 sec
+Test time =   0.57 sec
 ----------------------------------------------------------
 Test Passed.
-"arrows_SVGTest" end time: May 21 11:35 CEST
+"arrows_SVGTest" end time: May 21 14:35 CEST
 "arrows_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,17 +163,17 @@ Test Passed.
 9/10 Test: compile_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "compile"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"compile_SVGTest" start time: May 21 11:35 CEST
+"compile_SVGTest" start time: May 21 14:35 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: compile - Lengths [Pro: 1700, Ref: 1700]
 <end of output>
-Test time =   0.54 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"compile_SVGTest" end time: May 21 11:35 CEST
+"compile_SVGTest" end time: May 21 14:35 CEST
 "compile_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -211,18 +181,18 @@ Test Passed.
 10/10 Test: crown_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "crown"
 Directory: /home/adrianduesselberg/root-graphic-tests/build/test
-"crown_SVGTest" start time: May 21 11:35 CEST
+"crown_SVGTest" start time: May 21 14:35 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: crown - Lengths [Pro: 1605, Ref: 1605]
 <end of output>
-Test time =   0.54 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"crown_SVGTest" end time: May 21 11:35 CEST
+"crown_SVGTest" end time: May 21 14:35 CEST
 "crown_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 21 11:35 CEST
+End testing: May 21 14:35 CEST

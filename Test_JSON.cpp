@@ -61,7 +61,6 @@ bool TestMacros(const std::string& path){
         std::cerr << "Error: No canvas found in gPad" << std::endl;
         return false;
     }
-    std::cout << "Canvas was created";
 
     // Create JSON from the canvas
     TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
@@ -99,6 +98,7 @@ bool TestMacros(const std::string& path){
 
     // Close the ROOT application
     //app.Terminate(0);
-    std::cout << result;
+    std::string command2 = ".q ";
+    gROOT->ProcessLine(command2.c_str());
     return result;
 }
