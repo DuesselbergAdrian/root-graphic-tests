@@ -101,3 +101,8 @@ void basic3d(){
    click->SetTextColor(4);
    title->Draw();
 }
+
+int main(int argc, char **argv) {
+    basic3d();
+    return 0;
+}

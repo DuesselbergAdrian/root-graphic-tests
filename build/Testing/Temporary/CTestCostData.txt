@@ -11,14 +11,17 @@ archiSVGTest 2 0.332255
 arrowsSVGTest 2 0.277948
 compileSVGTest 2 0.274571
 crownSVGTest 2 0.266285
-analyze_JSONTest 27 0.00890382
-archi_JSONTest 25 0.010428
-arrows_JSONTest 26 0.00899028
-compile_JSONTest 27 0.00869317
-crown_JSONTest 27 0.00806754
-analyze_SVGTest 30 0.0198619
-archi_SVGTest 30 0.0221333
-arrows_SVGTest 30 0.0181043
-compile_SVGTest 30 0.0183699
-crown_SVGTest 30 0.0189445
+analyze_JSONTest 36 0.00679442
+archi_JSONTest 34 0.0077658
+arrows_JSONTest 35 0.00640037
+compile_JSONTest 36 0.00607373
+crown_JSONTest 36 0.00600142
+analyze_SVGTest 37 0.016489
+archi_SVGTest 37 0.0176147
+arrows_SVGTest 37 0.0149115
+compile_SVGTest 37 0.0149747
+crown_SVGTest 37 0.0150585
+basic3d_JSONTest 5 0.0493195
+basic3d_SVGTest 3 0
 ---
+basic3d_SVGTest

@@ -34,6 +34,7 @@ async function compareSVG(svgFile1, svgFile2, baseName) {
         }
     } catch (error) {
         console.error(chalk.red(`Error comparing ${baseName} SVG files:`), error);
+        throw error; 
     }
 }
 
@@ -67,7 +68,15 @@ async function main() {
     }
 
     const jsonFilePath = `./json_ref/${macro}.json`;
-    await createSVGFromJSON(jsonFilePath);
+    try {
+        const success = await createSVGFromJSON(jsonFilePath);
+        if (!success) {
+            process.exit(1);
+        }
+    } catch (error) {
+        console.error(chalk.red('Error in main function:'), error);
+        process.exit(1);
+    }
 }
 
 main().catch(error => {

@@ -6,7 +6,7 @@
 
 //Test all macros from tutorials/graphics
 //Except: AtlasExample (random), canvas (crash), canvas2, diamond (no canvas), earth (not void), gaxis2 (no canvas),
-// graph_edit_playback (no macro), inside (random, no canvas), madelbrot (maybe include), palettes (maybe possible),
+// graph_edit_playback (no macro), inside (random, no canvas), mandelbrot (maybe include), palettes (maybe possible),
 // perceptualcolormap (no canvas), polytest1 (maybe possible), polytest2 (maybe possible), pstable (more than one canvas),
 // psview, saveall, schroedinger_hydrogen (more than one canvas), 
 
@@ -28,6 +28,9 @@ TEST(TestJSON, compileFunction) {
 
 TEST(TestJSON, crownFunction) {
     EXPECT_TRUE(TestMacros("crown"));
+}
+TEST(TestJSON, basic3dFunction) {
+    EXPECT_TRUE(TestMacros("basic3d"));
 }
 
 int main(int argc, char **argv) {

@@ -7,6 +7,7 @@ set(macros
     arrows
     compile
     crown
+    basic3d
     # Add more macros here as needed
 )
 
@@ -35,6 +36,7 @@ endforeach()
 foreach(macro ${macros})
     add_test(
         NAME ${macro}_SVGTest
+        #COMMAND xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' node Test_SVG.js ${macro}
         COMMAND node Test_SVG.js ${macro}
     )
     set_tests_properties(${macro}_SVGTest PROPERTIES WORKING_DIRECTORY ${PARENT_DIR})

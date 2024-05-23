@@ -9,8 +9,8 @@
 /// \author Rene Brun
 
 void ellipse(){
-   auto c7 = new TCanvas("c7");
-   c7->Range(0,0,1,1);
+   auto c1 = new TCanvas("c1");
+   c1->Range(0,0,1,1);
    auto pel = new TPaveLabel(0.1,0.8,0.9,0.95,"Examples of Ellipses");
    pel->SetFillColor(42);
    pel->Draw();
@@ -31,13 +31,9 @@ void ellipse(){
    el4->SetLineColor(4);
    el4->SetLineWidth(6);
    el4->Draw();
+}
 
-   //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c7, "WebCanvas7", 0, 0, 1, 1);
-   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c7, 1, kFALSE);
-   
-   //Save JSON to a file
-   std::ofstream jsonFile("./json_pro/ellipse_pro.json");
-   jsonFile << jsonOutput.Data();
-   jsonFile.close();
+int main(int argc, char **argv) {
+    ellipse();
+    return 0;
 }

@@ -10,8 +10,8 @@
 
 void eval(){
 
-   TCanvas *c8 = new TCanvas("c8");
-   c8->Range(0,0,20,10);
+   TCanvas *c1 = new TCanvas("c1");
+   c1->Range(0,0,20,10);
    TPaveLabel *pt1 = new TPaveLabel(0.2,4,3,6,"Eval");
    pt1->SetTextSize(0.5);
    pt1->SetFillColor(42);
@@ -43,14 +43,8 @@ void eval(){
    l1->DrawLine(12,8,6,8);
    ar1->DrawArrow(3,5,4.4,5,0.02,"|>");
    ar1->DrawArrow(7.8,5,8.9,5,0.02,"|>");
-
-   //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c8, "WebCanvas8", 0, 0, 20, 10);
-   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c8, 1, kFALSE);
-   
-   //Save JSON to a file
-   std::ofstream jsonFile("./json_pro/eval_pro.json");
-   jsonFile << jsonOutput.Data();
-   jsonFile.close();
 }
-
+int main(int argc, char **argv) {
+    eval();
+    return 0;
+}
