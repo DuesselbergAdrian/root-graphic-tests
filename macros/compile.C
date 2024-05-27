@@ -41,7 +41,7 @@ void compile(){
    ar2->Draw();
 }
 
-int main(int argc, char **argv) {
-    compile();
-    return 0;
-}
+//int main(int argc, char **argv) {
+//    compile();
+//    return 0;
+//}

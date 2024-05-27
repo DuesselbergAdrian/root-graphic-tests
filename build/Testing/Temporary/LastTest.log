@@ -1,158 +1,122 @@
-Start testing: May 23 09:45 CEST
+Start testing: May 27 13:03 CEST
 ----------------------------------------------------------
 1/12 Testing: analyze_JSONTest
 1/12 Test: analyze_JSONTest
-Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestJSON.analyzeFunction"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("analyze")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"analyze_JSONTest" start time: May 23 09:45 CEST
+"analyze_JSONTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
-Note: Google Test filter = TestJSON.analyzeFunction
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from TestJSON
-[ RUN      ] TestJSON.analyzeFunction
-[       OK ] TestJSON.analyzeFunction (210 ms)
-[----------] 1 test from TestJSON (210 ms total)
 
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (210 ms total)
-[  PASSED  ] 1 test.
+Processing Test_JSON.cpp("analyze")...
+Length of produced JSON: 48717
+Length of reference JSON: 48717
+Test passed for analyze
 <end of output>
-Test time =   0.24 sec
+Test time =   0.46 sec
 ----------------------------------------------------------
 Test Passed.
-"analyze_JSONTest" end time: May 23 09:45 CEST
+"analyze_JSONTest" end time: May 27 13:03 CEST
 "analyze_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 2/12 Testing: archi_JSONTest
 2/12 Test: archi_JSONTest
-Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestJSON.archiFunction"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("archi")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"archi_JSONTest" start time: May 23 09:45 CEST
+"archi_JSONTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
-Note: Google Test filter = TestJSON.archiFunction
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from TestJSON
-[ RUN      ] TestJSON.archiFunction
-[       OK ] TestJSON.archiFunction (232 ms)
-[----------] 1 test from TestJSON (233 ms total)
 
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (233 ms total)
-[  PASSED  ] 1 test.
+Processing Test_JSON.cpp("archi")...
+Length of produced JSON: 84612
+Length of reference JSON: 84612
+Test passed for archi
 <end of output>
-Test time =   0.26 sec
+Test time =   0.49 sec
 ----------------------------------------------------------
 Test Passed.
-"archi_JSONTest" end time: May 23 09:45 CEST
+"archi_JSONTest" end time: May 27 13:03 CEST
 "archi_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 3/12 Testing: arrows_JSONTest
 3/12 Test: arrows_JSONTest
-Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestJSON.arrowsFunction"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("arrows")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"arrows_JSONTest" start time: May 23 09:45 CEST
+"arrows_JSONTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
-Note: Google Test filter = TestJSON.arrowsFunction
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from TestJSON
-[ RUN      ] TestJSON.arrowsFunction
-[       OK ] TestJSON.arrowsFunction (192 ms)
-[----------] 1 test from TestJSON (192 ms total)
 
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (192 ms total)
-[  PASSED  ] 1 test.
+Processing Test_JSON.cpp("arrows")...
+Length of produced JSON: 19643
+Length of reference JSON: 19643
+Test passed for arrows
 <end of output>
-Test time =   0.22 sec
+Test time =   0.44 sec
 ----------------------------------------------------------
 Test Passed.
-"arrows_JSONTest" end time: May 23 09:45 CEST
+"arrows_JSONTest" end time: May 27 13:03 CEST
 "arrows_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 4/12 Testing: compile_JSONTest
 4/12 Test: compile_JSONTest
-Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestJSON.compileFunction"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("compile")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"compile_JSONTest" start time: May 23 09:45 CEST
+"compile_JSONTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
-Note: Google Test filter = TestJSON.compileFunction
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from TestJSON
-[ RUN      ] TestJSON.compileFunction
-[       OK ] TestJSON.compileFunction (188 ms)
-[----------] 1 test from TestJSON (188 ms total)
 
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (188 ms total)
-[  PASSED  ] 1 test.
+Processing Test_JSON.cpp("compile")...
+Length of produced JSON: 20432
+Length of reference JSON: 20432
+Test passed for compile
 <end of output>
-Test time =   0.22 sec
+Test time =   0.45 sec
 ----------------------------------------------------------
 Test Passed.
-"compile_JSONTest" end time: May 23 09:45 CEST
+"compile_JSONTest" end time: May 27 13:03 CEST
 "compile_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 5/12 Testing: crown_JSONTest
 5/12 Test: crown_JSONTest
-Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestJSON.crownFunction"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("crown")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"crown_JSONTest" start time: May 23 09:45 CEST
+"crown_JSONTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
-Note: Google Test filter = TestJSON.crownFunction
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from TestJSON
-[ RUN      ] TestJSON.crownFunction
-[       OK ] TestJSON.crownFunction (186 ms)
-[----------] 1 test from TestJSON (186 ms total)
 
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (186 ms total)
-[  PASSED  ] 1 test.
+Processing Test_JSON.cpp("crown")...
+Length of produced JSON: 18566
+Length of reference JSON: 18566
+Test passed for crown
 <end of output>
-Test time =   0.22 sec
+Test time =   0.44 sec
 ----------------------------------------------------------
 Test Passed.
-"crown_JSONTest" end time: May 23 09:45 CEST
+"crown_JSONTest" end time: May 27 13:03 CEST
 "crown_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 6/12 Testing: basic3d_JSONTest
 6/12 Test: basic3d_JSONTest
-Command: "/home/adrianduesselberg/root-graphic-tests/build/test/JsonTests" "--gtest_filter=TestJSON.basic3dFunction"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("basic3d")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"basic3d_JSONTest" start time: May 23 09:45 CEST
+"basic3d_JSONTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
-Note: Google Test filter = TestJSON.basic3dFunction
-[==========] Running 1 test from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 1 test from TestJSON
-[ RUN      ] TestJSON.basic3dFunction
-[       OK ] TestJSON.basic3dFunction (216 ms)
-[----------] 1 test from TestJSON (216 ms total)
 
-[----------] Global test environment tear-down
-[==========] 1 test from 1 test suite ran. (216 ms total)
-[  PASSED  ] 1 test.
+Processing Test_JSON.cpp("basic3d")...
+Length of produced JSON: 22096
+Length of reference JSON: 22096
+Test passed for basic3d
 <end of output>
-Test time =   0.25 sec
+Test time =   0.49 sec
 ----------------------------------------------------------
 Test Passed.
-"basic3d_JSONTest" end time: May 23 09:45 CEST
+"basic3d_JSONTest" end time: May 27 13:03 CEST
 "basic3d_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -160,17 +124,17 @@ Test Passed.
 7/12 Test: analyze_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "analyze"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"analyze_SVGTest" start time: May 23 09:45 CEST
+"analyze_SVGTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: analyze - Lengths [Pro: 11643, Ref: 11643]
 <end of output>
-Test time =   0.61 sec
+Test time =   0.59 sec
 ----------------------------------------------------------
 Test Passed.
-"analyze_SVGTest" end time: May 23 09:45 CEST
+"analyze_SVGTest" end time: May 27 13:03 CEST
 "analyze_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -178,7 +142,7 @@ Test Passed.
 8/12 Test: archi_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "archi"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"archi_SVGTest" start time: May 23 09:45 CEST
+"archi_SVGTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
@@ -188,7 +152,7 @@ MATCH: archi - Lengths [Pro: 41892, Ref: 41892]
 Test time =   0.65 sec
 ----------------------------------------------------------
 Test Passed.
-"archi_SVGTest" end time: May 23 09:45 CEST
+"archi_SVGTest" end time: May 27 13:03 CEST
 "archi_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -196,17 +160,17 @@ Test Passed.
 9/12 Test: arrows_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "arrows"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"arrows_SVGTest" start time: May 23 09:45 CEST
+"arrows_SVGTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: arrows - Lengths [Pro: 1572, Ref: 1572]
 <end of output>
-Test time =   0.55 sec
+Test time =   0.58 sec
 ----------------------------------------------------------
 Test Passed.
-"arrows_SVGTest" end time: May 23 09:45 CEST
+"arrows_SVGTest" end time: May 27 13:03 CEST
 "arrows_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -214,17 +178,17 @@ Test Passed.
 10/12 Test: compile_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "compile"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"compile_SVGTest" start time: May 23 09:45 CEST
+"compile_SVGTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: compile - Lengths [Pro: 1700, Ref: 1700]
 <end of output>
-Test time =   0.55 sec
+Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"compile_SVGTest" end time: May 23 09:45 CEST
+"compile_SVGTest" end time: May 27 13:03 CEST
 "compile_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -232,17 +196,17 @@ Test Passed.
 11/12 Test: crown_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "crown"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"crown_SVGTest" start time: May 23 09:45 CEST
+"crown_SVGTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: crown - Lengths [Pro: 1605, Ref: 1605]
 <end of output>
-Test time =   0.56 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"crown_SVGTest" end time: May 23 09:45 CEST
+"crown_SVGTest" end time: May 27 13:03 CEST
 "crown_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -250,7 +214,7 @@ Test Passed.
 12/12 Test: basic3d_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "basic3d"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"basic3d_SVGTest" start time: May 23 09:45 CEST
+"basic3d_SVGTest" start time: May 27 13:03 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
@@ -258,22 +222,13 @@ JSROOT version dev 18/03/2024
 Creating clones 1 takes 1 ms uniquevis 1
 Total visible nodes 1 numfaces 12
 Create tm = 1 meshes 1 faces 12
-Error comparing basic3d SVG files: Error: DIFF: basic3d - Lengths [Pro: 8404, Ref: 17576]
-    at compareSVG (file:///home/adrianduesselberg/root-graphic-tests/Test_SVG.js:33:19)
-node:internal/process/promises:289
-            triggerUncaughtException(err, true /* fromPromise */);
-            ^
-
-Error: DIFF: basic3d - Lengths [Pro: 8404, Ref: 17576]
-    at compareSVG (file:///home/adrianduesselberg/root-graphic-tests/Test_SVG.js:33:19)
-
-Node.js v20.12.2
+MATCH: basic3d - Lengths [Pro: 8404, Ref: 8404]
 <end of output>
-Test time =   1.19 sec
+Test time =   1.24 sec
 ----------------------------------------------------------
-Test Failed.
-"basic3d_SVGTest" end time: May 23 09:45 CEST
+Test Passed.
+"basic3d_SVGTest" end time: May 27 13:03 CEST
 "basic3d_SVGTest" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-End testing: May 23 09:45 CEST
+End testing: May 27 13:03 CEST

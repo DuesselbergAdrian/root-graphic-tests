@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/adrianduesselberg/build/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest/include -isystem /home/adrianduesselberg/root-graphic-tests/googletest/googletest
+CXX_INCLUDES = -I/home/adrianduesselberg/build/include
 
 CXX_FLAGS =   -pipe -fsigned-char -pthread -g -std=gnu++17
 

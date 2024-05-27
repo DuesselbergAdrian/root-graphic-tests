@@ -24,9 +24,35 @@ set(Sources
 )
 
 #Libraries
-add_library(Test_JSON STATIC ${Sources} ${Headers})
+add_executable(Test_JSON ${Sources})
 target_link_libraries(Test_JSON PUBLIC ${ROOT_LIBRARIES})
 
-#Subdirectories
-add_subdirectory(test)
-add_subdirectory(googletest)
+# List of macros to test
+set(macros
+    analyze
+    archi
+    arrows
+    compile
+    crown
+    basic3d
+    # Add more macros here as needed
+)
+
+#JSON tests for each macro
+foreach(macro ${macros})
+    add_test(
+        NAME ${macro}_JSONTest
+        COMMAND root -l -b -q "Test_JSON.cpp(\"${macro}\")"
+        )
+    set_tests_properties(${macro}_JSONTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+endforeach()
+
+#SVG tests for each macro
+foreach(macro ${macros})
+    add_test(
+        NAME ${macro}_SVGTest
+        #COMMAND xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' node Test_SVG.js ${macro}
+        COMMAND node Test_SVG.js ${macro}
+    )
+    set_tests_properties(${macro}_SVGTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+endforeach()

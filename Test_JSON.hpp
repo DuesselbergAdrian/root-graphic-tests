@@ -19,7 +19,10 @@
 #include <sstream>
 #include <iostream>
 
-bool TestMacros(const std::string& path);
+/// @brief 
+/// @param macroName 
+/// @param prop 
+void Test_JSON(const std::string& macroName);
 bool compare_json(const TString& created_json, const std::string& ref_filename);
 
 #endif /* TEST_JSON_HPP */

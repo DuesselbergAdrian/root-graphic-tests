@@ -244,7 +244,7 @@ void archi() {
    c1->cd();
 }
 
-int main(int argc, char **argv) {
-    archi();
-    return 0;
-}
+//int main(int argc, char **argv) {
+//    archi();
+//    return 0;
+//}

@@ -33,7 +33,7 @@ void crown(){
    cr4->Draw();
 }
 
-int main(int argc, char **argv) {
-    crown();
-    return 0;
-}
+//int main(int argc, char **argv) {
+//    crown();
+//    return 0;
+//}

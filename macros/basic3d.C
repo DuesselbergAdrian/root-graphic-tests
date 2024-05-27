@@ -102,7 +102,7 @@ void basic3d(){
    title->Draw();
 }
 
-int main(int argc, char **argv) {
-    basic3d();
-    return 0;
-}
+//int main(int argc, char **argv) {
+//    basic3d();
+//    return 0;
+//}
