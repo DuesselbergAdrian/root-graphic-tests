@@ -33,7 +33,7 @@ void ellipse(){
    el4->Draw();
 }
 
-int main(int argc, char **argv) {
-    ellipse();
-    return 0;
-}
+//int main(int argc, char **argv) {
+//    ellipse();
+//    return 0;
+//}

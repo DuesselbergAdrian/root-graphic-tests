@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeSystem.cmake"
+  "/home/adrianduesselberg/root-graphic-tests/macros.cmake"
   "/home/adrianduesselberg/root/cmake/modules/FindVdt.cmake"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"

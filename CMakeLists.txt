@@ -28,15 +28,23 @@ add_executable(Test_JSON ${Sources})
 target_link_libraries(Test_JSON PUBLIC ${ROOT_LIBRARIES})
 
 # List of macros to test
-set(macros
-    analyze
-    archi
-    arrows
-    compile
-    crown
-    basic3d
-    # Add more macros here as needed
+#set(macros
+#    analyze
+#    archi
+#    arrows
+#    compile
+#    crown
+#    basic3d
+#    # Add more macros here as needed
+#)
+# Run Python script to generate the CMake list
+execute_process(
+    COMMAND ${CMAKE_COMMAND} -E env python3 ${CMAKE_SOURCE_DIR}/generate_macros_cmake.py
+    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
 )
+
+# Include the generated macros list
+include(${CMAKE_SOURCE_DIR}/macros.cmake)
 
 #JSON tests for each macro
 foreach(macro ${macros})

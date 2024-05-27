@@ -1,0 +1,9 @@
+set(macros
+    analyze
+    archi
+    arrows
+    compile
+    crown
+    basic3d
+    ellipse
+)
