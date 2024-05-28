@@ -27,16 +27,6 @@ set(Sources
 add_executable(Test_JSON ${Sources})
 target_link_libraries(Test_JSON PUBLIC ${ROOT_LIBRARIES})
 
-# List of macros to test
-#set(macros
-#    analyze
-#    archi
-#    arrows
-#    compile
-#    crown
-#    basic3d
-#    # Add more macros here as needed
-#)
 # Run Python script to generate the CMake list
 execute_process(
     COMMAND ${CMAKE_COMMAND} -E env python3 ${CMAKE_SOURCE_DIR}/generate_macros_cmake.py
@@ -47,16 +37,23 @@ execute_process(
 include(${CMAKE_SOURCE_DIR}/macros.cmake)
 
 #JSON tests for each macro
-foreach(macro ${macros})
+foreach(macro_content ${macros})
+    string(REGEX MATCH "([^ ]+) ([^ ]+)" _ ${macro_content})
+    set(macro ${CMAKE_MATCH_1})
+    set(flag ${CMAKE_MATCH_2})
+    message(STATUS "Macro: ${macro}, Flag: ${flag}")
     add_test(
         NAME ${macro}_JSONTest
-        COMMAND root -l -b -q "Test_JSON.cpp(\"${macro}\")"
+        COMMAND root -l -b -q "Test_JSON.cpp(\"${macro}\", \"${flag}\" )"
         )
     set_tests_properties(${macro}_JSONTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 endforeach()
 
 #SVG tests for each macro
-foreach(macro ${macros})
+foreach(macro_content ${macros})
+    string(REGEX MATCH "([^ ]+) ([^ ]+)" _ ${macro_content})
+    set(macro ${CMAKE_MATCH_1})
+    set(flag ${CMAKE_MATCH_2})
     add_test(
         NAME ${macro}_SVGTest
         #COMMAND xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' node Test_SVG.js ${macro}

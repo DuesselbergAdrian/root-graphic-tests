@@ -40,7 +40,7 @@ bool compare_json(const TString& created_json, const std::string& ref_filename){
     return created_json.Data() == refBuffer.str();
 }
 
-void Test_JSON(const std::string& macroName){
+void Test_JSON(const std::string& macroName, const std::string& flags){
     // Set paths
     std::string macroPath = macroName + ".C";
     std::string jsonFilePath = "./json_pro/" + macroName + "_pro.json";
@@ -57,55 +57,64 @@ void Test_JSON(const std::string& macroName){
         return;
     }
 
-    // 3. Create JSON from the canvas
-    TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
+    if(flags == "j"){
+        // 3. Create JSON from the canvas
+        TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
 
-    // 4. Save JSON to a file
-    std::ofstream jsonFile(jsonFilePath);
-    if (jsonFile.is_open()) {
-        jsonFile << jsonOutput.Data();
-        jsonFile.close();
-    } else {
-        std::cerr << "Error: Unable to open file for writing" << std::endl;
-        return;
+        // 4. Save JSON to a file
+        std::ofstream jsonFile(jsonFilePath);
+        if (jsonFile.is_open()) {
+            jsonFile << jsonOutput.Data();
+            jsonFile.close();
+        } else {
+            std::cerr << "Error: Unable to open file for writing" << std::endl;
+            return;
+        }
+
+        // 5. Compare it to the reference file
+        TString created_json_path = TString::Format("./json_pro/%s_pro.json", macroName.c_str());
+
+        // 6. Read the generated JSON content from file
+        std::ifstream createdFile(created_json_path.Data());
+        if (!createdFile.is_open()) {
+            std::cerr << "Failed to open generated JSON file: " << created_json_path << std::endl;
+            return;
+        }
+        std::stringstream createdBuffer;
+        createdBuffer << createdFile.rdbuf();
+        createdFile.close();
+
+        TString created_json = createdBuffer.str().c_str();
+
+        // Path to the reference JSON file
+        std::string ref_filename = "./json_ref/" + macroName + ".json";
+
+        // Compare the created JSON to the reference JSON
+        bool result = compare_json(created_json, ref_filename);
+        if (result) {
+            std::cout << "Test passed for " << macroName << std::endl;
+        } else {
+            std::cerr << "Test failed for " << macroName << std::endl;
+            exit(EXIT_FAILURE);
+        }
     }
-
-    // 5. Compare it to the reference file
-    TString created_json_path = TString::Format("./json_pro/%s_pro.json", macroName.c_str());
-
-    // 6. Read the generated JSON content from file
-    std::ifstream createdFile(created_json_path.Data());
-    if (!createdFile.is_open()) {
-        std::cerr << "Failed to open generated JSON file: " << created_json_path << std::endl;
-        return;
-    }
-    std::stringstream createdBuffer;
-    createdBuffer << createdFile.rdbuf();
-    createdFile.close();
-
-    TString created_json = createdBuffer.str().c_str();
-
-    // Path to the reference JSON file
-    std::string ref_filename = "./json_ref/" + macroName + ".json";
-
-    // Compare the created JSON to the reference JSON
-    bool result = compare_json(created_json, ref_filename);
-    if (result) {
-        std::cout << "Test passed for " << macroName << std::endl;
-    } else {
+    if(flags== "s"){
         std::cerr << "Test failed for " << macroName << std::endl;
+        // how can I skip a test?
         exit(EXIT_FAILURE);
-    }
+    }   
+    return;
 }
 
 
 int main(int argc, char **argv) {
-    if (argc != 2) {
-        std::cerr << "Usage: " << argv[0] << " <macro_name>" << std::endl;
+    if (argc != 3) {
+        std::cerr << "Usage: " << argv[0] << " <macro_name> <flags>" << std::endl;
         return 1;
     }
 
     std::string macroName = argv[1];
-    Test_JSON(macroName);
+    std::string flags = argv[2];
+    Test_JSON(macroName,flags);
     return EXIT_SUCCESS;
 }

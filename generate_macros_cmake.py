@@ -8,11 +8,13 @@ with open('macros_list.json', 'r') as f:
 macros = data.get("macros", [])
 
 # Generate the CMake list
-cmake_list = "set(macros\n"
+cmake_content = "set(macros\n"
 for macro in macros:
-    cmake_list += f"    {macro}\n"
-cmake_list += ")\n"
+    name = macro["name"]
+    flag = macro["flag"]
+    cmake_content += f"    \"{name} {flag}\"\n"
+cmake_content += ")\n"
 
 # Write the CMake list to a file
 with open('macros.cmake', 'w') as f:
-    f.write(cmake_list)
+    f.write(cmake_content)

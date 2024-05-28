@@ -1,11 +1,13 @@
 {
     "macros": [
-        "analyze",
-        "archi",
-        "arrows",
-        "compile",
-        "crown",
-        "basic3d",
-        "ellipse"
+        {"name": "analyze", "flag": "j"},
+        {"name": "archi", "flag": "j"},
+        {"name": "arrows", "flag": "j"},
+        {"name": "compile", "flag": "j"},
+        {"name": "crown", "flag": "j"},
+        {"name": "basic3d", "flag": "j"},
+        {"name": "ellipse", "flag": "s"}
+        
     ]
+
 }

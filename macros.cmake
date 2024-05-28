@@ -1,9 +1,9 @@
 set(macros
-    analyze
-    archi
-    arrows
-    compile
-    crown
-    basic3d
-    ellipse
+    "analyze j"
+    "archi j"
+    "arrows j"
+    "compile j"
+    "crown j"
+    "basic3d j"
+    "ellipse s"
 )

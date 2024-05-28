@@ -22,7 +22,7 @@
 /// @brief 
 /// @param macroName 
 /// @param prop 
-void Test_JSON(const std::string& macroName);
+void Test_JSON(const std::string& macroName, const std::string& flags);
 bool compare_json(const TString& created_json, const std::string& ref_filename);
 
 #endif /* TEST_JSON_HPP */
