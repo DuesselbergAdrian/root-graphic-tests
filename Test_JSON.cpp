@@ -98,11 +98,14 @@ void Test_JSON(const std::string& macroName, const std::string& flags){
             exit(EXIT_FAILURE);
         }
     }
-    if(flags== "s"){
+    if(flags == "s"){ // not implemented
         std::cerr << "Test failed for " << macroName << std::endl;
         // how can I skip a test?
         exit(EXIT_FAILURE);
-    }   
+    }
+    if(flags == "o"){
+        c1->SaveAs((macroName + ".svg").c_str());
+    }
     return;
 }
 

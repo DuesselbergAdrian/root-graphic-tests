@@ -36,17 +36,25 @@ execute_process(
 # Include the generated macros list
 include(${CMAKE_SOURCE_DIR}/macros.cmake)
 
-#JSON tests for each macro
+#JSON tests for each macro (j) or old graphics tests (o)
 foreach(macro_content ${macros})
     string(REGEX MATCH "([^ ]+) ([^ ]+)" _ ${macro_content})
     set(macro ${CMAKE_MATCH_1})
     set(flag ${CMAKE_MATCH_2})
     message(STATUS "Macro: ${macro}, Flag: ${flag}")
-    add_test(
-        NAME ${macro}_JSONTest
-        COMMAND root -l -b -q "Test_JSON.cpp(\"${macro}\", \"${flag}\" )"
+    if(${flag} STREQUAL "j")
+        add_test(
+            NAME ${macro}_JSONTest
+            COMMAND root -l -b -q "Test_JSON.cpp(\"${macro}\", \"${flag}\" )"
+            )
+        set_tests_properties(${macro}_JSONTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+    elseif(${flag} STREQUAL "o")
+        add_test(
+            NAME ${macro}_JSONTest
+            COMMAND root -l -b -q --web=off "Test_JSON.cpp(\"${macro}\", \"${flag}\" )"
         )
-    set_tests_properties(${macro}_JSONTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${macro}_JSONTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        endif()
 endforeach()
 
 #SVG tests for each macro
