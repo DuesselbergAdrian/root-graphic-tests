@@ -1,140 +1,135 @@
-Start testing: May 28 11:19 CEST
+Start testing: May 28 13:56 CEST
 ----------------------------------------------------------
 1/14 Testing: analyze_JSONTest
 1/14 Test: analyze_JSONTest
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_JSON.cpp("analyze", "o" )"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"analyze_JSONTest" start time: May 28 11:19 CEST
+"analyze_JSONTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 
 Processing Test_JSON.cpp("analyze", "o" )...
-Info in <TCanvas::Print>: SVG file analyze.svg has been created
+Info in <TCanvas::Print>: SVG file analyze_pro.svg has been created
+The SVG files are different.
 <end of output>
-Test time =   0.49 sec
+Test time =   0.51 sec
 ----------------------------------------------------------
-Test Passed.
-"analyze_JSONTest" end time: May 28 11:19 CEST
+Test Failed.
+"analyze_JSONTest" end time: May 28 13:56 CEST
 "analyze_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 2/14 Testing: archi_JSONTest
 2/14 Test: archi_JSONTest
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("archi", "j" )"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_JSON.cpp("archi", "o" )"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"archi_JSONTest" start time: May 28 11:19 CEST
+"archi_JSONTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_JSON.cpp("archi", "j" )...
-Length of produced JSON: 84612
-Length of reference JSON: 84612
-Test passed for archi
+Processing Test_JSON.cpp("archi", "o" )...
+Info in <TCanvas::Print>: SVG file archi_pro.svg has been created
+The SVG files are different.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.51 sec
 ----------------------------------------------------------
-Test Passed.
-"archi_JSONTest" end time: May 28 11:19 CEST
+Test Failed.
+"archi_JSONTest" end time: May 28 13:56 CEST
 "archi_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 3/14 Testing: arrows_JSONTest
 3/14 Test: arrows_JSONTest
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("arrows", "j" )"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_JSON.cpp("arrows", "o" )"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"arrows_JSONTest" start time: May 28 11:19 CEST
+"arrows_JSONTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_JSON.cpp("arrows", "j" )...
-Length of produced JSON: 19643
-Length of reference JSON: 19643
-Test passed for arrows
+Processing Test_JSON.cpp("arrows", "o" )...
+Info in <TCanvas::Print>: SVG file arrows_pro.svg has been created
+The SVG files are different.
 <end of output>
 Test time =   0.47 sec
 ----------------------------------------------------------
-Test Passed.
-"arrows_JSONTest" end time: May 28 11:19 CEST
+Test Failed.
+"arrows_JSONTest" end time: May 28 13:56 CEST
 "arrows_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 4/14 Testing: compile_JSONTest
 4/14 Test: compile_JSONTest
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("compile", "j" )"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_JSON.cpp("compile", "o" )"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"compile_JSONTest" start time: May 28 11:19 CEST
+"compile_JSONTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_JSON.cpp("compile", "j" )...
-Length of produced JSON: 20432
-Length of reference JSON: 20432
-Test passed for compile
+Processing Test_JSON.cpp("compile", "o" )...
+Info in <TCanvas::Print>: SVG file compile_pro.svg has been created
+The SVG files are different.
 <end of output>
-Test time =   0.46 sec
+Test time =   0.47 sec
 ----------------------------------------------------------
-Test Passed.
-"compile_JSONTest" end time: May 28 11:19 CEST
+Test Failed.
+"compile_JSONTest" end time: May 28 13:56 CEST
 "compile_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 5/14 Testing: crown_JSONTest
 5/14 Test: crown_JSONTest
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("crown", "j" )"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_JSON.cpp("crown", "o" )"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"crown_JSONTest" start time: May 28 11:19 CEST
+"crown_JSONTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_JSON.cpp("crown", "j" )...
-Length of produced JSON: 18566
-Length of reference JSON: 18566
-Test passed for crown
+Processing Test_JSON.cpp("crown", "o" )...
+Info in <TCanvas::Print>: SVG file crown_pro.svg has been created
+The SVG files are different.
 <end of output>
 Test time =   0.46 sec
 ----------------------------------------------------------
-Test Passed.
-"crown_JSONTest" end time: May 28 11:19 CEST
+Test Failed.
+"crown_JSONTest" end time: May 28 13:56 CEST
 "crown_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 6/14 Testing: basic3d_JSONTest
 6/14 Test: basic3d_JSONTest
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("basic3d", "j" )"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_JSON.cpp("basic3d", "o" )"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"basic3d_JSONTest" start time: May 28 11:19 CEST
+"basic3d_JSONTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_JSON.cpp("basic3d", "j" )...
-Length of produced JSON: 22096
-Length of reference JSON: 22096
-Test passed for basic3d
+Processing Test_JSON.cpp("basic3d", "o" )...
+Info in <TCanvas::Print>: SVG file basic3d_pro.svg has been created
+The SVG files are different.
 <end of output>
-Test time =   0.49 sec
+Test time =   0.50 sec
 ----------------------------------------------------------
-Test Passed.
-"basic3d_JSONTest" end time: May 28 11:19 CEST
+Test Failed.
+"basic3d_JSONTest" end time: May 28 13:56 CEST
 "basic3d_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 7/14 Testing: ellipse_JSONTest
 7/14 Test: ellipse_JSONTest
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_JSON.cpp("ellipse", "j" )"
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_JSON.cpp("ellipse", "o" )"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"ellipse_JSONTest" start time: May 28 11:19 CEST
+"ellipse_JSONTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_JSON.cpp("ellipse", "j" )...
-Length of produced JSON: 19215
-Length of reference JSON: 19245
-Test failed for ellipse
+Processing Test_JSON.cpp("ellipse", "o" )...
+Info in <TCanvas::Print>: SVG file ellipse_pro.svg has been created
+The SVG files are different.
 <end of output>
-Test time =   0.44 sec
+Test time =   0.47 sec
 ----------------------------------------------------------
 Test Failed.
-"ellipse_JSONTest" end time: May 28 11:19 CEST
+"ellipse_JSONTest" end time: May 28 13:56 CEST
 "ellipse_JSONTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -142,7 +137,7 @@ Test Failed.
 8/14 Test: analyze_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "analyze"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"analyze_SVGTest" start time: May 28 11:19 CEST
+"analyze_SVGTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
@@ -152,7 +147,7 @@ MATCH: analyze - Lengths [Pro: 11643, Ref: 11643]
 Test time =   0.62 sec
 ----------------------------------------------------------
 Test Passed.
-"analyze_SVGTest" end time: May 28 11:19 CEST
+"analyze_SVGTest" end time: May 28 13:56 CEST
 "analyze_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -160,17 +155,17 @@ Test Passed.
 9/14 Test: archi_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "archi"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"archi_SVGTest" start time: May 28 11:19 CEST
+"archi_SVGTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: archi - Lengths [Pro: 41892, Ref: 41892]
 <end of output>
-Test time =   0.67 sec
+Test time =   0.66 sec
 ----------------------------------------------------------
 Test Passed.
-"archi_SVGTest" end time: May 28 11:19 CEST
+"archi_SVGTest" end time: May 28 13:56 CEST
 "archi_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -178,7 +173,7 @@ Test Passed.
 10/14 Test: arrows_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "arrows"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"arrows_SVGTest" start time: May 28 11:19 CEST
+"arrows_SVGTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
@@ -188,7 +183,7 @@ MATCH: arrows - Lengths [Pro: 1572, Ref: 1572]
 Test time =   0.56 sec
 ----------------------------------------------------------
 Test Passed.
-"arrows_SVGTest" end time: May 28 11:19 CEST
+"arrows_SVGTest" end time: May 28 13:56 CEST
 "arrows_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -196,7 +191,7 @@ Test Passed.
 11/14 Test: compile_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "compile"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"compile_SVGTest" start time: May 28 11:19 CEST
+"compile_SVGTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
@@ -206,7 +201,7 @@ MATCH: compile - Lengths [Pro: 1700, Ref: 1700]
 Test time =   0.56 sec
 ----------------------------------------------------------
 Test Passed.
-"compile_SVGTest" end time: May 28 11:19 CEST
+"compile_SVGTest" end time: May 28 13:56 CEST
 "compile_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -214,7 +209,7 @@ Test Passed.
 12/14 Test: crown_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "crown"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"crown_SVGTest" start time: May 28 11:19 CEST
+"crown_SVGTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
@@ -224,7 +219,7 @@ MATCH: crown - Lengths [Pro: 1605, Ref: 1605]
 Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"crown_SVGTest" end time: May 28 11:19 CEST
+"crown_SVGTest" end time: May 28 13:56 CEST
 "crown_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -232,7 +227,7 @@ Test Passed.
 13/14 Test: basic3d_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "basic3d"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"basic3d_SVGTest" start time: May 28 11:19 CEST
+"basic3d_SVGTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
@@ -242,10 +237,10 @@ Total visible nodes 1 numfaces 12
 Create tm = 1 meshes 1 faces 12
 MATCH: basic3d - Lengths [Pro: 8404, Ref: 8404]
 <end of output>
-Test time =   1.24 sec
+Test time =   1.23 sec
 ----------------------------------------------------------
 Test Passed.
-"basic3d_SVGTest" end time: May 28 11:19 CEST
+"basic3d_SVGTest" end time: May 28 13:56 CEST
 "basic3d_SVGTest" time elapsed: 00:00:01
 ----------------------------------------------------------
 
@@ -253,18 +248,18 @@ Test Passed.
 14/14 Test: ellipse_SVGTest
 Command: "/usr/bin/node" "Test_SVG.js" "ellipse"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"ellipse_SVGTest" start time: May 28 11:19 CEST
+"ellipse_SVGTest" start time: May 28 13:56 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: ellipse - Lengths [Pro: 2369, Ref: 2369]
 <end of output>
-Test time =   0.55 sec
+Test time =   0.56 sec
 ----------------------------------------------------------
 Test Passed.
-"ellipse_SVGTest" end time: May 28 11:19 CEST
+"ellipse_SVGTest" end time: May 28 13:56 CEST
 "ellipse_SVGTest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 28 11:19 CEST
+End testing: May 28 13:56 CEST

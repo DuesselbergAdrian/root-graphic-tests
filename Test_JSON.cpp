@@ -39,6 +39,29 @@ bool compare_json(const TString& created_json, const std::string& ref_filename){
     std::cerr << "Length of reference JSON: " << refBuffer.str().length() << std::endl;
     return created_json.Data() == refBuffer.str();
 }
+// Function to read file content into a string
+std::string readFileToString(const std::string& filePath) {
+    std::ifstream file(filePath);
+    if (!file) {
+        throw std::runtime_error("Could not open file: " + filePath);
+    }
+    std::stringstream buffer;
+    buffer << file.rdbuf();
+    return buffer.str();
+}
+
+// Function to compare two SVG files (old graphics)
+bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2) {
+    try {
+        std::string content1 = readFileToString(filePath1);
+        std::string content2 = readFileToString(filePath2);
+
+        return content1 == content2;
+    } catch (const std::exception& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+        return false;
+    }
+}
 
 void Test_JSON(const std::string& macroName, const std::string& flags){
     // Set paths
@@ -104,7 +127,16 @@ void Test_JSON(const std::string& macroName, const std::string& flags){
         exit(EXIT_FAILURE);
     }
     if(flags == "o"){
-        c1->SaveAs((macroName + ".svg").c_str());
+        c1->SaveAs((macroName + "_pro.svg").c_str());
+        std::string file1 = macroName + ".svg";
+        std::string file2 = macroName + "_pro.svg";
+
+        if (compareSVGFiles(file1, file2)) {
+            std::cout << "The SVG files are identical." << std::endl;
+        } else {
+            std::cout << "The SVG files are different." << std::endl;
+            exit(EXIT_FAILURE);
+        }
     }
     return;
 }

@@ -1,12 +1,12 @@
 {
     "macros": [
         {"name": "analyze", "flag": "o"},
-        {"name": "archi", "flag": "j"},
-        {"name": "arrows", "flag": "j"},
-        {"name": "compile", "flag": "j"},
-        {"name": "crown", "flag": "j"},
-        {"name": "basic3d", "flag": "j"},
-        {"name": "ellipse", "flag": "j"}
+        {"name": "archi", "flag": "o"},
+        {"name": "arrows", "flag": "o"},
+        {"name": "compile", "flag": "o"},
+        {"name": "crown", "flag": "o"},
+        {"name": "basic3d", "flag": "o"},
+        {"name": "ellipse", "flag": "o"}
         
     ]
 
