@@ -1,10 +1,10 @@
-Start testing: May 29 15:24 CEST
+Start testing: May 29 16:59 CEST
 ----------------------------------------------------------
-1/11 Testing: analyze_RootTest_o
-1/11 Test: analyze_RootTest_o
+1/15 Testing: analyze_RootTest_o
+1/15 Test: analyze_RootTest_o
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("analyze", "o", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"analyze_RootTest_o" start time: May 29 15:24 CEST
+"analyze_RootTest_o" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 
@@ -12,18 +12,18 @@ Processing Test_Root.cpp("analyze", "o", "macros_1")...
 Info in <TCanvas::Print>: SVG file ./old_svg_pro/analyze_pro.svg has been created
 SVG test passed for analyze
 <end of output>
-Test time =   2.05 sec
+Test time =   2.02 sec
 ----------------------------------------------------------
 Test Passed.
-"analyze_RootTest_o" end time: May 29 15:24 CEST
+"analyze_RootTest_o" end time: May 29 16:59 CEST
 "analyze_RootTest_o" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-2/11 Testing: archi_RootTest_o
-2/11 Test: archi_RootTest_o
+2/15 Testing: archi_RootTest_o
+2/15 Test: archi_RootTest_o
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("archi", "o", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"archi_RootTest_o" start time: May 29 15:24 CEST
+"archi_RootTest_o" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 
@@ -31,18 +31,18 @@ Processing Test_Root.cpp("archi", "o", "macros_1")...
 Info in <TCanvas::Print>: SVG file ./old_svg_pro/archi_pro.svg has been created
 SVG test passed for archi
 <end of output>
-Test time =   2.14 sec
+Test time =   2.13 sec
 ----------------------------------------------------------
 Test Passed.
-"archi_RootTest_o" end time: May 29 15:24 CEST
+"archi_RootTest_o" end time: May 29 16:59 CEST
 "archi_RootTest_o" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-3/11 Testing: arrows_RootTest_o
-3/11 Test: arrows_RootTest_o
+3/15 Testing: arrows_RootTest_o
+3/15 Test: arrows_RootTest_o
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("arrows", "o", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"arrows_RootTest_o" start time: May 29 15:24 CEST
+"arrows_RootTest_o" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 
@@ -50,18 +50,18 @@ Processing Test_Root.cpp("arrows", "o", "macros_1")...
 Info in <TCanvas::Print>: SVG file ./old_svg_pro/arrows_pro.svg has been created
 SVG test passed for arrows
 <end of output>
-Test time =   2.05 sec
+Test time =   2.01 sec
 ----------------------------------------------------------
 Test Passed.
-"arrows_RootTest_o" end time: May 29 15:24 CEST
+"arrows_RootTest_o" end time: May 29 16:59 CEST
 "arrows_RootTest_o" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-4/11 Testing: compile_RootTest_j
-4/11 Test: compile_RootTest_j
+4/15 Testing: compile_RootTest_j
+4/15 Test: compile_RootTest_j
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("compile", "j", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"compile_RootTest_j" start time: May 29 15:24 CEST
+"compile_RootTest_j" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 
@@ -70,18 +70,18 @@ Length of produced JSON: 20432
 Length of reference JSON: 20432
 JSON test passed for compile
 <end of output>
-Test time =   2.02 sec
+Test time =   2.01 sec
 ----------------------------------------------------------
 Test Passed.
-"compile_RootTest_j" end time: May 29 15:24 CEST
+"compile_RootTest_j" end time: May 29 16:59 CEST
 "compile_RootTest_j" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-5/11 Testing: crown_RootTest_j
-5/11 Test: crown_RootTest_j
+5/15 Testing: crown_RootTest_j
+5/15 Test: crown_RootTest_j
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("crown", "j", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"crown_RootTest_j" start time: May 29 15:24 CEST
+"crown_RootTest_j" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 
@@ -90,18 +90,18 @@ Length of produced JSON: 18566
 Length of reference JSON: 18566
 JSON test passed for crown
 <end of output>
-Test time =   2.04 sec
+Test time =   1.99 sec
 ----------------------------------------------------------
 Test Passed.
-"crown_RootTest_j" end time: May 29 15:24 CEST
-"crown_RootTest_j" time elapsed: 00:00:02
+"crown_RootTest_j" end time: May 29 16:59 CEST
+"crown_RootTest_j" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-6/11 Testing: basic3d_RootTest_j
-6/11 Test: basic3d_RootTest_j
+6/15 Testing: basic3d_RootTest_j
+6/15 Test: basic3d_RootTest_j
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("basic3d", "j", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"basic3d_RootTest_j" start time: May 29 15:24 CEST
+"basic3d_RootTest_j" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 
@@ -110,18 +110,18 @@ Length of produced JSON: 22096
 Length of reference JSON: 22096
 JSON test passed for basic3d
 <end of output>
-Test time =   2.06 sec
+Test time =   1.99 sec
 ----------------------------------------------------------
 Test Passed.
-"basic3d_RootTest_j" end time: May 29 15:24 CEST
-"basic3d_RootTest_j" time elapsed: 00:00:02
+"basic3d_RootTest_j" end time: May 29 16:59 CEST
+"basic3d_RootTest_j" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-7/11 Testing: ellipse_RootTest_j
-7/11 Test: ellipse_RootTest_j
+7/15 Testing: ellipse_DEVs_magic_box_a_step1
+7/15 Test: ellipse_DEVs_magic_box_a_step1
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("ellipse", "j", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"ellipse_RootTest_j" start time: May 29 15:24 CEST
+"ellipse_DEVs_magic_box_a_step1" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 
@@ -130,72 +130,148 @@ Length of produced JSON: 19215
 Length of reference JSON: 19215
 JSON test passed for ellipse
 <end of output>
-Test time =   2.03 sec
+Test time =   2.02 sec
 ----------------------------------------------------------
 Test Passed.
-"ellipse_RootTest_j" end time: May 29 15:24 CEST
-"ellipse_RootTest_j" time elapsed: 00:00:02
+"ellipse_DEVs_magic_box_a_step1" end time: May 29 16:59 CEST
+"ellipse_DEVs_magic_box_a_step1" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-8/11 Testing: eval_JsRootTest_s
-8/11 Test: eval_JsRootTest_s
+8/15 Testing: ellipse_DEVs_magic_box_a_step2
+8/15 Test: ellipse_DEVs_magic_box_a_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("ellipse", "o", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"ellipse_DEVs_magic_box_a_step2" start time: May 29 16:59 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("ellipse", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/ellipse_pro.svg has been created
+SVG test passed for ellipse
+<end of output>
+Test time =   2.00 sec
+----------------------------------------------------------
+Test Passed.
+"ellipse_DEVs_magic_box_a_step2" end time: May 29 16:59 CEST
+"ellipse_DEVs_magic_box_a_step2" time elapsed: 00:00:02
+----------------------------------------------------------
+
+9/15 Testing: ellipse_DEVs_magic_box_a_step3
+9/15 Test: ellipse_DEVs_magic_box_a_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "ellipse"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"ellipse_DEVs_magic_box_a_step3" start time: May 29 16:59 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: ellipse - Lengths [Pro: 2369, Ref: 2369]
+<end of output>
+Test time =   0.56 sec
+----------------------------------------------------------
+Test Passed.
+"ellipse_DEVs_magic_box_a_step3" end time: May 29 16:59 CEST
+"ellipse_DEVs_magic_box_a_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/15 Testing: eval_JsRootTest_s
+10/15 Test: eval_JsRootTest_s
 Command: "/usr/bin/node" "Test_JsRoot.js" "eval"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"eval_JsRootTest_s" start time: May 29 15:24 CEST
+"eval_JsRootTest_s" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: eval - Lengths [Pro: 2887, Ref: 2887]
 <end of output>
-Test time =   0.59 sec
+Test time =   0.56 sec
 ----------------------------------------------------------
 Test Passed.
-"eval_JsRootTest_s" end time: May 29 15:24 CEST
+"eval_JsRootTest_s" end time: May 29 16:59 CEST
 "eval_JsRootTest_s" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/11 Testing: event_JsRootTest_s
-9/11 Test: event_JsRootTest_s
+11/15 Testing: event_JsRootTest_s
+11/15 Test: event_JsRootTest_s
 Command: "/usr/bin/node" "Test_JsRoot.js" "event"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"event_JsRootTest_s" start time: May 29 15:24 CEST
+"event_JsRootTest_s" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: event - Lengths [Pro: 5344, Ref: 5344]
 <end of output>
-Test time =   0.59 sec
+Test time =   0.58 sec
 ----------------------------------------------------------
 Test Passed.
-"event_JsRootTest_s" end time: May 29 15:24 CEST
+"event_JsRootTest_s" end time: May 29 16:59 CEST
 "event_JsRootTest_s" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/11 Testing: feynman_JsRootTest_s
-10/11 Test: feynman_JsRootTest_s
+12/15 Testing: feynman_JsRootTest_s
+12/15 Test: feynman_JsRootTest_s
 Command: "/usr/bin/node" "Test_JsRoot.js" "feynman"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"feynman_JsRootTest_s" start time: May 29 15:24 CEST
+"feynman_JsRootTest_s" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: feynman - Lengths [Pro: 16896, Ref: 16896]
 <end of output>
-Test time =   0.58 sec
+Test time =   0.56 sec
 ----------------------------------------------------------
 Test Passed.
-"feynman_JsRootTest_s" end time: May 29 15:24 CEST
+"feynman_JsRootTest_s" end time: May 29 16:59 CEST
 "feynman_JsRootTest_s" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/11 Testing: first_JsRootTest_s
-11/11 Test: first_JsRootTest_s
+13/15 Testing: first_DEVs_magic_box_a_step1
+13/15 Test: first_DEVs_magic_box_a_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("first", "j", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"first_DEVs_magic_box_a_step1" start time: May 29 16:59 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("first", "j", "macros_1")...
+Length of produced JSON: 32025
+Length of reference JSON: 32025
+JSON test passed for first
+<end of output>
+Test time =   2.08 sec
+----------------------------------------------------------
+Test Passed.
+"first_DEVs_magic_box_a_step1" end time: May 29 16:59 CEST
+"first_DEVs_magic_box_a_step1" time elapsed: 00:00:02
+----------------------------------------------------------
+
+14/15 Testing: first_DEVs_magic_box_a_step2
+14/15 Test: first_DEVs_magic_box_a_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("first", "o", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"first_DEVs_magic_box_a_step2" start time: May 29 16:59 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("first", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/first_pro.svg has been created
+SVG test passed for first
+<end of output>
+Test time =   2.05 sec
+----------------------------------------------------------
+Test Passed.
+"first_DEVs_magic_box_a_step2" end time: May 29 16:59 CEST
+"first_DEVs_magic_box_a_step2" time elapsed: 00:00:02
+----------------------------------------------------------
+
+15/15 Testing: first_DEVs_magic_box_a_step3
+15/15 Test: first_DEVs_magic_box_a_step3
 Command: "/usr/bin/node" "Test_JsRoot.js" "first"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"first_JsRootTest_s" start time: May 29 15:24 CEST
+"first_DEVs_magic_box_a_step3" start time: May 29 16:59 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
@@ -205,8 +281,8 @@ MATCH: first - Lengths [Pro: 6792, Ref: 6792]
 Test time =   0.60 sec
 ----------------------------------------------------------
 Test Passed.
-"first_JsRootTest_s" end time: May 29 15:24 CEST
-"first_JsRootTest_s" time elapsed: 00:00:00
+"first_DEVs_magic_box_a_step3" end time: May 29 16:59 CEST
+"first_DEVs_magic_box_a_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 29 15:24 CEST
+End testing: May 29 16:59 CEST

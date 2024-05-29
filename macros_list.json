@@ -6,11 +6,11 @@
         {"name": "compile", "test_type": "j", "macro_folder": "macros_1"},
         {"name": "crown", "test_type": "j", "macro_folder": "macros_1"},
         {"name": "basic3d", "test_type": "j", "macro_folder": "macros_1"},
-        {"name": "ellipse", "test_type": "j", "macro_folder": "macros_1"},
+        {"name": "ellipse", "test_type": "a", "macro_folder": "macros_1"},
         {"name": "eval", "test_type": "s", "macro_folder": "macros_1"},
         {"name": "event", "test_type": "s", "macro_folder": "macros_1"},
         {"name": "feynman", "test_type": "s", "macro_folder": "macros_1"},
-        {"name": "first", "test_type": "s", "macro_folder": "macros_1"}
+        {"name": "first", "test_type": "a", "macro_folder": "macros_1"}
     ]
 
 }

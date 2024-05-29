@@ -59,4 +59,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Test_Root.dir/DependInfo.cmake"
+  "CMakeFiles/ellipse_DEVs_magic_box_a_all.dir/DependInfo.cmake"
+  "CMakeFiles/first_DEVs_magic_box_a_all.dir/DependInfo.cmake"
   )

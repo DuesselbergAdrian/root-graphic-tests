@@ -139,6 +139,32 @@ Test_Root/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Root.dir/build.make CMakeFiles/Test_Root.dir/build
 .PHONY : Test_Root/fast
 
+#=============================================================================
+# Target rules for targets named ellipse_DEVs_magic_box_a_all
+
+# Build rule for target.
+ellipse_DEVs_magic_box_a_all: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ellipse_DEVs_magic_box_a_all
+.PHONY : ellipse_DEVs_magic_box_a_all
+
+# fast build rule for target.
+ellipse_DEVs_magic_box_a_all/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ellipse_DEVs_magic_box_a_all.dir/build.make CMakeFiles/ellipse_DEVs_magic_box_a_all.dir/build
+.PHONY : ellipse_DEVs_magic_box_a_all/fast
+
+#=============================================================================
+# Target rules for targets named first_DEVs_magic_box_a_all
+
+# Build rule for target.
+first_DEVs_magic_box_a_all: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 first_DEVs_magic_box_a_all
+.PHONY : first_DEVs_magic_box_a_all
+
+# fast build rule for target.
+first_DEVs_magic_box_a_all/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_DEVs_magic_box_a_all.dir/build.make CMakeFiles/first_DEVs_magic_box_a_all.dir/build
+.PHONY : first_DEVs_magic_box_a_all/fast
+
 Test_Root.o: Test_Root.cpp.o
 .PHONY : Test_Root.o
 
@@ -172,6 +198,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... ellipse_DEVs_magic_box_a_all"
+	@echo "... first_DEVs_magic_box_a_all"
 	@echo "... Test_Root"
 	@echo "... Test_Root.o"
 	@echo "... Test_Root.i"

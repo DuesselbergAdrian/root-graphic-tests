@@ -40,6 +40,46 @@ bool compare_json(const TString& created_json, const std::string& ref_filename){
     std::cerr << "Length of reference JSON: " << refBuffer.str().length() << std::endl;
     return created_json.Data() == refBuffer.str();
 }
+void test_json(TCanvas* c1, const std::string& macroName, std::string jsonFilePath){
+        // 1. Create JSON from the canvas
+    TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
+
+    // 2. Save JSON to a file
+    std::ofstream jsonFile(jsonFilePath);
+    if (jsonFile.is_open()) {
+        jsonFile << jsonOutput.Data();
+        jsonFile.close();
+    } else {
+        std::cerr << "Error: Unable to open file for writing" << std::endl;
+        return;
+    }
+
+    // 3. Compare it to the reference file
+    TString created_json_path = TString::Format("./json_pro/%s_pro.json", macroName.c_str());
+
+    // 4. Read the generated JSON content from file
+    std::ifstream createdFile(created_json_path.Data());
+    if (!createdFile.is_open()) {
+        std::cerr << "Failed to open generated JSON file: " << created_json_path << std::endl;
+        return;
+    }
+    std::stringstream createdBuffer;
+    createdBuffer << createdFile.rdbuf();
+    createdFile.close();
+
+    TString created_json = createdBuffer.str().c_str();
+
+    // Path to the reference JSON file
+    std::string ref_filename = "./json_ref/" + macroName + ".json";
+
+    // Compare the created JSON to the reference JSON
+    if (compare_json(created_json, ref_filename)) {
+        std::cout << "JSON test passed for " << macroName << std::endl;
+    } else {
+        std::cerr << "JSON test failed for " << macroName << std::endl;
+        exit(EXIT_FAILURE);
+    }
+}
 
 //---------------------SVG-----------------------------------------------------------------
 // Function to read file content into a string
@@ -58,10 +98,6 @@ std::string readFileToString(const std::string& filePath) {
 std::string preprocessSVGContent(const std::string& svgContent) {
     std::string result = svgContent;
 
-    // Remove CreationDate elements within <desc>
-    //std::regex creationDateRegex(R"(<CreationDate>.*?<\/CreationDate>)");
-    //result = std::regex_replace(result, creationDateRegex, "");
-
     // Remove <title>...</title> sections
     std::regex titleRegex(R"(<title>(.|\n)*?<\/title>)");
     result = std::regex_replace(result, titleRegex, "");
@@ -69,10 +105,6 @@ std::string preprocessSVGContent(const std::string& svgContent) {
     // Remove <desc>...</desc> sections
     std::regex descRegex(R"(<desc>(.|\n)*?<\/desc>)");
     result = std::regex_replace(result, descRegex, "");
-
-    // Normalize paths (this example simply removes paths, you might want to adjust this)
-    //std::regex pathRegex(R"((\.\./|\.\/)?[^\s]*\/([^\s]*\.svg))");
-    //result = std::regex_replace(result, pathRegex, "$2");
 
     return result;
 }
@@ -93,8 +125,21 @@ bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2)
     }
 }
 
+void test_svg(TCanvas* c1, const std::string& macroName){
+    c1->SaveAs(("./old_svg_pro/" + macroName + "_pro.svg").c_str());
+    std::string file1 = "./old_svg_ref/" + macroName + ".svg";
+    std::string file2 = "./old_svg_pro/" + macroName + "_pro.svg";
 
-// TEST ROOT MACRO
+    if (compareSVGFiles(file1, file2)) {
+        std::cout << "SVG test passed for "<< macroName << std::endl;
+    } else {
+        std::cout << "SVG test failed for "<< macroName << std::endl;
+        exit(EXIT_FAILURE);
+    }
+}
+
+
+// TEST ROOT MACRO -------------------------------------------------------------------------------
 void Test_Root(const std::string& macroName, const std::string& test_type, const std::string& macro_folder){
     // Set paths
     std::string macroPath = macro_folder + "/" + macroName + ".C";
@@ -117,57 +162,15 @@ void Test_Root(const std::string& macroName, const std::string& test_type, const
     // o === test the SVG creation in ROOT (old graphics with --web=off)
 
     if(test_type == "j"){
-        // 1. Create JSON from the canvas
-        TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
-
-        // 2. Save JSON to a file
-        std::ofstream jsonFile(jsonFilePath);
-        if (jsonFile.is_open()) {
-            jsonFile << jsonOutput.Data();
-            jsonFile.close();
-        } else {
-            std::cerr << "Error: Unable to open file for writing" << std::endl;
-            return;
-        }
-
-        // 3. Compare it to the reference file
-        TString created_json_path = TString::Format("./json_pro/%s_pro.json", macroName.c_str());
-
-        // 4. Read the generated JSON content from file
-        std::ifstream createdFile(created_json_path.Data());
-        if (!createdFile.is_open()) {
-            std::cerr << "Failed to open generated JSON file: " << created_json_path << std::endl;
-            return;
-        }
-        std::stringstream createdBuffer;
-        createdBuffer << createdFile.rdbuf();
-        createdFile.close();
-
-        TString created_json = createdBuffer.str().c_str();
-
-        // Path to the reference JSON file
-        std::string ref_filename = "./json_ref/" + macroName + ".json";
-
-        // Compare the created JSON to the reference JSON
-        if (compare_json(created_json, ref_filename)) {
-            std::cout << "JSON test passed for " << macroName << std::endl;
-        } else {
-            std::cerr << "JSON test failed for " << macroName << std::endl;
-            exit(EXIT_FAILURE);
-        }
+        test_json(c1,macroName,jsonFilePath);
     }
     if(test_type == "o"){
-        c1->SaveAs(("./old_svg_pro/" + macroName + "_pro.svg").c_str());
-        std::string file1 = "./old_svg_ref/" + macroName + ".svg";
-        std::string file2 = "./old_svg_pro/" + macroName + "_pro.svg";
-
-        if (compareSVGFiles(file1, file2)) {
-            std::cout << "SVG test passed for "<< macroName << std::endl;
-        } else {
-            std::cout << "SVG test failed for "<< macroName << std::endl;
-            exit(EXIT_FAILURE);
-        }
+        test_svg(c1,macroName);
     }
+    //if(test_type == "a"){
+    //    test_json(c1,macroName,jsonFilePath);
+    //    test_svg(c1,macroName);
+    //}
     return;
 }
 

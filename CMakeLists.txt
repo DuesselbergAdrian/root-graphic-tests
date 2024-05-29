@@ -36,7 +36,7 @@ execute_process(
 # Include the generated macros list
 include(${CMAKE_SOURCE_DIR}/macros.cmake)
 
-#Tests for each macro: (j == JSON),(o == old SVG), (s == new SVG)
+#Tests for each macro: (j == JSON),(o == old SVG), (s == new SVG), (a == all)
 foreach(macro_content ${macros})
     string(REGEX MATCH "([^ ]+) ([^ ]+) ([^ ]+)" _ ${macro_content})
     set(macro ${CMAKE_MATCH_1})
@@ -61,7 +61,28 @@ foreach(macro_content ${macros})
             #COMMAND xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' node Test_JsRoot.js ${macro}
             # How can I add inputs
             COMMAND node Test_JsRoot.js ${macro}
-    )
-    set_tests_properties(${macro}_JsRootTest_${test_type} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+            )
+        set_tests_properties(${macro}_JsRootTest_${test_type} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+    elseif(${test_type} STREQUAL "a")
+        set(test_name "${macro}_DEVs_magic_box_${test_type}")
+
+        # Add the test steps
+        add_test(NAME ${test_name}_step1
+            COMMAND root -l -b -q "Test_Root.cpp(\"${macro}\", \"j\", \"${macro_folder}\")"
+        )
+        add_test(NAME ${test_name}_step2
+            COMMAND root -l -b -q --web=off "Test_Root.cpp(\"${macro}\", \"o\", \"${macro_folder}\")"
+        )
+        add_test(NAME ${test_name}_step3
+            COMMAND node Test_JsRoot.js ${macro}
+        )
+        set_tests_properties(${test_name}_step1 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${test_name}_step2 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${test_name}_step3 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+
+        # If you want to run these steps as a sequence, you can create a custom target and make steps depend on each other
+        add_custom_target(${test_name}_all
+            DEPENDS ${test_name}_step1 ${test_name}_step2 ${test_name}_step3
+        )
         endif()
 endforeach()

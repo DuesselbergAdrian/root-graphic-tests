@@ -1,4 +1,6 @@
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/Test_Root.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/ellipse_DEVs_magic_box_a_all.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/first_DEVs_magic_box_a_all.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/test.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/edit_cache.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/rebuild_cache.dir

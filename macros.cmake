@@ -5,9 +5,9 @@ set(macros
     "compile j macros_1"
     "crown j macros_1"
     "basic3d j macros_1"
-    "ellipse j macros_1"
+    "ellipse a macros_1"
     "eval s macros_1"
     "event s macros_1"
     "feynman s macros_1"
-    "first s macros_1"
+    "first a macros_1"
 )
