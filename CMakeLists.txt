@@ -64,25 +64,23 @@ foreach(macro_content ${macros})
             )
         set_tests_properties(${macro}_JsRootTest_${test_type} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
     elseif(${test_type} STREQUAL "a")
-        set(test_name "${macro}_DEVs_magic_box_${test_type}")
-
         # Add the test steps
-        add_test(NAME ${test_name}_step1
+        add_test(NAME ${macro}_ALL_step1
             COMMAND root -l -b -q "Test_Root.cpp(\"${macro}\", \"j\", \"${macro_folder}\")"
         )
-        add_test(NAME ${test_name}_step2
+        add_test(NAME ${macro}_ALL_step2
             COMMAND root -l -b -q --web=off "Test_Root.cpp(\"${macro}\", \"o\", \"${macro_folder}\")"
         )
-        add_test(NAME ${test_name}_step3
+        add_test(NAME ${macro}_ALL_step3
             COMMAND node Test_JsRoot.js ${macro}
         )
-        set_tests_properties(${test_name}_step1 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
-        set_tests_properties(${test_name}_step2 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
-        set_tests_properties(${test_name}_step3 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${macro}_ALL_step1 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${macro}_ALL_step2 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${macro}_ALL_step3 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
         # If you want to run these steps as a sequence, you can create a custom target and make steps depend on each other
-        add_custom_target(${test_name}_all
-            DEPENDS ${test_name}_step1 ${test_name}_step2 ${test_name}_step3
+        add_custom_target(${macro}_All
+            DEPENDS ${macro}_ALL_step1 ${macro}_ALL_step2 ${macro}_ALL_step3
         )
-        endif()
+    endif()
 endforeach()

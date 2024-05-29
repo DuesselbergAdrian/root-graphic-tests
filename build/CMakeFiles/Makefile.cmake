@@ -59,6 +59,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Test_Root.dir/DependInfo.cmake"
-  "CMakeFiles/ellipse_DEVs_magic_box_a_all.dir/DependInfo.cmake"
-  "CMakeFiles/first_DEVs_magic_box_a_all.dir/DependInfo.cmake"
+  "CMakeFiles/analyze_All.dir/DependInfo.cmake"
+  "CMakeFiles/archi_All.dir/DependInfo.cmake"
+  "CMakeFiles/arrows_All.dir/DependInfo.cmake"
+  "CMakeFiles/compile_All.dir/DependInfo.cmake"
+  "CMakeFiles/crown_All.dir/DependInfo.cmake"
+  "CMakeFiles/basic3d_All.dir/DependInfo.cmake"
+  "CMakeFiles/ellipse_All.dir/DependInfo.cmake"
+  "CMakeFiles/first_All.dir/DependInfo.cmake"
   )

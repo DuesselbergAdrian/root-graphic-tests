@@ -140,30 +140,108 @@ Test_Root/fast:
 .PHONY : Test_Root/fast
 
 #=============================================================================
-# Target rules for targets named ellipse_DEVs_magic_box_a_all
+# Target rules for targets named analyze_All
 
 # Build rule for target.
-ellipse_DEVs_magic_box_a_all: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ellipse_DEVs_magic_box_a_all
-.PHONY : ellipse_DEVs_magic_box_a_all
+analyze_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 analyze_All
+.PHONY : analyze_All
 
 # fast build rule for target.
-ellipse_DEVs_magic_box_a_all/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ellipse_DEVs_magic_box_a_all.dir/build.make CMakeFiles/ellipse_DEVs_magic_box_a_all.dir/build
-.PHONY : ellipse_DEVs_magic_box_a_all/fast
+analyze_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/analyze_All.dir/build.make CMakeFiles/analyze_All.dir/build
+.PHONY : analyze_All/fast
 
 #=============================================================================
-# Target rules for targets named first_DEVs_magic_box_a_all
+# Target rules for targets named archi_All
 
 # Build rule for target.
-first_DEVs_magic_box_a_all: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 first_DEVs_magic_box_a_all
-.PHONY : first_DEVs_magic_box_a_all
+archi_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 archi_All
+.PHONY : archi_All
 
 # fast build rule for target.
-first_DEVs_magic_box_a_all/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_DEVs_magic_box_a_all.dir/build.make CMakeFiles/first_DEVs_magic_box_a_all.dir/build
-.PHONY : first_DEVs_magic_box_a_all/fast
+archi_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/archi_All.dir/build.make CMakeFiles/archi_All.dir/build
+.PHONY : archi_All/fast
+
+#=============================================================================
+# Target rules for targets named arrows_All
+
+# Build rule for target.
+arrows_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrows_All
+.PHONY : arrows_All
+
+# fast build rule for target.
+arrows_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrows_All.dir/build.make CMakeFiles/arrows_All.dir/build
+.PHONY : arrows_All/fast
+
+#=============================================================================
+# Target rules for targets named compile_All
+
+# Build rule for target.
+compile_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 compile_All
+.PHONY : compile_All
+
+# fast build rule for target.
+compile_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compile_All.dir/build.make CMakeFiles/compile_All.dir/build
+.PHONY : compile_All/fast
+
+#=============================================================================
+# Target rules for targets named crown_All
+
+# Build rule for target.
+crown_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 crown_All
+.PHONY : crown_All
+
+# fast build rule for target.
+crown_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/crown_All.dir/build.make CMakeFiles/crown_All.dir/build
+.PHONY : crown_All/fast
+
+#=============================================================================
+# Target rules for targets named basic3d_All
+
+# Build rule for target.
+basic3d_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 basic3d_All
+.PHONY : basic3d_All
+
+# fast build rule for target.
+basic3d_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic3d_All.dir/build.make CMakeFiles/basic3d_All.dir/build
+.PHONY : basic3d_All/fast
+
+#=============================================================================
+# Target rules for targets named ellipse_All
+
+# Build rule for target.
+ellipse_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ellipse_All
+.PHONY : ellipse_All
+
+# fast build rule for target.
+ellipse_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ellipse_All.dir/build.make CMakeFiles/ellipse_All.dir/build
+.PHONY : ellipse_All/fast
+
+#=============================================================================
+# Target rules for targets named first_All
+
+# Build rule for target.
+first_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 first_All
+.PHONY : first_All
+
+# fast build rule for target.
+first_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_All.dir/build.make CMakeFiles/first_All.dir/build
+.PHONY : first_All/fast
 
 Test_Root.o: Test_Root.cpp.o
 .PHONY : Test_Root.o
@@ -198,8 +276,14 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... ellipse_DEVs_magic_box_a_all"
-	@echo "... first_DEVs_magic_box_a_all"
+	@echo "... analyze_All"
+	@echo "... archi_All"
+	@echo "... arrows_All"
+	@echo "... basic3d_All"
+	@echo "... compile_All"
+	@echo "... crown_All"
+	@echo "... ellipse_All"
+	@echo "... first_All"
 	@echo "... Test_Root"
 	@echo "... Test_Root.o"
 	@echo "... Test_Root.i"
