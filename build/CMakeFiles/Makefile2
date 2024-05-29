@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/adrianduesselberg/root-graphic-tests/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Test_JSON.dir/all
+all: CMakeFiles/Test_Root.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Test_JSON.dir/clean
+clean: CMakeFiles/Test_Root.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Test_JSON.dir
+# Target rules for target CMakeFiles/Test_Root.dir
 
 # All Build rule for target.
-CMakeFiles/Test_JSON.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_JSON.dir/build.make CMakeFiles/Test_JSON.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_JSON.dir/build.make CMakeFiles/Test_JSON.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num=1,2 "Built target Test_JSON"
-.PHONY : CMakeFiles/Test_JSON.dir/all
+CMakeFiles/Test_Root.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Root.dir/build.make CMakeFiles/Test_Root.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Root.dir/build.make CMakeFiles/Test_Root.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num=1,2 "Built target Test_Root"
+.PHONY : CMakeFiles/Test_Root.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Test_JSON.dir/rule: cmake_check_build_system
+CMakeFiles/Test_Root.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Test_JSON.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Test_Root.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
-.PHONY : CMakeFiles/Test_JSON.dir/rule
+.PHONY : CMakeFiles/Test_Root.dir/rule
 
 # Convenience name for target.
-Test_JSON: CMakeFiles/Test_JSON.dir/rule
-.PHONY : Test_JSON
+Test_Root: CMakeFiles/Test_Root.dir/rule
+.PHONY : Test_Root
 
 # clean rule for target.
-CMakeFiles/Test_JSON.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_JSON.dir/build.make CMakeFiles/Test_JSON.dir/clean
-.PHONY : CMakeFiles/Test_JSON.dir/clean
+CMakeFiles/Test_Root.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test_Root.dir/build.make CMakeFiles/Test_Root.dir/clean
+.PHONY : CMakeFiles/Test_Root.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

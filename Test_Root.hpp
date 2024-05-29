@@ -1,5 +1,5 @@
-#ifndef TEST_JSON_HPP
-#define TEST_JSON_HPP
+#ifndef Test_Root_HPP
+#define Test_Root_HPP
 
 #include "TString.h"
 #include "TROOT.h"
@@ -22,10 +22,11 @@
 /// @brief 
 /// @param macroName 
 /// @param prop 
-void Test_JSON(const std::string& macroName, const std::string& flags);
+void Test_Root(const std::string& macroName, const std::string& flags);
 bool compare_json(const TString& created_json, const std::string& ref_filename);
 
 bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2);
 std::string readFileToString(const std::string& filePath);
+std::string preprocessSVGContent(const std::string& svgContent);
 
-#endif /* TEST_JSON_HPP */
+#endif /* Test_Root_HPP */

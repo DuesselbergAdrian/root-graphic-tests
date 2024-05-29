@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/adrianduesselberg/root-graphic-tests/build",
-  "command": "/usr/bin/clang++  -I/home/adrianduesselberg/build/include   -pipe -fsigned-char -pthread -g -std=gnu++17 -o CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o -c /home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp",
-  "file": "/home/adrianduesselberg/root-graphic-tests/Test_JSON.cpp",
-  "output": "CMakeFiles/Test_JSON.dir/Test_JSON.cpp.o"
+  "command": "/usr/bin/clang++  -I/home/adrianduesselberg/build/include   -pipe -fsigned-char -pthread -g -std=gnu++17 -o CMakeFiles/Test_Root.dir/Test_Root.cpp.o -c /home/adrianduesselberg/root-graphic-tests/Test_Root.cpp",
+  "file": "/home/adrianduesselberg/root-graphic-tests/Test_Root.cpp",
+  "output": "CMakeFiles/Test_Root.dir/Test_Root.cpp.o"
 }
 ]

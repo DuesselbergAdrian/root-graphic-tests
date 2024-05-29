@@ -1,7 +1,5 @@
-1:analyze_JSONTest
-2:archi_JSONTest
-3:arrows_JSONTest
-4:compile_JSONTest
-5:crown_JSONTest
-6:basic3d_JSONTest
-7:ellipse_JSONTest
+2:archi_RootTest
+3:arrows_RootTest
+5:crown_RootTest
+6:basic3d_RootTest
+7:ellipse_RootTest

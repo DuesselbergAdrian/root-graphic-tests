@@ -11,20 +11,20 @@ archiSVGTest 2 0.332255
 arrowsSVGTest 2 0.277948
 compileSVGTest 2 0.274571
 crownSVGTest 2 0.266285
-analyze_JSONTest 90 0
+analyze_JSONTest 95 0.00520904
 archi_JSONTest 90 0
 arrows_JSONTest 94 0
-compile_JSONTest 97 0
+compile_JSONTest 102 0.00456802
 crown_JSONTest 99 0
-analyze_SVGTest 141 0.00437745
-archi_SVGTest 141 0.00468322
-arrows_SVGTest 141 0.00393732
-compile_SVGTest 141 0.0039448
-crown_SVGTest 141 0.00383494
+analyze_SVGTest 143 0.00416047
+archi_SVGTest 143 0.00481132
+arrows_SVGTest 143 0.00375209
+compile_SVGTest 143 0.00379365
+crown_SVGTest 143 0.00380442
 basic3d_JSONTest 70 0
-basic3d_SVGTest 99 0.0124028
+basic3d_SVGTest 101 0.0115458
 ellipse_JSONTest 9 0
-ellipse_SVGTest 29 0.0193547
+ellipse_SVGTest 31 0.0174425
 analyze|j_SVGTest 0 0
 archi|j_SVGTest 0 0
 arrows|j_SVGTest 0 0
@@ -33,11 +33,18 @@ crown|j_SVGTest 0 0
 basic3d|j_SVGTest 0 0
 ellipse|s_SVGTest 0 0
 ellipse 0 0
+analyze_JsRootTest 13 0.0464479
+archi_JsRootTest 13 0.0520578
+arrows_JsRootTest 13 0.0427196
+compile_JsRootTest 13 0.0469316
+crown_JsRootTest 13 0.0425078
+basic3d_JsRootTest 13 0.0919378
+ellipse_JsRootTest 13 0.0431295
+analyze_RootTest 10 0.202192
+archi_RootTest 2 1.03904
+arrows_RootTest 2 0.990007
+compile_RootTest 10 0.196386
+crown_RootTest 2 0.982201
+basic3d_RootTest 2 1.01203
+ellipse_RootTest 2 1.04314
 ---
-analyze_JSONTest
-archi_JSONTest
-arrows_JSONTest
-compile_JSONTest
-crown_JSONTest
-basic3d_JSONTest
-ellipse_JSONTest

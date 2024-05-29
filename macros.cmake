@@ -1,8 +1,8 @@
 set(macros
-    "analyze o"
+    "analyze j"
     "archi o"
     "arrows o"
-    "compile o"
+    "compile j"
     "crown o"
     "basic3d o"
     "ellipse o"

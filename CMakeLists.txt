@@ -17,15 +17,15 @@ include(${ROOT_USE_FILE})
 enable_testing()
 
 set(Headers
-    Test_JSON.hpp
+    Test_Root.hpp
 )
 set(Sources
-    Test_JSON.cpp
+    Test_Root.cpp
 )
 
 #Libraries
-add_executable(Test_JSON ${Sources})
-target_link_libraries(Test_JSON PUBLIC ${ROOT_LIBRARIES})
+add_executable(Test_Root ${Sources})
+target_link_libraries(Test_Root PUBLIC ${ROOT_LIBRARIES})
 
 # Run Python script to generate the CMake list
 execute_process(
@@ -44,16 +44,16 @@ foreach(macro_content ${macros})
     message(STATUS "Macro: ${macro}, Flag: ${flag}")
     if(${flag} STREQUAL "j")
         add_test(
-            NAME ${macro}_JSONTest
-            COMMAND root -l -b -q "Test_JSON.cpp(\"${macro}\", \"${flag}\" )"
+            NAME ${macro}_RootTest
+            COMMAND root -l -b -q "Test_Root.cpp(\"${macro}\", \"${flag}\" )"
             )
-        set_tests_properties(${macro}_JSONTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${macro}_RootTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
     elseif(${flag} STREQUAL "o")
         add_test(
-            NAME ${macro}_JSONTest
-            COMMAND root -l -b -q --web=off "Test_JSON.cpp(\"${macro}\", \"${flag}\" )"
+            NAME ${macro}_RootTest
+            COMMAND root -l -b -q --web=off "Test_Root.cpp(\"${macro}\", \"${flag}\" )"
         )
-        set_tests_properties(${macro}_JSONTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${macro}_RootTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
         endif()
 endforeach()
 
@@ -63,9 +63,9 @@ foreach(macro_content ${macros})
     set(macro ${CMAKE_MATCH_1})
     set(flag ${CMAKE_MATCH_2})
     add_test(
-        NAME ${macro}_SVGTest
-        #COMMAND xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' node Test_SVG.js ${macro}
-        COMMAND node Test_SVG.js ${macro}
+        NAME ${macro}_JsRootTest
+        #COMMAND xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' node Test_JsRoot.js ${macro}
+        COMMAND node Test_JsRoot.js ${macro}
     )
-    set_tests_properties(${macro}_SVGTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+    set_tests_properties(${macro}_JsRootTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 endforeach()

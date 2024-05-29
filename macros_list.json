@@ -1,9 +1,9 @@
 {
     "macros": [
-        {"name": "analyze", "flag": "o"},
+        {"name": "analyze", "flag": "j"},
         {"name": "archi", "flag": "o"},
         {"name": "arrows", "flag": "o"},
-        {"name": "compile", "flag": "o"},
+        {"name": "compile", "flag": "j"},
         {"name": "crown", "flag": "o"},
         {"name": "basic3d", "flag": "o"},
         {"name": "ellipse", "flag": "o"}
