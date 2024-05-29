@@ -85,7 +85,7 @@ bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2)
 
         content1 = preprocessSVGContent(content1);
         content2 = preprocessSVGContent(content2);
-        
+
         return content1 == content2;
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
@@ -95,9 +95,9 @@ bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2)
 
 
 // TEST ROOT MACRO
-void Test_Root(const std::string& macroName, const std::string& flags){
+void Test_Root(const std::string& macroName, const std::string& test_type, const std::string& macro_folder){
     // Set paths
-    std::string macroPath = macroName + ".C";
+    std::string macroPath = macro_folder + "/" + macroName + ".C";
     std::string jsonFilePath = "./json_pro/" + macroName + "_pro.json";
     gROOT->SetMacroPath("./macros");
 
@@ -116,7 +116,7 @@ void Test_Root(const std::string& macroName, const std::string& flags){
     // j === test the JSON creation
     // o === test the SVG creation in ROOT (old graphics with --web=off)
 
-    if(flags == "j"){
+    if(test_type == "j"){
         // 1. Create JSON from the canvas
         TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
 
@@ -156,12 +156,7 @@ void Test_Root(const std::string& macroName, const std::string& flags){
             exit(EXIT_FAILURE);
         }
     }
-    if(flags == "s"){ // not implemented
-        std::cerr << "Test failed for " << macroName << std::endl;
-        // how can I skip a test?
-        exit(EXIT_FAILURE);
-    }
-    if(flags == "o"){
+    if(test_type == "o"){
         c1->SaveAs(("./old_svg_pro/" + macroName + "_pro.svg").c_str());
         std::string file1 = "./old_svg_ref/" + macroName + ".svg";
         std::string file2 = "./old_svg_pro/" + macroName + "_pro.svg";
@@ -178,13 +173,14 @@ void Test_Root(const std::string& macroName, const std::string& flags){
 
 
 int main(int argc, char **argv) {
-    if (argc != 3) {
-        std::cerr << "Usage: " << argv[0] << " <macro_name> <flags>" << std::endl;
+    if (argc != 4) {
+        std::cerr << "Usage: " << argv[0] << " <macro_name> <test_type> <macro_folder>" << std::endl;
         return 1;
     }
 
     std::string macroName = argv[1];
-    std::string flags = argv[2];
-    Test_Root(macroName,flags);
+    std::string test_type = argv[2];
+    std::string macro_folder = argv[3];
+    Test_Root(macroName,test_type, macro_folder);
     return EXIT_SUCCESS;
 }

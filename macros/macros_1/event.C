@@ -73,7 +73,3 @@ void event(){
    text.DrawText(10.2,3.5,"Forward_Detectors");
    text.DrawText(11.2,1.5,"TPCs");
 }
-int main(int argc, char **argv) {
-    event();
-    return 0;
-}

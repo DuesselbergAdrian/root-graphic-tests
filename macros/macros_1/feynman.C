@@ -57,7 +57,3 @@ void feynman()
    c1->Update();
    gStyle->SetLineWidth(linsav);
 }
-int main(int argc, char **argv) {
-    feynman();
-    return 0;
-}

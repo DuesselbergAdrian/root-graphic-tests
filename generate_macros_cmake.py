@@ -11,8 +11,9 @@ macros = data.get("macros", [])
 cmake_content = "set(macros\n"
 for macro in macros:
     name = macro["name"]
-    flag = macro["flag"]
-    cmake_content += f"    \"{name} {flag}\"\n"
+    test_type = macro["test_type"]
+    macro_folder = macro["macro_folder"]
+    cmake_content += f"    \"{name} {test_type} {macro_folder}\"\n"
 cmake_content += ")\n"
 
 # Write the CMake list to a file

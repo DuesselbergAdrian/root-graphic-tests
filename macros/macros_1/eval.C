@@ -44,7 +44,3 @@ void eval(){
    ar1->DrawArrow(3,5,4.4,5,0.02,"|>");
    ar1->DrawArrow(7.8,5,8.9,5,0.02,"|>");
 }
-int main(int argc, char **argv) {
-    eval();
-    return 0;
-}

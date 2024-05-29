@@ -10,10 +10,10 @@
 
 void first() {
 
-   TCanvas *c11 = new TCanvas("c11", "FirstSession",100,10,700,900);
-   c11->Range(0,0,20,24);
-   c11->SetFillColor(10);
-   c11->SetBorderSize(2);
+   TCanvas *c1 = new TCanvas("c1", "FirstSession",100,10,700,900);
+   c1->Range(0,0,20,24);
+   c1->SetFillColor(10);
+   c1->SetBorderSize(2);
 
    TPaveLabel *pl = new TPaveLabel(3,22,17,23.7,
       "My first ROOT interactive session","br");
@@ -51,13 +51,4 @@ void first() {
    pad->SetGrid();
    TF1 *f1 = new TF1("f1","sin(x)/x",0,10);
    f1->Draw();
-
-   //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c11, "WebCanvas11", 100, 10, 700, 900);
-   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c11, 1, kFALSE);
-   
-   //Save JSON to a file
-   std::ofstream jsonFile("./json_pro/first_pro.json");
-   jsonFile << jsonOutput.Data();
-   jsonFile.close();
 }

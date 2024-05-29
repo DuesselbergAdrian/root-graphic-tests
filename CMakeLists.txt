@@ -36,36 +36,32 @@ execute_process(
 # Include the generated macros list
 include(${CMAKE_SOURCE_DIR}/macros.cmake)
 
-#JSON tests for each macro (j) or old graphics tests (o)
+#Tests for each macro: (j == JSON),(o == old SVG), (s == new SVG)
 foreach(macro_content ${macros})
-    string(REGEX MATCH "([^ ]+) ([^ ]+)" _ ${macro_content})
+    string(REGEX MATCH "([^ ]+) ([^ ]+) ([^ ]+)" _ ${macro_content})
     set(macro ${CMAKE_MATCH_1})
-    set(flag ${CMAKE_MATCH_2})
-    message(STATUS "Macro: ${macro}, Flag: ${flag}")
-    if(${flag} STREQUAL "j")
+    set(test_type ${CMAKE_MATCH_2})
+    set(macro_folder ${CMAKE_MATCH_3})
+    message(STATUS "Macro: ${macro}, Test_type: ${test_type}, Macro_folder: ${macro_folder}")
+    if(${test_type} STREQUAL "j")
         add_test(
-            NAME ${macro}_RootTest
-            COMMAND root -l -b -q "Test_Root.cpp(\"${macro}\", \"${flag}\" )"
+            NAME ${macro}_RootTest_${test_type}
+            COMMAND root -l -b -q "Test_Root.cpp(\"${macro}\", \"${test_type}\", \"${macro_folder}\")"
             )
-        set_tests_properties(${macro}_RootTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
-    elseif(${flag} STREQUAL "o")
+        set_tests_properties(${macro}_RootTest_${test_type} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+    elseif(${test_type} STREQUAL "o")
         add_test(
-            NAME ${macro}_RootTest
-            COMMAND root -l -b -q --web=off "Test_Root.cpp(\"${macro}\", \"${flag}\" )"
+            NAME ${macro}_RootTest_${test_type}
+            COMMAND root -l -b -q --web=off "Test_Root.cpp(\"${macro}\", \"${test_type}\", \"${macro_folder}\")"
         )
-        set_tests_properties(${macro}_RootTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
-        endif()
-endforeach()
-
-#SVG tests for each macro
-foreach(macro_content ${macros})
-    string(REGEX MATCH "([^ ]+) ([^ ]+)" _ ${macro_content})
-    set(macro ${CMAKE_MATCH_1})
-    set(flag ${CMAKE_MATCH_2})
-    add_test(
-        NAME ${macro}_JsRootTest
-        #COMMAND xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' node Test_JsRoot.js ${macro}
-        COMMAND node Test_JsRoot.js ${macro}
+        set_tests_properties(${macro}_RootTest_${test_type} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+    elseif(${test_type} STREQUAL "s")
+        add_test(
+            NAME ${macro}_JsRootTest_${test_type}
+            #COMMAND xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' node Test_JsRoot.js ${macro}
+            # How can I add inputs
+            COMMAND node Test_JsRoot.js ${macro}
     )
-    set_tests_properties(${macro}_JsRootTest PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+    set_tests_properties(${macro}_JsRootTest_${test_type} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        endif()
 endforeach()
