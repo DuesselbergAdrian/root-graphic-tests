@@ -9,8 +9,8 @@
 /// \author Rene Brun
 
 void framework() {
-   TCanvas *c13 = new TCanvas("c13","The ROOT Framework",200,10,700,500);
-   c13->Range(0,0,19,12);
+   TCanvas *c1 = new TCanvas("c1","The ROOT Framework",200,10,700,500);
+   c1->Range(0,0,19,12);
    //
    TPavesText *rootf = new TPavesText(0.4,0.6,18,2.3,20,"tr");
    rootf->AddText("ROOT Framework");
@@ -45,14 +45,5 @@ void framework() {
    anal->AddText("Data");
    anal->AddText("Analysis");
    anal->Draw();
-   c13->Update();
-
-   //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c13, "WebCanvas13", 200, 10, 700, 500);
-   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c13, 1, kFALSE);
-   
-   //Save JSON to a file
-   std::ofstream jsonFile("./json_pro/framework_pro.json");
-   jsonFile << jsonOutput.Data();
-   jsonFile.close();
+   c1->Update();
 }

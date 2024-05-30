@@ -231,6 +231,45 @@ ellipse_All/fast:
 .PHONY : ellipse_All/fast
 
 #=============================================================================
+# Target rules for targets named eval_All
+
+# Build rule for target.
+eval_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eval_All
+.PHONY : eval_All
+
+# fast build rule for target.
+eval_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval_All.dir/build.make CMakeFiles/eval_All.dir/build
+.PHONY : eval_All/fast
+
+#=============================================================================
+# Target rules for targets named event_All
+
+# Build rule for target.
+event_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 event_All
+.PHONY : event_All
+
+# fast build rule for target.
+event_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_All.dir/build.make CMakeFiles/event_All.dir/build
+.PHONY : event_All/fast
+
+#=============================================================================
+# Target rules for targets named feynman_All
+
+# Build rule for target.
+feynman_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 feynman_All
+.PHONY : feynman_All
+
+# fast build rule for target.
+feynman_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/feynman_All.dir/build.make CMakeFiles/feynman_All.dir/build
+.PHONY : feynman_All/fast
+
+#=============================================================================
 # Target rules for targets named first_All
 
 # Build rule for target.
@@ -242,6 +281,71 @@ first_All: cmake_check_build_system
 first_All/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_All.dir/build.make CMakeFiles/first_All.dir/build
 .PHONY : first_All/fast
+
+#=============================================================================
+# Target rules for targets named formula1_All
+
+# Build rule for target.
+formula1_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formula1_All
+.PHONY : formula1_All
+
+# fast build rule for target.
+formula1_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/formula1_All.dir/build.make CMakeFiles/formula1_All.dir/build
+.PHONY : formula1_All/fast
+
+#=============================================================================
+# Target rules for targets named framework_All
+
+# Build rule for target.
+framework_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 framework_All
+.PHONY : framework_All
+
+# fast build rule for target.
+framework_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/framework_All.dir/build.make CMakeFiles/framework_All.dir/build
+.PHONY : framework_All/fast
+
+#=============================================================================
+# Target rules for targets named gaxis_All
+
+# Build rule for target.
+gaxis_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gaxis_All
+.PHONY : gaxis_All
+
+# fast build rule for target.
+gaxis_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaxis_All.dir/build.make CMakeFiles/gaxis_All.dir/build
+.PHONY : gaxis_All/fast
+
+#=============================================================================
+# Target rules for targets named gaxis3_All
+
+# Build rule for target.
+gaxis3_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gaxis3_All
+.PHONY : gaxis3_All
+
+# fast build rule for target.
+gaxis3_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaxis3_All.dir/build.make CMakeFiles/gaxis3_All.dir/build
+.PHONY : gaxis3_All/fast
+
+#=============================================================================
+# Target rules for targets named greyscale_All
+
+# Build rule for target.
+greyscale_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 greyscale_All
+.PHONY : greyscale_All
+
+# fast build rule for target.
+greyscale_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greyscale_All.dir/build.make CMakeFiles/greyscale_All.dir/build
+.PHONY : greyscale_All/fast
 
 Test_Root.o: Test_Root.cpp.o
 .PHONY : Test_Root.o
@@ -283,7 +387,15 @@ help:
 	@echo "... compile_All"
 	@echo "... crown_All"
 	@echo "... ellipse_All"
+	@echo "... eval_All"
+	@echo "... event_All"
+	@echo "... feynman_All"
 	@echo "... first_All"
+	@echo "... formula1_All"
+	@echo "... framework_All"
+	@echo "... gaxis3_All"
+	@echo "... gaxis_All"
+	@echo "... greyscale_All"
 	@echo "... Test_Root"
 	@echo "... Test_Root.o"
 	@echo "... Test_Root.i"

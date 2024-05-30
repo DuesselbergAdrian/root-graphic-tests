@@ -6,7 +6,15 @@
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/crown_All.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/basic3d_All.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/ellipse_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/eval_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/event_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/feynman_All.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/first_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/formula1_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/framework_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/gaxis_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/gaxis3_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/greyscale_All.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/test.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/edit_cache.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/rebuild_cache.dir

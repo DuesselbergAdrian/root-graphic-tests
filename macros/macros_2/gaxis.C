@@ -9,8 +9,8 @@
 /// \authors Rene Brun, Olivier Couet
 
 void gaxis(){
-   auto c14 = new TCanvas("c14","Examples of TGaxis",10,10,700,500);
-   c14->Range(-10,-1,10,1);
+   auto c1 = new TCanvas("c1","Examples of TGaxis",10,10,700,500);
+   c1->Range(-10,-1,10,1);
 
    auto axis1 = new TGaxis(-4.5,-0.2,5.5,-0.2,-6,8,510,"");
    axis1->Draw();
@@ -45,13 +45,4 @@ void gaxis(){
    // slightly different to avoid labels overlapping.
    auto axis9 = new TGaxis(6.5,0.8,6.499,-0.8,0,90,50510,"-");
    axis9->Draw();
-
-   //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c14, "WebCanvas14", 10, 10, 700, 500);
-   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c14, 1, kFALSE);
-   
-   //Save JSON to a file
-   std::ofstream jsonFile("./json_pro/gaxis_pro.json");
-   jsonFile << jsonOutput.Data();
-   jsonFile.close();
 }

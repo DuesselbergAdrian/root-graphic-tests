@@ -10,8 +10,8 @@
 
 void greyscale()
 {
-   TCanvas *c16 = new TCanvas("grey", "Grey Scale", 500, 500);
-   c16->SetBorderMode(0);
+   TCanvas *c1 = new TCanvas("c1", "Grey Scale", 500, 500);
+   c1->SetBorderMode(0);
 
    Int_t   n = 200;   // tunable parameter
    Float_t n1 = 1./n;
@@ -33,14 +33,5 @@ void greyscale()
    t->SetTextSize(.09);
    t->Draw();
 
-   c16->SetEditable(kFALSE);
-
-   //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c16, "WebCanvas16", 0, 0, 500, 500);
-   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c16, 1, kFALSE);
-   
-   //Save JSON to a file
-   std::ofstream jsonFile("./json_pro/greyscale_pro.json");
-   jsonFile << jsonOutput.Data();
-   jsonFile.close();
+   c1->SetEditable(kFALSE);
 }

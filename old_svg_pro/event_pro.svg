@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="567.429" height="384.969" viewBox="0 0 567.429 384.969" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+<title>
+./old_svg_pro/event_pro.svg
+</title>
+<desc>
+Creator: ROOT Version 6.33/01
+CreationDate: Thu May 30 10:41:44 2024</desc>
+<defs>
+</defs>
+<rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
+<rect x="40.9949" y="12.4022" width="80.9899" height="49.6089" fill="#c0b6ac"/>
+<path d="M45.8823,62.0112v 3.25821h 79.3608v -47.9798h -3.25821v 44.7216z" fill="black"/>
+<path d="M40.9949,62.0112v -49.6089h 80.9899v 49.6089h -80.9899z" fill="none" stroke="black"/>
+<text xml:space="preserve" x="43.6713" y="48.0586" fill="black" font-size="27.7212" font-family="Helvetica" font-weight="bold">Event
+</text>
+<path d="M45.0444,62.0112v 285.251" fill="none" stroke="black" stroke-width="2"/>
+<path d="M53.1434,62.0112v 235.642" fill="none" stroke="black" stroke-width="2"/>
+<path d="M61.2424,62.0112v 186.033" fill="none" stroke="black" stroke-width="2"/>
+<path d="M69.3414,62.0112v 136.425" fill="none" stroke="black" stroke-width="2"/>
+<path d="M77.4404,62.0112v 86.8156" fill="none" stroke="black" stroke-width="2"/>
+<path d="M85.5394,62.0112v 37.2067" fill="none" stroke="black" stroke-width="2"/>
+<path d="M45.0444,347.262h 105.449" fill="none" stroke="black"/>
+<path d="M150.493,342.68l 7.93701, 4.58243l -7.93701, 4.58243z" fill="black"/>
+<path d="M150.493,342.68l 7.93701, 4.58243l -7.93701, 4.58243v -9.16487z" fill="none" stroke="black"/>
+<path d="M53.1434,297.654h 97.3498" fill="none" stroke="black"/>
+<path d="M150.493,293.071l 7.93701, 4.58243l -7.93701, 4.58243z" fill="black"/>
+<path d="M150.493,293.071l 7.93701, 4.58243l -7.93701, 4.58243v -9.16487z" fill="none" stroke="black"/>
+<path d="M61.2424,248.045h 89.2508" fill="none" stroke="black"/>
+<path d="M150.493,243.462l 7.93701, 4.58243l -7.93701, 4.58243z" fill="black"/>
+<path d="M150.493,243.462l 7.93701, 4.58243l -7.93701, 4.58243v -9.16487z" fill="none" stroke="black"/>
+<path d="M69.3414,198.436h 81.1519" fill="none" stroke="black"/>
+<path d="M150.493,193.853l 7.93701, 4.58243l -7.93701, 4.58243z" fill="black"/>
+<path d="M150.493,193.853l 7.93701, 4.58243l -7.93701, 4.58243v -9.16487z" fill="none" stroke="black"/>
+<path d="M77.4404,148.827h 73.0529" fill="none" stroke="black"/>
+<path d="M150.493,144.244l 7.93701, 4.58243l -7.93701, 4.58243z" fill="black"/>
+<path d="M150.493,144.244l 7.93701, 4.58243l -7.93701, 4.58243v -9.16487z" fill="none" stroke="black"/>
+<path d="M85.5394,99.2178h 64.9539" fill="none" stroke="black"/>
+<path d="M150.493,94.6354l 7.93701, 4.58243l -7.93701, 4.58243z" fill="black"/>
+<path d="M150.493,94.6354l 7.93701, 4.58243l -7.93701, 4.58243v -9.16487z" fill="none" stroke="black"/>
+<rect x="162.48" y="334.86" width="283.465" height="24.8045" fill="#ddba87"/>
+<path d="M167.367,359.665v 3.25821h 281.835v -23.1754h -3.25821v 19.9171z" fill="black"/>
+<path d="M162.48,359.665v -24.8045h 283.465v 24.8045h -283.465z" fill="none" stroke="black"/>
+<text xml:space="preserve" x="176.444" y="352.702" fill="black" font-size="19.8429" font-family="Helvetica" font-weight="bold">1 Mbyte
+</text>
+<rect x="162.48" y="285.251" width="242.97" height="24.8045" fill="#ddba87"/>
+<path d="M167.367,310.056v 3.25821h 241.341v -23.1754h -3.25821v 19.9171z" fill="black"/>
+<path d="M162.48,310.056v -24.8045h 242.97v 24.8045h -242.97z" fill="none" stroke="black"/>
+<text xml:space="preserve" x="174.814" y="303.014" fill="black" font-size="19.8429" font-family="Helvetica" font-weight="bold">100 Kbytes
+</text>
+<rect x="162.48" y="235.642" width="202.475" height="24.8045" fill="#ddba87"/>
+<path d="M167.367,260.447v 3.25821h 200.846v -23.1754h -3.25821v 19.9171z" fill="black"/>
+<path d="M162.48,260.447v -24.8045h 202.475v 24.8045h -202.475z" fill="none" stroke="black"/>
+<text xml:space="preserve" x="172.371" y="254.141" fill="black" font-size="19.8429" font-family="Helvetica" font-weight="bold">10 Kbytes
+</text>
+<rect x="162.48" y="186.033" width="161.98" height="24.8045" fill="#ddba87"/>
+<path d="M167.367,210.838v 3.25821h 160.351v -23.1754h -3.25821v 19.9171z" fill="black"/>
+<path d="M162.48,210.838v -24.8045h 161.98v 24.8045h -161.98z" fill="none" stroke="black"/>
+<text xml:space="preserve" x="170.742" y="204.453" fill="black" font-size="19.8429" font-family="Helvetica" font-weight="bold">1 Kbytes
+</text>
+<rect x="162.48" y="136.425" width="121.485" height="24.8045" fill="#ddba87"/>
+<path d="M167.367,161.229v 3.25821h 119.856v -23.1754h -3.25821v 19.9171z" fill="black"/>
+<path d="M162.48,161.229v -24.8045h 121.485v 24.8045h -121.485z" fill="none" stroke="black"/>
+<text xml:space="preserve" x="168.298" y="154.765" fill="black" font-size="19.8429" font-family="Helvetica" font-weight="bold">100 bytes
+</text>
+<rect x="162.48" y="86.8156" width="80.9899" height="24.8045" fill="#ddba87"/>
+<path d="M167.367,111.62v 3.25821h 79.3608v -23.1754h -3.25821v 19.9171z" fill="black"/>
+<path d="M162.48,111.62v -24.8045h 80.9899v 24.8045h -80.9899z" fill="none" stroke="black"/>
+<text xml:space="preserve" x="166.669" y="104.263" fill="black" font-size="18.931" font-family="Helvetica" font-weight="bold">10 bytes
+</text>
+<text xml:space="preserve" x="251.569" y="106.522" fill="black" font-size="14.609" font-family="Helvetica" font-weight="bold" font-style="oblique">Header:Event_flag
+</text>
+<text xml:space="preserve" x="292.064" y="156.131" fill="black" font-size="14.609" font-family="Helvetica" font-weight="bold" font-style="oblique">Trigger_Info
+</text>
+<text xml:space="preserve" x="332.559" y="205.74" fill="black" font-size="14.609" font-family="Helvetica" font-weight="bold" font-style="oblique">Muon_Detector: TOF
+</text>
+<text xml:space="preserve" x="373.053" y="255.349" fill="black" font-size="14.609" font-family="Helvetica" font-weight="bold" font-style="oblique">Calorimeters
+</text>
+<text xml:space="preserve" x="413.548" y="304.958" fill="black" font-size="14.609" font-family="Helvetica" font-weight="bold" font-style="oblique">Forward_Detectors
+</text>
+<text xml:space="preserve" x="454.043" y="354.567" fill="black" font-size="14.609" font-family="Helvetica" font-weight="bold" font-style="oblique">TPCs
+</text></svg>

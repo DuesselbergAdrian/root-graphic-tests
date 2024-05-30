@@ -19,8 +19,8 @@
 /// \author  Olivier Couet
 
 void gaxis3() {
-   TCanvas* c15 = new TCanvas("c15","Examples of TGaxis",10,10,800,400);
-   c15->Range(-6,-0.1,6,0.1);
+   TCanvas* c1 = new TCanvas("c1","Examples of TGaxis",10,10,800,400);
+   c1->Range(-6,-0.1,6,0.1);
 
    TGaxis *axis = new TGaxis(-5.5,0.,5.5,0.,0.0,100,510,"");
    axis->SetName("axis");
@@ -49,13 +49,4 @@ void gaxis3() {
 
 
    axis->Draw();
-
-   //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c15, "WebCanvas15", 10, 10, 800, 400);
-   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c15, 1, kFALSE);
-   
-   //Save JSON to a file
-   std::ofstream jsonFile("./json_pro/gaxis3_pro.json");
-   jsonFile << jsonOutput.Data();
-   jsonFile.close();
 }

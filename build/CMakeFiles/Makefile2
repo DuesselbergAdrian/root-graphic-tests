@@ -79,7 +79,15 @@ clean: CMakeFiles/compile_All.dir/clean
 clean: CMakeFiles/crown_All.dir/clean
 clean: CMakeFiles/basic3d_All.dir/clean
 clean: CMakeFiles/ellipse_All.dir/clean
+clean: CMakeFiles/eval_All.dir/clean
+clean: CMakeFiles/event_All.dir/clean
+clean: CMakeFiles/feynman_All.dir/clean
 clean: CMakeFiles/first_All.dir/clean
+clean: CMakeFiles/formula1_All.dir/clean
+clean: CMakeFiles/framework_All.dir/clean
+clean: CMakeFiles/gaxis_All.dir/clean
+clean: CMakeFiles/gaxis3_All.dir/clean
+clean: CMakeFiles/greyscale_All.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -291,6 +299,84 @@ CMakeFiles/ellipse_All.dir/clean:
 .PHONY : CMakeFiles/ellipse_All.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/eval_All.dir
+
+# All Build rule for target.
+CMakeFiles/eval_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval_All.dir/build.make CMakeFiles/eval_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval_All.dir/build.make CMakeFiles/eval_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target eval_All"
+.PHONY : CMakeFiles/eval_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/eval_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/eval_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/eval_All.dir/rule
+
+# Convenience name for target.
+eval_All: CMakeFiles/eval_All.dir/rule
+.PHONY : eval_All
+
+# clean rule for target.
+CMakeFiles/eval_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eval_All.dir/build.make CMakeFiles/eval_All.dir/clean
+.PHONY : CMakeFiles/eval_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/event_All.dir
+
+# All Build rule for target.
+CMakeFiles/event_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_All.dir/build.make CMakeFiles/event_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_All.dir/build.make CMakeFiles/event_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target event_All"
+.PHONY : CMakeFiles/event_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/event_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/event_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/event_All.dir/rule
+
+# Convenience name for target.
+event_All: CMakeFiles/event_All.dir/rule
+.PHONY : event_All
+
+# clean rule for target.
+CMakeFiles/event_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/event_All.dir/build.make CMakeFiles/event_All.dir/clean
+.PHONY : CMakeFiles/event_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/feynman_All.dir
+
+# All Build rule for target.
+CMakeFiles/feynman_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/feynman_All.dir/build.make CMakeFiles/feynman_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/feynman_All.dir/build.make CMakeFiles/feynman_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target feynman_All"
+.PHONY : CMakeFiles/feynman_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/feynman_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/feynman_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/feynman_All.dir/rule
+
+# Convenience name for target.
+feynman_All: CMakeFiles/feynman_All.dir/rule
+.PHONY : feynman_All
+
+# clean rule for target.
+CMakeFiles/feynman_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/feynman_All.dir/build.make CMakeFiles/feynman_All.dir/clean
+.PHONY : CMakeFiles/feynman_All.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/first_All.dir
 
 # All Build rule for target.
@@ -315,6 +401,136 @@ first_All: CMakeFiles/first_All.dir/rule
 CMakeFiles/first_All.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first_All.dir/build.make CMakeFiles/first_All.dir/clean
 .PHONY : CMakeFiles/first_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/formula1_All.dir
+
+# All Build rule for target.
+CMakeFiles/formula1_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/formula1_All.dir/build.make CMakeFiles/formula1_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/formula1_All.dir/build.make CMakeFiles/formula1_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target formula1_All"
+.PHONY : CMakeFiles/formula1_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/formula1_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/formula1_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/formula1_All.dir/rule
+
+# Convenience name for target.
+formula1_All: CMakeFiles/formula1_All.dir/rule
+.PHONY : formula1_All
+
+# clean rule for target.
+CMakeFiles/formula1_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/formula1_All.dir/build.make CMakeFiles/formula1_All.dir/clean
+.PHONY : CMakeFiles/formula1_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/framework_All.dir
+
+# All Build rule for target.
+CMakeFiles/framework_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/framework_All.dir/build.make CMakeFiles/framework_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/framework_All.dir/build.make CMakeFiles/framework_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target framework_All"
+.PHONY : CMakeFiles/framework_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/framework_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/framework_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/framework_All.dir/rule
+
+# Convenience name for target.
+framework_All: CMakeFiles/framework_All.dir/rule
+.PHONY : framework_All
+
+# clean rule for target.
+CMakeFiles/framework_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/framework_All.dir/build.make CMakeFiles/framework_All.dir/clean
+.PHONY : CMakeFiles/framework_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/gaxis_All.dir
+
+# All Build rule for target.
+CMakeFiles/gaxis_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaxis_All.dir/build.make CMakeFiles/gaxis_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaxis_All.dir/build.make CMakeFiles/gaxis_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target gaxis_All"
+.PHONY : CMakeFiles/gaxis_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gaxis_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gaxis_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/gaxis_All.dir/rule
+
+# Convenience name for target.
+gaxis_All: CMakeFiles/gaxis_All.dir/rule
+.PHONY : gaxis_All
+
+# clean rule for target.
+CMakeFiles/gaxis_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaxis_All.dir/build.make CMakeFiles/gaxis_All.dir/clean
+.PHONY : CMakeFiles/gaxis_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/gaxis3_All.dir
+
+# All Build rule for target.
+CMakeFiles/gaxis3_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaxis3_All.dir/build.make CMakeFiles/gaxis3_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaxis3_All.dir/build.make CMakeFiles/gaxis3_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target gaxis3_All"
+.PHONY : CMakeFiles/gaxis3_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gaxis3_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gaxis3_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/gaxis3_All.dir/rule
+
+# Convenience name for target.
+gaxis3_All: CMakeFiles/gaxis3_All.dir/rule
+.PHONY : gaxis3_All
+
+# clean rule for target.
+CMakeFiles/gaxis3_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaxis3_All.dir/build.make CMakeFiles/gaxis3_All.dir/clean
+.PHONY : CMakeFiles/gaxis3_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/greyscale_All.dir
+
+# All Build rule for target.
+CMakeFiles/greyscale_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greyscale_All.dir/build.make CMakeFiles/greyscale_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greyscale_All.dir/build.make CMakeFiles/greyscale_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target greyscale_All"
+.PHONY : CMakeFiles/greyscale_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/greyscale_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/greyscale_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/greyscale_All.dir/rule
+
+# Convenience name for target.
+greyscale_All: CMakeFiles/greyscale_All.dir/rule
+.PHONY : greyscale_All
+
+# clean rule for target.
+CMakeFiles/greyscale_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greyscale_All.dir/build.make CMakeFiles/greyscale_All.dir/clean
+.PHONY : CMakeFiles/greyscale_All.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

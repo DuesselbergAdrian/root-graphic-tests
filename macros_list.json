@@ -7,10 +7,15 @@
         {"name": "crown", "test_type": "a", "macro_folder": "macros_1"},
         {"name": "basic3d", "test_type": "a", "macro_folder": "macros_1"},
         {"name": "ellipse", "test_type": "a", "macro_folder": "macros_1"},
-        {"name": "eval", "test_type": "s", "macro_folder": "macros_1"},
-        {"name": "event", "test_type": "s", "macro_folder": "macros_1"},
-        {"name": "feynman", "test_type": "s", "macro_folder": "macros_1"},
-        {"name": "first", "test_type": "a", "macro_folder": "macros_1"}
+        {"name": "eval", "test_type": "a", "macro_folder": "macros_1"},
+        {"name": "event", "test_type": "a", "macro_folder": "macros_1"},
+        {"name": "feynman", "test_type": "a", "macro_folder": "macros_1"},
+        {"name": "first", "test_type": "a", "macro_folder": "macros_1"},
+        {"name": "formula1", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "framework", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "gaxis", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "gaxis3", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "greyscale", "test_type": "a", "macro_folder": "macros_2"}
     ]
 
 }
