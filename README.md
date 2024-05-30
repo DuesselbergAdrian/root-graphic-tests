@@ -8,7 +8,7 @@ The first test in the Test_Root.cpp file creates TCanvas objects using ROOT macr
 ### JavaScript Test with JSROOT generated SVG files:
 The second test in the Test_JsRoot.js file generates SVG files using JSROOT based on the reference JSON files in the json_ref folder. These generated SVG files are saved in the svg_pro folder and are then compared during the test execution to ensure they match the expected output.
 
-#### Running the Tests in root-graphic-tests:
+### Running the Tests in root-graphic-tests:
 ```shell
 cd build
 ctest
