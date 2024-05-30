@@ -13,17 +13,32 @@ root-graphic-test/
 ├── macros/
 │ ├── macros_1/
 │ ├── macros_2/
-│ └── macros_3/
-├── tests/
-│ ├── unit/
-│ └── integration/
-├── src/
-│ ├── main/
-│ └── utils/
-├── docs/
-│ └── images/
-├── scripts/
-│ └── setup.sh
+│ ├── macros_3/
+│ └── ....
+├── json_pro/
+├── json_ref/
+├── svg_pro/
+├── svg_ref/
+├── old_svg_pro/
+├── old_svg_ref/
+│
+├── package-lock.json
+├── package.json
+│
+├── node_modules/
+│ ├── chalk/
+│ ├── xml-formatter/
+│ └── xml-parser-xo/
+│
+├── CMAKELists.txt
+├── macros_list.json
+├── generate_macros_cmake.py
+├── macros.cmake
+│
+├── Test_Root.cpp
+├── Test_Root.hpp
+├── Test_JsRoot.js
+│
 ├── README.md
 ├── CONTRIBUTING.md
 ├── ARCHITECTURE.md
@@ -32,27 +47,35 @@ root-graphic-test/
 ### Directories
 
 - **macros/**: Contains all macro scripts organized in subfolders.
-- **tests/**: Contains unit and integration tests.
-  - **unit/**: Unit tests for individual components.
-  - **integration/**: Integration tests for the whole system.
-- **src/**: Source code of the project.
-  - **main/**: Main application code.
-  - **utils/**: Utility functions and helpers.
-- **docs/**: Documentation files.
-  - **images/**: Images used in documentation.
-- **scripts/**: Shell scripts for setup and maintenance.
+  - **macros_1/, macros_2/,macros_3,...**: Subfolders with specific macros scripts.
+- **json_pro/**: Contains produced/generated JSON files.
+- **json_ref/**: Contains reference JSON files for tests and comparisons.
+- **svg_pro/**: Contains produced/generated SVG files.
+- **svg_ref/**: Contains reference SVG files for tests and comparisons.
+- **old_svg_pro/**: Contains produced/generated old SVG files.
+- **old_svg_ref/**: Contains reference old SVG files for tests and comparisons.
+- **node_modules/**: Conatins Node.js modules required for the project
+  - **chalk/, xml-formatter/, xml-pasrer-xo/**: Specific Node.js modules used by the project.
 
 ### Main Components
 
-1. **Macros**: The core functionality of the project, divided into different types and stored in separate folders.
-2. **Tests**: Ensures the quality and correctness of the code.
-3. **Source Code**: The primary codebase of the application.
+1. **ROOT Macros**: Used to create different graphics with ROOT/JSROOT, divided into different types and stored in separate folders.
+2. **Build and Configuration Files**:
+  - **CMakeLists.txt**: Configuration file for CMake build automation.
+  - **macros_list.json**: Lists the macros used in the project.
+  - **generate_macros_cmake.py**: Python script to generate CMake configurations for macros.
+  - **macros.cmake**: Configuration file for CMake build automation.
+3. **Source Code**:  Primary codebase of the project.
+  - **Test_Root.cpp**: Main C++ test source file.
+  - **Test_Root.hpp**: Header file for the C++ test.
+  - **Test_JsRoot.js**: JavaScript file for testing JSROOT.
 
 ### Interaction Between Components
 
-- The **macros** are executed by the main application found in the **src/main/** directory.
-- The **utils** directory provides helper functions used across the main application and tests.
-- **Unit tests** validate individual pieces of code, while **integration tests** ensure that different parts of the application work together correctly.
+- The **macros** are executed as part of the test suite and are defined in the **macros/** directory.
+- **JSON and SVG files** are used for reference and production configurations in testing scenarios.
+- **Build and configuration files** manage the build process and macro generation.
+- **Source code files** implement the core testing logic in C++ and JavaScript.
 
 ## Getting Started
 
