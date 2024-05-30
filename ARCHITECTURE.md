@@ -8,6 +8,7 @@ This document provides an overview of the project's architecture, including the 
 
 The project is organized as follows:
 
+```plaintext
 root-graphic-test/
 ├── macros/
 │ ├── macros_1/
@@ -27,7 +28,7 @@ root-graphic-test/
 ├── CONTRIBUTING.md
 ├── ARCHITECTURE.md
 └── LICENSE.md
-
+```
 ### Directories
 
 - **macros/**: Contains all macro scripts organized in subfolders.
