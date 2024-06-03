@@ -15,7 +15,18 @@
         {"name": "framework", "test_type": "a", "macro_folder": "macros_2"},
         {"name": "gaxis", "test_type": "a", "macro_folder": "macros_2"},
         {"name": "gaxis3", "test_type": "a", "macro_folder": "macros_2"},
-        {"name": "greyscale", "test_type": "a", "macro_folder": "macros_2"}
+        {"name": "greyscale", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "latex", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "latex2", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "latex3", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "latex4", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "latex5", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "markerwarning", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "mass_spectrum", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "pavetext", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "quarks", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "tmathtext", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "tmathtext2", "test_type": "a", "macro_folder": "macros_2"}
     ]
 
 }

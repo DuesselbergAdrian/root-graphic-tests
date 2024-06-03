@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="567.429" height="384.969" viewBox="0 0 567.429 384.969" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+<title>
+./old_svg_pro/pavetext_pro.svg
+</title>
+<desc>
+Creator: ROOT Version 6.33/01
+CreationDate: Mon Jun  3 11:46:50 2024</desc>
+<defs>
+</defs>
+<rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
+<rect x="28.8465" y="76.8938" width="510.236" height="269.128" fill="#f2f2f2"/>
+<path d="M33.7338,346.022v 3.25821h 508.607v -267.499h -3.25821v 264.241z" fill="black"/>
+<path d="M28.8465,346.022v -269.128h 510.236v 269.128h -510.236z" fill="none" stroke="black"/>
+<text xml:space="preserve" x="90.1009" y="118.11" fill="black" font-size="18.1203" font-family="Helvetica" font-weight="bold">A TPaveText can contain severals line of text.
+</text>
+<text xml:space="preserve" x="51.0023" y="183.275" fill="black" font-size="18.1203" font-family="Helvetica" font-weight="bold">They are added to the pave using the AddText method.
+</text>
+<path d="M28.8465,211.458h 510.236" fill="none" stroke="black"/>
+<text xml:space="preserve" x="90.1009" y="250.882" fill="#ff9933" font-size="18.1203" font-family="Helvetica" font-weight="bold">Even complex TLatex formulas can be added:
+</text>
+<text xml:space="preserve" x="345.056" y="327.45" fill="#0000ff" font-size="18.1203" font-family="Helvetica" font-weight="bold">t+i
+</text>
+<text xml:space="preserve" x="353.202" y="308.716" fill="#0000ff" font-size="18.1203" font-family="Helvetica" font-weight="bold">i
+</text>
+<path d="M345.056,311.159h 20.3638" fill="none" stroke="#0000ff" stroke-width="2"/>
+<path d="M340.169,294.868v 33.3967" fill="none" stroke="#0000ff" stroke-width="2"/>
+<path d="M340.169,294.868h 4.88732" fill="none" stroke="#0000ff" stroke-width="2"/>
+<path d="M340.169,328.265h 4.88732" fill="none" stroke="#0000ff" stroke-width="2"/>
+<path d="M370.307,294.868v 33.3967" fill="none" stroke="#0000ff" stroke-width="2"/>
+<path d="M370.307,294.868h -4.88732" fill="none" stroke="#0000ff" stroke-width="2"/>
+<path d="M370.307,328.265h -4.88732" fill="none" stroke="#0000ff" stroke-width="2"/>
+<text xml:space="preserve" x="277.448" y="316.047" fill="#0000ff" font-size="18.1203" font-family="Helvetica" font-weight="bold">A(i)cos
+</text>
+<text xml:space="preserve" x="261.157" y="295.683" fill="#0000ff" font-size="12.2469" font-family="Times">&#8734;
+</text>
+<text xml:space="preserve" x="268.488" y="335.596" fill="#0000ff" font-size="12.2469" font-family="Times">&#8734;
+</text>
+<text xml:space="preserve" x="253.826" y="335.596" fill="#0000ff" font-size="12.2469" font-family="Helvetica" font-weight="bold">i=-
+</text>
+<text xml:space="preserve" x="254.641" y="321.749" fill="#0000ff" font-size="32.2166" font-family="Times">&#8721;
+</text>
+<text xml:space="preserve" x="194.364" y="316.047" fill="#0000ff" font-size="18.1203" font-family="Helvetica" font-weight="bold">F(t) = 
+</text></svg>

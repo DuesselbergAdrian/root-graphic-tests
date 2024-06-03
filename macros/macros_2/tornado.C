@@ -17,8 +17,8 @@ void tornado() {
    int numberOfCircles=40;
 
    // create and open a canvas
-   TCanvas *sky = new TCanvas( "sky", "Tornado", 300, 10, 700, 500 );
-   sky->SetFillColor(14);
+   TCanvas *c1 = new TCanvas( "c1", "Tornado", 300, 10, 700, 500 );
+   c1->SetFillColor(14);
 
    // creating view
    TView *view = TView::CreateView(1,0,0);
@@ -63,5 +63,5 @@ void tornado() {
    text->AddText("ROOT example: tornado.C");
    text->AddText(timeStr);
    text->Draw();
-   sky->Update();
+   c1->Update();
 }

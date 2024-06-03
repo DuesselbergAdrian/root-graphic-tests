@@ -15,6 +15,17 @@
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/gaxis_All.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/gaxis3_All.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/greyscale_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/latex_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/latex2_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/latex3_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/latex4_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/latex5_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/markerwarning_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/mass_spectrum_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/pavetext_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/quarks_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/tmathtext_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/tmathtext2_All.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/test.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/edit_cache.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/rebuild_cache.dir

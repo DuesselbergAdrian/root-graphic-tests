@@ -347,6 +347,149 @@ greyscale_All/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/greyscale_All.dir/build.make CMakeFiles/greyscale_All.dir/build
 .PHONY : greyscale_All/fast
 
+#=============================================================================
+# Target rules for targets named latex_All
+
+# Build rule for target.
+latex_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 latex_All
+.PHONY : latex_All
+
+# fast build rule for target.
+latex_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex_All.dir/build.make CMakeFiles/latex_All.dir/build
+.PHONY : latex_All/fast
+
+#=============================================================================
+# Target rules for targets named latex2_All
+
+# Build rule for target.
+latex2_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 latex2_All
+.PHONY : latex2_All
+
+# fast build rule for target.
+latex2_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex2_All.dir/build.make CMakeFiles/latex2_All.dir/build
+.PHONY : latex2_All/fast
+
+#=============================================================================
+# Target rules for targets named latex3_All
+
+# Build rule for target.
+latex3_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 latex3_All
+.PHONY : latex3_All
+
+# fast build rule for target.
+latex3_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex3_All.dir/build.make CMakeFiles/latex3_All.dir/build
+.PHONY : latex3_All/fast
+
+#=============================================================================
+# Target rules for targets named latex4_All
+
+# Build rule for target.
+latex4_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 latex4_All
+.PHONY : latex4_All
+
+# fast build rule for target.
+latex4_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex4_All.dir/build.make CMakeFiles/latex4_All.dir/build
+.PHONY : latex4_All/fast
+
+#=============================================================================
+# Target rules for targets named latex5_All
+
+# Build rule for target.
+latex5_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 latex5_All
+.PHONY : latex5_All
+
+# fast build rule for target.
+latex5_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex5_All.dir/build.make CMakeFiles/latex5_All.dir/build
+.PHONY : latex5_All/fast
+
+#=============================================================================
+# Target rules for targets named markerwarning_All
+
+# Build rule for target.
+markerwarning_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 markerwarning_All
+.PHONY : markerwarning_All
+
+# fast build rule for target.
+markerwarning_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/markerwarning_All.dir/build.make CMakeFiles/markerwarning_All.dir/build
+.PHONY : markerwarning_All/fast
+
+#=============================================================================
+# Target rules for targets named mass_spectrum_All
+
+# Build rule for target.
+mass_spectrum_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mass_spectrum_All
+.PHONY : mass_spectrum_All
+
+# fast build rule for target.
+mass_spectrum_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mass_spectrum_All.dir/build.make CMakeFiles/mass_spectrum_All.dir/build
+.PHONY : mass_spectrum_All/fast
+
+#=============================================================================
+# Target rules for targets named pavetext_All
+
+# Build rule for target.
+pavetext_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pavetext_All
+.PHONY : pavetext_All
+
+# fast build rule for target.
+pavetext_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pavetext_All.dir/build.make CMakeFiles/pavetext_All.dir/build
+.PHONY : pavetext_All/fast
+
+#=============================================================================
+# Target rules for targets named quarks_All
+
+# Build rule for target.
+quarks_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 quarks_All
+.PHONY : quarks_All
+
+# fast build rule for target.
+quarks_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quarks_All.dir/build.make CMakeFiles/quarks_All.dir/build
+.PHONY : quarks_All/fast
+
+#=============================================================================
+# Target rules for targets named tmathtext_All
+
+# Build rule for target.
+tmathtext_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tmathtext_All
+.PHONY : tmathtext_All
+
+# fast build rule for target.
+tmathtext_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmathtext_All.dir/build.make CMakeFiles/tmathtext_All.dir/build
+.PHONY : tmathtext_All/fast
+
+#=============================================================================
+# Target rules for targets named tmathtext2_All
+
+# Build rule for target.
+tmathtext2_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tmathtext2_All
+.PHONY : tmathtext2_All
+
+# fast build rule for target.
+tmathtext2_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmathtext2_All.dir/build.make CMakeFiles/tmathtext2_All.dir/build
+.PHONY : tmathtext2_All/fast
+
 Test_Root.o: Test_Root.cpp.o
 .PHONY : Test_Root.o
 
@@ -396,6 +539,17 @@ help:
 	@echo "... gaxis3_All"
 	@echo "... gaxis_All"
 	@echo "... greyscale_All"
+	@echo "... latex2_All"
+	@echo "... latex3_All"
+	@echo "... latex4_All"
+	@echo "... latex5_All"
+	@echo "... latex_All"
+	@echo "... markerwarning_All"
+	@echo "... mass_spectrum_All"
+	@echo "... pavetext_All"
+	@echo "... quarks_All"
+	@echo "... tmathtext2_All"
+	@echo "... tmathtext_All"
 	@echo "... Test_Root"
 	@echo "... Test_Root.o"
 	@echo "... Test_Root.i"

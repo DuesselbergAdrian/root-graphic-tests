@@ -12,6 +12,7 @@
 #include "TApplication.h"
 #include "TString.h"
 #include "TWebCanvas.h"
+#include "TLatex.h"
 #include <TSystem.h>
 
 #include <string>

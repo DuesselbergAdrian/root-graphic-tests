@@ -11,6 +11,7 @@
 #include "TApplication.h"
 #include "TWebCanvas.h"
 #include "TString.h"
+#include "TLatex.h"
 #include <TSystem.h>
 
 #include <string>
@@ -44,7 +45,7 @@ void test_json(TCanvas* c1, const std::string& macroName, std::string jsonFilePa
         // 1. Create JSON from the canvas
     TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
 
-    // 2. Save JSON to a file
+    // OPTIONAL: 2. Save JSON to a file
     std::ofstream jsonFile(jsonFilePath);
     if (jsonFile.is_open()) {
         jsonFile << jsonOutput.Data();

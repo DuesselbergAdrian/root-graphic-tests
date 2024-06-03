@@ -88,6 +88,17 @@ clean: CMakeFiles/framework_All.dir/clean
 clean: CMakeFiles/gaxis_All.dir/clean
 clean: CMakeFiles/gaxis3_All.dir/clean
 clean: CMakeFiles/greyscale_All.dir/clean
+clean: CMakeFiles/latex_All.dir/clean
+clean: CMakeFiles/latex2_All.dir/clean
+clean: CMakeFiles/latex3_All.dir/clean
+clean: CMakeFiles/latex4_All.dir/clean
+clean: CMakeFiles/latex5_All.dir/clean
+clean: CMakeFiles/markerwarning_All.dir/clean
+clean: CMakeFiles/mass_spectrum_All.dir/clean
+clean: CMakeFiles/pavetext_All.dir/clean
+clean: CMakeFiles/quarks_All.dir/clean
+clean: CMakeFiles/tmathtext_All.dir/clean
+clean: CMakeFiles/tmathtext2_All.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -531,6 +542,292 @@ greyscale_All: CMakeFiles/greyscale_All.dir/rule
 CMakeFiles/greyscale_All.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/greyscale_All.dir/build.make CMakeFiles/greyscale_All.dir/clean
 .PHONY : CMakeFiles/greyscale_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/latex_All.dir
+
+# All Build rule for target.
+CMakeFiles/latex_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex_All.dir/build.make CMakeFiles/latex_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex_All.dir/build.make CMakeFiles/latex_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target latex_All"
+.PHONY : CMakeFiles/latex_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/latex_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/latex_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/latex_All.dir/rule
+
+# Convenience name for target.
+latex_All: CMakeFiles/latex_All.dir/rule
+.PHONY : latex_All
+
+# clean rule for target.
+CMakeFiles/latex_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex_All.dir/build.make CMakeFiles/latex_All.dir/clean
+.PHONY : CMakeFiles/latex_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/latex2_All.dir
+
+# All Build rule for target.
+CMakeFiles/latex2_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex2_All.dir/build.make CMakeFiles/latex2_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex2_All.dir/build.make CMakeFiles/latex2_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target latex2_All"
+.PHONY : CMakeFiles/latex2_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/latex2_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/latex2_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/latex2_All.dir/rule
+
+# Convenience name for target.
+latex2_All: CMakeFiles/latex2_All.dir/rule
+.PHONY : latex2_All
+
+# clean rule for target.
+CMakeFiles/latex2_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex2_All.dir/build.make CMakeFiles/latex2_All.dir/clean
+.PHONY : CMakeFiles/latex2_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/latex3_All.dir
+
+# All Build rule for target.
+CMakeFiles/latex3_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex3_All.dir/build.make CMakeFiles/latex3_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex3_All.dir/build.make CMakeFiles/latex3_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target latex3_All"
+.PHONY : CMakeFiles/latex3_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/latex3_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/latex3_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/latex3_All.dir/rule
+
+# Convenience name for target.
+latex3_All: CMakeFiles/latex3_All.dir/rule
+.PHONY : latex3_All
+
+# clean rule for target.
+CMakeFiles/latex3_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex3_All.dir/build.make CMakeFiles/latex3_All.dir/clean
+.PHONY : CMakeFiles/latex3_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/latex4_All.dir
+
+# All Build rule for target.
+CMakeFiles/latex4_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex4_All.dir/build.make CMakeFiles/latex4_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex4_All.dir/build.make CMakeFiles/latex4_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target latex4_All"
+.PHONY : CMakeFiles/latex4_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/latex4_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/latex4_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/latex4_All.dir/rule
+
+# Convenience name for target.
+latex4_All: CMakeFiles/latex4_All.dir/rule
+.PHONY : latex4_All
+
+# clean rule for target.
+CMakeFiles/latex4_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex4_All.dir/build.make CMakeFiles/latex4_All.dir/clean
+.PHONY : CMakeFiles/latex4_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/latex5_All.dir
+
+# All Build rule for target.
+CMakeFiles/latex5_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex5_All.dir/build.make CMakeFiles/latex5_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex5_All.dir/build.make CMakeFiles/latex5_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target latex5_All"
+.PHONY : CMakeFiles/latex5_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/latex5_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/latex5_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/latex5_All.dir/rule
+
+# Convenience name for target.
+latex5_All: CMakeFiles/latex5_All.dir/rule
+.PHONY : latex5_All
+
+# clean rule for target.
+CMakeFiles/latex5_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/latex5_All.dir/build.make CMakeFiles/latex5_All.dir/clean
+.PHONY : CMakeFiles/latex5_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/markerwarning_All.dir
+
+# All Build rule for target.
+CMakeFiles/markerwarning_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/markerwarning_All.dir/build.make CMakeFiles/markerwarning_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/markerwarning_All.dir/build.make CMakeFiles/markerwarning_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target markerwarning_All"
+.PHONY : CMakeFiles/markerwarning_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/markerwarning_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/markerwarning_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/markerwarning_All.dir/rule
+
+# Convenience name for target.
+markerwarning_All: CMakeFiles/markerwarning_All.dir/rule
+.PHONY : markerwarning_All
+
+# clean rule for target.
+CMakeFiles/markerwarning_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/markerwarning_All.dir/build.make CMakeFiles/markerwarning_All.dir/clean
+.PHONY : CMakeFiles/markerwarning_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mass_spectrum_All.dir
+
+# All Build rule for target.
+CMakeFiles/mass_spectrum_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mass_spectrum_All.dir/build.make CMakeFiles/mass_spectrum_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mass_spectrum_All.dir/build.make CMakeFiles/mass_spectrum_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target mass_spectrum_All"
+.PHONY : CMakeFiles/mass_spectrum_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mass_spectrum_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mass_spectrum_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/mass_spectrum_All.dir/rule
+
+# Convenience name for target.
+mass_spectrum_All: CMakeFiles/mass_spectrum_All.dir/rule
+.PHONY : mass_spectrum_All
+
+# clean rule for target.
+CMakeFiles/mass_spectrum_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mass_spectrum_All.dir/build.make CMakeFiles/mass_spectrum_All.dir/clean
+.PHONY : CMakeFiles/mass_spectrum_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pavetext_All.dir
+
+# All Build rule for target.
+CMakeFiles/pavetext_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pavetext_All.dir/build.make CMakeFiles/pavetext_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pavetext_All.dir/build.make CMakeFiles/pavetext_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target pavetext_All"
+.PHONY : CMakeFiles/pavetext_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pavetext_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pavetext_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/pavetext_All.dir/rule
+
+# Convenience name for target.
+pavetext_All: CMakeFiles/pavetext_All.dir/rule
+.PHONY : pavetext_All
+
+# clean rule for target.
+CMakeFiles/pavetext_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pavetext_All.dir/build.make CMakeFiles/pavetext_All.dir/clean
+.PHONY : CMakeFiles/pavetext_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/quarks_All.dir
+
+# All Build rule for target.
+CMakeFiles/quarks_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quarks_All.dir/build.make CMakeFiles/quarks_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quarks_All.dir/build.make CMakeFiles/quarks_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target quarks_All"
+.PHONY : CMakeFiles/quarks_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/quarks_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/quarks_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/quarks_All.dir/rule
+
+# Convenience name for target.
+quarks_All: CMakeFiles/quarks_All.dir/rule
+.PHONY : quarks_All
+
+# clean rule for target.
+CMakeFiles/quarks_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/quarks_All.dir/build.make CMakeFiles/quarks_All.dir/clean
+.PHONY : CMakeFiles/quarks_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tmathtext_All.dir
+
+# All Build rule for target.
+CMakeFiles/tmathtext_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmathtext_All.dir/build.make CMakeFiles/tmathtext_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmathtext_All.dir/build.make CMakeFiles/tmathtext_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target tmathtext_All"
+.PHONY : CMakeFiles/tmathtext_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tmathtext_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tmathtext_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/tmathtext_All.dir/rule
+
+# Convenience name for target.
+tmathtext_All: CMakeFiles/tmathtext_All.dir/rule
+.PHONY : tmathtext_All
+
+# clean rule for target.
+CMakeFiles/tmathtext_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmathtext_All.dir/build.make CMakeFiles/tmathtext_All.dir/clean
+.PHONY : CMakeFiles/tmathtext_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tmathtext2_All.dir
+
+# All Build rule for target.
+CMakeFiles/tmathtext2_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmathtext2_All.dir/build.make CMakeFiles/tmathtext2_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmathtext2_All.dir/build.make CMakeFiles/tmathtext2_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target tmathtext2_All"
+.PHONY : CMakeFiles/tmathtext2_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tmathtext2_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tmathtext2_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/tmathtext2_All.dir/rule
+
+# Convenience name for target.
+tmathtext2_All: CMakeFiles/tmathtext2_All.dir/rule
+.PHONY : tmathtext2_All
+
+# clean rule for target.
+CMakeFiles/tmathtext2_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmathtext2_All.dir/build.make CMakeFiles/tmathtext2_All.dir/clean
+.PHONY : CMakeFiles/tmathtext2_All.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

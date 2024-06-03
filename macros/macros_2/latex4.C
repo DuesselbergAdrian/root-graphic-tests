@@ -20,7 +20,7 @@
 /// \author Rene Brun
 
 void latex4() {
-   auto c21 = new TCanvas("c21","greek",600,700);
+   auto c1 = new TCanvas("c1","greek",600,700);
 
    TLatex l;
    l.SetTextSize(0.03);
@@ -95,19 +95,4 @@ void latex4() {
    y = 0.1875 ; l.DrawLatex(x1, y, "varUpsilon : ") ; l.DrawLatex(x2, y, "#varUpsilon");
    y = 0.1500 ; l.DrawLatex(x1, y, "varphi : ")     ; l.DrawLatex(x2, y, "#varphi");
    y = 0.0375 ; l.DrawLatex(x1, y, "varomega : ")   ; l.DrawLatex(x2, y, "#varomega");
-
-   /* Save the picture in various formats
-   c21->Print("greek.ps");
-   c21->Print("greek.png");
-   c21->Print("greek.pdf");
-   c21->Print("greek.svg");*/
-
-   //Create TWebCanvas
-   TWebCanvas *webCanvas = new TWebCanvas(c21, "WebCanvas21", 0, 0, 600, 700);
-   TString jsonOutput = TWebCanvas::CreateCanvasJSON(c21, 1, kFALSE);
-   
-   //Save JSON to a file
-   std::ofstream jsonFile("./json_pro/latex4_pro.json");
-   jsonFile << jsonOutput.Data();
-   jsonFile.close();
 }
