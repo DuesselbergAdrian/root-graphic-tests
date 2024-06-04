@@ -26,7 +26,8 @@
         {"name": "pavetext", "test_type": "a", "macro_folder": "macros_2"},
         {"name": "quarks", "test_type": "a", "macro_folder": "macros_2"},
         {"name": "tmathtext", "test_type": "a", "macro_folder": "macros_2"},
-        {"name": "tmathtext2", "test_type": "a", "macro_folder": "macros_2"}
+        {"name": "tmathtext2", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "triangles", "test_type": "s", "macro_folder": "macros_2"}
     ]
 
 }

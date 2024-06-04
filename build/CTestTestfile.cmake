@@ -166,3 +166,5 @@ add_test(tmathtext2_ALL_step2 "root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp(\
 set_tests_properties(tmathtext2_ALL_step2 PROPERTIES  WORKING_DIRECTORY "/home/adrianduesselberg/root-graphic-tests" _BACKTRACE_TRIPLES "/home/adrianduesselberg/root-graphic-tests/CMakeLists.txt;71;add_test;/home/adrianduesselberg/root-graphic-tests/CMakeLists.txt;0;")
 add_test(tmathtext2_ALL_step3 "node" "Test_JsRoot.js" "tmathtext2")
 set_tests_properties(tmathtext2_ALL_step3 PROPERTIES  WORKING_DIRECTORY "/home/adrianduesselberg/root-graphic-tests" _BACKTRACE_TRIPLES "/home/adrianduesselberg/root-graphic-tests/CMakeLists.txt;74;add_test;/home/adrianduesselberg/root-graphic-tests/CMakeLists.txt;0;")
+add_test(triangles_JsRootTest_s "node" "Test_JsRoot.js" "triangles")
+set_tests_properties(triangles_JsRootTest_s PROPERTIES  WORKING_DIRECTORY "/home/adrianduesselberg/root-graphic-tests" _BACKTRACE_TRIPLES "/home/adrianduesselberg/root-graphic-tests/CMakeLists.txt;59;add_test;/home/adrianduesselberg/root-graphic-tests/CMakeLists.txt;0;")

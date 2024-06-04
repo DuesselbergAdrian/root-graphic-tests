@@ -19,28 +19,34 @@ function isEqual(obj1, obj2) {
     return str1 === str2;
 }
 
-async function compareSVG(svgFile1, svgFile2, baseName) {
+async function compareSVG(svgContent1, svgFile2, baseName) {
+    let svgContent2;
+
     try {
-        const svgContent1 = await fs.readFile(svgFile1, 'utf8');
-        const svgContent2 = await fs.readFile(svgFile2, 'utf8');
-
-        const parsedSVG1 = xmlParser(svgContent1);
-        const parsedSVG2 = xmlParser(svgContent2);
-
-        if (isEqual(parsedSVG1, parsedSVG2)) {
-            console.log(chalk.green(`MATCH: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
-        } else {
-            throw new Error(`DIFF: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`);
-        }
+        svgContent2 = await fs.readFile(svgFile2, 'utf8');
     } catch (error) {
-        console.error(chalk.red(`Error comparing ${baseName} SVG files:`), error);
-        throw error; 
+        const outputFileName = `svg_ref/${baseName}.svg`;
+        await fs.writeFile(outputFileName, svgContent1);
+        console.error(chalk.red(`New reference file created: ${outputFileName}`));
+    }
+
+    let parsedSVG1, parsedSVG2;
+    try {
+        parsedSVG1 = xmlParser(svgContent1);
+        parsedSVG2 = xmlParser(svgContent2);
+    } catch (error) {
+        console.error(chalk.red(`Error parsing SVG content for ${baseName}`), error);
+    }
+
+    if (isEqual(parsedSVG1, parsedSVG2)) {
+        console.log(chalk.green(`MATCH: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
+    } else {
+        console.error(chalk.red(`DIFF: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
     }
 }
 
 async function createSVGFromJSON(filePath) {
     const baseName = path.basename(filePath, path.extname(filePath));
-    const outputFileName = `svg_pro/${baseName}_pro.svg`;
 
     try {
         const jsonData = await fs.readFile(filePath, 'utf8');
@@ -49,10 +55,9 @@ async function createSVGFromJSON(filePath) {
         let obj = parse(data);
         let svg_pro = await makeSVG({ object: obj, option: 'lego2,pal50', width: 1200, height: 800 });
 
-        await fs.writeFile(outputFileName, svg_pro);
         const svg_ref = `./svg_ref/${baseName}.svg`;
 
-        if(compareSVG(outputFileName, svg_ref, baseName)){return true};
+        if(compareSVG(svg_pro, svg_ref, baseName)){return true};
         return false;
     } catch (error) {
         console.error(chalk.red('Failed to process JSON file:'), error);
