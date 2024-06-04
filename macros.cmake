@@ -26,5 +26,5 @@ set(macros
     "quarks a macros_2"
     "tmathtext a macros_2"
     "tmathtext2 a macros_2"
-    "triangles s macros_2"
+    "triangles a macros_2"
 )

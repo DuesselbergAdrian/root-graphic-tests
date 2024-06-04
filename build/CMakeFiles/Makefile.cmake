@@ -86,4 +86,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/quarks_All.dir/DependInfo.cmake"
   "CMakeFiles/tmathtext_All.dir/DependInfo.cmake"
   "CMakeFiles/tmathtext2_All.dir/DependInfo.cmake"
+  "CMakeFiles/triangles_All.dir/DependInfo.cmake"
   )

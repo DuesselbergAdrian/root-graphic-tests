@@ -490,6 +490,19 @@ tmathtext2_All/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmathtext2_All.dir/build.make CMakeFiles/tmathtext2_All.dir/build
 .PHONY : tmathtext2_All/fast
 
+#=============================================================================
+# Target rules for targets named triangles_All
+
+# Build rule for target.
+triangles_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 triangles_All
+.PHONY : triangles_All
+
+# fast build rule for target.
+triangles_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangles_All.dir/build.make CMakeFiles/triangles_All.dir/build
+.PHONY : triangles_All/fast
+
 Test_Root.o: Test_Root.cpp.o
 .PHONY : Test_Root.o
 
@@ -550,6 +563,7 @@ help:
 	@echo "... quarks_All"
 	@echo "... tmathtext2_All"
 	@echo "... tmathtext_All"
+	@echo "... triangles_All"
 	@echo "... Test_Root"
 	@echo "... Test_Root.o"
 	@echo "... Test_Root.i"

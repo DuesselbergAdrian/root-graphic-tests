@@ -99,6 +99,7 @@ clean: CMakeFiles/pavetext_All.dir/clean
 clean: CMakeFiles/quarks_All.dir/clean
 clean: CMakeFiles/tmathtext_All.dir/clean
 clean: CMakeFiles/tmathtext2_All.dir/clean
+clean: CMakeFiles/triangles_All.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -828,6 +829,32 @@ tmathtext2_All: CMakeFiles/tmathtext2_All.dir/rule
 CMakeFiles/tmathtext2_All.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tmathtext2_All.dir/build.make CMakeFiles/tmathtext2_All.dir/clean
 .PHONY : CMakeFiles/tmathtext2_All.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/triangles_All.dir
+
+# All Build rule for target.
+CMakeFiles/triangles_All.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangles_All.dir/build.make CMakeFiles/triangles_All.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangles_All.dir/build.make CMakeFiles/triangles_All.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles --progress-num= "Built target triangles_All"
+.PHONY : CMakeFiles/triangles_All.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/triangles_All.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/triangles_All.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles 0
+.PHONY : CMakeFiles/triangles_All.dir/rule
+
+# Convenience name for target.
+triangles_All: CMakeFiles/triangles_All.dir/rule
+.PHONY : triangles_All
+
+# clean rule for target.
+CMakeFiles/triangles_All.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangles_All.dir/build.make CMakeFiles/triangles_All.dir/clean
+.PHONY : CMakeFiles/triangles_All.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

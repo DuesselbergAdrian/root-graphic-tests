@@ -26,6 +26,7 @@
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/quarks_All.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/tmathtext_All.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/tmathtext2_All.dir
+/home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/triangles_All.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/test.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/edit_cache.dir
 /home/adrianduesselberg/root-graphic-tests/build/CMakeFiles/rebuild_cache.dir

@@ -21,6 +21,7 @@
 #include <algorithm>
 #include <cstdlib>
 #include <regex>
+#include <filesystem>
 
 //FUNCTIONS
 
@@ -112,10 +113,15 @@ bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2)
 }
 
 void test_svg(TCanvas* c1, const std::string& macroName){
-    c1->SaveAs(("./old_svg_pro/" + macroName + "_pro.svg").c_str());
     std::string file1 = "./old_svg_ref/" + macroName + ".svg";
     std::string file2 = "./old_svg_pro/" + macroName + "_pro.svg";
-
+    if(!std::filesystem::exists(file1)){
+        std::cout << "Save generated file" << macroName << "as reference" << std::endl;
+        c1->SaveAs(("./old_svg_ref/" + macroName + ".svg").c_str());
+        exit(EXIT_FAILURE);
+    } else {
+        c1->SaveAs(("./old_svg_pro/" + macroName + "_pro.svg").c_str());
+    }
     if (compareSVGFiles(file1, file2)) {
         std::cout << "SVG test passed for "<< macroName << std::endl;
     } else {
