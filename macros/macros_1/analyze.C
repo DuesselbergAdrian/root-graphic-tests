@@ -131,8 +131,3 @@ void analyze() {
    TLine *l1 = new TLine(12,16.5,12,23);
    l1->Draw();
 }
-
-//int main(int argc, char **argv) {
-//    analyze();
-//    return 0;
-//}

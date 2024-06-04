@@ -27,7 +27,11 @@
         {"name": "quarks", "test_type": "a", "macro_folder": "macros_2"},
         {"name": "tmathtext", "test_type": "a", "macro_folder": "macros_2"},
         {"name": "tmathtext2", "test_type": "a", "macro_folder": "macros_2"},
-        {"name": "triangles", "test_type": "a", "macro_folder": "macros_2"}
+        {"name": "triangles", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "tornado", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "transparency", "test_type": "a", "macro_folder": "macros_2"},
+        {"name": "annotation3d", "test_type": "a", "macro_folder": "graphs"},
+        {"name": "exclusiongraph", "test_type": "a", "macro_folder": "graphs"},
+        {"name": "gerrors", "test_type": "a", "macro_folder": "graphs"}
     ]
-
 }

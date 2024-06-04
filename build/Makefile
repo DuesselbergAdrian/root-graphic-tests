@@ -503,6 +503,71 @@ triangles_All/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/triangles_All.dir/build.make CMakeFiles/triangles_All.dir/build
 .PHONY : triangles_All/fast
 
+#=============================================================================
+# Target rules for targets named tornado_All
+
+# Build rule for target.
+tornado_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tornado_All
+.PHONY : tornado_All
+
+# fast build rule for target.
+tornado_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tornado_All.dir/build.make CMakeFiles/tornado_All.dir/build
+.PHONY : tornado_All/fast
+
+#=============================================================================
+# Target rules for targets named transparency_All
+
+# Build rule for target.
+transparency_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 transparency_All
+.PHONY : transparency_All
+
+# fast build rule for target.
+transparency_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/transparency_All.dir/build.make CMakeFiles/transparency_All.dir/build
+.PHONY : transparency_All/fast
+
+#=============================================================================
+# Target rules for targets named annotation3d_All
+
+# Build rule for target.
+annotation3d_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 annotation3d_All
+.PHONY : annotation3d_All
+
+# fast build rule for target.
+annotation3d_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/annotation3d_All.dir/build.make CMakeFiles/annotation3d_All.dir/build
+.PHONY : annotation3d_All/fast
+
+#=============================================================================
+# Target rules for targets named exclusiongraph_All
+
+# Build rule for target.
+exclusiongraph_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exclusiongraph_All
+.PHONY : exclusiongraph_All
+
+# fast build rule for target.
+exclusiongraph_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exclusiongraph_All.dir/build.make CMakeFiles/exclusiongraph_All.dir/build
+.PHONY : exclusiongraph_All/fast
+
+#=============================================================================
+# Target rules for targets named gerrors_All
+
+# Build rule for target.
+gerrors_All: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gerrors_All
+.PHONY : gerrors_All
+
+# fast build rule for target.
+gerrors_All/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gerrors_All.dir/build.make CMakeFiles/gerrors_All.dir/build
+.PHONY : gerrors_All/fast
+
 Test_Root.o: Test_Root.cpp.o
 .PHONY : Test_Root.o
 
@@ -537,6 +602,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... analyze_All"
+	@echo "... annotation3d_All"
 	@echo "... archi_All"
 	@echo "... arrows_All"
 	@echo "... basic3d_All"
@@ -545,12 +611,14 @@ help:
 	@echo "... ellipse_All"
 	@echo "... eval_All"
 	@echo "... event_All"
+	@echo "... exclusiongraph_All"
 	@echo "... feynman_All"
 	@echo "... first_All"
 	@echo "... formula1_All"
 	@echo "... framework_All"
 	@echo "... gaxis3_All"
 	@echo "... gaxis_All"
+	@echo "... gerrors_All"
 	@echo "... greyscale_All"
 	@echo "... latex2_All"
 	@echo "... latex3_All"
@@ -563,6 +631,8 @@ help:
 	@echo "... quarks_All"
 	@echo "... tmathtext2_All"
 	@echo "... tmathtext_All"
+	@echo "... tornado_All"
+	@echo "... transparency_All"
 	@echo "... triangles_All"
 	@echo "... Test_Root"
 	@echo "... Test_Root.o"

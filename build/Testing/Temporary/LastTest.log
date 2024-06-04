@@ -1,47 +1,280 @@
-Start testing: Jun 04 11:59 CEST
+Start testing: Jun 04 15:21 CEST
 ----------------------------------------------------------
-84/84 Testing: triangles_ALL_step3
-84/84 Test: triangles_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "triangles"
+94/99 Testing: exclusiongraph_ALL_step1
+94/99 Test: exclusiongraph_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("exclusiongraph", "j", "graphs")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"triangles_ALL_step3" start time: Jun 04 11:59 CEST
+"exclusiongraph_ALL_step1" start time: Jun 04 15:21 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("exclusiongraph", "j", "graphs")...
+Length of produced JSON: 32863
+Length of reference JSON: 32863
+JSON test passed for exclusiongraph
+<end of output>
+Test time =   2.54 sec
+----------------------------------------------------------
+Test Passed.
+"exclusiongraph_ALL_step1" end time: Jun 04 15:22 CEST
+"exclusiongraph_ALL_step1" time elapsed: 00:00:02
+----------------------------------------------------------
+
+91/99 Testing: annotation3d_ALL_step1
+91/99 Test: annotation3d_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("annotation3d", "j", "graphs")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"annotation3d_ALL_step1" start time: Jun 04 15:21 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("annotation3d", "j", "graphs")...
+Length of produced JSON: 145685
+Length of reference JSON: 145685
+JSON test passed for annotation3d
+<end of output>
+Test time =   2.62 sec
+----------------------------------------------------------
+Test Passed.
+"annotation3d_ALL_step1" end time: Jun 04 15:22 CEST
+"annotation3d_ALL_step1" time elapsed: 00:00:02
+----------------------------------------------------------
+
+98/99 Testing: gerrors_ALL_step2
+98/99 Test: gerrors_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("gerrors", "o", "graphs")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"gerrors_ALL_step2" start time: Jun 04 15:21 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("gerrors", "o", "graphs")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/gerrors_pro.svg has been created
+SVG test passed for gerrors
+<end of output>
+Test time =   3.07 sec
+----------------------------------------------------------
+Test Passed.
+"gerrors_ALL_step2" end time: Jun 04 15:22 CEST
+"gerrors_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+99/99 Testing: gerrors_ALL_step3
+99/99 Test: gerrors_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "gerrors"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"gerrors_ALL_step3" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
-MATCH: triangles - Lengths [Pro: 4163, Ref: 4163]
+MATCH: gerrors - Lengths [Pro: 5053, Ref: 5053]
 <end of output>
-Test time =   0.93 sec
+Test time =   0.78 sec
 ----------------------------------------------------------
 Test Passed.
-"triangles_ALL_step3" end time: Jun 04 11:59 CEST
-"triangles_ALL_step3" time elapsed: 00:00:00
+"gerrors_ALL_step3" end time: Jun 04 15:22 CEST
+"gerrors_ALL_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-77/84 Testing: tmathtext_ALL_step2
-77/84 Test: tmathtext_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("tmathtext", "o", "macros_2")"
+97/99 Testing: gerrors_ALL_step1
+97/99 Test: gerrors_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("gerrors", "j", "graphs")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"tmathtext_ALL_step2" start time: Jun 04 11:59 CEST
+"gerrors_ALL_step1" start time: Jun 04 15:21 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("tmathtext", "o", "macros_2")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/tmathtext_pro.svg has been created
-SVG test passed for tmathtext
+Processing Test_Root.cpp("gerrors", "j", "graphs")...
+Length of produced JSON: 22808
+Length of reference JSON: 22808
+JSON test passed for gerrors
 <end of output>
-Test time =   2.61 sec
+Test time =   3.37 sec
 ----------------------------------------------------------
 Test Passed.
-"tmathtext_ALL_step2" end time: Jun 04 11:59 CEST
-"tmathtext_ALL_step2" time elapsed: 00:00:02
+"gerrors_ALL_step1" end time: Jun 04 15:22 CEST
+"gerrors_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-82/84 Testing: triangles_ALL_step1
-82/84 Test: triangles_ALL_step1
+95/99 Testing: exclusiongraph_ALL_step2
+95/99 Test: exclusiongraph_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("exclusiongraph", "o", "graphs")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"exclusiongraph_ALL_step2" start time: Jun 04 15:21 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("exclusiongraph", "o", "graphs")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/exclusiongraph_pro.svg has been created
+SVG test passed for exclusiongraph
+<end of output>
+Test time =   3.46 sec
+----------------------------------------------------------
+Test Passed.
+"exclusiongraph_ALL_step2" end time: Jun 04 15:22 CEST
+"exclusiongraph_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+93/99 Testing: annotation3d_ALL_step3
+93/99 Test: annotation3d_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "annotation3d"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"annotation3d_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: annotation3d - Lengths [Pro: 94773, Ref: 94773]
+<end of output>
+Test time =   1.61 sec
+----------------------------------------------------------
+Test Passed.
+"annotation3d_ALL_step3" end time: Jun 04 15:22 CEST
+"annotation3d_ALL_step3" time elapsed: 00:00:01
+----------------------------------------------------------
+
+96/99 Testing: exclusiongraph_ALL_step3
+96/99 Test: exclusiongraph_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "exclusiongraph"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"exclusiongraph_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: exclusiongraph - Lengths [Pro: 12099, Ref: 12099]
+<end of output>
+Test time =   0.83 sec
+----------------------------------------------------------
+Test Passed.
+"exclusiongraph_ALL_step3" end time: Jun 04 15:22 CEST
+"exclusiongraph_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/99 Testing: annotation3d_ALL_step2
+92/99 Test: annotation3d_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("annotation3d", "o", "graphs")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"annotation3d_ALL_step2" start time: Jun 04 15:21 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("annotation3d", "o", "graphs")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/annotation3d_pro.svg has been created
+SVG test passed for annotation3d
+<end of output>
+Test time =   4.38 sec
+----------------------------------------------------------
+Test Passed.
+"annotation3d_ALL_step2" end time: Jun 04 15:22 CEST
+"annotation3d_ALL_step2" time elapsed: 00:00:04
+----------------------------------------------------------
+
+86/99 Testing: tornado_ALL_step2
+86/99 Test: tornado_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("tornado", "o", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"tornado_ALL_step2" start time: Jun 04 15:21 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("tornado", "o", "macros_2")...
+tornado   : Real Time =   0.01 seconds Cpu Time =   0.02 seconds
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/tornado_pro.svg has been created
+SVG test failed for tornado
+<end of output>
+Test time =   4.63 sec
+----------------------------------------------------------
+Test Failed.
+"tornado_ALL_step2" end time: Jun 04 15:22 CEST
+"tornado_ALL_step2" time elapsed: 00:00:04
+----------------------------------------------------------
+
+83/99 Testing: triangles_ALL_step2
+83/99 Test: triangles_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("triangles", "o", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"triangles_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("triangles", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/triangles_pro.svg has been created
+SVG test passed for triangles
+<end of output>
+Test time =   2.64 sec
+----------------------------------------------------------
+Test Passed.
+"triangles_ALL_step2" end time: Jun 04 15:22 CEST
+"triangles_ALL_step2" time elapsed: 00:00:02
+----------------------------------------------------------
+
+89/99 Testing: transparency_ALL_step2
+89/99 Test: transparency_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("transparency", "o", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"transparency_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("transparency", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/transparency_pro.svg has been created
+SVG test passed for transparency
+<end of output>
+Test time =   3.30 sec
+----------------------------------------------------------
+Test Passed.
+"transparency_ALL_step2" end time: Jun 04 15:22 CEST
+"transparency_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+87/99 Testing: tornado_ALL_step3
+87/99 Test: tornado_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "tornado"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"tornado_ALL_step3" start time: Jun 04 15:21 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+Creating clones 1 takes 1 ms uniquevis 1
+Total visible nodes 1 numfaces 12
+Create tm = 2 meshes 1 faces 12
+MATCH: tornado - Lengths [Pro: 55101, Ref: 55101]
+<end of output>
+Test time =   6.47 sec
+----------------------------------------------------------
+Test Passed.
+"tornado_ALL_step3" end time: Jun 04 15:22 CEST
+"tornado_ALL_step3" time elapsed: 00:00:06
+----------------------------------------------------------
+
+88/99 Testing: transparency_ALL_step1
+88/99 Test: transparency_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("transparency", "j", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"transparency_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("transparency", "j", "macros_2")...
+Length of produced JSON: 21090
+Length of reference JSON: 21090
+JSON test passed for transparency
+<end of output>
+Test time =   3.35 sec
+----------------------------------------------------------
+Test Passed.
+"transparency_ALL_step1" end time: Jun 04 15:22 CEST
+"transparency_ALL_step1" time elapsed: 00:00:03
+----------------------------------------------------------
+
+82/99 Testing: triangles_ALL_step1
+82/99 Test: triangles_ALL_step1
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("triangles", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"triangles_ALL_step1" start time: Jun 04 11:59 CEST
+"triangles_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -50,57 +283,39 @@ Length of produced JSON: 42316
 Length of reference JSON: 42316
 JSON test passed for triangles
 <end of output>
-Test time =   2.70 sec
+Test time =   3.22 sec
 ----------------------------------------------------------
 Test Passed.
-"triangles_ALL_step1" end time: Jun 04 11:59 CEST
-"triangles_ALL_step1" time elapsed: 00:00:02
+"triangles_ALL_step1" end time: Jun 04 15:22 CEST
+"triangles_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-83/84 Testing: triangles_ALL_step2
-83/84 Test: triangles_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("triangles", "o", "macros_2")"
+85/99 Testing: tornado_ALL_step1
+85/99 Test: tornado_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("tornado", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"triangles_ALL_step2" start time: Jun 04 11:59 CEST
+"tornado_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("triangles", "o", "macros_2")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/triangles_pro.svg has been created
-SVG test passed for triangles
+Processing Test_Root.cpp("tornado", "j", "macros_2")...
+tornado   : Real Time =   0.01 seconds Cpu Time =   0.01 seconds
+Length of produced JSON: 221169
+Length of reference JSON: 221169
+JSON test passed for tornado
 <end of output>
-Test time =   2.71 sec
+Test time =   3.57 sec
 ----------------------------------------------------------
 Test Passed.
-"triangles_ALL_step2" end time: Jun 04 11:59 CEST
-"triangles_ALL_step2" time elapsed: 00:00:02
+"tornado_ALL_step1" end time: Jun 04 15:22 CEST
+"tornado_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-79/84 Testing: tmathtext2_ALL_step1
-79/84 Test: tmathtext2_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("tmathtext2", "j", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"tmathtext2_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("tmathtext2", "j", "macros_2")...
-Length of produced JSON: 492280
-Length of reference JSON: 492280
-JSON test passed for tmathtext2
-<end of output>
-Test time =   2.81 sec
-----------------------------------------------------------
-Test Passed.
-"tmathtext2_ALL_step1" end time: Jun 04 11:59 CEST
-"tmathtext2_ALL_step1" time elapsed: 00:00:02
-----------------------------------------------------------
-
-80/84 Testing: tmathtext2_ALL_step2
-80/84 Test: tmathtext2_ALL_step2
+80/99 Testing: tmathtext2_ALL_step2
+80/99 Test: tmathtext2_ALL_step2
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("tmathtext2", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"tmathtext2_ALL_step2" start time: Jun 04 11:59 CEST
+"tmathtext2_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -108,57 +323,18 @@ Processing Test_Root.cpp("tmathtext2", "o", "macros_2")...
 Info in <TCanvas::Print>: SVG file ./old_svg_pro/tmathtext2_pro.svg has been created
 SVG test passed for tmathtext2
 <end of output>
-Test time =   3.35 sec
+Test time =   3.26 sec
 ----------------------------------------------------------
 Test Passed.
-"tmathtext2_ALL_step2" end time: Jun 04 11:59 CEST
+"tmathtext2_ALL_step2" end time: Jun 04 15:22 CEST
 "tmathtext2_ALL_step2" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-74/84 Testing: quarks_ALL_step2
-74/84 Test: quarks_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("quarks", "o", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"quarks_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("quarks", "o", "macros_2")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/quarks_pro.svg has been created
-SVG test passed for quarks
-<end of output>
-Test time =   3.51 sec
-----------------------------------------------------------
-Test Passed.
-"quarks_ALL_step2" end time: Jun 04 11:59 CEST
-"quarks_ALL_step2" time elapsed: 00:00:03
-----------------------------------------------------------
-
-73/84 Testing: quarks_ALL_step1
-73/84 Test: quarks_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("quarks", "j", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"quarks_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("quarks", "j", "macros_2")...
-Length of produced JSON: 65604
-Length of reference JSON: 65604
-JSON test passed for quarks
-<end of output>
-Test time =   3.34 sec
-----------------------------------------------------------
-Test Passed.
-"quarks_ALL_step1" end time: Jun 04 11:59 CEST
-"quarks_ALL_step1" time elapsed: 00:00:03
-----------------------------------------------------------
-
-47/84 Testing: greyscale_ALL_step2
-47/84 Test: greyscale_ALL_step2
+47/99 Testing: greyscale_ALL_step2
+47/99 Test: greyscale_ALL_step2
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("greyscale", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"greyscale_ALL_step2" start time: Jun 04 11:59 CEST
+"greyscale_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -166,96 +342,18 @@ Processing Test_Root.cpp("greyscale", "o", "macros_2")...
 Info in <TCanvas::Print>: SVG file ./old_svg_pro/greyscale_pro.svg has been created
 SVG test passed for greyscale
 <end of output>
-Test time =   4.74 sec
+Test time =   3.93 sec
 ----------------------------------------------------------
 Test Passed.
-"greyscale_ALL_step2" end time: Jun 04 11:59 CEST
-"greyscale_ALL_step2" time elapsed: 00:00:04
+"greyscale_ALL_step2" end time: Jun 04 15:22 CEST
+"greyscale_ALL_step2" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-68/84 Testing: mass_spectrum_ALL_step2
-68/84 Test: mass_spectrum_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("mass_spectrum", "o", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"mass_spectrum_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("mass_spectrum", "o", "macros_2")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/mass_spectrum_pro.svg has been created
-SVG test passed for mass_spectrum
-<end of output>
-Test time =   2.59 sec
-----------------------------------------------------------
-Test Passed.
-"mass_spectrum_ALL_step2" end time: Jun 04 11:59 CEST
-"mass_spectrum_ALL_step2" time elapsed: 00:00:02
-----------------------------------------------------------
-
-76/84 Testing: tmathtext_ALL_step1
-76/84 Test: tmathtext_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("tmathtext", "j", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"tmathtext_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("tmathtext", "j", "macros_2")...
-Length of produced JSON: 21257
-Length of reference JSON: 21257
-JSON test passed for tmathtext
-<end of output>
-Test time =   3.07 sec
-----------------------------------------------------------
-Test Passed.
-"tmathtext_ALL_step1" end time: Jun 04 11:59 CEST
-"tmathtext_ALL_step1" time elapsed: 00:00:03
-----------------------------------------------------------
-
-70/84 Testing: pavetext_ALL_step1
-70/84 Test: pavetext_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("pavetext", "j", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"pavetext_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("pavetext", "j", "macros_2")...
-Length of produced JSON: 19349
-Length of reference JSON: 19349
-JSON test passed for pavetext
-<end of output>
-Test time =   3.23 sec
-----------------------------------------------------------
-Test Passed.
-"pavetext_ALL_step1" end time: Jun 04 11:59 CEST
-"pavetext_ALL_step1" time elapsed: 00:00:03
-----------------------------------------------------------
-
-65/84 Testing: markerwarning_ALL_step2
-65/84 Test: markerwarning_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("markerwarning", "o", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"markerwarning_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("markerwarning", "o", "macros_2")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/markerwarning_pro.svg has been created
-SVG test passed for markerwarning
-<end of output>
-Test time =   3.51 sec
-----------------------------------------------------------
-Test Passed.
-"markerwarning_ALL_step2" end time: Jun 04 11:59 CEST
-"markerwarning_ALL_step2" time elapsed: 00:00:03
-----------------------------------------------------------
-
-64/84 Testing: markerwarning_ALL_step1
-64/84 Test: markerwarning_ALL_step1
+64/99 Testing: markerwarning_ALL_step1
+64/99 Test: markerwarning_ALL_step1
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("markerwarning", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"markerwarning_ALL_step1" start time: Jun 04 11:59 CEST
+"markerwarning_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -264,18 +362,94 @@ Length of produced JSON: 31466
 Length of reference JSON: 31466
 JSON test passed for markerwarning
 <end of output>
-Test time =   2.69 sec
+Test time =   2.37 sec
 ----------------------------------------------------------
 Test Passed.
-"markerwarning_ALL_step1" end time: Jun 04 11:59 CEST
+"markerwarning_ALL_step1" end time: Jun 04 15:22 CEST
 "markerwarning_ALL_step1" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-71/84 Testing: pavetext_ALL_step2
-71/84 Test: pavetext_ALL_step2
+79/99 Testing: tmathtext2_ALL_step1
+79/99 Test: tmathtext2_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("tmathtext2", "j", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"tmathtext2_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("tmathtext2", "j", "macros_2")...
+Length of produced JSON: 492280
+Length of reference JSON: 492280
+JSON test passed for tmathtext2
+<end of output>
+Test time =   3.28 sec
+----------------------------------------------------------
+Test Passed.
+"tmathtext2_ALL_step1" end time: Jun 04 15:22 CEST
+"tmathtext2_ALL_step1" time elapsed: 00:00:03
+----------------------------------------------------------
+
+74/99 Testing: quarks_ALL_step2
+74/99 Test: quarks_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("quarks", "o", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"quarks_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("quarks", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/quarks_pro.svg has been created
+SVG test passed for quarks
+<end of output>
+Test time =   3.16 sec
+----------------------------------------------------------
+Test Passed.
+"quarks_ALL_step2" end time: Jun 04 15:22 CEST
+"quarks_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+68/99 Testing: mass_spectrum_ALL_step2
+68/99 Test: mass_spectrum_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("mass_spectrum", "o", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"mass_spectrum_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("mass_spectrum", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/mass_spectrum_pro.svg has been created
+SVG test passed for mass_spectrum
+<end of output>
+Test time =   3.12 sec
+----------------------------------------------------------
+Test Passed.
+"mass_spectrum_ALL_step2" end time: Jun 04 15:22 CEST
+"mass_spectrum_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+90/99 Testing: transparency_ALL_step3
+90/99 Test: transparency_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "transparency"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"transparency_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: transparency - Lengths [Pro: 1520, Ref: 1520]
+<end of output>
+Test time =   0.73 sec
+----------------------------------------------------------
+Test Passed.
+"transparency_ALL_step3" end time: Jun 04 15:22 CEST
+"transparency_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/99 Testing: pavetext_ALL_step2
+71/99 Test: pavetext_ALL_step2
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("pavetext", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"pavetext_ALL_step2" start time: Jun 04 11:59 CEST
+"pavetext_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -283,96 +457,38 @@ Processing Test_Root.cpp("pavetext", "o", "macros_2")...
 Info in <TCanvas::Print>: SVG file ./old_svg_pro/pavetext_pro.svg has been created
 SVG test passed for pavetext
 <end of output>
-Test time =   3.51 sec
+Test time =   3.20 sec
 ----------------------------------------------------------
 Test Passed.
-"pavetext_ALL_step2" end time: Jun 04 11:59 CEST
+"pavetext_ALL_step2" end time: Jun 04 15:22 CEST
 "pavetext_ALL_step2" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-67/84 Testing: mass_spectrum_ALL_step1
-67/84 Test: mass_spectrum_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("mass_spectrum", "j", "macros_2")"
+73/99 Testing: quarks_ALL_step1
+73/99 Test: quarks_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("quarks", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"mass_spectrum_ALL_step1" start time: Jun 04 11:59 CEST
+"quarks_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("mass_spectrum", "j", "macros_2")...
-Length of produced JSON: 43437
-Length of reference JSON: 43437
-JSON test passed for mass_spectrum
+Processing Test_Root.cpp("quarks", "j", "macros_2")...
+Length of produced JSON: 65604
+Length of reference JSON: 65604
+JSON test passed for quarks
 <end of output>
-Test time =   3.41 sec
+Test time =   2.44 sec
 ----------------------------------------------------------
 Test Passed.
-"mass_spectrum_ALL_step1" end time: Jun 04 11:59 CEST
-"mass_spectrum_ALL_step1" time elapsed: 00:00:03
+"quarks_ALL_step1" end time: Jun 04 15:22 CEST
+"quarks_ALL_step1" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-62/84 Testing: latex5_ALL_step2
-62/84 Test: latex5_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("latex5", "o", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"latex5_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("latex5", "o", "macros_2")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/latex5_pro.svg has been created
-SVG test passed for latex5
-<end of output>
-Test time =   2.95 sec
-----------------------------------------------------------
-Test Passed.
-"latex5_ALL_step2" end time: Jun 04 11:59 CEST
-"latex5_ALL_step2" time elapsed: 00:00:02
-----------------------------------------------------------
-
-59/84 Testing: latex4_ALL_step2
-59/84 Test: latex4_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("latex4", "o", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"latex4_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("latex4", "o", "macros_2")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/latex4_pro.svg has been created
-SVG test passed for latex4
-<end of output>
-Test time =   3.17 sec
-----------------------------------------------------------
-Test Passed.
-"latex4_ALL_step2" end time: Jun 04 11:59 CEST
-"latex4_ALL_step2" time elapsed: 00:00:03
-----------------------------------------------------------
-
-53/84 Testing: latex2_ALL_step2
-53/84 Test: latex2_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("latex2", "o", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"latex2_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("latex2", "o", "macros_2")...
-Info in <TCanvas::Print>: ps file latex2.ps has been created
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/latex2_pro.svg has been created
-SVG test passed for latex2
-<end of output>
-Test time =   3.36 sec
-----------------------------------------------------------
-Test Passed.
-"latex2_ALL_step2" end time: Jun 04 11:59 CEST
-"latex2_ALL_step2" time elapsed: 00:00:03
-----------------------------------------------------------
-
-50/84 Testing: latex_ALL_step2
-50/84 Test: latex_ALL_step2
+50/99 Testing: latex_ALL_step2
+50/99 Test: latex_ALL_step2
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("latex", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex_ALL_step2" start time: Jun 04 11:59 CEST
+"latex_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -381,77 +497,96 @@ Info in <TCanvas::Print>: ps file latex.ps has been created
 Info in <TCanvas::Print>: SVG file ./old_svg_pro/latex_pro.svg has been created
 SVG test passed for latex
 <end of output>
-Test time =   3.14 sec
+Test time =   2.93 sec
 ----------------------------------------------------------
 Test Passed.
-"latex_ALL_step2" end time: Jun 04 11:59 CEST
-"latex_ALL_step2" time elapsed: 00:00:03
+"latex_ALL_step2" end time: Jun 04 15:22 CEST
+"latex_ALL_step2" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-56/84 Testing: latex3_ALL_step2
-56/84 Test: latex3_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("latex3", "o", "macros_2")"
+77/99 Testing: tmathtext_ALL_step2
+77/99 Test: tmathtext_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("tmathtext", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex3_ALL_step2" start time: Jun 04 11:59 CEST
+"tmathtext_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("latex3", "o", "macros_2")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/latex3_pro.svg has been created
-SVG test passed for latex3
+Processing Test_Root.cpp("tmathtext", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/tmathtext_pro.svg has been created
+SVG test passed for tmathtext
 <end of output>
 Test time =   3.32 sec
 ----------------------------------------------------------
 Test Passed.
-"latex3_ALL_step2" end time: Jun 04 11:59 CEST
-"latex3_ALL_step2" time elapsed: 00:00:03
+"tmathtext_ALL_step2" end time: Jun 04 15:22 CEST
+"tmathtext_ALL_step2" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-61/84 Testing: latex5_ALL_step1
-61/84 Test: latex5_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("latex5", "j", "macros_2")"
+76/99 Testing: tmathtext_ALL_step1
+76/99 Test: tmathtext_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("tmathtext", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex5_ALL_step1" start time: Jun 04 11:59 CEST
+"tmathtext_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("latex5", "j", "macros_2")...
-Length of produced JSON: 84906
-Length of reference JSON: 84906
-JSON test passed for latex5
+Processing Test_Root.cpp("tmathtext", "j", "macros_2")...
+Length of produced JSON: 21257
+Length of reference JSON: 21257
+JSON test passed for tmathtext
 <end of output>
-Test time =   3.64 sec
+Test time =   2.54 sec
 ----------------------------------------------------------
 Test Passed.
-"latex5_ALL_step1" end time: Jun 04 11:59 CEST
-"latex5_ALL_step1" time elapsed: 00:00:03
+"tmathtext_ALL_step1" end time: Jun 04 15:22 CEST
+"tmathtext_ALL_step1" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-58/84 Testing: latex4_ALL_step1
-58/84 Test: latex4_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("latex4", "j", "macros_2")"
+67/99 Testing: mass_spectrum_ALL_step1
+67/99 Test: mass_spectrum_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("mass_spectrum", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex4_ALL_step1" start time: Jun 04 11:59 CEST
+"mass_spectrum_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("latex4", "j", "macros_2")...
-Length of produced JSON: 68453
-Length of reference JSON: 68453
-JSON test passed for latex4
+Processing Test_Root.cpp("mass_spectrum", "j", "macros_2")...
+Length of produced JSON: 43437
+Length of reference JSON: 43437
+JSON test passed for mass_spectrum
 <end of output>
-Test time =   2.63 sec
+Test time =   2.87 sec
 ----------------------------------------------------------
 Test Passed.
-"latex4_ALL_step1" end time: Jun 04 11:59 CEST
-"latex4_ALL_step1" time elapsed: 00:00:02
+"mass_spectrum_ALL_step1" end time: Jun 04 15:22 CEST
+"mass_spectrum_ALL_step1" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-52/84 Testing: latex2_ALL_step1
-52/84 Test: latex2_ALL_step1
+62/99 Testing: latex5_ALL_step2
+62/99 Test: latex5_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("latex5", "o", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"latex5_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("latex5", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/latex5_pro.svg has been created
+SVG test passed for latex5
+<end of output>
+Test time =   2.40 sec
+----------------------------------------------------------
+Test Passed.
+"latex5_ALL_step2" end time: Jun 04 15:22 CEST
+"latex5_ALL_step2" time elapsed: 00:00:02
+----------------------------------------------------------
+
+52/99 Testing: latex2_ALL_step1
+52/99 Test: latex2_ALL_step1
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("latex2", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex2_ALL_step1" start time: Jun 04 11:59 CEST
+"latex2_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -461,78 +596,77 @@ Length of produced JSON: 19146
 Length of reference JSON: 19146
 JSON test passed for latex2
 <end of output>
-Test time =   3.50 sec
+Test time =   3.57 sec
 ----------------------------------------------------------
 Test Passed.
-"latex2_ALL_step1" end time: Jun 04 11:59 CEST
+"latex2_ALL_step1" end time: Jun 04 15:22 CEST
 "latex2_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-49/84 Testing: latex_ALL_step1
-49/84 Test: latex_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("latex", "j", "macros_2")"
+70/99 Testing: pavetext_ALL_step1
+70/99 Test: pavetext_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("pavetext", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex_ALL_step1" start time: Jun 04 11:59 CEST
+"pavetext_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("latex", "j", "macros_2")...
-Info in <TCanvas::Print>: ps file latex.ps has been created
-Length of produced JSON: 19622
-Length of reference JSON: 19622
-JSON test passed for latex
+Processing Test_Root.cpp("pavetext", "j", "macros_2")...
+Length of produced JSON: 19349
+Length of reference JSON: 19349
+JSON test passed for pavetext
 <end of output>
-Test time =   3.20 sec
+Test time =   3.52 sec
 ----------------------------------------------------------
 Test Passed.
-"latex_ALL_step1" end time: Jun 04 11:59 CEST
-"latex_ALL_step1" time elapsed: 00:00:03
+"pavetext_ALL_step1" end time: Jun 04 15:22 CEST
+"pavetext_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-55/84 Testing: latex3_ALL_step1
-55/84 Test: latex3_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("latex3", "j", "macros_2")"
+65/99 Testing: markerwarning_ALL_step2
+65/99 Test: markerwarning_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("markerwarning", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex3_ALL_step1" start time: Jun 04 11:59 CEST
+"markerwarning_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("latex3", "j", "macros_2")...
-Length of produced JSON: 19237
-Length of reference JSON: 19237
-JSON test passed for latex3
+Processing Test_Root.cpp("markerwarning", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/markerwarning_pro.svg has been created
+SVG test passed for markerwarning
 <end of output>
-Test time =   2.72 sec
+Test time =   3.15 sec
 ----------------------------------------------------------
 Test Passed.
-"latex3_ALL_step1" end time: Jun 04 11:59 CEST
-"latex3_ALL_step1" time elapsed: 00:00:02
+"markerwarning_ALL_step2" end time: Jun 04 15:22 CEST
+"markerwarning_ALL_step2" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-44/84 Testing: gaxis3_ALL_step2
-44/84 Test: gaxis3_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("gaxis3", "o", "macros_2")"
+53/99 Testing: latex2_ALL_step2
+53/99 Test: latex2_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("latex2", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"gaxis3_ALL_step2" start time: Jun 04 11:59 CEST
+"latex2_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("gaxis3", "o", "macros_2")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/gaxis3_pro.svg has been created
-SVG test passed for gaxis3
+Processing Test_Root.cpp("latex2", "o", "macros_2")...
+Info in <TCanvas::Print>: ps file latex2.ps has been created
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/latex2_pro.svg has been created
+SVG test passed for latex2
 <end of output>
-Test time =   2.53 sec
+Test time =   3.42 sec
 ----------------------------------------------------------
 Test Passed.
-"gaxis3_ALL_step2" end time: Jun 04 11:59 CEST
-"gaxis3_ALL_step2" time elapsed: 00:00:02
+"latex2_ALL_step2" end time: Jun 04 15:22 CEST
+"latex2_ALL_step2" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-35/84 Testing: formula1_ALL_step2
-35/84 Test: formula1_ALL_step2
+35/99 Testing: formula1_ALL_step2
+35/99 Test: formula1_ALL_step2
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("formula1", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"formula1_ALL_step2" start time: Jun 04 11:59 CEST
+"formula1_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -560,18 +694,77 @@ Total:                        288        286     2064         29504        28672
 Info in <TCanvas::Print>: SVG file ./old_svg_pro/formula1_pro.svg has been created
 SVG test passed for formula1
 <end of output>
-Test time =   3.42 sec
+Test time =   2.46 sec
 ----------------------------------------------------------
 Test Passed.
-"formula1_ALL_step2" end time: Jun 04 11:59 CEST
-"formula1_ALL_step2" time elapsed: 00:00:03
+"formula1_ALL_step2" end time: Jun 04 15:22 CEST
+"formula1_ALL_step2" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-41/84 Testing: gaxis_ALL_step2
-41/84 Test: gaxis_ALL_step2
+58/99 Testing: latex4_ALL_step1
+58/99 Test: latex4_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("latex4", "j", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"latex4_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("latex4", "j", "macros_2")...
+Length of produced JSON: 68453
+Length of reference JSON: 68453
+JSON test passed for latex4
+<end of output>
+Test time =   2.41 sec
+----------------------------------------------------------
+Test Passed.
+"latex4_ALL_step1" end time: Jun 04 15:22 CEST
+"latex4_ALL_step1" time elapsed: 00:00:02
+----------------------------------------------------------
+
+56/99 Testing: latex3_ALL_step2
+56/99 Test: latex3_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("latex3", "o", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"latex3_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("latex3", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/latex3_pro.svg has been created
+SVG test passed for latex3
+<end of output>
+Test time =   3.45 sec
+----------------------------------------------------------
+Test Passed.
+"latex3_ALL_step2" end time: Jun 04 15:22 CEST
+"latex3_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+61/99 Testing: latex5_ALL_step1
+61/99 Test: latex5_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("latex5", "j", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"latex5_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("latex5", "j", "macros_2")...
+Length of produced JSON: 84906
+Length of reference JSON: 84906
+JSON test passed for latex5
+<end of output>
+Test time =   2.54 sec
+----------------------------------------------------------
+Test Passed.
+"latex5_ALL_step1" end time: Jun 04 15:22 CEST
+"latex5_ALL_step1" time elapsed: 00:00:02
+----------------------------------------------------------
+
+41/99 Testing: gaxis_ALL_step2
+41/99 Test: gaxis_ALL_step2
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("gaxis", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"gaxis_ALL_step2" start time: Jun 04 11:59 CEST
+"gaxis_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -579,18 +772,55 @@ Processing Test_Root.cpp("gaxis", "o", "macros_2")...
 Info in <TCanvas::Print>: SVG file ./old_svg_pro/gaxis_pro.svg has been created
 SVG test passed for gaxis
 <end of output>
-Test time =   3.12 sec
+Test time =   2.77 sec
 ----------------------------------------------------------
 Test Passed.
-"gaxis_ALL_step2" end time: Jun 04 11:59 CEST
-"gaxis_ALL_step2" time elapsed: 00:00:03
+"gaxis_ALL_step2" end time: Jun 04 15:22 CEST
+"gaxis_ALL_step2" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-37/84 Testing: framework_ALL_step1
-37/84 Test: framework_ALL_step1
+59/99 Testing: latex4_ALL_step2
+59/99 Test: latex4_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("latex4", "o", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"latex4_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("latex4", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/latex4_pro.svg has been created
+SVG test passed for latex4
+<end of output>
+Test time =   3.26 sec
+----------------------------------------------------------
+Test Passed.
+"latex4_ALL_step2" end time: Jun 04 15:22 CEST
+"latex4_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+84/99 Testing: triangles_ALL_step3
+84/99 Test: triangles_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "triangles"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"triangles_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: triangles - Lengths [Pro: 4163, Ref: 4163]
+<end of output>
+Test time =   0.72 sec
+----------------------------------------------------------
+Test Passed.
+"triangles_ALL_step3" end time: Jun 04 15:22 CEST
+"triangles_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/99 Testing: framework_ALL_step1
+37/99 Test: framework_ALL_step1
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("framework", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"framework_ALL_step1" start time: Jun 04 11:59 CEST
+"framework_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -599,77 +829,39 @@ Length of produced JSON: 25400
 Length of reference JSON: 25400
 JSON test passed for framework
 <end of output>
-Test time =   2.51 sec
+Test time =   2.95 sec
 ----------------------------------------------------------
 Test Passed.
-"framework_ALL_step1" end time: Jun 04 11:59 CEST
+"framework_ALL_step1" end time: Jun 04 15:22 CEST
 "framework_ALL_step1" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-46/84 Testing: greyscale_ALL_step1
-46/84 Test: greyscale_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("greyscale", "j", "macros_2")"
+49/99 Testing: latex_ALL_step1
+49/99 Test: latex_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("latex", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"greyscale_ALL_step1" start time: Jun 04 11:59 CEST
+"latex_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("greyscale", "j", "macros_2")...
-Length of produced JSON: 1142868
-Length of reference JSON: 1142868
-JSON test passed for greyscale
+Processing Test_Root.cpp("latex", "j", "macros_2")...
+Info in <TCanvas::Print>: ps file latex.ps has been created
+Length of produced JSON: 19622
+Length of reference JSON: 19622
+JSON test passed for latex
 <end of output>
-Test time =   3.83 sec
+Test time =   2.48 sec
 ----------------------------------------------------------
 Test Passed.
-"greyscale_ALL_step1" end time: Jun 04 11:59 CEST
-"greyscale_ALL_step1" time elapsed: 00:00:03
+"latex_ALL_step1" end time: Jun 04 15:22 CEST
+"latex_ALL_step1" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-38/84 Testing: framework_ALL_step2
-38/84 Test: framework_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("framework", "o", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"framework_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("framework", "o", "macros_2")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/framework_pro.svg has been created
-SVG test passed for framework
-<end of output>
-Test time =   2.62 sec
-----------------------------------------------------------
-Test Passed.
-"framework_ALL_step2" end time: Jun 04 11:59 CEST
-"framework_ALL_step2" time elapsed: 00:00:02
-----------------------------------------------------------
-
-43/84 Testing: gaxis3_ALL_step1
-43/84 Test: gaxis3_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("gaxis3", "j", "macros_2")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"gaxis3_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("gaxis3", "j", "macros_2")...
-Length of produced JSON: 19198
-Length of reference JSON: 19198
-JSON test passed for gaxis3
-<end of output>
-Test time =   2.57 sec
-----------------------------------------------------------
-Test Passed.
-"gaxis3_ALL_step1" end time: Jun 04 11:59 CEST
-"gaxis3_ALL_step1" time elapsed: 00:00:02
-----------------------------------------------------------
-
-34/84 Testing: formula1_ALL_step1
-34/84 Test: formula1_ALL_step1
+34/99 Testing: formula1_ALL_step1
+34/99 Test: formula1_ALL_step1
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("formula1", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"formula1_ALL_step1" start time: Jun 04 11:59 CEST
+"formula1_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -698,18 +890,18 @@ Length of produced JSON: 26033
 Length of reference JSON: 26033
 JSON test passed for formula1
 <end of output>
-Test time =   3.49 sec
+Test time =   3.74 sec
 ----------------------------------------------------------
 Test Passed.
-"formula1_ALL_step1" end time: Jun 04 11:59 CEST
+"formula1_ALL_step1" end time: Jun 04 15:22 CEST
 "formula1_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-29/84 Testing: feynman_ALL_step2
-29/84 Test: feynman_ALL_step2
+29/99 Testing: feynman_ALL_step2
+29/99 Test: feynman_ALL_step2
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("feynman", "o", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"feynman_ALL_step2" start time: Jun 04 11:59 CEST
+"feynman_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -717,76 +909,76 @@ Processing Test_Root.cpp("feynman", "o", "macros_1")...
 Info in <TCanvas::Print>: SVG file ./old_svg_pro/feynman_pro.svg has been created
 SVG test passed for feynman
 <end of output>
-Test time =   2.74 sec
+Test time =   3.54 sec
 ----------------------------------------------------------
 Test Passed.
-"feynman_ALL_step2" end time: Jun 04 11:59 CEST
-"feynman_ALL_step2" time elapsed: 00:00:02
+"feynman_ALL_step2" end time: Jun 04 15:22 CEST
+"feynman_ALL_step2" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-40/84 Testing: gaxis_ALL_step1
-40/84 Test: gaxis_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("gaxis", "j", "macros_2")"
+44/99 Testing: gaxis3_ALL_step2
+44/99 Test: gaxis3_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("gaxis3", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"gaxis_ALL_step1" start time: Jun 04 11:59 CEST
+"gaxis3_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("gaxis", "j", "macros_2")...
-Length of produced JSON: 23551
-Length of reference JSON: 23551
-JSON test passed for gaxis
+Processing Test_Root.cpp("gaxis3", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/gaxis3_pro.svg has been created
+SVG test passed for gaxis3
 <end of output>
-Test time =   2.99 sec
+Test time =   2.54 sec
 ----------------------------------------------------------
 Test Passed.
-"gaxis_ALL_step1" end time: Jun 04 11:59 CEST
-"gaxis_ALL_step1" time elapsed: 00:00:02
+"gaxis3_ALL_step2" end time: Jun 04 15:22 CEST
+"gaxis3_ALL_step2" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-26/84 Testing: event_ALL_step2
-26/84 Test: event_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("event", "o", "macros_1")"
+46/99 Testing: greyscale_ALL_step1
+46/99 Test: greyscale_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("greyscale", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"event_ALL_step2" start time: Jun 04 11:59 CEST
+"greyscale_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("event", "o", "macros_1")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/event_pro.svg has been created
-SVG test passed for event
+Processing Test_Root.cpp("greyscale", "j", "macros_2")...
+Length of produced JSON: 1142868
+Length of reference JSON: 1142868
+JSON test passed for greyscale
 <end of output>
-Test time =   2.97 sec
+Test time =   3.85 sec
 ----------------------------------------------------------
 Test Passed.
-"event_ALL_step2" end time: Jun 04 11:59 CEST
-"event_ALL_step2" time elapsed: 00:00:02
+"greyscale_ALL_step1" end time: Jun 04 15:22 CEST
+"greyscale_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-23/84 Testing: eval_ALL_step2
-23/84 Test: eval_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("eval", "o", "macros_1")"
+5/99 Testing: archi_ALL_step2
+5/99 Test: archi_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("archi", "o", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"eval_ALL_step2" start time: Jun 04 11:59 CEST
+"archi_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
-Processing Test_Root.cpp("eval", "o", "macros_1")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/eval_pro.svg has been created
-SVG test passed for eval
+Processing Test_Root.cpp("archi", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/archi_pro.svg has been created
+SVG test passed for archi
 <end of output>
-Test time =   3.12 sec
+Test time =   2.61 sec
 ----------------------------------------------------------
 Test Passed.
-"eval_ALL_step2" end time: Jun 04 11:59 CEST
-"eval_ALL_step2" time elapsed: 00:00:03
+"archi_ALL_step2" end time: Jun 04 15:22 CEST
+"archi_ALL_step2" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-28/84 Testing: feynman_ALL_step1
-28/84 Test: feynman_ALL_step1
+28/99 Testing: feynman_ALL_step1
+28/99 Test: feynman_ALL_step1
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("feynman", "j", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"feynman_ALL_step1" start time: Jun 04 11:59 CEST
+"feynman_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -795,495 +987,56 @@ Length of produced JSON: 85370
 Length of reference JSON: 85370
 JSON test passed for feynman
 <end of output>
-Test time =   3.19 sec
+Test time =   2.49 sec
 ----------------------------------------------------------
 Test Passed.
-"feynman_ALL_step1" end time: Jun 04 11:59 CEST
-"feynman_ALL_step1" time elapsed: 00:00:03
+"feynman_ALL_step1" end time: Jun 04 15:22 CEST
+"feynman_ALL_step1" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-22/84 Testing: eval_ALL_step1
-22/84 Test: eval_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("eval", "j", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"eval_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("eval", "j", "macros_1")...
-Length of produced JSON: 23779
-Length of reference JSON: 23779
-JSON test passed for eval
-<end of output>
-Test time =   3.47 sec
-----------------------------------------------------------
-Test Passed.
-"eval_ALL_step1" end time: Jun 04 11:59 CEST
-"eval_ALL_step1" time elapsed: 00:00:03
-----------------------------------------------------------
-
-5/84 Testing: archi_ALL_step2
-5/84 Test: archi_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("archi", "o", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"archi_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("archi", "o", "macros_1")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/archi_pro.svg has been created
-SVG test passed for archi
-<end of output>
-Test time =   3.37 sec
-----------------------------------------------------------
-Test Passed.
-"archi_ALL_step2" end time: Jun 04 11:59 CEST
-"archi_ALL_step2" time elapsed: 00:00:03
-----------------------------------------------------------
-
-25/84 Testing: event_ALL_step1
-25/84 Test: event_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("event", "j", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"event_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("event", "j", "macros_1")...
-Length of produced JSON: 30315
-Length of reference JSON: 30315
-JSON test passed for event
-<end of output>
-Test time =   2.96 sec
-----------------------------------------------------------
-Test Passed.
-"event_ALL_step1" end time: Jun 04 11:59 CEST
-"event_ALL_step1" time elapsed: 00:00:02
-----------------------------------------------------------
-
-78/84 Testing: tmathtext_ALL_step3
-78/84 Test: tmathtext_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "tmathtext"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"tmathtext_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: tmathtext - Lengths [Pro: 108957, Ref: 108957]
-<end of output>
-Test time =   1.44 sec
-----------------------------------------------------------
-Test Passed.
-"tmathtext_ALL_step3" end time: Jun 04 11:59 CEST
-"tmathtext_ALL_step3" time elapsed: 00:00:01
-----------------------------------------------------------
-
-8/84 Testing: arrows_ALL_step2
-8/84 Test: arrows_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("arrows", "o", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"arrows_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("arrows", "o", "macros_1")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/arrows_pro.svg has been created
-SVG test passed for arrows
-<end of output>
-Test time =   3.10 sec
-----------------------------------------------------------
-Test Passed.
-"arrows_ALL_step2" end time: Jun 04 11:59 CEST
-"arrows_ALL_step2" time elapsed: 00:00:03
-----------------------------------------------------------
-
-2/84 Testing: analyze_ALL_step2
-2/84 Test: analyze_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("analyze", "o", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"analyze_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("analyze", "o", "macros_1")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/analyze_pro.svg has been created
-SVG test passed for analyze
-<end of output>
-Test time =   3.12 sec
-----------------------------------------------------------
-Test Passed.
-"analyze_ALL_step2" end time: Jun 04 11:59 CEST
-"analyze_ALL_step2" time elapsed: 00:00:03
-----------------------------------------------------------
-
-31/84 Testing: first_ALL_step1
-31/84 Test: first_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("first", "j", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"first_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("first", "j", "macros_1")...
-Length of produced JSON: 32025
-Length of reference JSON: 32025
-JSON test passed for first
-<end of output>
-Test time =   3.03 sec
-----------------------------------------------------------
-Test Passed.
-"first_ALL_step1" end time: Jun 04 11:59 CEST
-"first_ALL_step1" time elapsed: 00:00:03
-----------------------------------------------------------
-
-1/84 Testing: analyze_ALL_step1
-1/84 Test: analyze_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("analyze", "j", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"analyze_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("analyze", "j", "macros_1")...
-Length of produced JSON: 48717
-Length of reference JSON: 48717
-JSON test passed for analyze
-<end of output>
-Test time =   2.64 sec
-----------------------------------------------------------
-Test Passed.
-"analyze_ALL_step1" end time: Jun 04 11:59 CEST
-"analyze_ALL_step1" time elapsed: 00:00:02
-----------------------------------------------------------
-
-32/84 Testing: first_ALL_step2
-32/84 Test: first_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("first", "o", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"first_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("first", "o", "macros_1")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/first_pro.svg has been created
-SVG test passed for first
-<end of output>
-Test time =   2.92 sec
-----------------------------------------------------------
-Test Passed.
-"first_ALL_step2" end time: Jun 04 11:59 CEST
-"first_ALL_step2" time elapsed: 00:00:02
-----------------------------------------------------------
-
-14/84 Testing: crown_ALL_step2
-14/84 Test: crown_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("crown", "o", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"crown_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("crown", "o", "macros_1")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/crown_pro.svg has been created
-SVG test passed for crown
-<end of output>
-Test time =   2.69 sec
-----------------------------------------------------------
-Test Passed.
-"crown_ALL_step2" end time: Jun 04 11:59 CEST
-"crown_ALL_step2" time elapsed: 00:00:02
-----------------------------------------------------------
-
-17/84 Testing: basic3d_ALL_step2
-17/84 Test: basic3d_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("basic3d", "o", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"basic3d_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("basic3d", "o", "macros_1")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/basic3d_pro.svg has been created
-SVG test passed for basic3d
-<end of output>
-Test time =   3.45 sec
-----------------------------------------------------------
-Test Passed.
-"basic3d_ALL_step2" end time: Jun 04 11:59 CEST
-"basic3d_ALL_step2" time elapsed: 00:00:03
-----------------------------------------------------------
-
-4/84 Testing: archi_ALL_step1
-4/84 Test: archi_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("archi", "j", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"archi_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("archi", "j", "macros_1")...
-Length of produced JSON: 84612
-Length of reference JSON: 84612
-JSON test passed for archi
-<end of output>
-Test time =   3.33 sec
-----------------------------------------------------------
-Test Passed.
-"archi_ALL_step1" end time: Jun 04 11:59 CEST
-"archi_ALL_step1" time elapsed: 00:00:03
-----------------------------------------------------------
-
-16/84 Testing: basic3d_ALL_step1
-16/84 Test: basic3d_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("basic3d", "j", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"basic3d_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("basic3d", "j", "macros_1")...
-Length of produced JSON: 22096
-Length of reference JSON: 22096
-JSON test passed for basic3d
-<end of output>
-Test time =   2.70 sec
-----------------------------------------------------------
-Test Passed.
-"basic3d_ALL_step1" end time: Jun 04 11:59 CEST
-"basic3d_ALL_step1" time elapsed: 00:00:02
-----------------------------------------------------------
-
-7/84 Testing: arrows_ALL_step1
-7/84 Test: arrows_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("arrows", "j", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"arrows_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("arrows", "j", "macros_1")...
-Length of produced JSON: 19643
-Length of reference JSON: 19643
-JSON test passed for arrows
-<end of output>
-Test time =   2.65 sec
-----------------------------------------------------------
-Test Passed.
-"arrows_ALL_step1" end time: Jun 04 11:59 CEST
-"arrows_ALL_step1" time elapsed: 00:00:02
-----------------------------------------------------------
-
-11/84 Testing: compile_ALL_step2
-11/84 Test: compile_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("compile", "o", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"compile_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("compile", "o", "macros_1")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/compile_pro.svg has been created
-SVG test passed for compile
-<end of output>
-Test time =   3.04 sec
-----------------------------------------------------------
-Test Passed.
-"compile_ALL_step2" end time: Jun 04 11:59 CEST
-"compile_ALL_step2" time elapsed: 00:00:03
-----------------------------------------------------------
-
-10/84 Testing: compile_ALL_step1
-10/84 Test: compile_ALL_step1
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("compile", "j", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"compile_ALL_step1" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("compile", "j", "macros_1")...
-Length of produced JSON: 20432
-Length of reference JSON: 20432
-JSON test passed for compile
-<end of output>
-Test time =   3.21 sec
-----------------------------------------------------------
-Test Passed.
-"compile_ALL_step1" end time: Jun 04 11:59 CEST
-"compile_ALL_step1" time elapsed: 00:00:03
-----------------------------------------------------------
-
-75/84 Testing: quarks_ALL_step3
-75/84 Test: quarks_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "quarks"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"quarks_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: quarks - Lengths [Pro: 7503, Ref: 7503]
-<end of output>
-Test time =   1.00 sec
-----------------------------------------------------------
-Test Passed.
-"quarks_ALL_step3" end time: Jun 04 11:59 CEST
-"quarks_ALL_step3" time elapsed: 00:00:00
-----------------------------------------------------------
-
-20/84 Testing: ellipse_ALL_step2
-20/84 Test: ellipse_ALL_step2
-Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("ellipse", "o", "macros_1")"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"ellipse_ALL_step2" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-
-Processing Test_Root.cpp("ellipse", "o", "macros_1")...
-Info in <TCanvas::Print>: SVG file ./old_svg_pro/ellipse_pro.svg has been created
-SVG test passed for ellipse
-<end of output>
-Test time =   2.81 sec
-----------------------------------------------------------
-Test Passed.
-"ellipse_ALL_step2" end time: Jun 04 11:59 CEST
-"ellipse_ALL_step2" time elapsed: 00:00:02
-----------------------------------------------------------
-
-66/84 Testing: markerwarning_ALL_step3
-66/84 Test: markerwarning_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "markerwarning"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"markerwarning_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: markerwarning - Lengths [Pro: 11543, Ref: 11543]
-<end of output>
-Test time =   0.94 sec
-----------------------------------------------------------
-Test Passed.
-"markerwarning_ALL_step3" end time: Jun 04 11:59 CEST
-"markerwarning_ALL_step3" time elapsed: 00:00:00
-----------------------------------------------------------
-
-81/84 Testing: tmathtext2_ALL_step3
-81/84 Test: tmathtext2_ALL_step3
+81/99 Testing: tmathtext2_ALL_step3
+81/99 Test: tmathtext2_ALL_step3
 Command: "/usr/bin/node" "Test_JsRoot.js" "tmathtext2"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"tmathtext2_ALL_step3" start time: Jun 04 11:59 CEST
+"tmathtext2_ALL_step3" start time: Jun 04 15:21 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: tmathtext2 - Lengths [Pro: 746021, Ref: 746021]
 <end of output>
-Test time =  22.63 sec
+Test time =  19.86 sec
 ----------------------------------------------------------
 Test Passed.
-"tmathtext2_ALL_step3" end time: Jun 04 11:59 CEST
-"tmathtext2_ALL_step3" time elapsed: 00:00:22
+"tmathtext2_ALL_step3" end time: Jun 04 15:22 CEST
+"tmathtext2_ALL_step3" time elapsed: 00:00:19
 ----------------------------------------------------------
 
-60/84 Testing: latex4_ALL_step3
-60/84 Test: latex4_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "latex4"
+55/99 Testing: latex3_ALL_step1
+55/99 Test: latex3_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("latex3", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex4_ALL_step3" start time: Jun 04 11:59 CEST
+"latex3_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: latex4 - Lengths [Pro: 18765, Ref: 18765]
+
+Processing Test_Root.cpp("latex3", "j", "macros_2")...
+Length of produced JSON: 19237
+Length of reference JSON: 19237
+JSON test passed for latex3
 <end of output>
-Test time =   1.01 sec
+Test time =   3.51 sec
 ----------------------------------------------------------
 Test Passed.
-"latex4_ALL_step3" end time: Jun 04 11:59 CEST
-"latex4_ALL_step3" time elapsed: 00:00:01
+"latex3_ALL_step1" end time: Jun 04 15:22 CEST
+"latex3_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-18/84 Testing: basic3d_ALL_step3
-18/84 Test: basic3d_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "basic3d"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"basic3d_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-Creating clones 1 takes 1 ms uniquevis 1
-Total visible nodes 1 numfaces 12
-Create tm = 1 meshes 1 faces 12
-MATCH: basic3d - Lengths [Pro: 8404, Ref: 8404]
-<end of output>
-Test time =   1.99 sec
-----------------------------------------------------------
-Test Passed.
-"basic3d_ALL_step3" end time: Jun 04 11:59 CEST
-"basic3d_ALL_step3" time elapsed: 00:00:01
-----------------------------------------------------------
-
-72/84 Testing: pavetext_ALL_step3
-72/84 Test: pavetext_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "pavetext"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"pavetext_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: pavetext - Lengths [Pro: 1903, Ref: 1903]
-<end of output>
-Test time =   0.85 sec
-----------------------------------------------------------
-Test Passed.
-"pavetext_ALL_step3" end time: Jun 04 11:59 CEST
-"pavetext_ALL_step3" time elapsed: 00:00:00
-----------------------------------------------------------
-
-69/84 Testing: mass_spectrum_ALL_step3
-69/84 Test: mass_spectrum_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "mass_spectrum"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"mass_spectrum_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: mass_spectrum - Lengths [Pro: 11385, Ref: 11385]
-<end of output>
-Test time =   1.20 sec
-----------------------------------------------------------
-Test Passed.
-"mass_spectrum_ALL_step3" end time: Jun 04 11:59 CEST
-"mass_spectrum_ALL_step3" time elapsed: 00:00:01
-----------------------------------------------------------
-
-63/84 Testing: latex5_ALL_step3
-63/84 Test: latex5_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "latex5"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"latex5_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: latex5 - Lengths [Pro: 27626, Ref: 27626]
-<end of output>
-Test time =   1.15 sec
-----------------------------------------------------------
-Test Passed.
-"latex5_ALL_step3" end time: Jun 04 11:59 CEST
-"latex5_ALL_step3" time elapsed: 00:00:01
-----------------------------------------------------------
-
-13/84 Testing: crown_ALL_step1
-13/84 Test: crown_ALL_step1
+13/99 Testing: crown_ALL_step1
+13/99 Test: crown_ALL_step1
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("crown", "j", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"crown_ALL_step1" start time: Jun 04 11:59 CEST
+"crown_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -1295,141 +1048,93 @@ JSON test passed for crown
 Test time =   3.08 sec
 ----------------------------------------------------------
 Test Passed.
-"crown_ALL_step1" end time: Jun 04 11:59 CEST
+"crown_ALL_step1" end time: Jun 04 15:22 CEST
 "crown_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-51/84 Testing: latex_ALL_step3
-51/84 Test: latex_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "latex"
+31/99 Testing: first_ALL_step1
+31/99 Test: first_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("first", "j", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex_ALL_step3" start time: Jun 04 11:59 CEST
+"first_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: latex - Lengths [Pro: 6209, Ref: 6209]
+
+Processing Test_Root.cpp("first", "j", "macros_1")...
+Length of produced JSON: 32025
+Length of reference JSON: 32025
+JSON test passed for first
 <end of output>
-Test time =   0.95 sec
+Test time =   2.52 sec
 ----------------------------------------------------------
 Test Passed.
-"latex_ALL_step3" end time: Jun 04 11:59 CEST
-"latex_ALL_step3" time elapsed: 00:00:00
+"first_ALL_step1" end time: Jun 04 15:22 CEST
+"first_ALL_step1" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-54/84 Testing: latex2_ALL_step3
-54/84 Test: latex2_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "latex2"
+2/99 Testing: analyze_ALL_step2
+2/99 Test: analyze_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("analyze", "o", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex2_ALL_step3" start time: Jun 04 11:59 CEST
+"analyze_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: latex2 - Lengths [Pro: 4396, Ref: 4396]
+
+Processing Test_Root.cpp("analyze", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/analyze_pro.svg has been created
+SVG test passed for analyze
 <end of output>
-Test time =   0.94 sec
+Test time =   3.17 sec
 ----------------------------------------------------------
 Test Passed.
-"latex2_ALL_step3" end time: Jun 04 11:59 CEST
-"latex2_ALL_step3" time elapsed: 00:00:00
+"analyze_ALL_step2" end time: Jun 04 15:22 CEST
+"analyze_ALL_step2" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-57/84 Testing: latex3_ALL_step3
-57/84 Test: latex3_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "latex3"
+22/99 Testing: eval_ALL_step1
+22/99 Test: eval_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("eval", "j", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"latex3_ALL_step3" start time: Jun 04 11:59 CEST
+"eval_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: latex3 - Lengths [Pro: 9667, Ref: 9667]
+
+Processing Test_Root.cpp("eval", "j", "macros_1")...
+Length of produced JSON: 23779
+Length of reference JSON: 23779
+JSON test passed for eval
 <end of output>
-Test time =   0.96 sec
+Test time =   3.54 sec
 ----------------------------------------------------------
 Test Passed.
-"latex3_ALL_step3" end time: Jun 04 11:59 CEST
-"latex3_ALL_step3" time elapsed: 00:00:00
+"eval_ALL_step1" end time: Jun 04 15:22 CEST
+"eval_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-42/84 Testing: gaxis_ALL_step3
-42/84 Test: gaxis_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "gaxis"
+38/99 Testing: framework_ALL_step2
+38/99 Test: framework_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("framework", "o", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"gaxis_ALL_step3" start time: Jun 04 11:59 CEST
+"framework_ALL_step2" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: gaxis - Lengths [Pro: 17481, Ref: 17481]
+
+Processing Test_Root.cpp("framework", "o", "macros_2")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/framework_pro.svg has been created
+SVG test passed for framework
 <end of output>
-Test time =   0.98 sec
+Test time =   3.59 sec
 ----------------------------------------------------------
 Test Passed.
-"gaxis_ALL_step3" end time: Jun 04 11:59 CEST
-"gaxis_ALL_step3" time elapsed: 00:00:00
+"framework_ALL_step2" end time: Jun 04 15:22 CEST
+"framework_ALL_step2" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-36/84 Testing: formula1_ALL_step3
-36/84 Test: formula1_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "formula1"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"formula1_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: formula1 - Lengths [Pro: 4114, Ref: 4114]
-<end of output>
-Test time =   0.98 sec
-----------------------------------------------------------
-Test Passed.
-"formula1_ALL_step3" end time: Jun 04 11:59 CEST
-"formula1_ALL_step3" time elapsed: 00:00:00
-----------------------------------------------------------
-
-45/84 Testing: gaxis3_ALL_step3
-45/84 Test: gaxis3_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "gaxis3"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"gaxis3_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: gaxis3 - Lengths [Pro: 1787, Ref: 1787]
-<end of output>
-Test time =   0.89 sec
-----------------------------------------------------------
-Test Passed.
-"gaxis3_ALL_step3" end time: Jun 04 11:59 CEST
-"gaxis3_ALL_step3" time elapsed: 00:00:00
-----------------------------------------------------------
-
-48/84 Testing: greyscale_ALL_step3
-48/84 Test: greyscale_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "greyscale"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"greyscale_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: greyscale - Lengths [Pro: 683475, Ref: 683475]
-<end of output>
-Test time =   1.06 sec
-----------------------------------------------------------
-Test Passed.
-"greyscale_ALL_step3" end time: Jun 04 11:59 CEST
-"greyscale_ALL_step3" time elapsed: 00:00:01
-----------------------------------------------------------
-
-19/84 Testing: ellipse_ALL_step1
-19/84 Test: ellipse_ALL_step1
+19/99 Testing: ellipse_ALL_step1
+19/99 Test: ellipse_ALL_step1
 Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("ellipse", "j", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"ellipse_ALL_step1" start time: Jun 04 11:59 CEST
+"ellipse_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 
@@ -1438,144 +1143,729 @@ Length of produced JSON: 19215
 Length of reference JSON: 19215
 JSON test passed for ellipse
 <end of output>
-Test time =   3.48 sec
+Test time =   2.40 sec
 ----------------------------------------------------------
 Test Passed.
-"ellipse_ALL_step1" end time: Jun 04 11:59 CEST
-"ellipse_ALL_step1" time elapsed: 00:00:03
+"ellipse_ALL_step1" end time: Jun 04 15:22 CEST
+"ellipse_ALL_step1" time elapsed: 00:00:02
 ----------------------------------------------------------
 
-6/84 Testing: archi_ALL_step3
-6/84 Test: archi_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "archi"
+10/99 Testing: compile_ALL_step1
+10/99 Test: compile_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("compile", "j", "macros_1")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"archi_ALL_step3" start time: Jun 04 11:59 CEST
+"compile_ALL_step1" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: archi - Lengths [Pro: 41892, Ref: 41892]
+
+Processing Test_Root.cpp("compile", "j", "macros_1")...
+Length of produced JSON: 20432
+Length of reference JSON: 20432
+JSON test passed for compile
 <end of output>
-Test time =   1.08 sec
+Test time =   3.05 sec
 ----------------------------------------------------------
 Test Passed.
-"archi_ALL_step3" end time: Jun 04 11:59 CEST
-"archi_ALL_step3" time elapsed: 00:00:01
+"compile_ALL_step1" end time: Jun 04 15:22 CEST
+"compile_ALL_step1" time elapsed: 00:00:03
 ----------------------------------------------------------
 
-27/84 Testing: event_ALL_step3
-27/84 Test: event_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "event"
+43/99 Testing: gaxis3_ALL_step1
+43/99 Test: gaxis3_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("gaxis3", "j", "macros_2")"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"event_ALL_step3" start time: Jun 04 11:59 CEST
+"gaxis3_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("gaxis3", "j", "macros_2")...
+Length of produced JSON: 19198
+Length of reference JSON: 19198
+JSON test passed for gaxis3
+<end of output>
+Test time =   2.65 sec
+----------------------------------------------------------
+Test Passed.
+"gaxis3_ALL_step1" end time: Jun 04 15:22 CEST
+"gaxis3_ALL_step1" time elapsed: 00:00:02
+----------------------------------------------------------
+
+32/99 Testing: first_ALL_step2
+32/99 Test: first_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("first", "o", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"first_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("first", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/first_pro.svg has been created
+SVG test passed for first
+<end of output>
+Test time =   3.14 sec
+----------------------------------------------------------
+Test Passed.
+"first_ALL_step2" end time: Jun 04 15:22 CEST
+"first_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+17/99 Testing: basic3d_ALL_step2
+17/99 Test: basic3d_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("basic3d", "o", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"basic3d_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("basic3d", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/basic3d_pro.svg has been created
+SVG test passed for basic3d
+<end of output>
+Test time =   3.11 sec
+----------------------------------------------------------
+Test Passed.
+"basic3d_ALL_step2" end time: Jun 04 15:22 CEST
+"basic3d_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+16/99 Testing: basic3d_ALL_step1
+16/99 Test: basic3d_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("basic3d", "j", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"basic3d_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("basic3d", "j", "macros_1")...
+Length of produced JSON: 22096
+Length of reference JSON: 22096
+JSON test passed for basic3d
+<end of output>
+Test time =   2.66 sec
+----------------------------------------------------------
+Test Passed.
+"basic3d_ALL_step1" end time: Jun 04 15:22 CEST
+"basic3d_ALL_step1" time elapsed: 00:00:02
+----------------------------------------------------------
+
+23/99 Testing: eval_ALL_step2
+23/99 Test: eval_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("eval", "o", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"eval_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("eval", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/eval_pro.svg has been created
+SVG test passed for eval
+<end of output>
+Test time =   3.27 sec
+----------------------------------------------------------
+Test Passed.
+"eval_ALL_step2" end time: Jun 04 15:22 CEST
+"eval_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+40/99 Testing: gaxis_ALL_step1
+40/99 Test: gaxis_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("gaxis", "j", "macros_2")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"gaxis_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("gaxis", "j", "macros_2")...
+Length of produced JSON: 23551
+Length of reference JSON: 23551
+JSON test passed for gaxis
+<end of output>
+Test time =   2.71 sec
+----------------------------------------------------------
+Test Passed.
+"gaxis_ALL_step1" end time: Jun 04 15:22 CEST
+"gaxis_ALL_step1" time elapsed: 00:00:02
+----------------------------------------------------------
+
+26/99 Testing: event_ALL_step2
+26/99 Test: event_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("event", "o", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"event_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("event", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/event_pro.svg has been created
+SVG test passed for event
+<end of output>
+Test time =   2.65 sec
+----------------------------------------------------------
+Test Passed.
+"event_ALL_step2" end time: Jun 04 15:22 CEST
+"event_ALL_step2" time elapsed: 00:00:02
+----------------------------------------------------------
+
+14/99 Testing: crown_ALL_step2
+14/99 Test: crown_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("crown", "o", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"crown_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("crown", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/crown_pro.svg has been created
+SVG test passed for crown
+<end of output>
+Test time =   2.45 sec
+----------------------------------------------------------
+Test Passed.
+"crown_ALL_step2" end time: Jun 04 15:22 CEST
+"crown_ALL_step2" time elapsed: 00:00:02
+----------------------------------------------------------
+
+7/99 Testing: arrows_ALL_step1
+7/99 Test: arrows_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("arrows", "j", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"arrows_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("arrows", "j", "macros_1")...
+Length of produced JSON: 19643
+Length of reference JSON: 19643
+JSON test passed for arrows
+<end of output>
+Test time =   3.50 sec
+----------------------------------------------------------
+Test Passed.
+"arrows_ALL_step1" end time: Jun 04 15:22 CEST
+"arrows_ALL_step1" time elapsed: 00:00:03
+----------------------------------------------------------
+
+25/99 Testing: event_ALL_step1
+25/99 Test: event_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("event", "j", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"event_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("event", "j", "macros_1")...
+Length of produced JSON: 30315
+Length of reference JSON: 30315
+JSON test passed for event
+<end of output>
+Test time =   3.24 sec
+----------------------------------------------------------
+Test Passed.
+"event_ALL_step1" end time: Jun 04 15:22 CEST
+"event_ALL_step1" time elapsed: 00:00:03
+----------------------------------------------------------
+
+78/99 Testing: tmathtext_ALL_step3
+78/99 Test: tmathtext_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "tmathtext"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"tmathtext_ALL_step3" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
-MATCH: event - Lengths [Pro: 5344, Ref: 5344]
+MATCH: tmathtext - Lengths [Pro: 108957, Ref: 108957]
+<end of output>
+Test time =   1.35 sec
+----------------------------------------------------------
+Test Passed.
+"tmathtext_ALL_step3" end time: Jun 04 15:22 CEST
+"tmathtext_ALL_step3" time elapsed: 00:00:01
+----------------------------------------------------------
+
+20/99 Testing: ellipse_ALL_step2
+20/99 Test: ellipse_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("ellipse", "o", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"ellipse_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("ellipse", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/ellipse_pro.svg has been created
+SVG test passed for ellipse
+<end of output>
+Test time =   2.94 sec
+----------------------------------------------------------
+Test Passed.
+"ellipse_ALL_step2" end time: Jun 04 15:22 CEST
+"ellipse_ALL_step2" time elapsed: 00:00:02
+----------------------------------------------------------
+
+75/99 Testing: quarks_ALL_step3
+75/99 Test: quarks_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "quarks"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"quarks_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: quarks - Lengths [Pro: 7503, Ref: 7503]
+<end of output>
+Test time =   1.11 sec
+----------------------------------------------------------
+Test Passed.
+"quarks_ALL_step3" end time: Jun 04 15:22 CEST
+"quarks_ALL_step3" time elapsed: 00:00:01
+----------------------------------------------------------
+
+11/99 Testing: compile_ALL_step2
+11/99 Test: compile_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("compile", "o", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"compile_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("compile", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/compile_pro.svg has been created
+SVG test passed for compile
+<end of output>
+Test time =   3.15 sec
+----------------------------------------------------------
+Test Passed.
+"compile_ALL_step2" end time: Jun 04 15:22 CEST
+"compile_ALL_step2" time elapsed: 00:00:03
+----------------------------------------------------------
+
+63/99 Testing: latex5_ALL_step3
+63/99 Test: latex5_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "latex5"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"latex5_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: latex5 - Lengths [Pro: 27626, Ref: 27626]
+<end of output>
+Test time =   1.05 sec
+----------------------------------------------------------
+Test Passed.
+"latex5_ALL_step3" end time: Jun 04 15:22 CEST
+"latex5_ALL_step3" time elapsed: 00:00:01
+----------------------------------------------------------
+
+66/99 Testing: markerwarning_ALL_step3
+66/99 Test: markerwarning_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "markerwarning"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"markerwarning_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: markerwarning - Lengths [Pro: 11543, Ref: 11543]
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Passed.
+"markerwarning_ALL_step3" end time: Jun 04 15:22 CEST
+"markerwarning_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/99 Testing: basic3d_ALL_step3
+18/99 Test: basic3d_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "basic3d"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"basic3d_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+Creating clones 1 takes 1 ms uniquevis 1
+Total visible nodes 1 numfaces 12
+Create tm = 2 meshes 1 faces 12
+MATCH: basic3d - Lengths [Pro: 8404, Ref: 8404]
+<end of output>
+Test time =   1.77 sec
+----------------------------------------------------------
+Test Passed.
+"basic3d_ALL_step3" end time: Jun 04 15:22 CEST
+"basic3d_ALL_step3" time elapsed: 00:00:01
+----------------------------------------------------------
+
+60/99 Testing: latex4_ALL_step3
+60/99 Test: latex4_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "latex4"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"latex4_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: latex4 - Lengths [Pro: 18765, Ref: 18765]
+<end of output>
+Test time =   1.07 sec
+----------------------------------------------------------
+Test Passed.
+"latex4_ALL_step3" end time: Jun 04 15:22 CEST
+"latex4_ALL_step3" time elapsed: 00:00:01
+----------------------------------------------------------
+
+72/99 Testing: pavetext_ALL_step3
+72/99 Test: pavetext_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "pavetext"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"pavetext_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: pavetext - Lengths [Pro: 1903, Ref: 1903]
+<end of output>
+Test time =   0.88 sec
+----------------------------------------------------------
+Test Passed.
+"pavetext_ALL_step3" end time: Jun 04 15:22 CEST
+"pavetext_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/99 Testing: mass_spectrum_ALL_step3
+69/99 Test: mass_spectrum_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "mass_spectrum"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"mass_spectrum_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: mass_spectrum - Lengths [Pro: 11385, Ref: 11385]
+<end of output>
+Test time =   0.95 sec
+----------------------------------------------------------
+Test Passed.
+"mass_spectrum_ALL_step3" end time: Jun 04 15:22 CEST
+"mass_spectrum_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/99 Testing: arrows_ALL_step2
+8/99 Test: arrows_ALL_step2
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "--web=off" "Test_Root.cpp("arrows", "o", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"arrows_ALL_step2" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("arrows", "o", "macros_1")...
+Info in <TCanvas::Print>: SVG file ./old_svg_pro/arrows_pro.svg has been created
+SVG test passed for arrows
+<end of output>
+Test time =   2.98 sec
+----------------------------------------------------------
+Test Passed.
+"arrows_ALL_step2" end time: Jun 04 15:22 CEST
+"arrows_ALL_step2" time elapsed: 00:00:02
+----------------------------------------------------------
+
+4/99 Testing: archi_ALL_step1
+4/99 Test: archi_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("archi", "j", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"archi_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("archi", "j", "macros_1")...
+Length of produced JSON: 84612
+Length of reference JSON: 84612
+JSON test passed for archi
+<end of output>
+Test time =   3.62 sec
+----------------------------------------------------------
+Test Passed.
+"archi_ALL_step1" end time: Jun 04 15:22 CEST
+"archi_ALL_step1" time elapsed: 00:00:03
+----------------------------------------------------------
+
+1/99 Testing: analyze_ALL_step1
+1/99 Test: analyze_ALL_step1
+Command: "/home/adrianduesselberg/build/bin/root" "-l" "-b" "-q" "Test_Root.cpp("analyze", "j", "macros_1")"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"analyze_ALL_step1" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+
+Processing Test_Root.cpp("analyze", "j", "macros_1")...
+Length of produced JSON: 48717
+Length of reference JSON: 48717
+JSON test passed for analyze
+<end of output>
+Test time =   3.03 sec
+----------------------------------------------------------
+Test Passed.
+"analyze_ALL_step1" end time: Jun 04 15:22 CEST
+"analyze_ALL_step1" time elapsed: 00:00:03
+----------------------------------------------------------
+
+57/99 Testing: latex3_ALL_step3
+57/99 Test: latex3_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "latex3"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"latex3_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: latex3 - Lengths [Pro: 9667, Ref: 9667]
+<end of output>
+Test time =   0.93 sec
+----------------------------------------------------------
+Test Passed.
+"latex3_ALL_step3" end time: Jun 04 15:22 CEST
+"latex3_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/99 Testing: greyscale_ALL_step3
+48/99 Test: greyscale_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "greyscale"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"greyscale_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: greyscale - Lengths [Pro: 683475, Ref: 683475]
+<end of output>
+Test time =   0.95 sec
+----------------------------------------------------------
+Test Passed.
+"greyscale_ALL_step3" end time: Jun 04 15:22 CEST
+"greyscale_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/99 Testing: latex_ALL_step3
+51/99 Test: latex_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "latex"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"latex_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: latex - Lengths [Pro: 6209, Ref: 6209]
+<end of output>
+Test time =   0.84 sec
+----------------------------------------------------------
+Test Passed.
+"latex_ALL_step3" end time: Jun 04 15:22 CEST
+"latex_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/99 Testing: gaxis_ALL_step3
+42/99 Test: gaxis_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "gaxis"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"gaxis_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: gaxis - Lengths [Pro: 17481, Ref: 17481]
 <end of output>
 Test time =   0.96 sec
 ----------------------------------------------------------
 Test Passed.
-"event_ALL_step3" end time: Jun 04 11:59 CEST
-"event_ALL_step3" time elapsed: 00:00:00
+"gaxis_ALL_step3" end time: Jun 04 15:22 CEST
+"gaxis_ALL_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-39/84 Testing: framework_ALL_step3
-39/84 Test: framework_ALL_step3
+54/99 Testing: latex2_ALL_step3
+54/99 Test: latex2_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "latex2"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"latex2_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: latex2 - Lengths [Pro: 4396, Ref: 4396]
+<end of output>
+Test time =   0.85 sec
+----------------------------------------------------------
+Test Passed.
+"latex2_ALL_step3" end time: Jun 04 15:22 CEST
+"latex2_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/99 Testing: gaxis3_ALL_step3
+45/99 Test: gaxis3_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "gaxis3"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"gaxis3_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: gaxis3 - Lengths [Pro: 1787, Ref: 1787]
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Passed.
+"gaxis3_ALL_step3" end time: Jun 04 15:22 CEST
+"gaxis3_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/99 Testing: formula1_ALL_step3
+36/99 Test: formula1_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "formula1"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"formula1_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: formula1 - Lengths [Pro: 4114, Ref: 4114]
+<end of output>
+Test time =   0.93 sec
+----------------------------------------------------------
+Test Passed.
+"formula1_ALL_step3" end time: Jun 04 15:22 CEST
+"formula1_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/99 Testing: framework_ALL_step3
+39/99 Test: framework_ALL_step3
 Command: "/usr/bin/node" "Test_JsRoot.js" "framework"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"framework_ALL_step3" start time: Jun 04 11:59 CEST
+"framework_ALL_step3" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: framework - Lengths [Pro: 7856, Ref: 7856]
 <end of output>
-Test time =   0.92 sec
+Test time =   0.86 sec
 ----------------------------------------------------------
 Test Passed.
-"framework_ALL_step3" end time: Jun 04 11:59 CEST
+"framework_ALL_step3" end time: Jun 04 15:22 CEST
 "framework_ALL_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-30/84 Testing: feynman_ALL_step3
-30/84 Test: feynman_ALL_step3
+6/99 Testing: archi_ALL_step3
+6/99 Test: archi_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "archi"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"archi_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: archi - Lengths [Pro: 41892, Ref: 41892]
+<end of output>
+Test time =   1.14 sec
+----------------------------------------------------------
+Test Passed.
+"archi_ALL_step3" end time: Jun 04 15:22 CEST
+"archi_ALL_step3" time elapsed: 00:00:01
+----------------------------------------------------------
+
+30/99 Testing: feynman_ALL_step3
+30/99 Test: feynman_ALL_step3
 Command: "/usr/bin/node" "Test_JsRoot.js" "feynman"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"feynman_ALL_step3" start time: Jun 04 11:59 CEST
+"feynman_ALL_step3" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: feynman - Lengths [Pro: 16896, Ref: 16896]
 <end of output>
-Test time =   0.98 sec
+Test time =   0.91 sec
 ----------------------------------------------------------
 Test Passed.
-"feynman_ALL_step3" end time: Jun 04 11:59 CEST
+"feynman_ALL_step3" end time: Jun 04 15:22 CEST
 "feynman_ALL_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/84 Testing: analyze_ALL_step3
-3/84 Test: analyze_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "analyze"
+27/99 Testing: event_ALL_step3
+27/99 Test: event_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "event"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"analyze_ALL_step3" start time: Jun 04 11:59 CEST
+"event_ALL_step3" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
-MATCH: analyze - Lengths [Pro: 11643, Ref: 11643]
+MATCH: event - Lengths [Pro: 5344, Ref: 5344]
 <end of output>
-Test time =   0.98 sec
+Test time =   0.93 sec
 ----------------------------------------------------------
 Test Passed.
-"analyze_ALL_step3" end time: Jun 04 11:59 CEST
-"analyze_ALL_step3" time elapsed: 00:00:00
+"event_ALL_step3" end time: Jun 04 15:22 CEST
+"event_ALL_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-24/84 Testing: eval_ALL_step3
-24/84 Test: eval_ALL_step3
+24/99 Testing: eval_ALL_step3
+24/99 Test: eval_ALL_step3
 Command: "/usr/bin/node" "Test_JsRoot.js" "eval"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"eval_ALL_step3" start time: Jun 04 11:59 CEST
+"eval_ALL_step3" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: eval - Lengths [Pro: 2887, Ref: 2887]
 <end of output>
-Test time =   0.88 sec
+Test time =   0.81 sec
 ----------------------------------------------------------
 Test Passed.
-"eval_ALL_step3" end time: Jun 04 11:59 CEST
+"eval_ALL_step3" end time: Jun 04 15:22 CEST
 "eval_ALL_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-33/84 Testing: first_ALL_step3
-33/84 Test: first_ALL_step3
+3/99 Testing: analyze_ALL_step3
+3/99 Test: analyze_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "analyze"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"analyze_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: analyze - Lengths [Pro: 11643, Ref: 11643]
+<end of output>
+Test time =   0.94 sec
+----------------------------------------------------------
+Test Passed.
+"analyze_ALL_step3" end time: Jun 04 15:22 CEST
+"analyze_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/99 Testing: first_ALL_step3
+33/99 Test: first_ALL_step3
 Command: "/usr/bin/node" "Test_JsRoot.js" "first"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"first_ALL_step3" start time: Jun 04 11:59 CEST
+"first_ALL_step3" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: first - Lengths [Pro: 6792, Ref: 6792]
 <end of output>
-Test time =   0.90 sec
+Test time =   0.84 sec
 ----------------------------------------------------------
 Test Passed.
-"first_ALL_step3" end time: Jun 04 11:59 CEST
+"first_ALL_step3" end time: Jun 04 15:22 CEST
 "first_ALL_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/84 Testing: arrows_ALL_step3
-9/84 Test: arrows_ALL_step3
+9/99 Testing: arrows_ALL_step3
+9/99 Test: arrows_ALL_step3
 Command: "/usr/bin/node" "Test_JsRoot.js" "arrows"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"arrows_ALL_step3" start time: Jun 04 11:59 CEST
+"arrows_ALL_step3" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
@@ -1585,62 +1875,62 @@ MATCH: arrows - Lengths [Pro: 1572, Ref: 1572]
 Test time =   0.75 sec
 ----------------------------------------------------------
 Test Passed.
-"arrows_ALL_step3" end time: Jun 04 11:59 CEST
+"arrows_ALL_step3" end time: Jun 04 15:22 CEST
 "arrows_ALL_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/84 Testing: crown_ALL_step3
-15/84 Test: crown_ALL_step3
+15/99 Testing: crown_ALL_step3
+15/99 Test: crown_ALL_step3
 Command: "/usr/bin/node" "Test_JsRoot.js" "crown"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"crown_ALL_step3" start time: Jun 04 11:59 CEST
+"crown_ALL_step3" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: crown - Lengths [Pro: 1605, Ref: 1605]
 <end of output>
-Test time =   0.77 sec
+Test time =   0.74 sec
 ----------------------------------------------------------
 Test Passed.
-"crown_ALL_step3" end time: Jun 04 11:59 CEST
+"crown_ALL_step3" end time: Jun 04 15:22 CEST
 "crown_ALL_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/84 Testing: compile_ALL_step3
-12/84 Test: compile_ALL_step3
-Command: "/usr/bin/node" "Test_JsRoot.js" "compile"
-Directory: /home/adrianduesselberg/root-graphic-tests
-"compile_ALL_step3" start time: Jun 04 11:59 CEST
-Output:
-----------------------------------------------------------
-Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
-JSROOT version dev 18/03/2024
-MATCH: compile - Lengths [Pro: 1700, Ref: 1700]
-<end of output>
-Test time =   0.84 sec
-----------------------------------------------------------
-Test Passed.
-"compile_ALL_step3" end time: Jun 04 11:59 CEST
-"compile_ALL_step3" time elapsed: 00:00:00
-----------------------------------------------------------
-
-21/84 Testing: ellipse_ALL_step3
-21/84 Test: ellipse_ALL_step3
+21/99 Testing: ellipse_ALL_step3
+21/99 Test: ellipse_ALL_step3
 Command: "/usr/bin/node" "Test_JsRoot.js" "ellipse"
 Directory: /home/adrianduesselberg/root-graphic-tests
-"ellipse_ALL_step3" start time: Jun 04 11:59 CEST
+"ellipse_ALL_step3" start time: Jun 04 15:22 CEST
 Output:
 ----------------------------------------------------------
 Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
 JSROOT version dev 18/03/2024
 MATCH: ellipse - Lengths [Pro: 2369, Ref: 2369]
 <end of output>
-Test time =   0.79 sec
+Test time =   0.80 sec
 ----------------------------------------------------------
 Test Passed.
-"ellipse_ALL_step3" end time: Jun 04 11:59 CEST
+"ellipse_ALL_step3" end time: Jun 04 15:22 CEST
 "ellipse_ALL_step3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jun 04 11:59 CEST
+12/99 Testing: compile_ALL_step3
+12/99 Test: compile_ALL_step3
+Command: "/usr/bin/node" "Test_JsRoot.js" "compile"
+Directory: /home/adrianduesselberg/root-graphic-tests
+"compile_ALL_step3" start time: Jun 04 15:22 CEST
+Output:
+----------------------------------------------------------
+Set jsroot source_dir to file:///home/adrianduesselberg/build/js/, dev 18/03/2024
+JSROOT version dev 18/03/2024
+MATCH: compile - Lengths [Pro: 1700, Ref: 1700]
+<end of output>
+Test time =   0.75 sec
+----------------------------------------------------------
+Test Passed.
+"compile_ALL_step3" end time: Jun 04 15:22 CEST
+"compile_ALL_step3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 04 15:22 CEST

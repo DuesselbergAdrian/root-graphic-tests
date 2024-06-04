@@ -87,4 +87,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tmathtext_All.dir/DependInfo.cmake"
   "CMakeFiles/tmathtext2_All.dir/DependInfo.cmake"
   "CMakeFiles/triangles_All.dir/DependInfo.cmake"
+  "CMakeFiles/tornado_All.dir/DependInfo.cmake"
+  "CMakeFiles/transparency_All.dir/DependInfo.cmake"
+  "CMakeFiles/annotation3d_All.dir/DependInfo.cmake"
+  "CMakeFiles/exclusiongraph_All.dir/DependInfo.cmake"
+  "CMakeFiles/gerrors_All.dir/DependInfo.cmake"
   )
