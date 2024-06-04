@@ -1,8 +1,8 @@
-build
-Testing
-.vscode
+build/
+Testing/
+.vscode/
 latex.ps
 latex2.ps
 macros.cmake
 package-lock.json
-node_modules
+node_modules/
