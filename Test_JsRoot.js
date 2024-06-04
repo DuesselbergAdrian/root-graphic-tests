@@ -1,11 +1,10 @@
 //IMPORTS
 const rootSys = process.env.ROOTSYS;
-const path1 = `${rootSys}/js/modules/main.mjs`;
-const { version, parse, makeSVG } = await import(path1);
+const path_jsroot = `${rootSys}/js/modules/main.mjs`;
+const { version, parse, makeSVG } = await import(path_jsroot);
 
 import { promises as fs } from 'fs';
 import path from 'path';
-
 import xmlParser from 'xml-parser-xo';
 import chalk from 'chalk';
 
@@ -13,38 +12,45 @@ import chalk from 'chalk';
 console.log(chalk.blue(`JSROOT version ${version}`));
 
 //FUNCTIONS
+
+/**
+ * Checks if two objects are equal by comparing their JSON string representations.
+ * @param {Object} obj1 - The first object to compare.
+ * @param {Object} obj2 - The second object to compare.
+ * @returns {boolean} - True if the objects are equal, false otherwise.
+ */
 function isEqual(obj1, obj2) {
-    const str1 = JSON.stringify(obj1);
-    const str2 = JSON.stringify(obj2);
-    return str1 === str2;
+    return JSON.stringify(obj1) === JSON.stringify(obj2);
 }
 
+/**
+ * Compares two SVG files, creating a reference file if the second file does not exist.
+ * @param {string} svgContent1 - The content of the first SVG.
+ * @param {string} svgFile2 - The path to the second SVG file.
+ * @param {string} baseName - The base name for logging.
+ */
 async function compareSVG(svgContent1, svgFile2, baseName) {
-    let svgContent2;
-
     try {
-        svgContent2 = await fs.readFile(svgFile2, 'utf8');
+        const svgContent2 = await fs.readFile(svgFile2, 'utf8');
+        const parsedSVG1 = xmlParser(svgContent1);
+        const parsedSVG2 = xmlParser(svgContent2);
+
+        if (isEqual(parsedSVG1, parsedSVG2)) {
+            console.log(chalk.green(`MATCH: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
+        } else {
+            console.error(chalk.red(`DIFF: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
+        }
     } catch (error) {
         const outputFileName = `svg_ref/${baseName}.svg`;
         await fs.writeFile(outputFileName, svgContent1);
         console.error(chalk.red(`New reference file created: ${outputFileName}`));
     }
-
-    let parsedSVG1, parsedSVG2;
-    try {
-        parsedSVG1 = xmlParser(svgContent1);
-        parsedSVG2 = xmlParser(svgContent2);
-    } catch (error) {
-        console.error(chalk.red(`Error parsing SVG content for ${baseName}`), error);
-    }
-
-    if (isEqual(parsedSVG1, parsedSVG2)) {
-        console.log(chalk.green(`MATCH: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
-    } else {
-        console.error(chalk.red(`DIFF: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
-    }
 }
-
+/**
+* Creates an SVG from a JSON file.
+* @param {string} filePath - The path to the JSON file.
+* @returns {Promise<boolean>} - True if SVG creation and comparison are successful, false otherwise.
+*/
 async function createSVGFromJSON(filePath) {
     const baseName = path.basename(filePath, path.extname(filePath));
 
@@ -64,7 +70,9 @@ async function createSVGFromJSON(filePath) {
     }
 }
 
-// Main function to run the tests
+/**
+ * Main function to run the tests.
+ */
 async function main() {
     const macro = process.argv[2];
     if (!macro) {
@@ -84,6 +92,8 @@ async function main() {
     }
 }
 
+
+// Run the main function
 main().catch(error => {
     console.error(chalk.red('Error in main function:'), error);
     process.exit(1);

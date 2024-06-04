@@ -13,16 +13,13 @@ root-graphic-test/
 ├── macros/
 │ ├── macros_1/
 │ ├── macros_2/
-│ ├── macros_3/
+│ ├── graphs/
 │ └── ....
-├── json_pro/
 ├── json_ref/
-├── svg_pro/
 ├── svg_ref/
 ├── old_svg_pro/
 ├── old_svg_ref/
 │
-├── package-lock.json
 ├── package.json
 │
 ├── node_modules/
@@ -33,7 +30,6 @@ root-graphic-test/
 ├── CMAKELists.txt
 ├── macros_list.json
 ├── generate_macros_cmake.py
-├── macros.cmake
 │
 ├── Test_Root.cpp
 ├── Test_Root.hpp
@@ -47,10 +43,8 @@ root-graphic-test/
 ### Directories
 
 - **macros/**: Contains all macro scripts organized in subfolders.
-  - **macros_1/, macros_2/,macros_3,...**: Subfolders with specific macros scripts.
-- **json_pro/**: Contains produced/generated JSON files.
+  - **macros_1/, macros_2/,graphs,...**: Subfolders with specific macros scripts.
 - **json_ref/**: Contains reference JSON files for tests and comparisons.
-- **svg_pro/**: Contains produced/generated SVG files.
 - **svg_ref/**: Contains reference SVG files for tests and comparisons.
 - **old_svg_pro/**: Contains produced/generated old SVG files.
 - **old_svg_ref/**: Contains reference old SVG files for tests and comparisons.
@@ -64,7 +58,6 @@ root-graphic-test/
   - **CMakeLists.txt**: Configuration file for CMake build automation.
   - **macros_list.json**: Lists the macros used in the project.
   - **generate_macros_cmake.py**: Python script to generate CMake configurations for macros.
-  - **macros.cmake**: Configuration file for CMake build automation.
 3. **Source Code**:  Primary codebase of the project.
   - **Test_Root.cpp**: Main C++ test source file.
   - **Test_Root.hpp**: Header file for the C++ test.
