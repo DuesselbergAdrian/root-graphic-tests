@@ -68,22 +68,29 @@ foreach(macro_content ${macros})
         set_tests_properties(${macro}_JsRootTest_${test_type} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
     elseif(${test_type} STREQUAL "a")
-        add_test(NAME ${macro}_ALL_step1
+        add_test(NAME ${macro}_ALL_JSON
             COMMAND root -l -b -q "Test_Root.cpp(\"${macro}\", \"j\", \"${macro_folder}\")"
         )
-        add_test(NAME ${macro}_ALL_step2
+        add_test(NAME ${macro}_ALL_oldSVG
             COMMAND root -l -b -q --web=off "Test_Root.cpp(\"${macro}\", \"o\", \"${macro_folder}\")"
         )
-        add_test(NAME ${macro}_ALL_step3
+        add_test(NAME ${macro}_ALL_newSVG
             COMMAND node Test_JsRoot.js ${macro}
         )
-        set_tests_properties(${macro}_ALL_step1 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
-        set_tests_properties(${macro}_ALL_step2 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
-        set_tests_properties(${macro}_ALL_step3 PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${macro}_ALL_JSON PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${macro}_ALL_oldSVG PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${macro}_ALL_newSVG PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
         add_custom_target(${macro}_All
-            DEPENDS ${macro}_ALL_step1 ${macro}_ALL_step2 ${macro}_ALL_step3
+            DEPENDS ${macro}_ALL_JSON ${macro}_ALL_newSVG
         )
+        # Next steps:
+        #1. step 3 depends on step 1, rename step 1,2,3, DONE
+        #2. always overwrite JSON
+        #3. macros: hist, maths, graphics, graphs, data frame (Ser)
+        #     -> list (codimd) of macros, which are not working, are using external root files
+        #4. TExec (special object, which executes root code) !! special list
+        #5. RCanvas: dont consider
 
     endif()
     
