@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="567.429" height="430.453" viewBox="0 0 567.429 430.453" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+<title>
+./old_svg_ref/canvas.svg
+</title>
+<desc>
+Creator: ROOT Version 6.33/01
+CreationDate: Thu Jun  6 09:53:22 2024</desc>
+<defs>
+</defs>
+<rect x="0.5" y="0" width="566.929" height="429.953" fill="white"/>
+<rect x="28.8465" y="12.8986" width="510.236" height="193.479" fill="#c0b6ac"/>
+<text xml:space="preserve" x="283.965" y="80.7348" text-anchor="middle" fill="#ff0000" font-size="52.8635" font-family="Helvetica" font-weight="bold">ROOT
+</text>
+<path d="M54.3583,196.703l 382.677, -125.761" fill="none" stroke="#ff0000" stroke-width="8"/>
+<path d="M334.988,187.03l 153.071, -154.783" fill="none" stroke="#ff0000" stroke-width="8"/>
+<path d="M54.3583,70.9422l 229.606, 116.087" fill="none" stroke="#ffff00" stroke-width="4"/>
+<rect x="28.8465" y="227.875" width="510.236" height="193.479" fill="#c0b6ac"/>
+<rect x="39.0512" y="237.549" width="234.709" height="174.131" fill="#cccccc"/>
+<text xml:space="preserve" x="50.7866" y="272.375" fill="black" font-size="16.4753" font-family="Helvetica" font-weight="bold">This is pad21
+</text>
+<rect x="73.9367" y="302.248" width="185.889" height="103.434" fill="#bc9e82"/>
+<path d="M73.9367,405.682h 185.889" fill="none" stroke="black"/>
+<path d="M259.826,405.682v -103.434" fill="none" stroke="black"/>
+<path d="M259.826,302.248h -185.889" fill="none" stroke="black"/>
+<path d="M73.9367,302.248v 103.434" fill="none" stroke="black"/>
+<rect x="71.0831" y="299.394" width="185.889" height="103.434" fill="#bc9e82"/>
+<path d="M71.0831,402.828h 185.889" fill="none" stroke="black"/>
+<path d="M256.972,402.828v -103.434" fill="none" stroke="black"/>
+<path d="M256.972,299.394h -185.889" fill="none" stroke="black"/>
+<path d="M71.0831,299.394v 103.434" fill="none" stroke="black"/>
+<rect x="68.2294" y="296.54" width="185.889" height="103.434" fill="#bc9e82"/>
+<path d="M68.2294,399.974h 185.889" fill="none" stroke="black"/>
+<path d="M254.119,399.974v -103.434" fill="none" stroke="black"/>
+<path d="M254.119,296.54h -185.889" fill="none" stroke="black"/>
+<path d="M68.2294,296.54v 103.434" fill="none" stroke="black"/>
+<rect x="65.3757" y="293.687" width="185.889" height="103.434" fill="#bc9e82"/>
+<path d="M65.3757,397.121h 185.889" fill="none" stroke="black"/>
+<path d="M251.265,397.121v -103.434" fill="none" stroke="black"/>
+<path d="M251.265,293.687h -185.889" fill="none" stroke="black"/>
+<path d="M65.3757,293.687v 103.434" fill="none" stroke="black"/>
+<rect x="62.522" y="290.833" width="185.889" height="103.434" fill="#bc9e82"/>
+<path d="M62.522,394.267h 185.889" fill="none" stroke="black"/>
+<path d="M248.411,394.267v -103.434" fill="none" stroke="black"/>
+<path d="M248.411,290.833h -185.889" fill="none" stroke="black"/>
+<path d="M62.522,290.833v 103.434" fill="none" stroke="black"/>
+<text xml:space="preserve" x="98.476" y="312.953" fill="black" font-size="12.9584" font-family="Helvetica" font-weight="bold">This is a PavesText
+</text>
+<text xml:space="preserve" x="88.9638" y="347.197" fill="black" font-size="12.9584" font-family="Helvetica" font-weight="bold">You can add new lines
+</text>
+<text xml:space="preserve" x="72.793" y="380.489" fill="black" font-size="12.9584" font-family="Helvetica" font-weight="bold">Text formatting is automatic
+</text>
+<rect x="294.169" y="237.549" width="234.709" height="174.131" fill="#cccccc"/>
+<text xml:space="preserve" x="305.905" y="272.375" fill="black" font-size="16.4753" font-family="Helvetica" font-weight="bold">This is pad22
+</text>
+<rect x="317.218" y="308.56" width="187.767" height="34.8262" fill="#b2a596"/>
+<path d="M321.498,343.386v 2.85367h 186.34v -33.3994h -2.85367v 30.5457z" fill="black"/>
+<path d="M317.218,343.386v -34.8262h 187.767v 34.8262h -187.767z" fill="none" stroke="black"/>
+<text xml:space="preserve" x="341.038" y="331.977" fill="black" font-size="15.1835" font-family="Helvetica" font-weight="bold">This is a PaveLabel
+</text></svg>

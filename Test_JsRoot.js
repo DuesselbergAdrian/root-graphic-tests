@@ -39,11 +39,13 @@ async function compareSVG(svgContent1, svgFile2, baseName) {
             console.log(chalk.green(`MATCH: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
         } else {
             console.error(chalk.red(`DIFF: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
+            throw Error;
         }
     } catch (error) {
         const outputFileName = `svg_ref/${baseName}.svg`;
         await fs.writeFile(outputFileName, svgContent1);
         console.error(chalk.red(`New reference file created: ${outputFileName}`));
+        throw Error;
     }
 }
 /**

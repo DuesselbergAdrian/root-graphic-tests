@@ -93,6 +93,9 @@ std::string preprocessSVGContent(const std::string& svgContent) {
     std::regex descRegex(R"(<desc>(.|\n)*?<\/desc>)");
     result = std::regex_replace(result, descRegex, "");
 
+    // Print the lengths of the contents
+    std::cout << "Length of result: " << result.length() << std::endl;
+
     return result;
 }
 
