@@ -61,6 +61,8 @@
         {"name": "timeonaxis3", "test_type": "a", "macro_folder": "graphs"},
         {"name": "waves", "test_type": "a", "macro_folder": "graphs"},
         {"name": "zdemo", "test_type": "a", "macro_folder": "graphs"},
-        {"name": "zones", "test_type": "a", "macro_folder": "graphs"}
+        {"name": "zones", "test_type": "a", "macro_folder": "graphs"},
+        {"name": "DynamicSlice", "test_type": "a", "macro_folder": "hist"},
+        {"name": "CrystalBall", "test_type": "a", "macro_folder": "math"}
         ]
 }
