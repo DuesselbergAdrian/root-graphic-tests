@@ -1,5 +1,5 @@
 {
     "macros": [
-        {"name": "CrystalBall", "test_type": "a", "macro_folder": "math"}
+        {"name": "hlHisto4", "test_type": "a", "macro_folder": "hist"}
     ]
 }

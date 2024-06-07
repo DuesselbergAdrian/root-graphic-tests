@@ -61,7 +61,7 @@ If you have a new macro named new_macro of type  located in macros_3, you would 
 ```
 By following these steps, you can easily extend the test suite with new macros. We appreciate your contributions and look forward to seeing your additions!
 
-### Submitting Your Changes
+### Submitting Your Changes (NOT DONE)
 1. **Fork the Repository**: Create a fork of the root-graphic-test repository on GitHub.
 
 2. **Create a Branch**: Make a new branch for your changes.
