@@ -7,3 +7,5 @@ macros.cmake
 package-lock.json
 node_modules/
 old_svg_pro/
+files/
+fillrandom.root
