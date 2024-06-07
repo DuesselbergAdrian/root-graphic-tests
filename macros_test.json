@@ -1,5 +1,5 @@
 {
     "macros": [
-        {"name": "hlHisto4", "test_type": "a", "macro_folder": "hist"}
+        {"name": "xyplot", "test_type": "a", "macro_folder": "hist"}
     ]
 }
