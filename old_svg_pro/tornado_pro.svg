@@ -5,7 +5,7 @@
 </title>
 <desc>
 Creator: ROOT Version 6.33/01
-CreationDate: Fri Jun  7 15:36:12 2024</desc>
+CreationDate: Mon Jun 10 11:42:17 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="384.469" fill="#7f7f7f"/>
@@ -23414,5 +23414,5 @@ CreationDate: Fri Jun  7 15:36:12 2024</desc>
 <path d="M312.311,36.5246v -30.7575h 226.772v 30.7575h -226.772z" fill="none" stroke="black"/>
 <text xml:space="preserve" x="349.129" y="17.9202" fill="black" font-size="12.4926" font-family="Helvetica" font-weight="bold">ROOT example: tornado.C
 </text>
-<text xml:space="preserve" x="353.202" y="33.3967" fill="black" font-size="12.4926" font-family="Helvetica" font-weight="bold">Execution time: 0.03 sec.
+<text xml:space="preserve" x="361.347" y="33.3967" fill="black" font-size="12.4926" font-family="Helvetica" font-weight="bold">Execution time: 0 sec.
 </text></svg>

@@ -107,6 +107,22 @@
         {"name": "transpad", "test_type": "a", "macro_folder": "hist"},
         {"name": "twoscales", "test_type": "a", "macro_folder": "hist"},
         {"name": "xyplot", "test_type": "a", "macro_folder": "hist"},
-        {"name": "CrystalBall", "test_type": "a", "macro_folder": "math"}
+        {"name": "CrystalBall", "test_type": "a", "macro_folder": "math"},
+        {"name": "BreitWigner", "test_type": "a", "macro_folder": "math"},
+        {"name": "GammaFun", "test_type": "a", "macro_folder": "math"},
+        {"name": "TSVDUnfoldExample", "test_type": "a", "macro_folder": "math"},
+        {"name": "chi2test", "test_type": "a", "macro_folder": "math"},
+        {"name": "hlquantiles", "test_type": "a", "macro_folder": "math"},
+        {"name": "mathBeta", "test_type": "a", "macro_folder": "math"},
+        {"name": "mathGammaNormal", "test_type": "a", "macro_folder": "math"},
+        {"name": "mathLaplace", "test_type": "a", "macro_folder": "math"},
+        {"name": "mathStudent", "test_type": "a", "macro_folder": "math"},
+        {"name": "mathcoreCDF", "test_type": "a", "macro_folder": "math"},
+        {"name": "mathcoreStatFunc", "test_type": "a", "macro_folder": "math"},
+        {"name": "mathmoreIntegration", "test_type": "a", "macro_folder": "math"},
+        {"name": "multidimSampling", "test_type": "a", "macro_folder": "math"},
+        {"name": "normalDist", "test_type": "a", "macro_folder": "math"},
+        {"name": "quantiles", "test_type": "a", "macro_folder": "math"},
+        {"name": "vavilov", "test_type": "a", "macro_folder": "math"}
         ]
 }

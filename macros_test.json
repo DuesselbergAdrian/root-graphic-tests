@@ -1,5 +1,5 @@
 {
     "macros": [
-        {"name": "xyplot", "test_type": "a", "macro_folder": "hist"}
+        {"name": "vavilov", "test_type": "a", "macro_folder": "math"}
     ]
 }
