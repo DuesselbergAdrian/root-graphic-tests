@@ -11,9 +11,9 @@ The project is organized as follows:
 ```plaintext
 root-graphic-test/
 ├── macros/
-│ ├── macros_1/
-│ ├── macros_2/
+│ ├── graphics/
 │ ├── graphs/
+│ ├── hist/
 │ └── ....
 ├── json_ref/
 ├── svg_ref/

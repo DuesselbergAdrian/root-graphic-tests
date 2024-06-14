@@ -322,7 +322,7 @@
 "fLineScalePS" : 3,
 "fJoinLinePS" : 0,
 "fCapLinePS" : 0,
-"fTimeOffset" : 1717675200,
+"fTimeOffset" : 0,
 "fImageScaling" : 1,
 "fCandleWhiskerRange" : 1,
 "fCandleBoxRange" : 0.5,

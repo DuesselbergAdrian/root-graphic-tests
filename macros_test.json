@@ -1,5 +1,5 @@
 {
     "macros": [
-        {"name": "vavilov", "test_type": "a", "macro_folder": "math"}
+        {"name": "fillhistosauto2p", "test_type": "a", "macro_folder": "hist"}
     ]
 }

@@ -27,7 +27,7 @@ void timeonaxis()
 {
 
    time_t script_time;
-   script_time = time(0);
+   script_time = 12; //changed to constant
    script_time = 3600*(int)(script_time/3600);
 
 // The time offset is the one that will be used by all graphs.

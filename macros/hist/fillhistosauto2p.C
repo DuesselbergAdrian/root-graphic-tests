@@ -30,7 +30,7 @@ void fillhistosauto2p(unsigned opt = 1, unsigned n = 1001)
    UInt_t nh = 10;
    UInt_t bsize = 1000;
 
-   TRandom3 rndm((Long64_t)time(0));
+   TRandom3 rndm((Long64_t)12);
 
    // Standard autobinning reference
    auto href = new TH1D("myhref", "current", 50, 0., -1.);
