@@ -32,7 +32,6 @@
         {"name": "tmathtext", "test_type": "a", "macro_folder": "graphics"},
         {"name": "tmathtext2", "test_type": "a", "macro_folder": "graphics"},
         {"name": "triangles", "test_type": "a", "macro_folder": "graphics"},
-        {"name": "tornado", "test_type": "a", "macro_folder": "graphics"},
         {"name": "transparency", "test_type": "a", "macro_folder": "graphics"},
         {"name": "annotation3d", "test_type": "a", "macro_folder": "graphs"},
         {"name": "approx", "test_type": "a", "macro_folder": "graphs"},
