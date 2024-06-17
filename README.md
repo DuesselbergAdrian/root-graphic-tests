@@ -18,7 +18,19 @@ npm install
 One need node packages inside root/js
 
 ### Options to select some special tests, add few examples like ctest -R graphs
-not yet implemented
+#### Single test
+´´´shell
+ctest -R <macroname>_ALL_<testtype>
+´´´
+#### Single macro, all tests
+´´´shell
+ctest -R <macroname>_ALL
+´´´
+#### Specific macro folder
+´´´shell
+ctest -R <macrofolder>
+´´´
+
 ### Difference in produced files (git diff or special shell script)
 not yet implemented
 

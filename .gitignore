@@ -5,7 +5,7 @@ latex.ps
 latex2.ps
 macros.cmake
 package-lock.json
-node_modules/
+node_modules
 old_svg_pro/
 files/
 fillrandom.root
