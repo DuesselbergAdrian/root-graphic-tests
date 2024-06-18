@@ -9,38 +9,50 @@ The first test in the Test_Root.cpp file creates TCanvas objects using ROOT macr
 The second test in the Test_JsRoot.js file generates SVG files using JSROOT based on the reference JSON files in the json_ref folder. These generated SVG files are then compared during the test execution to ensure they match the expected output.
 
 ### Checkout repository
-
-### Install all dependency (npm install)
+To start using the project, clone the repository to your local machine:
+```shell
+git clone https://github.com/DuesselbergAdrian/root-graphic-tests.git
+cd root-graphic-tests
+```
+### Install dependencies
+Install all necessary dependencies using npm:
 ```shell
 npm install
 ```
 ### Prepare and run test
-One need node packages inside root/js
+To prepare and run tests, ensure you have the required node packages installed in the root/js directory.
 
-### Options to select some special tests, add few examples like ctest -R graphs
-#### Single test
+### Running specific tests
+You can use ctest with various options to run specific tests. Below are some examples:
+#### Running a single test
+To run a specific test for a macro with a particular test type:
 ´´´shell
-ctest -R <macroname>_ALL_<testtype>
+ctest -R macroname_ALL_testtype
 ´´´
-#### Single macro, all tests
+Important: Replace macroname and testype
+#### SRunning All Tests for a Single Macro
+To run all tests for a specific macro:
 ´´´shell
-ctest -R <macroname>_ALL
+ctest -R macroname_ALL
 ´´´
-#### Specific macro folder
+Important: Replace macroname
+#### Running Tests for a Specific Macro Folder
+To run all tests within a specific macro folder:
 ´´´shell
-ctest -R <macrofolder>
+ctest -R macrofolder
 ´´´
+Importtant: Replace macrofolder
+### Checking Differences in Produced Files
+Currently, checking differences in produced files using git diff or a special shell script is not implemented.
 
-### Difference in produced files (git diff or special shell script)
-not yet implemented
+### Updating Reference Files
+To update reference files if there are changes, delete the corresponding reference files and run the test twice. (Note: This process is not yet automated.)
 
-### Update reference files if something changed
-Delete the corresponding ref files and let the test run twice. (NOT DONE)
+### Adding New Tests
+For instructions on how to add new tests, refer to the 'CONTRIBUTING.md' file.
 
-### Instruction how to add new tests
-Have a look in the CONTRIBUTING.md file
-
-### Running the Tests in root-graphic-tests:
+### Running the Tests in root-graphic-tests
+To run the tests located in root-graphic-tests, execute the following commands:
 ```shell
 cd build
 ctest
