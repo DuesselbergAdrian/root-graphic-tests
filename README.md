@@ -26,21 +26,21 @@ To prepare and run tests, ensure you have the required node packages installed i
 You can use ctest with various options to run specific tests. Below are some examples:
 #### Running a single test
 To run a specific test for a macro with a particular test type:
-´´´shell
+```shell
 ctest -R macroname_ALL_testtype
-´´´
+```
 Important: Replace macroname and testype
 #### SRunning All Tests for a Single Macro
 To run all tests for a specific macro:
-´´´shell
+```shell
 ctest -R macroname_ALL
-´´´
+```
 Important: Replace macroname
 #### Running Tests for a Specific Macro Folder
 To run all tests within a specific macro folder:
-´´´shell
+```shell
 ctest -R macrofolder
-´´´
+```
 Importtant: Replace macrofolder
 ### Checking Differences in Produced Files
 Currently, checking differences in produced files using git diff or a special shell script is not implemented.
