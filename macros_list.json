@@ -118,6 +118,7 @@
         {"name": "multidimSampling", "test_type": "a", "macro_folder": "math"},
         {"name": "normalDist", "test_type": "a", "macro_folder": "math"},
         {"name": "quantiles", "test_type": "a", "macro_folder": "math"},
-        {"name": "vavilov", "test_type": "a", "macro_folder": "math"}
+        {"name": "vavilov", "test_type": "a", "macro_folder": "math"},
+        {"name": "gaussian_ratio_plot", "test_type": "a", "macro_folder": "proposal"}
         ]
 }

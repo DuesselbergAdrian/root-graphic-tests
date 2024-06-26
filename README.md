@@ -41,9 +41,15 @@ To run all tests within a specific macro folder:
 ```shell
 ctest -R macrofolder
 ```
-Importtant: Replace macrofolder
+Important: Replace macrofolder
 ### Checking Differences in Produced Files
-Currently, checking differences in produced files using git diff or a special shell script is not implemented.
+Currently, checking differences in produced new svgs or json files using git diff or a special shell script is not implemented.
+
+To check differences between old generated and refernece svgs one can use git diff. These files are saved in the folders old_svg_pro and old_svg_ref.
+```shell
+diff old_svg_pro/macroname_pro.cpp old_svg_ref/macroname.cpp
+```
+Important: Replace macroname
 
 ### Updating Reference Files
 To update reference files if there are changes, delete the corresponding reference files and run the test twice. (Note: This process is not yet automated.)
