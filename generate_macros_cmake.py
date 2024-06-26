@@ -4,9 +4,6 @@ import json
 with open('macros_list.json', 'r') as f:
     data = json.load(f)
 
-#with open('macros_test.json', 'r') as f:
-#    data = json.load(f)
-
 # Extract the list of macros
 macros = data.get("macros", [])
 

@@ -63,6 +63,10 @@ async function createSVGFromJSON(filePath) {
         let obj = parse(data);
         let svg_pro = await makeSVG({ object: obj, option: 'lego2,pal50', width: 1200, height: 800 });
 
+        // Save the produced file
+        const outputFileName = `svg_pro/${baseName}_pro.svg`;
+        await fs.writeFile(outputFileName, svg_pro);
+
         const svg_ref = `./svg_ref/${baseName}.svg`;
 
         if(compareSVG(svg_pro, svg_ref, baseName)){return true};

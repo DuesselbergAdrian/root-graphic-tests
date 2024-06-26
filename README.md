@@ -22,6 +22,7 @@ npm install
 ### Prepare and run test
 To prepare and run tests, ensure you have the required node packages installed in the root/js directory.
 
+
 ### Running specific tests
 You can use ctest with various options to run specific tests. Below are some examples:
 #### Running a single test
@@ -30,18 +31,22 @@ To run a specific test for a macro with a particular test type:
 ctest -R macroname_ALL_testtype
 ```
 Important: Replace macroname and testype
+
 #### SRunning All Tests for a Single Macro
 To run all tests for a specific macro:
 ```shell
 ctest -R macroname_ALL
 ```
 Important: Replace macroname
+
 #### Running Tests for a Specific Macro Folder
 To run all tests within a specific macro folder:
 ```shell
 ctest -R macrofolder
 ```
 Important: Replace macrofolder
+
+
 ### Checking Differences in Produced Files
 Currently, checking differences in produced new svgs or json files using git diff or a special shell script is not implemented.
 
@@ -51,11 +56,14 @@ diff old_svg_pro/macroname_pro.cpp old_svg_ref/macroname.cpp
 ```
 Important: Replace macroname
 
+
 ### Updating Reference Files
 To update reference files if there are changes, delete the corresponding reference files and run the test twice. (Note: This process is not yet automated.)
 
+
 ### Adding New Tests
 For instructions on how to add new tests, refer to the 'CONTRIBUTING.md' file.
+
 
 ### Running the Tests in root-graphic-tests
 To run the tests located in root-graphic-tests, execute the following commands:

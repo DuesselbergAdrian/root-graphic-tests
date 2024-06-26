@@ -56,8 +56,19 @@ void test_json(TCanvas* c1, const std::string& macroName){
      // Create JSON output from canvas
     TString jsonOutput = TWebCanvas::CreateCanvasJSON(c1, 1, kFALSE);
 
-    // Path to the reference JSON file
+    // Path to the reference and prodouced JSON file
     std::string ref_filename = "./json_ref/" + macroName + ".json";
+    std::string jsonFilePath = "./json_pro/" + macroName + "_pro.json";
+
+    // Save Json files
+    std::ofstream jsonFile(jsonFilePath);
+    if (jsonFile.is_open()) {
+        jsonFile << jsonOutput.Data();
+        jsonFile.close();
+    } else {
+        std::cerr << "Error: Unable to open file for writing" << std::endl;
+        return;
+    }
 
     // Compare the created JSON to the reference JSON
     if (compare_json(jsonOutput, ref_filename, macroName)) {

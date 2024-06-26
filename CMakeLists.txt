@@ -44,7 +44,7 @@ foreach(macro_content ${macros})
     set(macro ${CMAKE_MATCH_1})
     set(test_type ${CMAKE_MATCH_2})
     set(macro_folder ${CMAKE_MATCH_3})
-    message(STATUS "Macro: ${macro}, Test_type: ${test_type}, Macro_folder: ${macro_folder}")
+    message(STATUS "Macro: ${macro}, Test_type: ${test_type}, Macro_folder: ${macro_folder}") # CMAKE_CURRENT_BINARY_DIR
 
     if(${test_type} STREQUAL "j")
         add_test(
