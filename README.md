@@ -50,9 +50,21 @@ Important: Replace macrofolder
 ### Checking Differences in Produced Files
 Currently, checking differences in produced new svgs or json files using git diff or a special shell script is not implemented.
 
-To check differences between old generated and refernece svgs one can use git diff. These files are saved in the folders old_svg_pro and old_svg_ref.
+To check differences between generated and reference jsons one can use diff in the root-graphics-tests repository. These files are saved in the folders json_pro and json_ref.
 ```shell
-diff old_svg_pro/macroname_pro.cpp old_svg_ref/macroname.cpp
+diff json_pro/macroname_pro.json json_ref/macroname.json
+```
+Important: Replace macroname
+
+To check differences between new generated and reference svgs one can use diff root-graphics-tests repository. These files are saved in the folders svg_pro and svg_ref.
+```shell
+diff svg_pro/macroname_pro.svg svg_ref/macroname.svg
+```
+Important: Replace macroname
+
+To check differences between old generated and refernece svgs one can use diffroot-graphics-tests repository. These files are saved in the folders old_svg_pro and old_svg_ref.
+```shell
+diff old_svg_pro/macroname_pro.svg old_svg_ref/macroname.svg
 ```
 Important: Replace macroname
 
