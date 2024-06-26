@@ -84,4 +84,16 @@ cd build
 ctest
 ```
 
+To run it parallel on 9 cores:
+```shell
+cd build
+ctest --parallel 9
+```
+
+To run it with additional information:
+```shell
+cd build
+ctest --verbose
+```
+
 
