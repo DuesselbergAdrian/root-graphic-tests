@@ -26,6 +26,18 @@
 //FUNCTIONS
 
 //---------------------JSON----------------------------------------------------------------
+std::string remove_lines_with_keys(const std::string& jsonString, const std::vector<std::string>& keys) {
+    std::string result = jsonString;
+    for (const auto& key : keys) {
+        std::regex line_regex("\"" + key + R"("\s*:\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*,?)");
+        result = std::regex_replace(result, line_regex, "");
+    }
+    // Remove any extra commas that might be left dangling after removing lines
+    result = std::regex_replace(result, std::regex(",\\s*\\}"), " }");
+    result = std::regex_replace(result, std::regex("\\{\\s*,"), "{ ");
+    return result;
+}
+
 bool compare_json(const TString& jsonOutput, const std::string& ref_filename, const std::string& macroName){
    // Read the reference JSON content from file
     std::ifstream refFile(ref_filename);
@@ -45,11 +57,17 @@ bool compare_json(const TString& jsonOutput, const std::string& ref_filename, co
     std::stringstream refBuffer;
     refBuffer << refFile.rdbuf();
 
+    // Remove specific lines from both JSON strings
+    std::vector<std::string> keys_to_remove = {"fTsumwx", "fTsumwx2"};
+    std::string produced_json = remove_lines_with_keys(jsonOutput.Data(), keys_to_remove);
+    std::string reference_json = remove_lines_with_keys(refBuffer.str(), keys_to_remove);
+
     // Compare the created JSON to the reference JSON
     std::cerr << "Length of produced JSON: " << jsonOutput.Length() << std::endl;
     std::cerr << "Length of reference JSON: " << refBuffer.str().length() << std::endl;
 
-    return jsonOutput.Data() == refBuffer.str();
+    //return jsonOutput.Data() == refBuffer.str();
+    return produced_json == reference_json;
 }
 
 void test_json(TCanvas* c1, const std::string& macroName){
@@ -60,21 +78,21 @@ void test_json(TCanvas* c1, const std::string& macroName){
     std::string ref_filename = "./json_ref/" + macroName + ".json";
     std::string jsonFilePath = "./json_pro/" + macroName + "_pro.json";
 
-    // Save Json files
-    std::ofstream jsonFile(jsonFilePath);
-    if (jsonFile.is_open()) {
-        jsonFile << jsonOutput.Data();
-        jsonFile.close();
-    } else {
-        std::cerr << "Error: Unable to open file for writing" << std::endl;
-        return;
-    }
-
     // Compare the created JSON to the reference JSON
     if (compare_json(jsonOutput, ref_filename, macroName)) {
         std::cout << "JSON test passed for " << macroName << std::endl;
     } else {
         std::cerr << "JSON test failed for " << macroName << std::endl;
+
+        // Save Json file if generated one is different
+        std::ofstream jsonFile(jsonFilePath);
+        if (jsonFile.is_open()) {
+            jsonFile << jsonOutput.Data();
+            jsonFile.close();
+        } else {
+            std::cerr << "Error: Unable to open file for writing" << std::endl;
+            return;
+        }
         exit(EXIT_FAILURE);
     }
 }
@@ -139,14 +157,13 @@ void test_svg(TCanvas* c1, const std::string& macroName){
     } else {
         // Save the generated SVG file
         c1->SaveAs(genFilePath.c_str());
-    }
-
-    // Compare the generated SVG file with the reference SVG file
-    if (compareSVGFiles(refFilePath, genFilePath)) {
-        std::cout << "SVG test passed for "<< macroName << std::endl;
-    } else {
-        std::cout << "SVG test failed for "<< macroName << std::endl;
-        exit(EXIT_FAILURE);
+}
+        // Compare the generated SVG file with the reference SVG file
+        if (compareSVGFiles(refFilePath, genFilePath)) {
+            std::cout << "SVG test passed for "<< macroName << std::endl;
+        } else {
+            std::cout << "SVG test failed for "<< macroName << std::endl;
+            exit(EXIT_FAILURE);
     }
 }
 

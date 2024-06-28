@@ -28,6 +28,7 @@ void Test_Root(const std::string& macroName, const std::string& test_type, const
 // JSON
 void test_json(TCanvas* c1, const std::string& macroName);
 bool compare_json(const TString& created_json, const std::string& ref_filename, const std::string& macroName);
+std::string remove_lines_with_keys(const std::string& jsonString, const std::vector<std::string>& keys);
 // old SVG
 void test_svg(TCanvas* c1, const std::string& macroName);
 bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2);
