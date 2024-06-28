@@ -250,6 +250,7 @@
 "fGridWidth" : 1,
 "fLegendBorderSize" : 1,
 "fLegendFillColor" : 0,
+"fLegendFillStyle" : 1001,
 "fLegendFont" : 42,
 "fLegendTextSize" : 0,
 "fHatchesLineWidth" : 1,
@@ -651,7 +652,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "surf4;webcanv_hist",
+"fOption" : "surf4;prefer_saved;webcanv_hist",
 "fKind" : 1,
 "fSnapshot" : {
 "_typename" : "TF2",
@@ -892,7 +893,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "surf1;webcanv_hist",
+"fOption" : "surf1;prefer_saved;webcanv_hist",
 "fKind" : 1,
 "fSnapshot" : {"$ref":27}
 }, {

@@ -250,6 +250,7 @@
 "fGridWidth" : 1,
 "fLegendBorderSize" : 1,
 "fLegendFillColor" : 0,
+"fLegendFillStyle" : 1001,
 "fLegendFont" : 42,
 "fLegendTextSize" : 0,
 "fHatchesLineWidth" : 1,
@@ -584,7 +585,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : ";webcanv_hist",
+"fOption" : ";prefer_saved;webcanv_hist",
 "fKind" : 1,
 "fSnapshot" : {
 "_typename" : "TF1",
@@ -950,7 +951,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : ";webcanv_hist",
+"fOption" : ";prefer_saved;webcanv_hist",
 "fKind" : 1,
 "fSnapshot" : {
 "_typename" : "TF1",
@@ -1005,7 +1006,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "same",
+"fOption" : "same;prefer_saved",
 "fKind" : 1,
 "fSnapshot" : {
 "_typename" : "TF1",
@@ -1391,7 +1392,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : ";webcanv_hist",
+"fOption" : ";prefer_saved;webcanv_hist",
 "fKind" : 1,
 "fSnapshot" : {
 "_typename" : "TF1",
@@ -1446,7 +1447,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "same",
+"fOption" : "same;prefer_saved",
 "fKind" : 1,
 "fSnapshot" : {
 "_typename" : "TF1",

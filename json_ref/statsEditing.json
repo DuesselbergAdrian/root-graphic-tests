@@ -250,6 +250,7 @@
 "fGridWidth" : 1,
 "fLegendBorderSize" : 1,
 "fLegendFillColor" : 0,
+"fLegendFillStyle" : 1001,
 "fLegendFont" : 42,
 "fLegendTextSize" : 0,
 "fHatchesLineWidth" : 1,

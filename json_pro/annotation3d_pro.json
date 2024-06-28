@@ -250,6 +250,7 @@
 "fGridWidth" : 1,
 "fLegendBorderSize" : 1,
 "fLegendFillColor" : 0,
+"fLegendFillStyle" : 1001,
 "fLegendFont" : 42,
 "fLegendTextSize" : 0,
 "fHatchesLineWidth" : 1,
@@ -495,7 +496,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "surf1 fb;webcanv_hist",
+"fOption" : "surf1 fb;prefer_saved;webcanv_hist",
 "fKind" : 1,
 "fSnapshot" : {
 "_typename" : "TF2",

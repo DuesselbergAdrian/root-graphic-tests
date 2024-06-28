@@ -29,9 +29,8 @@ function isEqual(obj1, obj2) {
  * @param {string} svgFile2 - The path to the second SVG file.
  * @param {string} baseName - The base name for logging.
  */
-async function compareSVG(svgContent1, svgFile2, baseName) {
+async function compareSVG(svgContent1, svgContent2, baseName) {
     try {
-        const svgContent2 = await fs.readFile(svgFile2, 'utf8');
         const parsedSVG1 = xmlParser(svgContent1);
         const parsedSVG2 = xmlParser(svgContent2);
 
@@ -42,10 +41,7 @@ async function compareSVG(svgContent1, svgFile2, baseName) {
             throw Error;
         }
     } catch (error) {
-        const outputFileName = `svg_ref/${baseName}.svg`;
-        await fs.writeFile(outputFileName, svgContent1);
-        console.error(chalk.red(`New reference file created: ${outputFileName}`));
-        throw Error;
+        throw error;
     }
 }
 /**
@@ -55,22 +51,42 @@ async function compareSVG(svgContent1, svgFile2, baseName) {
 */
 async function createSVGFromJSON(filePath) {
     const baseName = path.basename(filePath, path.extname(filePath));
+    const svgRefPath = `./svg_ref/${baseName}.svg`;
+    const svgProPath = `./svg_pro/${baseName}_pro.svg`;
 
     try {
+        // Read and parse JSON data
         const jsonData = await fs.readFile(filePath, 'utf8');
         const data = JSON.parse(jsonData);
 
+        // Create SVG from parsed data
         let obj = parse(data);
-        let svg_pro = await makeSVG({ object: obj, option: 'lego2,pal50', width: 1200, height: 800 });
+        let svgPro = await makeSVG({ object: obj, option: 'lego2,pal50', width: 1200, height: 800 });
 
-        // Save the produced file
-        const outputFileName = `svg_pro/${baseName}_pro.svg`;
-        await fs.writeFile(outputFileName, svg_pro);
+        // Check if reference SVG file exists
+        try {
+            await fs.access(svgRefPath);
+            const svgRef = await fs.readFile(svgRefPath, 'utf8');
 
-        const svg_ref = `./svg_ref/${baseName}.svg`;
+            // Save the produced SVG file
+            await fs.writeFile(svgProPath, svgPro);
 
-        if(compareSVG(svg_pro, svg_ref, baseName)){return true};
-        return false;
+            // Compare the produced SVG with the reference SVG
+            if (compareSVG(svgPro, svgRef, baseName)) {
+                return true;
+            } else {
+                return false;
+            }
+        } catch (error) {
+            if (error.code === 'ENOENT') {
+                // Reference file does not exist, create a new one
+                await fs.writeFile(svgRefPath, svgPro);
+                console.log("Create a new reference file");
+                return false;
+            } else {
+                throw error;
+            }
+        }
     } catch (error) {
         console.error(chalk.red('Failed to process JSON file:'), error);
     }

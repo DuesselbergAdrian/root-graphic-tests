@@ -250,6 +250,7 @@
 "fGridWidth" : 1,
 "fLegendBorderSize" : 1,
 "fLegendFillColor" : 0,
+"fLegendFillStyle" : 1001,
 "fLegendFont" : 42,
 "fLegendTextSize" : 0,
 "fHatchesLineWidth" : 1,
@@ -621,7 +622,7 @@
 "fCrosshairPos" : 0,
 "fBorderSize" : 2,
 "fBorderMode" : 0,
-"fModified" : false,
+"fModified" : true,
 "fGridx" : false,
 "fGridy" : false,
 "fAbsCoord" : false,
@@ -1166,7 +1167,7 @@
 "fUpperGXaxis" : {
 "_typename" : "TGaxis",
 "fUniqueID" : 0,
-"fBits" : 0,
+"fBits" : 8,
 "fLineColor" : 1,
 "fLineStyle" : 1,
 "fLineWidth" : 1,
@@ -1201,7 +1202,7 @@
 "fLowerGXaxis" : {
 "_typename" : "TGaxis",
 "fUniqueID" : 0,
-"fBits" : 0,
+"fBits" : 8,
 "fLineColor" : 1,
 "fLineStyle" : 1,
 "fLineWidth" : 1,
@@ -1236,7 +1237,7 @@
 "fUpperGYaxis" : {
 "_typename" : "TGaxis",
 "fUniqueID" : 0,
-"fBits" : 0,
+"fBits" : 8,
 "fLineColor" : 1,
 "fLineStyle" : 1,
 "fLineWidth" : 1,
@@ -1271,7 +1272,7 @@
 "fLowerGYaxis" : {
 "_typename" : "TGaxis",
 "fUniqueID" : 0,
-"fBits" : 0,
+"fBits" : 8,
 "fLineColor" : 1,
 "fLineStyle" : 1,
 "fLineWidth" : 1,
@@ -1308,7 +1309,7 @@
 "fUpperGYaxisMirror" : {
 "_typename" : "TGaxis",
 "fUniqueID" : 0,
-"fBits" : 0,
+"fBits" : 8,
 "fLineColor" : 1,
 "fLineStyle" : 1,
 "fLineWidth" : 1,
@@ -1343,7 +1344,7 @@
 "fLowerGYaxisMirror" : {
 "_typename" : "TGaxis",
 "fUniqueID" : 0,
-"fBits" : 0,
+"fBits" : 8,
 "fLineColor" : 1,
 "fLineStyle" : 1,
 "fLineWidth" : 1,
@@ -1436,7 +1437,7 @@
 "fGridlines" : [{
 "_typename" : "TLine",
 "fUniqueID" : 0,
-"fBits" : 0,
+"fBits" : 8,
 "fLineColor" : 1,
 "fLineStyle" : 2,
 "fLineWidth" : 1,
@@ -1447,7 +1448,7 @@
 }, {
 "_typename" : "TLine",
 "fUniqueID" : 0,
-"fBits" : 0,
+"fBits" : 8,
 "fLineColor" : 1,
 "fLineStyle" : 2,
 "fLineWidth" : 1,
@@ -1458,7 +1459,7 @@
 }, {
 "_typename" : "TLine",
 "fUniqueID" : 0,
-"fBits" : 0,
+"fBits" : 8,
 "fLineColor" : 1,
 "fLineStyle" : 2,
 "fLineWidth" : 1,
@@ -1655,7 +1656,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "+U",
+"fOption" : "",
 "fKind" : 1,
 "fSnapshot" : {"$ref":45}
 }, {
@@ -1663,7 +1664,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "S",
+"fOption" : "",
 "fKind" : 1,
 "fSnapshot" : {"$ref":47}
 }, {
@@ -1671,7 +1672,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "+S",
+"fOption" : "",
 "fKind" : 1,
 "fSnapshot" : {"$ref":46}
 }, {
@@ -1679,7 +1680,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "-S",
+"fOption" : "",
 "fKind" : 1,
 "fSnapshot" : {"$ref":48}
 }, {
@@ -1687,7 +1688,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "+S",
+"fOption" : "",
 "fKind" : 1,
 "fSnapshot" : {"$ref":49}
 }, {
@@ -1695,7 +1696,7 @@
 "fUniqueID" : 0,
 "fBits" : 0,
 "fObjectID" : "",
-"fOption" : "+S",
+"fOption" : "",
 "fKind" : 1,
 "fSnapshot" : {"$ref":50}
 }]
