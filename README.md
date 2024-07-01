@@ -32,7 +32,7 @@ ctest -R macroname_ALL_testtype
 ```
 Important: Replace macroname and testype
 
-#### SRunning All Tests for a Single Macro
+#### Running All Tests for a Single Macro
 To run all tests for a specific macro:
 ```shell
 ctest -R macroname_ALL

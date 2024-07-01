@@ -34,5 +34,11 @@ void test_svg(TCanvas* c1, const std::string& macroName);
 bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2);
 std::string readFileToString(const std::string& filePath);
 std::string preprocessSVGContent(const std::string& svgContent);
+// old PDF
+void test_pdf(TCanvas* c1, const std::string& macroName);
+bool comparePDFFiles(const std::string& filePath1, const std::string& filePath2);
+std::string extractTextFromPDF(const std::string& filePath);
+std::string exec(const char* cmd);
+
 
 #endif /* Test_Root_HPP */

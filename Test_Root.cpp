@@ -28,15 +28,15 @@
 //FUNCTIONS
 
 //---------------------JSON----------------------------------------------------------------
-std::string remove_lines_with_keys(const std::string& jsonString, const std::vector<std::string>& keys) {
+std::string remove_lines_with_keys(const std::string& jsonString) {
     std::string result = jsonString;
-    for (const auto& key : keys) {
-        std::regex line_regex("\"" + key + R"("\s*:\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*,?)");
-        result = std::regex_replace(result, line_regex, "");
-    }
-    // Remove any extra commas that might be left dangling after removing lines
-    result = std::regex_replace(result, std::regex(",\\s*\\}"), " }");
-    result = std::regex_replace(result, std::regex("\\{\\s*,"), "{ ");
+    // Remove fTsumwx key
+    std::regex fTsumwxRegex(R"(/^"fTsumwx" : \d+\.\d+$)");
+    result = std::regex_replace(result, fTsumwxRegex, "");
+
+    // Remove fTsumwx2 key
+    std::regex fTsumwx2Regex(R"(/^"fTsumwx2" : \d+\.\d+$)");
+    result = std::regex_replace(result, fTsumwx2Regex, "");
     return result;
 }
 
@@ -60,9 +60,8 @@ bool compare_json(const TString& jsonOutput, const std::string& ref_filename, co
     refBuffer << refFile.rdbuf();
 
     // Remove specific lines from both JSON strings
-    std::vector<std::string> keys_to_remove = {"fTsumwx", "fTsumwx2"};
-    std::string produced_json = remove_lines_with_keys(jsonOutput.Data(), keys_to_remove);
-    std::string reference_json = remove_lines_with_keys(refBuffer.str(), keys_to_remove);
+    std::string produced_json = remove_lines_with_keys(jsonOutput.Data());
+    std::string reference_json = remove_lines_with_keys(refBuffer.str());
 
     // Compare the created JSON to the reference JSON
     std::cerr << "Length of produced JSON: " << jsonOutput.Length() << std::endl;
