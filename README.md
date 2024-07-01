@@ -62,9 +62,15 @@ diff svg_pro/macroname_pro.svg svg_ref/macroname.svg
 ```
 Important: Replace macroname
 
-To check differences between old generated and refernece svgs one can use diffroot-graphics-tests repository. These files are saved in the folders old_svg_pro and old_svg_ref.
+To check differences between old generated and refernece svgs one can use diff in the root-graphics-tests repository. These files are saved in the folders old_svg_pro and old_svg_ref.
 ```shell
 diff old_svg_pro/macroname_pro.svg old_svg_ref/macroname.svg
+```
+Important: Replace macroname
+
+To check differences between old generated and refernece pdfs one can use diff in the root-graphics-tests repository. These files are saved in the folders pdf_pro and pdf_ref.
+```shell
+diff pdf_pro/macroname_pro.pdf pdf_ref/macroname.pdf
 ```
 Important: Replace macroname
 

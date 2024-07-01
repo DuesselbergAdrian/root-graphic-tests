@@ -37,7 +37,7 @@ execute_process(
 # Include the generated macros list
 include(${CMAKE_SOURCE_DIR}/macros.cmake)
 
-#Tests for each macro: (j == JSON),(o == old SVG), (s == new SVG), (a == all)
+#Tests for each macro: (j == JSON),(o == old SVG), (p == old PDF), (s == new SVG), (a == all)
 foreach(macro_content ${macros})
 
     string(REGEX MATCH "([^ ]+) ([^ ]+) ([^ ]+)" _ ${macro_content})
@@ -59,7 +59,12 @@ foreach(macro_content ${macros})
             COMMAND root -l -b -q --web=off "Test_Root.cpp(\"${macro}\", \"${test_type}\", \"${macro_folder}\")"
         )
         set_tests_properties(${macro}_RootTest_${test_type} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
-
+    elseif(${test_type} STREQUAL "p")
+        add_test(
+            NAME ${macro}_RootTest_${test_type}
+            COMMAND root -l -b -q --web=off "Test_Root.cpp(\"${macro}\", \"${test_type}\", \"${macro_folder}\")"
+        )
+        set_tests_properties(${macro}_RootTest_${test_type} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
     elseif(${test_type} STREQUAL "s")
         add_test(
             NAME ${macro}_JsRootTest_${test_type}
@@ -74,11 +79,15 @@ foreach(macro_content ${macros})
         add_test(NAME ${macro}_ALL_oldSVG_${macro_folder}
             COMMAND root -l -b -q --web=off "Test_Root.cpp(\"${macro}\", \"o\", \"${macro_folder}\")"
         )
+        add_test(NAME ${macro}_ALL_oldPDF_${macro_folder}
+            COMMAND root -l -b -q --web=off "Test_Root.cpp(\"${macro}\", \"p\", \"${macro_folder}\")"
+        )
         add_test(NAME ${macro}_ALL_newSVG_${macro_folder}
             COMMAND node Test_JsRoot.js ${macro}
         )
         set_tests_properties(${macro}_ALL_JSON_${macro_folder} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
         set_tests_properties(${macro}_ALL_oldSVG_${macro_folder} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+        set_tests_properties(${macro}_ALL_oldPDF_${macro_folder} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
         set_tests_properties(${macro}_ALL_newSVG_${macro_folder} PROPERTIES WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
 
         add_custom_target(${macro}_All

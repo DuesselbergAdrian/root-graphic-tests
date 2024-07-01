@@ -20,7 +20,9 @@
 #include <iostream>
 #include <algorithm>
 #include <cstdlib>
+#include <cstdio>
 #include <regex>
+#include <stdexcept>
 #include <filesystem>
 
 //FUNCTIONS
@@ -167,6 +169,62 @@ void test_svg(TCanvas* c1, const std::string& macroName){
     }
 }
 
+//---------------------PDF-----------------------------------------------------------------
+// Function to execute a system command and capture the output
+std::string exec(const char* cmd) {
+    std::array<char, 128> buffer;
+    std::string result;
+    std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd, "r"), pclose);
+    if (!pipe) {
+        throw std::runtime_error("popen() failed!");
+    }
+    while (fgets(buffer.data(), buffer.size(), pipe.get()) != nullptr) {
+        result += buffer.data();
+    }
+    return result;
+}
+
+// Function to extract text from a PDF file using pdftotext
+std::string extractTextFromPDF(const std::string& filePath) {
+    std::string command = "pdftotext -layout " + filePath + " -";
+    return exec(command.c_str());
+}
+
+// Function to compare two PDF files (old graphics)
+bool comparePDFFiles(const std::string& filePath1, const std::string& filePath2) {
+    try {
+        std::string content1 = extractTextFromPDF(filePath1);
+        std::string content2 = extractTextFromPDF(filePath2);
+
+        return content1 == content2;
+    } catch (const std::exception& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+        return false;
+    }
+}
+
+void test_pdf(TCanvas* c1, const std::string& macroName){
+    // Paths to the reference and generated SVG files
+    std::string refFilePath = "./pdf_ref/" + macroName + ".pdf";
+    std::string genFilePath = "./pdf_pro/" + macroName + "_pro.pdf";
+
+    // Check if the reference file exists
+    if(!std::filesystem::exists(refFilePath)){
+        std::cout << "Reference file not found. Saving generated file as reference: " << macroName << std::endl;
+        c1->SaveAs(refFilePath.c_str());
+        exit(EXIT_FAILURE);
+    } else {
+        // Save the generated PDF file
+        c1->SaveAs(genFilePath.c_str());
+}
+        // Compare the generated SVG file with the reference SVG file
+        if (comparePDFFiles(refFilePath, genFilePath)) {
+            std::cout << "PDF test passed for "<< macroName << std::endl;
+        } else {
+            std::cout << "PDF test failed for "<< macroName << std::endl;
+            exit(EXIT_FAILURE);
+    }
+}
 
 // TEST ROOT MACRO -------------------------------------------------------------------------------
 void Test_Root(const std::string& macroName, const std::string& test_type, const std::string& macro_folder){
@@ -186,15 +244,19 @@ void Test_Root(const std::string& macroName, const std::string& test_type, const
     }
 
     // Different tests for root graphics
-    // a == invokes both tests
+    // a == invokes all tests
     // j === test the JSON creation
     // o === test the SVG creation in ROOT (old graphics with --web=off)
+    // p == test the PDF creation in ROOT (old graphics with --web=off)
 
     if(test_type == "j"){
         test_json(c1,macroName);
     }
     if(test_type == "o"){
         test_svg(c1,macroName);
+    }
+    if(test_type == "p"){
+        test_pdf(c1,macroName);
     }
     return;
 }
