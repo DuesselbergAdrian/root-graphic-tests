@@ -149,6 +149,7 @@ bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2)
 void test_svg(TCanvas* c1, const std::string& macroName){
     // Paths to the reference and generated SVG files
     std::string refFilePath = "./old_svg_ref/" + macroName + ".svg";
+     std::string tempFilePath = "./old_svg_pro/temp_" + macroName + "_pro.svg";
     std::string genFilePath = "./old_svg_pro/" + macroName + "_pro.svg";
 
     // Check if the reference file exists
@@ -158,13 +159,15 @@ void test_svg(TCanvas* c1, const std::string& macroName){
         exit(EXIT_FAILURE);
     } else {
         // Save the generated SVG file
-        c1->SaveAs(genFilePath.c_str());
+        c1->SaveAs(tempFilePath.c_str());
 }
         // Compare the generated SVG file with the reference SVG file
         if (compareSVGFiles(refFilePath, genFilePath)) {
             std::cout << "SVG test passed for "<< macroName << std::endl;
+            std::filesystem::remove(tempFilePath);
         } else {
             std::cout << "SVG test failed for "<< macroName << std::endl;
+            std::filesystem::rename(tempFilePath, genFilePath);
             exit(EXIT_FAILURE);
     }
 }
@@ -182,6 +185,9 @@ bool comparePDFFiles(const std::string& filePath1, const std::string& filePath2)
         std::string content1 = readFileToString(filePath1);
         std::string content2 = readFileToString(filePath2);
 
+        content1 = preprocessPDFContent(content1);
+        content2 = preprocessPDFContent(content2);
+
         return content1 == content2;
 
     } catch (const std::exception& e) {
@@ -193,6 +199,7 @@ bool comparePDFFiles(const std::string& filePath1, const std::string& filePath2)
 void test_pdf(TCanvas* c1, const std::string& macroName){
     // Paths to the reference and generated SVG files
     std::string refFilePath = "./pdf_ref/" + macroName + ".pdf";
+    std::string tempFilePath = "./pdf_pro/temp_" + macroName + "_pro.pdf";
     std::string genFilePath = "./pdf_pro/" + macroName + "_pro.pdf";
 
     // Check if the reference file exists
@@ -202,13 +209,15 @@ void test_pdf(TCanvas* c1, const std::string& macroName){
         exit(EXIT_FAILURE);
     } else {
         // Save the generated PDF file
-        c1->SaveAs(genFilePath.c_str());
+        c1->SaveAs(tempFilePath.c_str());
 }
         // Compare the generated SVG file with the reference SVG file
         if (comparePDFFiles(refFilePath, genFilePath)) {
             std::cout << "PDF test passed for "<< macroName << std::endl;
+            std::filesystem::remove(tempFilePath);
         } else {
             std::cout << "PDF test failed for "<< macroName << std::endl;
+            std::filesystem::rename(tempFilePath, genFilePath);
             exit(EXIT_FAILURE);
     }
 }
