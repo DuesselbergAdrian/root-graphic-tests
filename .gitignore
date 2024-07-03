@@ -7,6 +7,9 @@ macros.cmake
 package-lock.json
 node_modules
 old_svg_pro/
+pdf_pro/
+json_pro/
+svg_pro/
 files/
 fillrandom.root
 multiDimSampling.root
