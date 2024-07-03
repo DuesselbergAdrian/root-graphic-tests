@@ -25,20 +25,19 @@
 /// @param prop
 // ROOT
 void Test_Root(const std::string& macroName, const std::string& test_type, const std::string& macro_folder);
+std::string readFileToString(const std::string& filePath);
 // JSON
 void test_json(TCanvas* c1, const std::string& macroName);
 bool compare_json(const TString& created_json, const std::string& ref_filename, const std::string& macroName);
-std::string remove_lines_with_keys(const std::string& jsonString, const std::vector<std::string>& keys);
+std::string preprocessJSONContent(const std::string& jsonString);
 // old SVG
 void test_svg(TCanvas* c1, const std::string& macroName);
 bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2);
-std::string readFileToString(const std::string& filePath);
 std::string preprocessSVGContent(const std::string& svgContent);
 // old PDF
 void test_pdf(TCanvas* c1, const std::string& macroName);
 bool comparePDFFiles(const std::string& filePath1, const std::string& filePath2);
-std::string extractTextFromPDF(const std::string& filePath);
-std::string exec(const char* cmd);
+std::string preprocessPDFContent(const std::string& pdfContent);
 
 
 #endif /* Test_Root_HPP */

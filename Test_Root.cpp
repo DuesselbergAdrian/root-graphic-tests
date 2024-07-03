@@ -28,14 +28,14 @@
 //FUNCTIONS
 
 //---------------------JSON----------------------------------------------------------------
-std::string remove_lines_with_keys(const std::string& jsonString) {
+std::string preprocessJSONContent(const std::string& jsonString) {
     std::string result = jsonString;
     // Remove fTsumwx key
-    std::regex fTsumwxRegex(R"(/^"fTsumwx" : \d+\.\d+$)");
+    std::regex fTsumwxRegex(R"(^"fTsumwx" : \d+\.\d+,$)");
     result = std::regex_replace(result, fTsumwxRegex, "");
 
     // Remove fTsumwx2 key
-    std::regex fTsumwx2Regex(R"(/^"fTsumwx2" : \d+\.\d+$)");
+    std::regex fTsumwx2Regex(R"(^"fTsumwx2" : \d+\.\d+,$)");
     result = std::regex_replace(result, fTsumwx2Regex, "");
     return result;
 }
@@ -60,8 +60,10 @@ bool compare_json(const TString& jsonOutput, const std::string& ref_filename, co
     refBuffer << refFile.rdbuf();
 
     // Remove specific lines from both JSON strings
-    std::string produced_json = remove_lines_with_keys(jsonOutput.Data());
-    std::string reference_json = remove_lines_with_keys(refBuffer.str());
+    std::string produced_json = preprocessJSONContent(jsonOutput.Data());
+    std::string reference_json = preprocessJSONContent(refBuffer.str());
+    
+    //std::cout << produced_json << std::endl; 
 
     // Compare the created JSON to the reference JSON
     std::cerr << "Length of produced JSON: " << jsonOutput.Length() << std::endl;
@@ -97,8 +99,7 @@ void test_json(TCanvas* c1, const std::string& macroName){
         exit(EXIT_FAILURE);
     }
 }
-
-//---------------------SVG-----------------------------------------------------------------
+//---------------------SVG/PDF-------------------------------------------------------------
 // Function to read file content into a string
 std::string readFileToString(const std::string& filePath) {
     std::ifstream file(filePath);
@@ -110,7 +111,7 @@ std::string readFileToString(const std::string& filePath) {
     return buffer.str();
 }
 
-
+//---------------------SVG-----------------------------------------------------------------
 // Function to remove or normalize specific parts of the SVG content
 std::string preprocessSVGContent(const std::string& svgContent) {
     std::string result = svgContent;
@@ -169,33 +170,20 @@ void test_svg(TCanvas* c1, const std::string& macroName){
 }
 
 //---------------------PDF-----------------------------------------------------------------
-// Function to execute a system command and capture the output
-std::string exec(const char* cmd) {
-    std::array<char, 128> buffer;
-    std::string result;
-    std::unique_ptr<FILE, decltype(&pclose)> pipe(popen(cmd, "r"), pclose);
-    if (!pipe) {
-        throw std::runtime_error("popen() failed!");
-    }
-    while (fgets(buffer.data(), buffer.size(), pipe.get()) != nullptr) {
-        result += buffer.data();
-    }
+std::string preprocessPDFContent(const std::string& pdfString) {
+    std::string result = pdfString;
+    // Remove
+
     return result;
 }
-
-// Function to extract text from a PDF file using pdftotext
-std::string extractTextFromPDF(const std::string& filePath) {
-    std::string command = "pdftotext -layout " + filePath + " -";
-    return exec(command.c_str());
-}
-
 // Function to compare two PDF files (old graphics)
 bool comparePDFFiles(const std::string& filePath1, const std::string& filePath2) {
     try {
-        std::string content1 = extractTextFromPDF(filePath1);
-        std::string content2 = extractTextFromPDF(filePath2);
+        std::string content1 = readFileToString(filePath1);
+        std::string content2 = readFileToString(filePath2);
 
         return content1 == content2;
+
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
         return false;
