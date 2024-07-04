@@ -63,6 +63,17 @@ void Test_Root(const std::string& macroName, const std::string& test_type, const
 int main(int argc, char** argv);
 
 // FUNCTION DEFINITIONS
+//---------------------HELPER--------------------------------------------------------------
+// Function to read file content into a string
+std::string readFileToString(const std::string& filePath) {
+    std::ifstream file(filePath);
+    if (!file) {
+        throw std::runtime_error("Could not open file: " + filePath);
+    }
+    std::stringstream buffer;
+    buffer << file.rdbuf();
+    return buffer.str();
+}
 
 //---------------------JSON----------------------------------------------------------------
 std::string preprocessJSONContent(const std::string& jsonString) {
@@ -132,18 +143,6 @@ void test_json(TCanvas* c1, const std::string& macroName) {
         }
         exit(EXIT_FAILURE);
     }
-}
-
-//---------------------SVG/PDF-------------------------------------------------------------
-// Function to read file content into a string
-std::string readFileToString(const std::string& filePath) {
-    std::ifstream file(filePath);
-    if (!file) {
-        throw std::runtime_error("Could not open file: " + filePath);
-    }
-    std::stringstream buffer;
-    buffer << file.rdbuf();
-    return buffer.str();
 }
 
 //---------------------SVG-----------------------------------------------------------------
