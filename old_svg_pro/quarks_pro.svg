@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="567.429" height="663.427" viewBox="0 0 567.429 663.427" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+<title>
+./old_svg_pro/temp_quarks_pro.svg
+</title>
+<desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul  3 13:19:57 2024</desc>
+<defs>
+</defs>
+<rect x="0.5" y="0" width="566.929" height="662.927" fill="black"/>
+<g transform="rotate(-90,524.864,487.233)">
+<text xml:space="preserve" x="524.864" y="487.233" fill="#7c99d1" font-size="36.9083" font-family="Helvetica" font-weight="bold">Force Carriers
+</text>
+</g>
+<g transform="rotate(-90,72.951,543.383)">
+<text xml:space="preserve" x="72.951" y="543.383" fill="#b2b2b2" font-size="36.9083" font-family="Helvetica" font-weight="bold">Leptons
+</text>
+</g>
+<g transform="rotate(-90,76.5736,312.445)">
+<text xml:space="preserve" x="76.5736" y="312.445" fill="#d35954" font-size="36.9083" font-family="Helvetica" font-weight="bold">Quarks
+</text>
+</g>
+<text xml:space="preserve" x="106.46" y="65.2059" fill="#ffff00" font-size="73.3166" font-family="Times" font-weight="bold" font-style="italic">Elementary
+</text>
+<text xml:space="preserve" x="169.854" y="128.601" fill="#ffff00" font-size="62.9142" font-family="Times" font-weight="bold" font-style="italic">Particles
+</text>
+<text xml:space="preserve" x="127.289" y="625.796" fill="#ffff00" font-size="26.5059" font-family="Times" font-weight="bold" font-style="italic">Three Generations of Matter
+</text>
+<rect x="85.5394" y="139.215" width="396.85" height="450.79" fill="white"/>
+<rect x="85.6584" y="139.35" width="98.9745" height="112.427" fill="#d35954"/>
+<text xml:space="preserve" x="115.516" y="212.825" fill="black" font-size="73.1418" font-family="Times" font-weight="bold" font-style="italic">u
+</text>
+<rect x="184.871" y="139.35" width="98.9745" height="112.427" fill="#d35954"/>
+<text xml:space="preserve" x="217.853" y="212.825" fill="black" font-size="73.1418" font-family="Times" font-weight="bold" font-style="italic">c
+</text>
+<rect x="284.084" y="139.35" width="98.9745" height="112.427" fill="#d35954"/>
+<text xml:space="preserve" x="322.001" y="218.259" fill="black" font-size="73.1418" font-family="Times" font-weight="bold" font-style="italic">t
+</text>
+<rect x="383.296" y="139.35" width="98.9745" height="112.427" fill="#7c99d1"/>
+<text xml:space="preserve" x="414.376" y="201.957" fill="black" font-size="73.1418" font-family="Times">&#0947;
+</text>
+<rect x="85.6584" y="252.047" width="98.9745" height="112.427" fill="#d35954"/>
+<text xml:space="preserve" x="114.61" y="333.275" fill="black" font-size="73.1418" font-family="Times" font-weight="bold" font-style="italic">d
+</text>
+<rect x="184.871" y="252.047" width="98.9745" height="112.427" fill="#d35954"/>
+<text xml:space="preserve" x="220.57" y="325.124" fill="black" font-size="73.1418" font-family="Times" font-weight="bold" font-style="italic">s
+</text>
+<rect x="284.084" y="252.047" width="98.9745" height="112.427" fill="#d35954"/>
+<text xml:space="preserve" x="315.662" y="333.275" fill="black" font-size="73.1418" font-family="Times" font-weight="bold" font-style="italic">b
+</text>
+<rect x="383.296" y="252.047" width="98.9745" height="112.427" fill="#7c99d1"/>
+<text xml:space="preserve" x="412.565" y="312.445" fill="black" font-size="73.1418" font-family="Times" font-weight="bold" font-style="italic">g
+</text>
+<rect x="85.6584" y="364.745" width="98.9745" height="112.427" fill="#b2b2b2"/>
+<text xml:space="preserve" x="142.685" y="448.291" fill="black" font-size="48.9279" font-family="Times" font-weight="bold" font-style="italic">e
+</text>
+<text xml:space="preserve" x="106.46" y="432.895" fill="black" font-size="73.1418" font-family="Times">&#0957;
+</text>
+<rect x="184.871" y="364.745" width="98.9745" height="112.427" fill="#b2b2b2"/>
+<text xml:space="preserve" x="237.777" y="443.762" fill="black" font-size="48.9279" font-family="Times">&#0956;
+</text>
+<text xml:space="preserve" x="201.552" y="426.555" fill="black" font-size="73.1418" font-family="Times">&#0957;
+</text>
+<rect x="284.084" y="364.745" width="98.9745" height="112.427" fill="#b2b2b2"/>
+<text xml:space="preserve" x="341.02" y="448.291" fill="black" font-size="48.9279" font-family="Times">&#0964;
+</text>
+<text xml:space="preserve" x="304.794" y="431.989" fill="black" font-size="73.1418" font-family="Times">&#0957;
+</text>
+<rect x="383.296" y="364.745" width="98.9745" height="112.427" fill="#7c99d1"/>
+<text xml:space="preserve" x="408.943" y="446.479" fill="black" font-size="73.1418" font-family="Times" font-weight="bold" font-style="italic">Z
+</text>
+<rect x="85.6584" y="477.442" width="98.9745" height="112.427" fill="#b2b2b2"/>
+<text xml:space="preserve" x="119.139" y="550.628" fill="black" font-size="73.1418" font-family="Times" font-weight="bold" font-style="italic">e
+</text>
+<rect x="184.871" y="477.442" width="98.9745" height="112.427" fill="#b2b2b2"/>
+<text xml:space="preserve" x="213.325" y="537.949" fill="black" font-size="73.1418" font-family="Times">&#0956;
+</text>
+<rect x="284.084" y="477.442" width="98.9745" height="112.427" fill="#b2b2b2"/>
+<text xml:space="preserve" x="318.379" y="551.533" fill="black" font-size="73.1418" font-family="Times">&#0964;
+</text>
+<rect x="383.296" y="477.442" width="98.9745" height="112.427" fill="#7c99d1"/>
+<text xml:space="preserve" x="396.264" y="557.873" fill="black" font-size="73.1418" font-family="Times" font-weight="bold" font-style="italic">W
+</text></svg>

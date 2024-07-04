@@ -1,0 +1,1233 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="567.429" height="650.857" viewBox="0 0 567.429 650.857" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+<title>
+./old_svg_pro/temp_tmathtext2_pro.svg
+</title>
+<desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul  3 13:19:17 2024</desc>
+<defs>
+</defs>
+<rect x="0.5" y="0" width="566.929" height="650.357" fill="white"/>
+<text xml:space="preserve" x="17.5079" y="10.1343" fill="black" font-size="7.26154" font-family="Times">\"
+</text>
+<text xml:space="preserve" x="17.5079" y="18.3288" fill="black" font-size="7.26154" font-family="Times">\'
+</text>
+<text xml:space="preserve" x="17.5079" y="26.5233" fill="black" font-size="7.26154" font-family="Times">\.
+</text>
+<text xml:space="preserve" x="17.5079" y="34.7178" fill="black" font-size="7.26154" font-family="Times">\=
+</text>
+<text xml:space="preserve" x="17.5079" y="42.9123" fill="black" font-size="7.26154" font-family="Times">\Box
+</text>
+<text xml:space="preserve" x="17.5079" y="51.1068" fill="black" font-size="7.26154" font-family="Times">\Bumpeq
+</text>
+<text xml:space="preserve" x="17.5079" y="59.3013" fill="black" font-size="7.26154" font-family="Times">\Cap
+</text>
+<text xml:space="preserve" x="17.5079" y="67.4958" fill="black" font-size="7.26154" font-family="Times">\Cup
+</text>
+<text xml:space="preserve" x="17.5079" y="75.6903" fill="black" font-size="7.26154" font-family="Times">\Delta
+</text>
+<text xml:space="preserve" x="17.5079" y="83.8848" fill="black" font-size="7.26154" font-family="Times">\Diamond
+</text>
+<text xml:space="preserve" x="17.5079" y="92.0793" fill="black" font-size="7.26154" font-family="Times">\Digamma
+</text>
+<text xml:space="preserve" x="17.5079" y="100.274" fill="black" font-size="7.26154" font-family="Times">\Doteq
+</text>
+<text xml:space="preserve" x="17.5079" y="108.468" fill="black" font-size="7.26154" font-family="Times">\Downarrow
+</text>
+<text xml:space="preserve" x="17.5079" y="116.663" fill="black" font-size="7.26154" font-family="Times">\Finv
+</text>
+<text xml:space="preserve" x="17.5079" y="124.857" fill="black" font-size="7.26154" font-family="Times">\Game
+</text>
+<text xml:space="preserve" x="17.5079" y="133.052" fill="black" font-size="7.26154" font-family="Times">\Gamma
+</text>
+<text xml:space="preserve" x="17.5079" y="141.246" fill="black" font-size="7.26154" font-family="Times">\Im
+</text>
+<text xml:space="preserve" x="17.5079" y="149.441" fill="black" font-size="7.26154" font-family="Times">\Koppa
+</text>
+<text xml:space="preserve" x="17.5079" y="157.635" fill="black" font-size="7.26154" font-family="Times">\Lambda
+</text>
+<text xml:space="preserve" x="17.5079" y="165.83" fill="black" font-size="7.26154" font-family="Times">\Leftarrow
+</text>
+<text xml:space="preserve" x="17.5079" y="174.024" fill="black" font-size="7.26154" font-family="Times">\Leftrightarrow
+</text>
+<text xml:space="preserve" x="17.5079" y="182.219" fill="black" font-size="7.26154" font-family="Times">\Lleftarrow
+</text>
+<text xml:space="preserve" x="17.5079" y="190.413" fill="black" font-size="7.26154" font-family="Times">\Longleftarrow
+</text>
+<text xml:space="preserve" x="17.5079" y="198.608" fill="black" font-size="7.26154" font-family="Times">\Longleftrightarrow
+</text>
+<text xml:space="preserve" x="17.5079" y="206.802" fill="black" font-size="7.26154" font-family="Times">\Longrightarrow
+</text>
+<text xml:space="preserve" x="17.5079" y="214.997" fill="black" font-size="7.26154" font-family="Times">\Lsh
+</text>
+<text xml:space="preserve" x="17.5079" y="223.191" fill="black" font-size="7.26154" font-family="Times">\Omega
+</text>
+<text xml:space="preserve" x="17.5079" y="231.386" fill="black" font-size="7.26154" font-family="Times">\P
+</text>
+<text xml:space="preserve" x="17.5079" y="239.58" fill="black" font-size="7.26154" font-family="Times">\Phi
+</text>
+<text xml:space="preserve" x="17.5079" y="247.775" fill="black" font-size="7.26154" font-family="Times">\Pi
+</text>
+<text xml:space="preserve" x="17.5079" y="255.969" fill="black" font-size="7.26154" font-family="Times">\Psi
+</text>
+<text xml:space="preserve" x="17.5079" y="264.164" fill="black" font-size="7.26154" font-family="Times">\Re
+</text>
+<text xml:space="preserve" x="17.5079" y="272.358" fill="black" font-size="7.26154" font-family="Times">\Rightarrow
+</text>
+<text xml:space="preserve" x="17.5079" y="280.553" fill="black" font-size="7.26154" font-family="Times">\Rrightarrow
+</text>
+<text xml:space="preserve" x="17.5079" y="288.747" fill="black" font-size="7.26154" font-family="Times">\Rsh
+</text>
+<text xml:space="preserve" x="17.5079" y="296.942" fill="black" font-size="7.26154" font-family="Times">\S
+</text>
+<text xml:space="preserve" x="17.5079" y="305.136" fill="black" font-size="7.26154" font-family="Times">\Sampi
+</text>
+<text xml:space="preserve" x="17.5079" y="313.331" fill="black" font-size="7.26154" font-family="Times">\San
+</text>
+<text xml:space="preserve" x="17.5079" y="321.525" fill="black" font-size="7.26154" font-family="Times">\Sho
+</text>
+<text xml:space="preserve" x="17.5079" y="329.72" fill="black" font-size="7.26154" font-family="Times">\Sigma
+</text>
+<text xml:space="preserve" x="17.5079" y="337.914" fill="black" font-size="7.26154" font-family="Times">\Stigma
+</text>
+<text xml:space="preserve" x="17.5079" y="346.109" fill="black" font-size="7.26154" font-family="Times">\Subset
+</text>
+<text xml:space="preserve" x="17.5079" y="354.303" fill="black" font-size="7.26154" font-family="Times">\Supset
+</text>
+<text xml:space="preserve" x="17.5079" y="362.498" fill="black" font-size="7.26154" font-family="Times">\Theta
+</text>
+<text xml:space="preserve" x="17.5079" y="370.692" fill="black" font-size="7.26154" font-family="Times">\Uparrow
+</text>
+<text xml:space="preserve" x="17.5079" y="378.887" fill="black" font-size="7.26154" font-family="Times">\Updownarrow
+</text>
+<text xml:space="preserve" x="17.5079" y="387.081" fill="black" font-size="7.26154" font-family="Times">\Upsilon
+</text>
+<text xml:space="preserve" x="17.5079" y="395.276" fill="black" font-size="7.26154" font-family="Times">\VarKoppa
+</text>
+<text xml:space="preserve" x="17.5079" y="403.47" fill="black" font-size="7.26154" font-family="Times">\Vdash
+</text>
+<text xml:space="preserve" x="17.5079" y="411.665" fill="black" font-size="7.26154" font-family="Times">\Vert
+</text>
+<text xml:space="preserve" x="17.5079" y="419.859" fill="black" font-size="7.26154" font-family="Times">\Vvdash
+</text>
+<text xml:space="preserve" x="17.5079" y="428.054" fill="black" font-size="7.26154" font-family="Times">\Xi
+</text>
+<text xml:space="preserve" x="17.5079" y="436.248" fill="black" font-size="7.26154" font-family="Times">\^
+</text>
+<text xml:space="preserve" x="17.5079" y="444.443" fill="black" font-size="7.26154" font-family="Times">\`
+</text>
+<text xml:space="preserve" x="17.5079" y="452.637" fill="black" font-size="7.26154" font-family="Times">\aa
+</text>
+<text xml:space="preserve" x="17.5079" y="460.832" fill="black" font-size="7.26154" font-family="Times">\aleph
+</text>
+<text xml:space="preserve" x="17.5079" y="469.026" fill="black" font-size="7.26154" font-family="Times">\alpha
+</text>
+<text xml:space="preserve" x="17.5079" y="477.221" fill="black" font-size="7.26154" font-family="Times">\angle
+</text>
+<text xml:space="preserve" x="17.5079" y="485.415" fill="black" font-size="7.26154" font-family="Times">\approx
+</text>
+<text xml:space="preserve" x="17.5079" y="493.61" fill="black" font-size="7.26154" font-family="Times">\approxeq
+</text>
+<text xml:space="preserve" x="17.5079" y="501.804" fill="black" font-size="7.26154" font-family="Times">\asymp
+</text>
+<text xml:space="preserve" x="17.5079" y="509.999" fill="black" font-size="7.26154" font-family="Times">\backepsilon
+</text>
+<text xml:space="preserve" x="17.5079" y="518.193" fill="black" font-size="7.26154" font-family="Times">\backprime
+</text>
+<text xml:space="preserve" x="17.5079" y="526.388" fill="black" font-size="7.26154" font-family="Times">\backsim
+</text>
+<text xml:space="preserve" x="17.5079" y="534.582" fill="black" font-size="7.26154" font-family="Times">\backsimeq
+</text>
+<text xml:space="preserve" x="17.5079" y="542.777" fill="black" font-size="7.26154" font-family="Times">\backslash
+</text>
+<text xml:space="preserve" x="17.5079" y="550.971" fill="black" font-size="7.26154" font-family="Times">\barwedge
+</text>
+<text xml:space="preserve" x="17.5079" y="559.166" fill="black" font-size="7.26154" font-family="Times">\because
+</text>
+<text xml:space="preserve" x="17.5079" y="567.36" fill="black" font-size="7.26154" font-family="Times">\beta
+</text>
+<text xml:space="preserve" x="17.5079" y="575.555" fill="black" font-size="7.26154" font-family="Times">\beth
+</text>
+<text xml:space="preserve" x="17.5079" y="583.749" fill="black" font-size="7.26154" font-family="Times">\between
+</text>
+<text xml:space="preserve" x="17.5079" y="591.944" fill="black" font-size="7.26154" font-family="Times">\bigcirc
+</text>
+<text xml:space="preserve" x="17.5079" y="600.138" fill="black" font-size="7.26154" font-family="Times">\bigstar
+</text>
+<text xml:space="preserve" x="17.5079" y="608.333" fill="black" font-size="7.26154" font-family="Times">\bigtriangledown
+</text>
+<text xml:space="preserve" x="17.5079" y="616.527" fill="black" font-size="7.26154" font-family="Times">\bigtriangleup
+</text>
+<text xml:space="preserve" x="17.5079" y="624.722" fill="black" font-size="7.26154" font-family="Times">\blacklozenge
+</text>
+<text xml:space="preserve" x="17.5079" y="632.916" fill="black" font-size="7.26154" font-family="Times">\blacksquare
+</text>
+<text xml:space="preserve" x="17.5079" y="641.111" fill="black" font-size="7.26154" font-family="Times">\blacktriangle
+</text>
+<text xml:space="preserve" x="17.5079" y="649.305" fill="black" font-size="7.26154" font-family="Times">\blacktriangledown
+</text>
+<text xml:space="preserve" x="91.2087" y="10.1343" fill="black" font-size="7.26154" font-family="Times">\blacktriangleleft
+</text>
+<text xml:space="preserve" x="91.2087" y="18.3288" fill="black" font-size="7.26154" font-family="Times">\blacktriangleright
+</text>
+<text xml:space="preserve" x="91.2087" y="26.5233" fill="black" font-size="7.26154" font-family="Times">\bowtie
+</text>
+<text xml:space="preserve" x="91.2087" y="34.7178" fill="black" font-size="7.26154" font-family="Times">\boxdot
+</text>
+<text xml:space="preserve" x="91.2087" y="42.9123" fill="black" font-size="7.26154" font-family="Times">\boxminus
+</text>
+<text xml:space="preserve" x="91.2087" y="51.1068" fill="black" font-size="7.26154" font-family="Times">\boxplus
+</text>
+<text xml:space="preserve" x="91.2087" y="59.3013" fill="black" font-size="7.26154" font-family="Times">\boxtimes
+</text>
+<text xml:space="preserve" x="91.2087" y="67.4958" fill="black" font-size="7.26154" font-family="Times">\bullet
+</text>
+<text xml:space="preserve" x="91.2087" y="75.6903" fill="black" font-size="7.26154" font-family="Times">\bulletdashcirc
+</text>
+<text xml:space="preserve" x="91.2087" y="83.8848" fill="black" font-size="7.26154" font-family="Times">\bumpeq
+</text>
+<text xml:space="preserve" x="91.2087" y="92.0793" fill="black" font-size="7.26154" font-family="Times">\cap
+</text>
+<text xml:space="preserve" x="91.2087" y="100.274" fill="black" font-size="7.26154" font-family="Times">\cdot
+</text>
+<text xml:space="preserve" x="91.2087" y="108.468" fill="black" font-size="7.26154" font-family="Times">\cdots
+</text>
+<text xml:space="preserve" x="91.2087" y="116.663" fill="black" font-size="7.26154" font-family="Times">\centerdot
+</text>
+<text xml:space="preserve" x="91.2087" y="124.857" fill="black" font-size="7.26154" font-family="Times">\checkmark
+</text>
+<text xml:space="preserve" x="91.2087" y="133.052" fill="black" font-size="7.26154" font-family="Times">\chi
+</text>
+<text xml:space="preserve" x="91.2087" y="141.246" fill="black" font-size="7.26154" font-family="Times">\circ
+</text>
+<text xml:space="preserve" x="91.2087" y="149.441" fill="black" font-size="7.26154" font-family="Times">\circdashbullet
+</text>
+<text xml:space="preserve" x="91.2087" y="157.635" fill="black" font-size="7.26154" font-family="Times">\circeq
+</text>
+<text xml:space="preserve" x="91.2087" y="165.83" fill="black" font-size="7.26154" font-family="Times">\circlearrowleft
+</text>
+<text xml:space="preserve" x="91.2087" y="174.024" fill="black" font-size="7.26154" font-family="Times">\circlearrowright
+</text>
+<text xml:space="preserve" x="91.2087" y="182.219" fill="black" font-size="7.26154" font-family="Times">\circledR
+</text>
+<text xml:space="preserve" x="91.2087" y="190.413" fill="black" font-size="7.26154" font-family="Times">\circledS
+</text>
+<text xml:space="preserve" x="91.2087" y="198.608" fill="black" font-size="7.26154" font-family="Times">\circledast
+</text>
+<text xml:space="preserve" x="91.2087" y="206.802" fill="black" font-size="7.26154" font-family="Times">\circledcirc
+</text>
+<text xml:space="preserve" x="91.2087" y="214.997" fill="black" font-size="7.26154" font-family="Times">\circleddash
+</text>
+<text xml:space="preserve" x="91.2087" y="223.191" fill="black" font-size="7.26154" font-family="Times">\clubsuit
+</text>
+<text xml:space="preserve" x="91.2087" y="231.386" fill="black" font-size="7.26154" font-family="Times">\coloneq
+</text>
+<text xml:space="preserve" x="91.2087" y="239.58" fill="black" font-size="7.26154" font-family="Times">\comp
+</text>
+<text xml:space="preserve" x="91.2087" y="247.775" fill="black" font-size="7.26154" font-family="Times">\complement
+</text>
+<text xml:space="preserve" x="91.2087" y="255.969" fill="black" font-size="7.26154" font-family="Times">\cong
+</text>
+<text xml:space="preserve" x="91.2087" y="264.164" fill="black" font-size="7.26154" font-family="Times">\coprod
+</text>
+<text xml:space="preserve" x="91.2087" y="272.358" fill="black" font-size="7.26154" font-family="Times">\cup
+</text>
+<text xml:space="preserve" x="91.2087" y="280.553" fill="black" font-size="7.26154" font-family="Times">\curlyeqprec
+</text>
+<text xml:space="preserve" x="91.2087" y="288.747" fill="black" font-size="7.26154" font-family="Times">\curlyeqsucc
+</text>
+<text xml:space="preserve" x="91.2087" y="296.942" fill="black" font-size="7.26154" font-family="Times">\curlyvee
+</text>
+<text xml:space="preserve" x="91.2087" y="305.136" fill="black" font-size="7.26154" font-family="Times">\curlywedge
+</text>
+<text xml:space="preserve" x="91.2087" y="313.331" fill="black" font-size="7.26154" font-family="Times">\curvearrowleft
+</text>
+<text xml:space="preserve" x="91.2087" y="321.525" fill="black" font-size="7.26154" font-family="Times">\dagger
+</text>
+<text xml:space="preserve" x="91.2087" y="329.72" fill="black" font-size="7.26154" font-family="Times">\daleth
+</text>
+<text xml:space="preserve" x="91.2087" y="337.914" fill="black" font-size="7.26154" font-family="Times">\dasharrow
+</text>
+<text xml:space="preserve" x="91.2087" y="346.109" fill="black" font-size="7.26154" font-family="Times">\dashdownarrow
+</text>
+<text xml:space="preserve" x="91.2087" y="354.303" fill="black" font-size="7.26154" font-family="Times">\dashleftarrow
+</text>
+<text xml:space="preserve" x="91.2087" y="362.498" fill="black" font-size="7.26154" font-family="Times">\dashrightarrow
+</text>
+<text xml:space="preserve" x="91.2087" y="370.692" fill="black" font-size="7.26154" font-family="Times">\dashuparrow
+</text>
+<text xml:space="preserve" x="91.2087" y="378.887" fill="black" font-size="7.26154" font-family="Times">\dashv
+</text>
+<text xml:space="preserve" x="91.2087" y="387.081" fill="black" font-size="7.26154" font-family="Times">\dbar
+</text>
+<text xml:space="preserve" x="91.2087" y="395.276" fill="black" font-size="7.26154" font-family="Times">\ddagger
+</text>
+<text xml:space="preserve" x="91.2087" y="403.47" fill="black" font-size="7.26154" font-family="Times">\ddddot
+</text>
+<text xml:space="preserve" x="91.2087" y="411.665" fill="black" font-size="7.26154" font-family="Times">\dddot
+</text>
+<text xml:space="preserve" x="91.2087" y="419.859" fill="black" font-size="7.26154" font-family="Times">\ddots
+</text>
+<text xml:space="preserve" x="91.2087" y="428.054" fill="black" font-size="7.26154" font-family="Times">\defineeq
+</text>
+<text xml:space="preserve" x="91.2087" y="436.248" fill="black" font-size="7.26154" font-family="Times">\defineequal
+</text>
+<text xml:space="preserve" x="91.2087" y="444.443" fill="black" font-size="7.26154" font-family="Times">\delta
+</text>
+<text xml:space="preserve" x="91.2087" y="452.637" fill="black" font-size="7.26154" font-family="Times">\diagdown
+</text>
+<text xml:space="preserve" x="91.2087" y="460.832" fill="black" font-size="7.26154" font-family="Times">\diagup
+</text>
+<text xml:space="preserve" x="91.2087" y="469.026" fill="black" font-size="7.26154" font-family="Times">\diamond
+</text>
+<text xml:space="preserve" x="91.2087" y="477.221" fill="black" font-size="7.26154" font-family="Times">\diamondsuit
+</text>
+<text xml:space="preserve" x="91.2087" y="485.415" fill="black" font-size="7.26154" font-family="Times">\digamma
+</text>
+<text xml:space="preserve" x="91.2087" y="493.61" fill="black" font-size="7.26154" font-family="Times">\digamma
+</text>
+<text xml:space="preserve" x="91.2087" y="501.804" fill="black" font-size="7.26154" font-family="Times">\div
+</text>
+<text xml:space="preserve" x="91.2087" y="509.999" fill="black" font-size="7.26154" font-family="Times">\divideontimes
+</text>
+<text xml:space="preserve" x="91.2087" y="518.193" fill="black" font-size="7.26154" font-family="Times">\doteq
+</text>
+<text xml:space="preserve" x="91.2087" y="526.388" fill="black" font-size="7.26154" font-family="Times">\doteqdot
+</text>
+<text xml:space="preserve" x="91.2087" y="534.582" fill="black" font-size="7.26154" font-family="Times">\dotplus
+</text>
+<text xml:space="preserve" x="91.2087" y="542.777" fill="black" font-size="7.26154" font-family="Times">\doublebarwedge
+</text>
+<text xml:space="preserve" x="91.2087" y="550.971" fill="black" font-size="7.26154" font-family="Times">\doublecap
+</text>
+<text xml:space="preserve" x="91.2087" y="559.166" fill="black" font-size="7.26154" font-family="Times">\doublecup
+</text>
+<text xml:space="preserve" x="91.2087" y="567.36" fill="black" font-size="7.26154" font-family="Times">\downarrow
+</text>
+<text xml:space="preserve" x="91.2087" y="575.555" fill="black" font-size="7.26154" font-family="Times">\downdownarrows
+</text>
+<text xml:space="preserve" x="91.2087" y="583.749" fill="black" font-size="7.26154" font-family="Times">\downdownharpoons
+</text>
+<text xml:space="preserve" x="91.2087" y="591.944" fill="black" font-size="7.26154" font-family="Times">\downharpoonleft
+</text>
+<text xml:space="preserve" x="91.2087" y="600.138" fill="black" font-size="7.26154" font-family="Times">\downharpoonright
+</text>
+<text xml:space="preserve" x="91.2087" y="608.333" fill="black" font-size="7.26154" font-family="Times">\downuparrows
+</text>
+<text xml:space="preserve" x="91.2087" y="616.527" fill="black" font-size="7.26154" font-family="Times">\downupharpoons
+</text>
+<text xml:space="preserve" x="91.2087" y="624.722" fill="black" font-size="7.26154" font-family="Times">\ell
+</text>
+<text xml:space="preserve" x="91.2087" y="632.916" fill="black" font-size="7.26154" font-family="Times">\emptyset
+</text>
+<text xml:space="preserve" x="91.2087" y="641.111" fill="black" font-size="7.26154" font-family="Times">\epsilon
+</text>
+<text xml:space="preserve" x="91.2087" y="649.305" fill="black" font-size="7.26154" font-family="Times">\eqcirc
+</text>
+<text xml:space="preserve" x="164.909" y="10.1343" fill="black" font-size="7.26154" font-family="Times">\eqcolon
+</text>
+<text xml:space="preserve" x="164.909" y="18.3288" fill="black" font-size="7.26154" font-family="Times">\eqsim
+</text>
+<text xml:space="preserve" x="164.909" y="26.5233" fill="black" font-size="7.26154" font-family="Times">\eqslantgtr
+</text>
+<text xml:space="preserve" x="164.909" y="34.7178" fill="black" font-size="7.26154" font-family="Times">\eqslantless
+</text>
+<text xml:space="preserve" x="164.909" y="42.9123" fill="black" font-size="7.26154" font-family="Times">\equiv
+</text>
+<text xml:space="preserve" x="164.909" y="51.1068" fill="black" font-size="7.26154" font-family="Times">\eta
+</text>
+<text xml:space="preserve" x="164.909" y="59.3013" fill="black" font-size="7.26154" font-family="Times">\eth
+</text>
+<text xml:space="preserve" x="164.909" y="67.4958" fill="black" font-size="7.26154" font-family="Times">\exists
+</text>
+<text xml:space="preserve" x="164.909" y="75.6903" fill="black" font-size="7.26154" font-family="Times">\fallingdotseq
+</text>
+<text xml:space="preserve" x="164.909" y="83.8848" fill="black" font-size="7.26154" font-family="Times">\flat
+</text>
+<text xml:space="preserve" x="164.909" y="92.0793" fill="black" font-size="7.26154" font-family="Times">\forall
+</text>
+<text xml:space="preserve" x="164.909" y="100.274" fill="black" font-size="7.26154" font-family="Times">\frown
+</text>
+<text xml:space="preserve" x="164.909" y="108.468" fill="black" font-size="7.26154" font-family="Times">\gamma
+</text>
+<text xml:space="preserve" x="164.909" y="116.663" fill="black" font-size="7.26154" font-family="Times">\ge
+</text>
+<text xml:space="preserve" x="164.909" y="124.857" fill="black" font-size="7.26154" font-family="Times">\geq
+</text>
+<text xml:space="preserve" x="164.909" y="133.052" fill="black" font-size="7.26154" font-family="Times">\geqq
+</text>
+<text xml:space="preserve" x="164.909" y="141.246" fill="black" font-size="7.26154" font-family="Times">\geqslant
+</text>
+<text xml:space="preserve" x="164.909" y="149.441" fill="black" font-size="7.26154" font-family="Times">\gets
+</text>
+<text xml:space="preserve" x="164.909" y="157.635" fill="black" font-size="7.26154" font-family="Times">\gg
+</text>
+<text xml:space="preserve" x="164.909" y="165.83" fill="black" font-size="7.26154" font-family="Times">\ggg
+</text>
+<text xml:space="preserve" x="164.909" y="174.024" fill="black" font-size="7.26154" font-family="Times">\gggtr
+</text>
+<text xml:space="preserve" x="164.909" y="182.219" fill="black" font-size="7.26154" font-family="Times">\gimel
+</text>
+<text xml:space="preserve" x="164.909" y="190.413" fill="black" font-size="7.26154" font-family="Times">\gnapprox
+</text>
+<text xml:space="preserve" x="164.909" y="198.608" fill="black" font-size="7.26154" font-family="Times">\gneq
+</text>
+<text xml:space="preserve" x="164.909" y="206.802" fill="black" font-size="7.26154" font-family="Times">\gneqq
+</text>
+<text xml:space="preserve" x="164.909" y="214.997" fill="black" font-size="7.26154" font-family="Times">\gnsim
+</text>
+<text xml:space="preserve" x="164.909" y="223.191" fill="black" font-size="7.26154" font-family="Times">\gtrapprox
+</text>
+<text xml:space="preserve" x="164.909" y="231.386" fill="black" font-size="7.26154" font-family="Times">\gtrdot
+</text>
+<text xml:space="preserve" x="164.909" y="239.58" fill="black" font-size="7.26154" font-family="Times">\gtreqless
+</text>
+<text xml:space="preserve" x="164.909" y="247.775" fill="black" font-size="7.26154" font-family="Times">\gtreqqless
+</text>
+<text xml:space="preserve" x="164.909" y="255.969" fill="black" font-size="7.26154" font-family="Times">\gtrless
+</text>
+<text xml:space="preserve" x="164.909" y="264.164" fill="black" font-size="7.26154" font-family="Times">\gtrsim
+</text>
+<text xml:space="preserve" x="164.909" y="272.358" fill="black" font-size="7.26154" font-family="Times">\hateq
+</text>
+<text xml:space="preserve" x="164.909" y="280.553" fill="black" font-size="7.26154" font-family="Times">\hbar
+</text>
+<text xml:space="preserve" x="164.909" y="288.747" fill="black" font-size="7.26154" font-family="Times">\heartsuit
+</text>
+<text xml:space="preserve" x="164.909" y="296.942" fill="black" font-size="7.26154" font-family="Times">\hookleftarrow
+</text>
+<text xml:space="preserve" x="164.909" y="305.136" fill="black" font-size="7.26154" font-family="Times">\hookrightarrow
+</text>
+<text xml:space="preserve" x="164.909" y="313.331" fill="black" font-size="7.26154" font-family="Times">\hslash
+</text>
+<text xml:space="preserve" x="164.909" y="321.525" fill="black" font-size="7.26154" font-family="Times">\imath
+</text>
+<text xml:space="preserve" x="164.909" y="329.72" fill="black" font-size="7.26154" font-family="Times">\in
+</text>
+<text xml:space="preserve" x="164.909" y="337.914" fill="black" font-size="7.26154" font-family="Times">\infty
+</text>
+<text xml:space="preserve" x="164.909" y="346.109" fill="black" font-size="7.26154" font-family="Times">\intercal
+</text>
+<text xml:space="preserve" x="164.909" y="354.303" fill="black" font-size="7.26154" font-family="Times">\iota
+</text>
+<text xml:space="preserve" x="164.909" y="362.498" fill="black" font-size="7.26154" font-family="Times">\jmath
+</text>
+<text xml:space="preserve" x="164.909" y="370.692" fill="black" font-size="7.26154" font-family="Times">\kappa
+</text>
+<text xml:space="preserve" x="164.909" y="378.887" fill="black" font-size="7.26154" font-family="Times">\koppa
+</text>
+<text xml:space="preserve" x="164.909" y="387.081" fill="black" font-size="7.26154" font-family="Times">\lambda
+</text>
+<text xml:space="preserve" x="164.909" y="395.276" fill="black" font-size="7.26154" font-family="Times">\land
+</text>
+<text xml:space="preserve" x="164.909" y="403.47" fill="black" font-size="7.26154" font-family="Times">\langle
+</text>
+<text xml:space="preserve" x="164.909" y="411.665" fill="black" font-size="7.26154" font-family="Times">\lceil
+</text>
+<text xml:space="preserve" x="164.909" y="419.859" fill="black" font-size="7.26154" font-family="Times">\ldbrack
+</text>
+<text xml:space="preserve" x="164.909" y="428.054" fill="black" font-size="7.26154" font-family="Times">\ldots
+</text>
+<text xml:space="preserve" x="164.909" y="436.248" fill="black" font-size="7.26154" font-family="Times">\le
+</text>
+<text xml:space="preserve" x="164.909" y="444.443" fill="black" font-size="7.26154" font-family="Times">\leadsfrom
+</text>
+<text xml:space="preserve" x="164.909" y="452.637" fill="black" font-size="7.26154" font-family="Times">\leadsto
+</text>
+<text xml:space="preserve" x="164.909" y="460.832" fill="black" font-size="7.26154" font-family="Times">\leftarrow
+</text>
+<text xml:space="preserve" x="164.909" y="469.026" fill="black" font-size="7.26154" font-family="Times">\leftarrowtail
+</text>
+<text xml:space="preserve" x="164.909" y="477.221" fill="black" font-size="7.26154" font-family="Times">\leftharpoondown
+</text>
+<text xml:space="preserve" x="164.909" y="485.415" fill="black" font-size="7.26154" font-family="Times">\leftharpoonup
+</text>
+<text xml:space="preserve" x="164.909" y="493.61" fill="black" font-size="7.26154" font-family="Times">\leftleftarrows
+</text>
+<text xml:space="preserve" x="164.909" y="501.804" fill="black" font-size="7.26154" font-family="Times">\leftrightarrow
+</text>
+<text xml:space="preserve" x="164.909" y="509.999" fill="black" font-size="7.26154" font-family="Times">\leftrightarrows
+</text>
+<text xml:space="preserve" x="164.909" y="518.193" fill="black" font-size="7.26154" font-family="Times">\leftrightharpoons
+</text>
+<text xml:space="preserve" x="164.909" y="526.388" fill="black" font-size="7.26154" font-family="Times">\leftsquigarrow
+</text>
+<text xml:space="preserve" x="164.909" y="534.582" fill="black" font-size="7.26154" font-family="Times">\leftthreetimes
+</text>
+<text xml:space="preserve" x="164.909" y="542.777" fill="black" font-size="7.26154" font-family="Times">\leq
+</text>
+<text xml:space="preserve" x="164.909" y="550.971" fill="black" font-size="7.26154" font-family="Times">\leqq
+</text>
+<text xml:space="preserve" x="164.909" y="559.166" fill="black" font-size="7.26154" font-family="Times">\leqslant
+</text>
+<text xml:space="preserve" x="164.909" y="567.36" fill="black" font-size="7.26154" font-family="Times">\lessapprox
+</text>
+<text xml:space="preserve" x="164.909" y="575.555" fill="black" font-size="7.26154" font-family="Times">\lessdot
+</text>
+<text xml:space="preserve" x="164.909" y="583.749" fill="black" font-size="7.26154" font-family="Times">\lesseqgtr
+</text>
+<text xml:space="preserve" x="164.909" y="591.944" fill="black" font-size="7.26154" font-family="Times">\lesseqqgtr
+</text>
+<text xml:space="preserve" x="164.909" y="600.138" fill="black" font-size="7.26154" font-family="Times">\lessgtr
+</text>
+<text xml:space="preserve" x="164.909" y="608.333" fill="black" font-size="7.26154" font-family="Times">\lesssim
+</text>
+<text xml:space="preserve" x="164.909" y="616.527" fill="black" font-size="7.26154" font-family="Times">\lfloor
+</text>
+<text xml:space="preserve" x="164.909" y="624.722" fill="black" font-size="7.26154" font-family="Times">\lightning
+</text>
+<text xml:space="preserve" x="164.909" y="632.916" fill="black" font-size="7.26154" font-family="Times">\ll
+</text>
+<text xml:space="preserve" x="164.909" y="641.111" fill="black" font-size="7.26154" font-family="Times">\llcorner
+</text>
+<text xml:space="preserve" x="164.909" y="649.305" fill="black" font-size="7.26154" font-family="Times">\lll
+</text>
+<text xml:space="preserve" x="238.61" y="10.1343" fill="black" font-size="7.26154" font-family="Times">\llless
+</text>
+<text xml:space="preserve" x="238.61" y="18.3288" fill="black" font-size="7.26154" font-family="Times">\lnapprox
+</text>
+<text xml:space="preserve" x="238.61" y="26.5233" fill="black" font-size="7.26154" font-family="Times">\lneq
+</text>
+<text xml:space="preserve" x="238.61" y="34.7178" fill="black" font-size="7.26154" font-family="Times">\lneqq
+</text>
+<text xml:space="preserve" x="238.61" y="42.9123" fill="black" font-size="7.26154" font-family="Times">\lnot
+</text>
+<text xml:space="preserve" x="238.61" y="51.1068" fill="black" font-size="7.26154" font-family="Times">\lnsim
+</text>
+<text xml:space="preserve" x="238.61" y="59.3013" fill="black" font-size="7.26154" font-family="Times">\longleftarrow
+</text>
+<text xml:space="preserve" x="238.61" y="67.4958" fill="black" font-size="7.26154" font-family="Times">\longleftrightarrow
+</text>
+<text xml:space="preserve" x="238.61" y="75.6903" fill="black" font-size="7.26154" font-family="Times">\longmapsto
+</text>
+<text xml:space="preserve" x="238.61" y="83.8848" fill="black" font-size="7.26154" font-family="Times">\longrightarrow
+</text>
+<text xml:space="preserve" x="238.61" y="92.0793" fill="black" font-size="7.26154" font-family="Times">\lor
+</text>
+<text xml:space="preserve" x="238.61" y="100.274" fill="black" font-size="7.26154" font-family="Times">\lozenge
+</text>
+<text xml:space="preserve" x="238.61" y="108.468" fill="black" font-size="7.26154" font-family="Times">\lrcorner
+</text>
+<text xml:space="preserve" x="238.61" y="116.663" fill="black" font-size="7.26154" font-family="Times">\ltimes
+</text>
+<text xml:space="preserve" x="238.61" y="124.857" fill="black" font-size="7.26154" font-family="Times">\maltese
+</text>
+<text xml:space="preserve" x="238.61" y="133.052" fill="black" font-size="7.26154" font-family="Times">\mapsto
+</text>
+<text xml:space="preserve" x="238.61" y="141.246" fill="black" font-size="7.26154" font-family="Times">\measuredangle
+</text>
+<text xml:space="preserve" x="238.61" y="149.441" fill="black" font-size="7.26154" font-family="Times">\mho
+</text>
+<text xml:space="preserve" x="238.61" y="157.635" fill="black" font-size="7.26154" font-family="Times">\mp
+</text>
+<text xml:space="preserve" x="238.61" y="165.83" fill="black" font-size="7.26154" font-family="Times">\mu
+</text>
+<text xml:space="preserve" x="238.61" y="174.024" fill="black" font-size="7.26154" font-family="Times">\multimap
+</text>
+<text xml:space="preserve" x="238.61" y="182.219" fill="black" font-size="7.26154" font-family="Times">\nLeftarrow
+</text>
+<text xml:space="preserve" x="238.61" y="190.413" fill="black" font-size="7.26154" font-family="Times">\nLeftrightarrow
+</text>
+<text xml:space="preserve" x="238.61" y="198.608" fill="black" font-size="7.26154" font-family="Times">\nRightarrow
+</text>
+<text xml:space="preserve" x="238.61" y="206.802" fill="black" font-size="7.26154" font-family="Times">\nVDash
+</text>
+<text xml:space="preserve" x="238.61" y="214.997" fill="black" font-size="7.26154" font-family="Times">\nVdash
+</text>
+<text xml:space="preserve" x="238.61" y="223.191" fill="black" font-size="7.26154" font-family="Times">\nabla
+</text>
+<text xml:space="preserve" x="238.61" y="231.386" fill="black" font-size="7.26154" font-family="Times">\napprox
+</text>
+<text xml:space="preserve" x="238.61" y="239.58" fill="black" font-size="7.26154" font-family="Times">\nasymp
+</text>
+<text xml:space="preserve" x="238.61" y="247.775" fill="black" font-size="7.26154" font-family="Times">\natural
+</text>
+<text xml:space="preserve" x="238.61" y="255.969" fill="black" font-size="7.26154" font-family="Times">\ncong
+</text>
+<text xml:space="preserve" x="238.61" y="264.164" fill="black" font-size="7.26154" font-family="Times">\ne
+</text>
+<text xml:space="preserve" x="238.61" y="272.358" fill="black" font-size="7.26154" font-family="Times">\nearrow
+</text>
+<text xml:space="preserve" x="238.61" y="280.553" fill="black" font-size="7.26154" font-family="Times">\neg
+</text>
+<text xml:space="preserve" x="238.61" y="288.747" fill="black" font-size="7.26154" font-family="Times">\neq
+</text>
+<text xml:space="preserve" x="238.61" y="296.942" fill="black" font-size="7.26154" font-family="Times">\nequiv
+</text>
+<text xml:space="preserve" x="238.61" y="305.136" fill="black" font-size="7.26154" font-family="Times">\nexists
+</text>
+<text xml:space="preserve" x="238.61" y="313.331" fill="black" font-size="7.26154" font-family="Times">\ngeq
+</text>
+<text xml:space="preserve" x="238.61" y="321.525" fill="black" font-size="7.26154" font-family="Times">\ngeqq
+</text>
+<text xml:space="preserve" x="238.61" y="329.72" fill="black" font-size="7.26154" font-family="Times">\ngeqslant
+</text>
+<text xml:space="preserve" x="238.61" y="337.914" fill="black" font-size="7.26154" font-family="Times">\ngtr
+</text>
+<text xml:space="preserve" x="238.61" y="346.109" fill="black" font-size="7.26154" font-family="Times">\ni
+</text>
+<text xml:space="preserve" x="238.61" y="354.303" fill="black" font-size="7.26154" font-family="Times">\nleftarrow
+</text>
+<text xml:space="preserve" x="238.61" y="362.498" fill="black" font-size="7.26154" font-family="Times">\nleftrightarrow
+</text>
+<text xml:space="preserve" x="238.61" y="370.692" fill="black" font-size="7.26154" font-family="Times">\nleq
+</text>
+<text xml:space="preserve" x="238.61" y="378.887" fill="black" font-size="7.26154" font-family="Times">\nleqq
+</text>
+<text xml:space="preserve" x="238.61" y="387.081" fill="black" font-size="7.26154" font-family="Times">\nleqslant
+</text>
+<text xml:space="preserve" x="238.61" y="395.276" fill="black" font-size="7.26154" font-family="Times">\nless
+</text>
+<text xml:space="preserve" x="238.61" y="403.47" fill="black" font-size="7.26154" font-family="Times">\nmid
+</text>
+<text xml:space="preserve" x="238.61" y="411.665" fill="black" font-size="7.26154" font-family="Times">\not
+</text>
+<text xml:space="preserve" x="238.61" y="419.859" fill="black" font-size="7.26154" font-family="Times">\notapprox
+</text>
+<text xml:space="preserve" x="238.61" y="428.054" fill="black" font-size="7.26154" font-family="Times">\notasymp
+</text>
+<text xml:space="preserve" x="238.61" y="436.248" fill="black" font-size="7.26154" font-family="Times">\notcong
+</text>
+<text xml:space="preserve" x="238.61" y="444.443" fill="black" font-size="7.26154" font-family="Times">\notcong
+</text>
+<text xml:space="preserve" x="238.61" y="452.637" fill="black" font-size="7.26154" font-family="Times">\notequiv
+</text>
+<text xml:space="preserve" x="238.61" y="460.832" fill="black" font-size="7.26154" font-family="Times">\notgeq
+</text>
+<text xml:space="preserve" x="238.61" y="469.026" fill="black" font-size="7.26154" font-family="Times">\notgeq
+</text>
+<text xml:space="preserve" x="238.61" y="477.221" fill="black" font-size="7.26154" font-family="Times">\notgr
+</text>
+<text xml:space="preserve" x="238.61" y="485.415" fill="black" font-size="7.26154" font-family="Times">\notgr
+</text>
+<text xml:space="preserve" x="238.61" y="493.61" fill="black" font-size="7.26154" font-family="Times">\notin
+</text>
+<text xml:space="preserve" x="238.61" y="501.804" fill="black" font-size="7.26154" font-family="Times">\notleq
+</text>
+<text xml:space="preserve" x="238.61" y="509.999" fill="black" font-size="7.26154" font-family="Times">\notleq
+</text>
+<text xml:space="preserve" x="238.61" y="518.193" fill="black" font-size="7.26154" font-family="Times">\notless
+</text>
+<text xml:space="preserve" x="238.61" y="526.388" fill="black" font-size="7.26154" font-family="Times">\notless
+</text>
+<text xml:space="preserve" x="238.61" y="534.582" fill="black" font-size="7.26154" font-family="Times">\notni
+</text>
+<text xml:space="preserve" x="238.61" y="542.777" fill="black" font-size="7.26154" font-family="Times">\notprec
+</text>
+<text xml:space="preserve" x="238.61" y="550.971" fill="black" font-size="7.26154" font-family="Times">\notprec
+</text>
+<text xml:space="preserve" x="238.61" y="559.166" fill="black" font-size="7.26154" font-family="Times">\notsimeq
+</text>
+<text xml:space="preserve" x="238.61" y="567.36" fill="black" font-size="7.26154" font-family="Times">\notsubset
+</text>
+<text xml:space="preserve" x="238.61" y="575.555" fill="black" font-size="7.26154" font-family="Times">\notsubseteq
+</text>
+<text xml:space="preserve" x="238.61" y="583.749" fill="black" font-size="7.26154" font-family="Times">\notsubseteq
+</text>
+<text xml:space="preserve" x="238.61" y="591.944" fill="black" font-size="7.26154" font-family="Times">\notsucc
+</text>
+<text xml:space="preserve" x="238.61" y="600.138" fill="black" font-size="7.26154" font-family="Times">\notsucc
+</text>
+<text xml:space="preserve" x="238.61" y="608.333" fill="black" font-size="7.26154" font-family="Times">\notsupset
+</text>
+<text xml:space="preserve" x="238.61" y="616.527" fill="black" font-size="7.26154" font-family="Times">\notsupseteq
+</text>
+<text xml:space="preserve" x="238.61" y="624.722" fill="black" font-size="7.26154" font-family="Times">\notsupseteq
+</text>
+<text xml:space="preserve" x="238.61" y="632.916" fill="black" font-size="7.26154" font-family="Times">\nparallel
+</text>
+<text xml:space="preserve" x="238.61" y="641.111" fill="black" font-size="7.26154" font-family="Times">\nprec
+</text>
+<text xml:space="preserve" x="238.61" y="649.305" fill="black" font-size="7.26154" font-family="Times">\nrightarrow
+</text>
+<text xml:space="preserve" x="312.311" y="10.1343" fill="black" font-size="7.26154" font-family="Times">\nsim
+</text>
+<text xml:space="preserve" x="312.311" y="18.3288" fill="black" font-size="7.26154" font-family="Times">\nsim
+</text>
+<text xml:space="preserve" x="312.311" y="26.5233" fill="black" font-size="7.26154" font-family="Times">\nsimeq
+</text>
+<text xml:space="preserve" x="312.311" y="34.7178" fill="black" font-size="7.26154" font-family="Times">\nsubset
+</text>
+<text xml:space="preserve" x="312.311" y="42.9123" fill="black" font-size="7.26154" font-family="Times">\nsubseteq
+</text>
+<text xml:space="preserve" x="312.311" y="51.1068" fill="black" font-size="7.26154" font-family="Times">\nsubseteqq
+</text>
+<text xml:space="preserve" x="312.311" y="59.3013" fill="black" font-size="7.26154" font-family="Times">\nsucc
+</text>
+<text xml:space="preserve" x="312.311" y="67.4958" fill="black" font-size="7.26154" font-family="Times">\nsupset
+</text>
+<text xml:space="preserve" x="312.311" y="75.6903" fill="black" font-size="7.26154" font-family="Times">\nsupseteq
+</text>
+<text xml:space="preserve" x="312.311" y="83.8848" fill="black" font-size="7.26154" font-family="Times">\nsupseteqq
+</text>
+<text xml:space="preserve" x="312.311" y="92.0793" fill="black" font-size="7.26154" font-family="Times">\ntriangleleft
+</text>
+<text xml:space="preserve" x="312.311" y="100.274" fill="black" font-size="7.26154" font-family="Times">\ntrianglelefteq
+</text>
+<text xml:space="preserve" x="312.311" y="108.468" fill="black" font-size="7.26154" font-family="Times">\ntriangleright
+</text>
+<text xml:space="preserve" x="312.311" y="116.663" fill="black" font-size="7.26154" font-family="Times">\ntrianglerighteq
+</text>
+<text xml:space="preserve" x="312.311" y="124.857" fill="black" font-size="7.26154" font-family="Times">\nu
+</text>
+<text xml:space="preserve" x="312.311" y="133.052" fill="black" font-size="7.26154" font-family="Times">\nvDash
+</text>
+<text xml:space="preserve" x="312.311" y="141.246" fill="black" font-size="7.26154" font-family="Times">\nvdash
+</text>
+<text xml:space="preserve" x="312.311" y="149.441" fill="black" font-size="7.26154" font-family="Times">\nwarrow
+</text>
+<text xml:space="preserve" x="312.311" y="157.635" fill="black" font-size="7.26154" font-family="Times">\odot
+</text>
+<text xml:space="preserve" x="312.311" y="165.83" fill="black" font-size="7.26154" font-family="Times">\omega
+</text>
+<text xml:space="preserve" x="312.311" y="174.024" fill="black" font-size="7.26154" font-family="Times">\ominus
+</text>
+<text xml:space="preserve" x="312.311" y="182.219" fill="black" font-size="7.26154" font-family="Times">\openclubsuit
+</text>
+<text xml:space="preserve" x="312.311" y="190.413" fill="black" font-size="7.26154" font-family="Times">\openspadesuit
+</text>
+<text xml:space="preserve" x="312.311" y="198.608" fill="black" font-size="7.26154" font-family="Times">\oplus
+</text>
+<text xml:space="preserve" x="312.311" y="206.802" fill="black" font-size="7.26154" font-family="Times">\oslash
+</text>
+<text xml:space="preserve" x="312.311" y="214.997" fill="black" font-size="7.26154" font-family="Times">\otimes
+</text>
+<text xml:space="preserve" x="312.311" y="223.191" fill="black" font-size="7.26154" font-family="Times">\owns
+</text>
+<text xml:space="preserve" x="312.311" y="231.386" fill="black" font-size="7.26154" font-family="Times">\parallel
+</text>
+<text xml:space="preserve" x="312.311" y="239.58" fill="black" font-size="7.26154" font-family="Times">\partial
+</text>
+<text xml:space="preserve" x="312.311" y="247.775" fill="black" font-size="7.26154" font-family="Times">\perp
+</text>
+<text xml:space="preserve" x="312.311" y="255.969" fill="black" font-size="7.26154" font-family="Times">\phi
+</text>
+<text xml:space="preserve" x="312.311" y="264.164" fill="black" font-size="7.26154" font-family="Times">\pi
+</text>
+<text xml:space="preserve" x="312.311" y="272.358" fill="black" font-size="7.26154" font-family="Times">\pitchfork
+</text>
+<text xml:space="preserve" x="312.311" y="280.553" fill="black" font-size="7.26154" font-family="Times">\pm
+</text>
+<text xml:space="preserve" x="312.311" y="288.747" fill="black" font-size="7.26154" font-family="Times">\prec
+</text>
+<text xml:space="preserve" x="312.311" y="296.942" fill="black" font-size="7.26154" font-family="Times">\precapprox
+</text>
+<text xml:space="preserve" x="312.311" y="305.136" fill="black" font-size="7.26154" font-family="Times">\preccurlyeq
+</text>
+<text xml:space="preserve" x="312.311" y="313.331" fill="black" font-size="7.26154" font-family="Times">\preceq
+</text>
+<text xml:space="preserve" x="312.311" y="321.525" fill="black" font-size="7.26154" font-family="Times">\precnapprox
+</text>
+<text xml:space="preserve" x="312.311" y="329.72" fill="black" font-size="7.26154" font-family="Times">\precneqq
+</text>
+<text xml:space="preserve" x="312.311" y="337.914" fill="black" font-size="7.26154" font-family="Times">\precnsim
+</text>
+<text xml:space="preserve" x="312.311" y="346.109" fill="black" font-size="7.26154" font-family="Times">\precsim
+</text>
+<text xml:space="preserve" x="312.311" y="354.303" fill="black" font-size="7.26154" font-family="Times">\prime
+</text>
+<text xml:space="preserve" x="312.311" y="362.498" fill="black" font-size="7.26154" font-family="Times">\propto
+</text>
+<text xml:space="preserve" x="312.311" y="370.692" fill="black" font-size="7.26154" font-family="Times">\psi
+</text>
+<text xml:space="preserve" x="312.311" y="378.887" fill="black" font-size="7.26154" font-family="Times">\rangle
+</text>
+<text xml:space="preserve" x="312.311" y="387.081" fill="black" font-size="7.26154" font-family="Times">\rceil
+</text>
+<text xml:space="preserve" x="312.311" y="395.276" fill="black" font-size="7.26154" font-family="Times">\rdbrack
+</text>
+<text xml:space="preserve" x="312.311" y="403.47" fill="black" font-size="7.26154" font-family="Times">\restriction
+</text>
+<text xml:space="preserve" x="312.311" y="411.665" fill="black" font-size="7.26154" font-family="Times">\rfloor
+</text>
+<text xml:space="preserve" x="312.311" y="419.859" fill="black" font-size="7.26154" font-family="Times">\rho
+</text>
+<text xml:space="preserve" x="312.311" y="428.054" fill="black" font-size="7.26154" font-family="Times">\rightarrow
+</text>
+<text xml:space="preserve" x="312.311" y="436.248" fill="black" font-size="7.26154" font-family="Times">\rightarrowtail
+</text>
+<text xml:space="preserve" x="312.311" y="444.443" fill="black" font-size="7.26154" font-family="Times">\rightharpoondown
+</text>
+<text xml:space="preserve" x="312.311" y="452.637" fill="black" font-size="7.26154" font-family="Times">\rightharpoonup
+</text>
+<text xml:space="preserve" x="312.311" y="460.832" fill="black" font-size="7.26154" font-family="Times">\rightleftarrows
+</text>
+<text xml:space="preserve" x="312.311" y="469.026" fill="black" font-size="7.26154" font-family="Times">\rightleftharpoons
+</text>
+<text xml:space="preserve" x="312.311" y="477.221" fill="black" font-size="7.26154" font-family="Times">\rightrightarrows
+</text>
+<text xml:space="preserve" x="312.311" y="485.415" fill="black" font-size="7.26154" font-family="Times">\rightsquigarrow
+</text>
+<text xml:space="preserve" x="312.311" y="493.61" fill="black" font-size="7.26154" font-family="Times">\rightthreetimes
+</text>
+<text xml:space="preserve" x="312.311" y="501.804" fill="black" font-size="7.26154" font-family="Times">\risingdotseq
+</text>
+<text xml:space="preserve" x="312.311" y="509.999" fill="black" font-size="7.26154" font-family="Times">\rtimes
+</text>
+<text xml:space="preserve" x="312.311" y="518.193" fill="black" font-size="7.26154" font-family="Times">\sampi
+</text>
+<text xml:space="preserve" x="312.311" y="526.388" fill="black" font-size="7.26154" font-family="Times">\san
+</text>
+<text xml:space="preserve" x="312.311" y="534.582" fill="black" font-size="7.26154" font-family="Times">\searrow
+</text>
+<text xml:space="preserve" x="312.311" y="542.777" fill="black" font-size="7.26154" font-family="Times">\setdif
+</text>
+<text xml:space="preserve" x="312.311" y="550.971" fill="black" font-size="7.26154" font-family="Times">\sharp
+</text>
+<text xml:space="preserve" x="312.311" y="559.166" fill="black" font-size="7.26154" font-family="Times">\sho
+</text>
+<text xml:space="preserve" x="312.311" y="567.36" fill="black" font-size="7.26154" font-family="Times">\sigma
+</text>
+<text xml:space="preserve" x="312.311" y="575.555" fill="black" font-size="7.26154" font-family="Times">\sim
+</text>
+<text xml:space="preserve" x="312.311" y="583.749" fill="black" font-size="7.26154" font-family="Times">\simarrow
+</text>
+<text xml:space="preserve" x="312.311" y="591.944" fill="black" font-size="7.26154" font-family="Times">\simeq
+</text>
+<text xml:space="preserve" x="312.311" y="600.138" fill="black" font-size="7.26154" font-family="Times">\smallfrown
+</text>
+<text xml:space="preserve" x="312.311" y="608.333" fill="black" font-size="7.26154" font-family="Times">\smallint
+</text>
+<text xml:space="preserve" x="312.311" y="616.527" fill="black" font-size="7.26154" font-family="Times">\smallsetminus
+</text>
+<text xml:space="preserve" x="312.311" y="624.722" fill="black" font-size="7.26154" font-family="Times">\smallsmile
+</text>
+<text xml:space="preserve" x="312.311" y="632.916" fill="black" font-size="7.26154" font-family="Times">\smile
+</text>
+<text xml:space="preserve" x="312.311" y="641.111" fill="black" font-size="7.26154" font-family="Times">\spadesuit
+</text>
+<text xml:space="preserve" x="312.311" y="649.305" fill="black" font-size="7.26154" font-family="Times">\sphericalangle
+</text>
+<text xml:space="preserve" x="386.012" y="10.1343" fill="black" font-size="7.26154" font-family="Times">\sqcap
+</text>
+<text xml:space="preserve" x="386.012" y="18.3288" fill="black" font-size="7.26154" font-family="Times">\sqcup
+</text>
+<text xml:space="preserve" x="386.012" y="26.5233" fill="black" font-size="7.26154" font-family="Times">\sqsubset
+</text>
+<text xml:space="preserve" x="386.012" y="34.7178" fill="black" font-size="7.26154" font-family="Times">\sqsubseteq
+</text>
+<text xml:space="preserve" x="386.012" y="42.9123" fill="black" font-size="7.26154" font-family="Times">\sqsupset
+</text>
+<text xml:space="preserve" x="386.012" y="51.1068" fill="black" font-size="7.26154" font-family="Times">\sqsupseteq
+</text>
+<text xml:space="preserve" x="386.012" y="59.3013" fill="black" font-size="7.26154" font-family="Times">\square
+</text>
+<text xml:space="preserve" x="386.012" y="67.4958" fill="black" font-size="7.26154" font-family="Times">\star
+</text>
+<text xml:space="preserve" x="386.012" y="75.6903" fill="black" font-size="7.26154" font-family="Times">\stigma
+</text>
+<text xml:space="preserve" x="386.012" y="83.8848" fill="black" font-size="7.26154" font-family="Times">\subset
+</text>
+<text xml:space="preserve" x="386.012" y="92.0793" fill="black" font-size="7.26154" font-family="Times">\subseteq
+</text>
+<text xml:space="preserve" x="386.012" y="100.274" fill="black" font-size="7.26154" font-family="Times">\subseteqq
+</text>
+<text xml:space="preserve" x="386.012" y="108.468" fill="black" font-size="7.26154" font-family="Times">\subsetneq
+</text>
+<text xml:space="preserve" x="386.012" y="116.663" fill="black" font-size="7.26154" font-family="Times">\subsetneqq
+</text>
+<text xml:space="preserve" x="386.012" y="124.857" fill="black" font-size="7.26154" font-family="Times">\succ
+</text>
+<text xml:space="preserve" x="386.012" y="133.052" fill="black" font-size="7.26154" font-family="Times">\succapprox
+</text>
+<text xml:space="preserve" x="386.012" y="141.246" fill="black" font-size="7.26154" font-family="Times">\succcurlyeq
+</text>
+<text xml:space="preserve" x="386.012" y="149.441" fill="black" font-size="7.26154" font-family="Times">\succeq
+</text>
+<text xml:space="preserve" x="386.012" y="157.635" fill="black" font-size="7.26154" font-family="Times">\succnapprox
+</text>
+<text xml:space="preserve" x="386.012" y="165.83" fill="black" font-size="7.26154" font-family="Times">\succneqq
+</text>
+<text xml:space="preserve" x="386.012" y="174.024" fill="black" font-size="7.26154" font-family="Times">\succnsim
+</text>
+<text xml:space="preserve" x="386.012" y="182.219" fill="black" font-size="7.26154" font-family="Times">\succsim
+</text>
+<text xml:space="preserve" x="386.012" y="190.413" fill="black" font-size="7.26154" font-family="Times">\supset
+</text>
+<text xml:space="preserve" x="386.012" y="198.608" fill="black" font-size="7.26154" font-family="Times">\supseteq
+</text>
+<text xml:space="preserve" x="386.012" y="206.802" fill="black" font-size="7.26154" font-family="Times">\supseteqq
+</text>
+<text xml:space="preserve" x="386.012" y="214.997" fill="black" font-size="7.26154" font-family="Times">\supsetneq
+</text>
+<text xml:space="preserve" x="386.012" y="223.191" fill="black" font-size="7.26154" font-family="Times">\supsetneqq
+</text>
+<text xml:space="preserve" x="386.012" y="231.386" fill="black" font-size="7.26154" font-family="Times">\surd
+</text>
+<text xml:space="preserve" x="386.012" y="239.58" fill="black" font-size="7.26154" font-family="Times">\swarrow
+</text>
+<text xml:space="preserve" x="386.012" y="247.775" fill="black" font-size="7.26154" font-family="Times">\t
+</text>
+<text xml:space="preserve" x="386.012" y="255.969" fill="black" font-size="7.26154" font-family="Times">\tau
+</text>
+<text xml:space="preserve" x="386.012" y="264.164" fill="black" font-size="7.26154" font-family="Times">\therefore
+</text>
+<text xml:space="preserve" x="386.012" y="272.358" fill="black" font-size="7.26154" font-family="Times">\theta
+</text>
+<text xml:space="preserve" x="386.012" y="280.553" fill="black" font-size="7.26154" font-family="Times">\times
+</text>
+<text xml:space="preserve" x="386.012" y="288.747" fill="black" font-size="7.26154" font-family="Times">\to
+</text>
+<text xml:space="preserve" x="386.012" y="296.942" fill="black" font-size="7.26154" font-family="Times">\top
+</text>
+<text xml:space="preserve" x="386.012" y="305.136" fill="black" font-size="7.26154" font-family="Times">\triangledown
+</text>
+<text xml:space="preserve" x="386.012" y="313.331" fill="black" font-size="7.26154" font-family="Times">\triangleleft
+</text>
+<text xml:space="preserve" x="386.012" y="321.525" fill="black" font-size="7.26154" font-family="Times">\triangleleft
+</text>
+<text xml:space="preserve" x="386.012" y="329.72" fill="black" font-size="7.26154" font-family="Times">\trianglelefteq
+</text>
+<text xml:space="preserve" x="386.012" y="337.914" fill="black" font-size="7.26154" font-family="Times">\triangleq
+</text>
+<text xml:space="preserve" x="386.012" y="346.109" fill="black" font-size="7.26154" font-family="Times">\triangleright
+</text>
+<text xml:space="preserve" x="386.012" y="354.303" fill="black" font-size="7.26154" font-family="Times">\trianglerighteq
+</text>
+<text xml:space="preserve" x="386.012" y="362.498" fill="black" font-size="7.26154" font-family="Times">\twoheadleftarrow
+</text>
+<text xml:space="preserve" x="386.012" y="370.692" fill="black" font-size="7.26154" font-family="Times">\twoheadrightarrow
+</text>
+<text xml:space="preserve" x="386.012" y="378.887" fill="black" font-size="7.26154" font-family="Times">\u
+</text>
+<text xml:space="preserve" x="386.012" y="387.081" fill="black" font-size="7.26154" font-family="Times">\ulcorner
+</text>
+<text xml:space="preserve" x="386.012" y="395.276" fill="black" font-size="7.26154" font-family="Times">\undercurvearrowright
+</text>
+<text xml:space="preserve" x="386.012" y="403.47" fill="black" font-size="7.26154" font-family="Times">\upDelta
+</text>
+<text xml:space="preserve" x="386.012" y="411.665" fill="black" font-size="7.26154" font-family="Times">\upDigamma
+</text>
+<text xml:space="preserve" x="386.012" y="419.859" fill="black" font-size="7.26154" font-family="Times">\upGamma
+</text>
+<text xml:space="preserve" x="386.012" y="428.054" fill="black" font-size="7.26154" font-family="Times">\upKoppa
+</text>
+<text xml:space="preserve" x="386.012" y="436.248" fill="black" font-size="7.26154" font-family="Times">\upLambda
+</text>
+<text xml:space="preserve" x="386.012" y="444.443" fill="black" font-size="7.26154" font-family="Times">\upOmega
+</text>
+<text xml:space="preserve" x="386.012" y="452.637" fill="black" font-size="7.26154" font-family="Times">\upPhi
+</text>
+<text xml:space="preserve" x="386.012" y="460.832" fill="black" font-size="7.26154" font-family="Times">\upPi
+</text>
+<text xml:space="preserve" x="386.012" y="469.026" fill="black" font-size="7.26154" font-family="Times">\upPsi
+</text>
+<text xml:space="preserve" x="386.012" y="477.221" fill="black" font-size="7.26154" font-family="Times">\upSampi
+</text>
+<text xml:space="preserve" x="386.012" y="485.415" fill="black" font-size="7.26154" font-family="Times">\upSan
+</text>
+<text xml:space="preserve" x="386.012" y="493.61" fill="black" font-size="7.26154" font-family="Times">\upSho
+</text>
+<text xml:space="preserve" x="386.012" y="501.804" fill="black" font-size="7.26154" font-family="Times">\upSigma
+</text>
+<text xml:space="preserve" x="386.012" y="509.999" fill="black" font-size="7.26154" font-family="Times">\upStigma
+</text>
+<text xml:space="preserve" x="386.012" y="518.193" fill="black" font-size="7.26154" font-family="Times">\upTheta
+</text>
+<text xml:space="preserve" x="386.012" y="526.388" fill="black" font-size="7.26154" font-family="Times">\upUpsilon
+</text>
+<text xml:space="preserve" x="386.012" y="534.582" fill="black" font-size="7.26154" font-family="Times">\upVarKoppa
+</text>
+<text xml:space="preserve" x="386.012" y="542.777" fill="black" font-size="7.26154" font-family="Times">\upXi
+</text>
+<text xml:space="preserve" x="386.012" y="550.971" fill="black" font-size="7.26154" font-family="Times">\upalpha
+</text>
+<text xml:space="preserve" x="386.012" y="559.166" fill="black" font-size="7.26154" font-family="Times">\uparrow
+</text>
+<text xml:space="preserve" x="386.012" y="567.36" fill="black" font-size="7.26154" font-family="Times">\upbeta
+</text>
+<text xml:space="preserve" x="386.012" y="575.555" fill="black" font-size="7.26154" font-family="Times">\upchi
+</text>
+<text xml:space="preserve" x="386.012" y="583.749" fill="black" font-size="7.26154" font-family="Times">\updbar
+</text>
+<text xml:space="preserve" x="386.012" y="591.944" fill="black" font-size="7.26154" font-family="Times">\updelta
+</text>
+<text xml:space="preserve" x="386.012" y="600.138" fill="black" font-size="7.26154" font-family="Times">\updigamma
+</text>
+<text xml:space="preserve" x="386.012" y="608.333" fill="black" font-size="7.26154" font-family="Times">\updownarrow
+</text>
+<text xml:space="preserve" x="386.012" y="616.527" fill="black" font-size="7.26154" font-family="Times">\updownarrows
+</text>
+<text xml:space="preserve" x="386.012" y="624.722" fill="black" font-size="7.26154" font-family="Times">\updownharpoons
+</text>
+<text xml:space="preserve" x="386.012" y="632.916" fill="black" font-size="7.26154" font-family="Times">\upepsilon
+</text>
+<text xml:space="preserve" x="386.012" y="641.111" fill="black" font-size="7.26154" font-family="Times">\upeta
+</text>
+<text xml:space="preserve" x="386.012" y="649.305" fill="black" font-size="7.26154" font-family="Times">\upgamma
+</text>
+<text xml:space="preserve" x="459.713" y="10.1343" fill="black" font-size="7.26154" font-family="Times">\upharpoonleft
+</text>
+<text xml:space="preserve" x="459.713" y="18.3288" fill="black" font-size="7.26154" font-family="Times">\upharpoonright
+</text>
+<text xml:space="preserve" x="459.713" y="26.5233" fill="black" font-size="7.26154" font-family="Times">\upiota
+</text>
+<text xml:space="preserve" x="459.713" y="34.7178" fill="black" font-size="7.26154" font-family="Times">\upkappa
+</text>
+<text xml:space="preserve" x="459.713" y="42.9123" fill="black" font-size="7.26154" font-family="Times">\upkoppa
+</text>
+<text xml:space="preserve" x="459.713" y="51.1068" fill="black" font-size="7.26154" font-family="Times">\uplambda
+</text>
+<text xml:space="preserve" x="459.713" y="59.3013" fill="black" font-size="7.26154" font-family="Times">\uplus
+</text>
+<text xml:space="preserve" x="459.713" y="67.4958" fill="black" font-size="7.26154" font-family="Times">\upmu
+</text>
+<text xml:space="preserve" x="459.713" y="75.6903" fill="black" font-size="7.26154" font-family="Times">\upnu
+</text>
+<text xml:space="preserve" x="459.713" y="83.8848" fill="black" font-size="7.26154" font-family="Times">\upomega
+</text>
+<text xml:space="preserve" x="459.713" y="92.0793" fill="black" font-size="7.26154" font-family="Times">\upphi
+</text>
+<text xml:space="preserve" x="459.713" y="100.274" fill="black" font-size="7.26154" font-family="Times">\uppi
+</text>
+<text xml:space="preserve" x="459.713" y="108.468" fill="black" font-size="7.26154" font-family="Times">\uppsi
+</text>
+<text xml:space="preserve" x="459.713" y="116.663" fill="black" font-size="7.26154" font-family="Times">\uprho
+</text>
+<text xml:space="preserve" x="459.713" y="124.857" fill="black" font-size="7.26154" font-family="Times">\upsampi
+</text>
+<text xml:space="preserve" x="459.713" y="133.052" fill="black" font-size="7.26154" font-family="Times">\upsan
+</text>
+<text xml:space="preserve" x="459.713" y="141.246" fill="black" font-size="7.26154" font-family="Times">\upsho
+</text>
+<text xml:space="preserve" x="459.713" y="149.441" fill="black" font-size="7.26154" font-family="Times">\upsigma
+</text>
+<text xml:space="preserve" x="459.713" y="157.635" fill="black" font-size="7.26154" font-family="Times">\upsilon
+</text>
+<text xml:space="preserve" x="459.713" y="165.83" fill="black" font-size="7.26154" font-family="Times">\upstigma
+</text>
+<text xml:space="preserve" x="459.713" y="174.024" fill="black" font-size="7.26154" font-family="Times">\uptau
+</text>
+<text xml:space="preserve" x="459.713" y="182.219" fill="black" font-size="7.26154" font-family="Times">\uptheta
+</text>
+<text xml:space="preserve" x="459.713" y="190.413" fill="black" font-size="7.26154" font-family="Times">\upuparrows
+</text>
+<text xml:space="preserve" x="459.713" y="198.608" fill="black" font-size="7.26154" font-family="Times">\upupharpoons
+</text>
+<text xml:space="preserve" x="459.713" y="206.802" fill="black" font-size="7.26154" font-family="Times">\upupsilon
+</text>
+<text xml:space="preserve" x="459.713" y="214.997" fill="black" font-size="7.26154" font-family="Times">\upvarbeta
+</text>
+<text xml:space="preserve" x="459.713" y="223.191" fill="black" font-size="7.26154" font-family="Times">\upvarepsilon
+</text>
+<text xml:space="preserve" x="459.713" y="231.386" fill="black" font-size="7.26154" font-family="Times">\upvarkappa
+</text>
+<text xml:space="preserve" x="459.713" y="239.58" fill="black" font-size="7.26154" font-family="Times">\upvarkoppa
+</text>
+<text xml:space="preserve" x="459.713" y="247.775" fill="black" font-size="7.26154" font-family="Times">\upvarphi
+</text>
+<text xml:space="preserve" x="459.713" y="255.969" fill="black" font-size="7.26154" font-family="Times">\upvarpi
+</text>
+<text xml:space="preserve" x="459.713" y="264.164" fill="black" font-size="7.26154" font-family="Times">\upvarrho
+</text>
+<text xml:space="preserve" x="459.713" y="272.358" fill="black" font-size="7.26154" font-family="Times">\upvarsigma
+</text>
+<text xml:space="preserve" x="459.713" y="280.553" fill="black" font-size="7.26154" font-family="Times">\upvartheta
+</text>
+<text xml:space="preserve" x="459.713" y="288.747" fill="black" font-size="7.26154" font-family="Times">\upxi
+</text>
+<text xml:space="preserve" x="459.713" y="296.942" fill="black" font-size="7.26154" font-family="Times">\upzeta
+</text>
+<text xml:space="preserve" x="459.713" y="305.136" fill="black" font-size="7.26154" font-family="Times">\urcorner
+</text>
+<text xml:space="preserve" x="459.713" y="313.331" fill="black" font-size="7.26154" font-family="Times">\v
+</text>
+<text xml:space="preserve" x="459.713" y="321.525" fill="black" font-size="7.26154" font-family="Times">\vDash
+</text>
+<text xml:space="preserve" x="459.713" y="329.72" fill="black" font-size="7.26154" font-family="Times">\vDash
+</text>
+<text xml:space="preserve" x="459.713" y="337.914" fill="black" font-size="7.26154" font-family="Times">\varbeta
+</text>
+<text xml:space="preserve" x="459.713" y="346.109" fill="black" font-size="7.26154" font-family="Times">\varepsilon
+</text>
+<text xml:space="preserve" x="459.713" y="354.303" fill="black" font-size="7.26154" font-family="Times">\varkappa
+</text>
+<text xml:space="preserve" x="459.713" y="362.498" fill="black" font-size="7.26154" font-family="Times">\varkoppa
+</text>
+<text xml:space="preserve" x="459.713" y="370.692" fill="black" font-size="7.26154" font-family="Times">\varnothing
+</text>
+<text xml:space="preserve" x="459.713" y="378.887" fill="black" font-size="7.26154" font-family="Times">\varphi
+</text>
+<text xml:space="preserve" x="459.713" y="387.081" fill="black" font-size="7.26154" font-family="Times">\varpi
+</text>
+<text xml:space="preserve" x="459.713" y="395.276" fill="black" font-size="7.26154" font-family="Times">\varpropto
+</text>
+<text xml:space="preserve" x="459.713" y="403.47" fill="black" font-size="7.26154" font-family="Times">\varrho
+</text>
+<text xml:space="preserve" x="459.713" y="411.665" fill="black" font-size="7.26154" font-family="Times">\varsigma
+</text>
+<text xml:space="preserve" x="459.713" y="419.859" fill="black" font-size="7.26154" font-family="Times">\vartheta
+</text>
+<text xml:space="preserve" x="459.713" y="428.054" fill="black" font-size="7.26154" font-family="Times">\vartriangle
+</text>
+<text xml:space="preserve" x="459.713" y="436.248" fill="black" font-size="7.26154" font-family="Times">\vartriangleleft
+</text>
+<text xml:space="preserve" x="459.713" y="444.443" fill="black" font-size="7.26154" font-family="Times">\vartriangleright
+</text>
+<text xml:space="preserve" x="459.713" y="452.637" fill="black" font-size="7.26154" font-family="Times">\vdash
+</text>
+<text xml:space="preserve" x="459.713" y="460.832" fill="black" font-size="7.26154" font-family="Times">\vdots
+</text>
+<text xml:space="preserve" x="459.713" y="469.026" fill="black" font-size="7.26154" font-family="Times">\vec
+</text>
+<text xml:space="preserve" x="459.713" y="477.221" fill="black" font-size="7.26154" font-family="Times">\vee
+</text>
+<text xml:space="preserve" x="459.713" y="485.415" fill="black" font-size="7.26154" font-family="Times">\veebar
+</text>
+<text xml:space="preserve" x="459.713" y="493.61" fill="black" font-size="7.26154" font-family="Times">\vert
+</text>
+<text xml:space="preserve" x="459.713" y="501.804" fill="black" font-size="7.26154" font-family="Times">\wedge
+</text>
+<text xml:space="preserve" x="459.713" y="509.999" fill="black" font-size="7.26154" font-family="Times">\wp
+</text>
+<text xml:space="preserve" x="459.713" y="518.193" fill="black" font-size="7.26154" font-family="Times">\wr
+</text>
+<text xml:space="preserve" x="459.713" y="526.388" fill="black" font-size="7.26154" font-family="Times">\wwbar
+</text>
+<text xml:space="preserve" x="459.713" y="534.582" fill="black" font-size="7.26154" font-family="Times">\xi
+</text>
+<text xml:space="preserve" x="459.713" y="542.777" fill="black" font-size="7.26154" font-family="Times">\yen
+</text>
+<text xml:space="preserve" x="459.713" y="550.971" fill="black" font-size="7.26154" font-family="Times">\zeta
+</text>
+<text xml:space="preserve" x="459.713" y="559.166" fill="black" font-size="7.26154" font-family="Times">\{
+</text>
+<text xml:space="preserve" x="459.713" y="567.36" fill="black" font-size="7.26154" font-family="Times">\|
+</text>
+<text xml:space="preserve" x="459.713" y="575.555" fill="black" font-size="7.26154" font-family="Times">\}
+</text>
+<text xml:space="preserve" x="459.713" y="583.749" fill="black" font-size="7.26154" font-family="Times">\~
+</text>
+<text xml:space="preserve" x="459.713" y="591.944" fill="black" font-size="7.26154" font-family="Times">\Pr
+</text>
+<text xml:space="preserve" x="459.713" y="600.138" fill="black" font-size="7.26154" font-family="Times">\awoint
+</text>
+<text xml:space="preserve" x="459.713" y="608.333" fill="black" font-size="7.26154" font-family="Times">\awointop
+</text>
+<text xml:space="preserve" x="459.713" y="616.527" fill="black" font-size="7.26154" font-family="Times">\barint
+</text>
+<text xml:space="preserve" x="459.713" y="624.722" fill="black" font-size="7.26154" font-family="Times">\barintop
+</text>
+<text xml:space="preserve" x="459.713" y="632.916" fill="black" font-size="7.26154" font-family="Times">\bigcap
+</text>
+<text xml:space="preserve" x="459.713" y="641.111" fill="black" font-size="7.26154" font-family="Times">\bigcup
+</text>
+<text xml:space="preserve" x="459.713" y="649.305" fill="black" font-size="7.26154" font-family="Times">\bigodot
+</text>
+<text xml:space="preserve" x="533.413" y="10.1343" fill="black" font-size="7.26154" font-family="Times">\bigoplus
+</text>
+<text xml:space="preserve" x="533.413" y="18.3288" fill="black" font-size="7.26154" font-family="Times">\bigotimes
+</text>
+<text xml:space="preserve" x="533.413" y="26.5233" fill="black" font-size="7.26154" font-family="Times">\bigsqcup
+</text>
+<text xml:space="preserve" x="533.413" y="34.7178" fill="black" font-size="7.26154" font-family="Times">\biguplus
+</text>
+<text xml:space="preserve" x="533.413" y="42.9123" fill="black" font-size="7.26154" font-family="Times">\bigvee
+</text>
+<text xml:space="preserve" x="533.413" y="51.1068" fill="black" font-size="7.26154" font-family="Times">\bigwedge
+</text>
+<text xml:space="preserve" x="533.413" y="59.3013" fill="black" font-size="7.26154" font-family="Times">\coprod
+</text>
+<text xml:space="preserve" x="533.413" y="67.4958" fill="black" font-size="7.26154" font-family="Times">\cwint
+</text>
+<text xml:space="preserve" x="533.413" y="75.6903" fill="black" font-size="7.26154" font-family="Times">\cwintop
+</text>
+<text xml:space="preserve" x="533.413" y="83.8848" fill="black" font-size="7.26154" font-family="Times">\cwoint
+</text>
+<text xml:space="preserve" x="533.413" y="92.0793" fill="black" font-size="7.26154" font-family="Times">\cwointop
+</text>
+<text xml:space="preserve" x="533.413" y="100.274" fill="black" font-size="7.26154" font-family="Times">\iiint
+</text>
+<text xml:space="preserve" x="533.413" y="108.468" fill="black" font-size="7.26154" font-family="Times">\iiintop
+</text>
+<text xml:space="preserve" x="533.413" y="116.663" fill="black" font-size="7.26154" font-family="Times">\iint
+</text>
+<text xml:space="preserve" x="533.413" y="124.857" fill="black" font-size="7.26154" font-family="Times">\iintop
+</text>
+<text xml:space="preserve" x="533.413" y="133.052" fill="black" font-size="7.26154" font-family="Times">\int
+</text>
+<text xml:space="preserve" x="533.413" y="141.246" fill="black" font-size="7.26154" font-family="Times">\intop
+</text>
+<text xml:space="preserve" x="533.413" y="149.441" fill="black" font-size="7.26154" font-family="Times">\oiiint
+</text>
+<text xml:space="preserve" x="533.413" y="157.635" fill="black" font-size="7.26154" font-family="Times">\oiiintop
+</text>
+<text xml:space="preserve" x="533.413" y="165.83" fill="black" font-size="7.26154" font-family="Times">\oiint
+</text>
+<text xml:space="preserve" x="533.413" y="174.024" fill="black" font-size="7.26154" font-family="Times">\oiintop
+</text>
+<text xml:space="preserve" x="533.413" y="182.219" fill="black" font-size="7.26154" font-family="Times">\oint
+</text>
+<text xml:space="preserve" x="533.413" y="190.413" fill="black" font-size="7.26154" font-family="Times">\ointop
+</text>
+<text xml:space="preserve" x="533.413" y="198.608" fill="black" font-size="7.26154" font-family="Times">\prod
+</text>
+<text xml:space="preserve" x="533.413" y="206.802" fill="black" font-size="7.26154" font-family="Times">\slashint
+</text>
+<text xml:space="preserve" x="533.413" y="214.997" fill="black" font-size="7.26154" font-family="Times">\slashintop
+</text>
+<text xml:space="preserve" x="533.413" y="223.191" fill="black" font-size="7.26154" font-family="Times">\sum
+</text>
+<text xml:space="preserve" x="544.752" y="231.386" fill="black" font-size="7.26154" font-family="Times">\arccos
+</text>
+<text xml:space="preserve" x="544.752" y="239.58" fill="black" font-size="7.26154" font-family="Times">\arcsin
+</text>
+<text xml:space="preserve" x="544.752" y="247.775" fill="black" font-size="7.26154" font-family="Times">\arctan
+</text>
+<text xml:space="preserve" x="544.752" y="255.969" fill="black" font-size="7.26154" font-family="Times">\arg
+</text>
+<text xml:space="preserve" x="544.752" y="264.164" fill="black" font-size="7.26154" font-family="Times">\cos
+</text>
+<text xml:space="preserve" x="544.752" y="272.358" fill="black" font-size="7.26154" font-family="Times">\cosh
+</text>
+<text xml:space="preserve" x="544.752" y="280.553" fill="black" font-size="7.26154" font-family="Times">\cot
+</text>
+<text xml:space="preserve" x="544.752" y="288.747" fill="black" font-size="7.26154" font-family="Times">\coth
+</text>
+<text xml:space="preserve" x="544.752" y="296.942" fill="black" font-size="7.26154" font-family="Times">\csc
+</text>
+<text xml:space="preserve" x="544.752" y="305.136" fill="black" font-size="7.26154" font-family="Times">\deg
+</text>
+<text xml:space="preserve" x="544.752" y="313.331" fill="black" font-size="7.26154" font-family="Times">\det
+</text>
+<text xml:space="preserve" x="544.752" y="321.525" fill="black" font-size="7.26154" font-family="Times">\dim
+</text>
+<text xml:space="preserve" x="544.752" y="329.72" fill="black" font-size="7.26154" font-family="Times">\exp
+</text>
+<text xml:space="preserve" x="544.752" y="337.914" fill="black" font-size="7.26154" font-family="Times">\gcd
+</text>
+<text xml:space="preserve" x="544.752" y="346.109" fill="black" font-size="7.26154" font-family="Times">\hom
+</text>
+<text xml:space="preserve" x="544.752" y="354.303" fill="black" font-size="7.26154" font-family="Times">\inf
+</text>
+<text xml:space="preserve" x="544.752" y="362.498" fill="black" font-size="7.26154" font-family="Times">\ker
+</text>
+<text xml:space="preserve" x="544.752" y="370.692" fill="black" font-size="7.26154" font-family="Times">\lg
+</text>
+<text xml:space="preserve" x="544.752" y="378.887" fill="black" font-size="7.26154" font-family="Times">\lim
+</text>
+<text xml:space="preserve" x="544.752" y="387.081" fill="black" font-size="7.26154" font-family="Times">\liminf
+</text>
+<text xml:space="preserve" x="544.752" y="395.276" fill="black" font-size="7.26154" font-family="Times">\limsup
+</text>
+<text xml:space="preserve" x="544.752" y="403.47" fill="black" font-size="7.26154" font-family="Times">\ln
+</text>
+<text xml:space="preserve" x="544.752" y="411.665" fill="black" font-size="7.26154" font-family="Times">\log
+</text>
+<text xml:space="preserve" x="544.752" y="419.859" fill="black" font-size="7.26154" font-family="Times">\max
+</text>
+<text xml:space="preserve" x="544.752" y="428.054" fill="black" font-size="7.26154" font-family="Times">\min
+</text>
+<text xml:space="preserve" x="544.752" y="436.248" fill="black" font-size="7.26154" font-family="Times">\sec
+</text>
+<text xml:space="preserve" x="544.752" y="444.443" fill="black" font-size="7.26154" font-family="Times">\sin
+</text>
+<text xml:space="preserve" x="544.752" y="452.637" fill="black" font-size="7.26154" font-family="Times">\sinh
+</text>
+<text xml:space="preserve" x="544.752" y="460.832" fill="black" font-size="7.26154" font-family="Times">\sup
+</text>
+<text xml:space="preserve" x="544.752" y="469.026" fill="black" font-size="7.26154" font-family="Times">\tan
+</text>
+<text xml:space="preserve" x="544.752" y="477.221" fill="black" font-size="7.26154" font-family="Times">\tanh
+</text></svg>

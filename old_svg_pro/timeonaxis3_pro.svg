@@ -1,0 +1,186 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="567.429" height="384.969" viewBox="0 0 567.429 384.969" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+<title>
+./old_svg_pro/temp_timeonaxis3_pro.svg
+</title>
+<desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul  3 13:19:24 2024</desc>
+<defs>
+</defs>
+<rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
+<path d="M113.886,72.088h 1303.94" fill="none" stroke="white"/>
+<path d="M113.886,58.8238v 13.2642" fill="none" stroke="white"/>
+<path d="M1417.82,58.8238v 13.2642" fill="none" stroke="white"/>
+<text xml:space="preserve" x="95.8027" y="88.7863" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-03-07 21:00:00
+</text>
+<text xml:space="preserve" x="2.12911" y="88.7863" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="1399.9" y="88.7863" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-03-07 21:00:01
+</text>
+<text xml:space="preserve" x="1306.23" y="88.7863" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="2.94366" y="29.3239" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 0, option local
+</text>
+<text xml:space="preserve" x="2.94366" y="18.7347" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-03-07  21:00:00 CET, 2012-03-07  20:00:00 GMT
+</text>
+<text xml:space="preserve" x="2.94366" y="48.0586" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F1970-01-01 00:00:00s0
+</text>
+<text xml:space="preserve" x="94.9882" y="73.3098" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-03-07 21:00:00
+</text>
+<text xml:space="preserve" x="2.94366" y="73.3098" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">Expecting:    
+</text>
+<path d="M113.886,168.205h 1303.94" fill="none" stroke="white"/>
+<path d="M113.886,154.941v 13.2642" fill="none" stroke="white"/>
+<path d="M1417.82,154.941v 13.2642" fill="none" stroke="white"/>
+<text xml:space="preserve" x="95.8027" y="184.904" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-05-07 21:00:00
+</text>
+<text xml:space="preserve" x="2.12911" y="184.904" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="1399.9" y="184.904" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-05-07 21:00:01
+</text>
+<text xml:space="preserve" x="1306.23" y="184.904" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="2.94366" y="125.441" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 0, option local
+</text>
+<text xml:space="preserve" x="2.94366" y="114.852" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-05-07  21:00:00 CEST, 2012-05-07  19:00:00 GMT
+</text>
+<text xml:space="preserve" x="2.94366" y="144.176" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F1970-01-01 00:00:00s0
+</text>
+<text xml:space="preserve" x="94.9882" y="169.427" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-05-07 21:00:00
+</text>
+<text xml:space="preserve" x="2.94366" y="169.427" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">Expecting:    
+</text>
+<path d="M0.5,100.923h 283.465" fill="none" stroke="black"/>
+<path d="M113.886,264.323h 1303.94" fill="none" stroke="white"/>
+<path d="M113.886,251.058v 13.2642" fill="none" stroke="white"/>
+<path d="M1417.82,251.058v 13.2642" fill="none" stroke="white"/>
+<text xml:space="preserve" x="95.8027" y="281.021" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-01-01 01:00:00
+</text>
+<text xml:space="preserve" x="2.12911" y="281.021" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="1399.9" y="281.021" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-01-01 01:00:01
+</text>
+<text xml:space="preserve" x="1306.23" y="281.021" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="2.94366" y="221.559" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 2012-01-01  01:00:00 CET, option local
+</text>
+<text xml:space="preserve" x="2.94366" y="211.784" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">0 h 0 m 0 s
+</text>
+<text xml:space="preserve" x="2.94366" y="240.293" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F2012-01-01 00:00:00s0
+</text>
+<text xml:space="preserve" x="94.9882" y="265.544" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-01-01 01:00:00
+</text>
+<text xml:space="preserve" x="2.94366" y="265.544" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">Expecting:    
+</text>
+<path d="M0.5,197.04h 283.465" fill="none" stroke="black"/>
+<path d="M113.886,360.44h 1303.94" fill="none" stroke="white"/>
+<path d="M113.886,347.176v 13.2642" fill="none" stroke="white"/>
+<path d="M1417.82,347.176v 13.2642" fill="none" stroke="white"/>
+<text xml:space="preserve" x="95.8027" y="377.138" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-07-01 12:00:00
+</text>
+<text xml:space="preserve" x="2.12911" y="377.138" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="1399.9" y="377.138" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-07-01 12:00:01
+</text>
+<text xml:space="preserve" x="1306.23" y="377.138" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="2.94366" y="317.676" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 2012-07-01  02:00:00 CEST, option local
+</text>
+<text xml:space="preserve" x="2.94366" y="307.901" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">10 h 0 m 0 s
+</text>
+<text xml:space="preserve" x="2.94366" y="336.411" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F2012-07-01 00:00:00s0
+</text>
+<text xml:space="preserve" x="94.9882" y="361.662" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-07-01 12:00:00
+</text>
+<text xml:space="preserve" x="2.94366" y="361.662" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">Expecting:    
+</text>
+<path d="M0.5,293.158h 283.465" fill="none" stroke="black"/>
+<path d="M397.35,72.088h 1303.94" fill="none" stroke="white"/>
+<path d="M397.35,58.8238v 13.2642" fill="none" stroke="white"/>
+<path d="M1701.29,58.8238v 13.2642" fill="none" stroke="white"/>
+<text xml:space="preserve" x="379.267" y="88.7863" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-03-07 20:00:00
+</text>
+<text xml:space="preserve" x="285.594" y="88.7863" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="1683.37" y="88.7863" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-03-07 20:00:01
+</text>
+<text xml:space="preserve" x="1589.69" y="88.7863" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="286.408" y="29.3239" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 0, option gmt
+</text>
+<text xml:space="preserve" x="286.408" y="18.7347" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-03-07  21:00:00 CET, 2012-03-07  20:00:00 GMT
+</text>
+<text xml:space="preserve" x="286.408" y="48.0586" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F1970-01-01 00:00:00s0 GMT
+</text>
+<text xml:space="preserve" x="378.453" y="73.3098" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-03-07 20:00:00
+</text>
+<text xml:space="preserve" x="286.408" y="73.3098" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">Expecting:    
+</text>
+<path d="M397.35,168.205h 1303.94" fill="none" stroke="white"/>
+<path d="M397.35,154.941v 13.2642" fill="none" stroke="white"/>
+<path d="M1701.29,154.941v 13.2642" fill="none" stroke="white"/>
+<text xml:space="preserve" x="379.267" y="184.904" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-05-07 19:00:00
+</text>
+<text xml:space="preserve" x="285.594" y="184.904" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="1683.37" y="184.904" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-05-07 19:00:01
+</text>
+<text xml:space="preserve" x="1589.69" y="184.904" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="286.408" y="125.441" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 0, option gmt
+</text>
+<text xml:space="preserve" x="286.408" y="114.852" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-05-07  21:00:00 CEST, 2012-05-07  19:00:00 GMT
+</text>
+<text xml:space="preserve" x="286.408" y="144.176" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F1970-01-01 00:00:00s0 GMT
+</text>
+<text xml:space="preserve" x="378.453" y="169.427" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-05-07 19:00:00
+</text>
+<text xml:space="preserve" x="286.408" y="169.427" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">Expecting:    
+</text>
+<path d="M283.965,100.923h 283.465" fill="none" stroke="black"/>
+<path d="M397.35,264.323h 1303.94" fill="none" stroke="white"/>
+<path d="M397.35,251.058v 13.2642" fill="none" stroke="white"/>
+<path d="M1701.29,251.058v 13.2642" fill="none" stroke="white"/>
+<text xml:space="preserve" x="379.267" y="281.021" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-01-01 00:00:00
+</text>
+<text xml:space="preserve" x="285.594" y="281.021" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="1683.37" y="281.021" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-01-01 00:00:01
+</text>
+<text xml:space="preserve" x="1589.69" y="281.021" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="286.408" y="221.559" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 2012-01-01  00:00:00 GMT, option gmt
+</text>
+<text xml:space="preserve" x="286.408" y="211.784" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">0 h 0 m 0 s
+</text>
+<text xml:space="preserve" x="286.408" y="240.293" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F2012-01-01 00:00:00s0 GMT
+</text>
+<text xml:space="preserve" x="378.453" y="265.544" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-01-01 00:00:00
+</text>
+<text xml:space="preserve" x="286.408" y="265.544" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">Expecting:    
+</text>
+<path d="M283.965,197.04h 283.465" fill="none" stroke="black"/>
+<path d="M397.35,360.44h 1303.94" fill="none" stroke="white"/>
+<path d="M397.35,347.176v 13.2642" fill="none" stroke="white"/>
+<path d="M1701.29,347.176v 13.2642" fill="none" stroke="white"/>
+<text xml:space="preserve" x="379.267" y="377.138" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-07-01 10:00:00
+</text>
+<text xml:space="preserve" x="285.594" y="377.138" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="1683.37" y="377.138" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-07-01 10:00:01
+</text>
+<text xml:space="preserve" x="1589.69" y="377.138" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
+</text>
+<text xml:space="preserve" x="286.408" y="317.676" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 2012-07-01  00:00:00 GMT, option gmt
+</text>
+<text xml:space="preserve" x="286.408" y="307.901" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">10 h 0 m 0 s
+</text>
+<text xml:space="preserve" x="286.408" y="336.411" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F2012-07-01 00:00:00s0 GMT
+</text>
+<text xml:space="preserve" x="378.453" y="361.662" fill="#ff0000" font-size="11.6108" font-family="Courier" font-weight="bold">2012-07-01 10:00:00
+</text>
+<text xml:space="preserve" x="286.408" y="361.662" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">Expecting:    
+</text>
+<path d="M283.965,293.158h 283.465" fill="none" stroke="black"/>
+<path d="M283.965,384.469v -384.469" fill="none" stroke="black"/></svg>

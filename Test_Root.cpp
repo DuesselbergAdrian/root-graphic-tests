@@ -100,6 +100,7 @@ bool compare_json(const TString& jsonOutput, const std::string& ref_filename, co
     std::string produced_json = preprocessJSONContent(jsonOutput.Data());
     std::string reference_json = preprocessJSONContent(refBuffer.str());
 
+    std::cout << reference_json << std::endl;
     // Compare the created JSON to the reference JSON
     std::cerr << "Length of produced JSON: " << jsonOutput.Length() << std::endl;
     std::cerr << "Length of reference JSON: " << refBuffer.str().length() << std::endl;
