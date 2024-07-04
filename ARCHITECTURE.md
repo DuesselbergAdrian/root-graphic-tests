@@ -22,11 +22,6 @@ root-graphic-test/
 │
 ├── package.json
 │
-├── node_modules/
-│ ├── chalk/
-│ ├── xml-formatter/
-│ └── xml-parser-xo/
-│
 ├── CMAKELists.txt
 ├── macros_list.json
 ├── generate_macros_cmake.py

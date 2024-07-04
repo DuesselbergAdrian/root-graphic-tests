@@ -100,7 +100,6 @@ bool compare_json(const TString& jsonOutput, const std::string& ref_filename, co
     std::string produced_json = preprocessJSONContent(jsonOutput.Data());
     std::string reference_json = preprocessJSONContent(refBuffer.str());
 
-    std::cout << reference_json << std::endl;
     // Compare the created JSON to the reference JSON
     std::cerr << "Length of produced JSON: " << jsonOutput.Length() << std::endl;
     std::cerr << "Length of reference JSON: " << refBuffer.str().length() << std::endl;
@@ -210,17 +209,21 @@ void test_svg(TCanvas* c1, const std::string& macroName) {
 }
 
 //---------------------PDF-----------------------------------------------------------------
-std::string preprocessPDFContent(const std::string& pdfString) {
+std::string preprocessPDFContent(const std::string& pdfString) {    
     std::string result = pdfString;
     // Regular expressions to match the metadata patterns
     std::regex creationDatePattern(R"(/CreationDate \(D:\d{14}.*?\))");
     std::regex modDatePattern(R"(/ModDate \(D:\d{14}[-+Z].*?\))");
     std::regex titlePattern(R"(/Title \(.*?\))");
 
+    // Regular expressions to match the cross-reference table and trailer section
+    std::regex xrefPattern(R"(xref[\s\S]*?EOF)");
+
     // Remove the matched patterns from the content
     result = std::regex_replace(result, creationDatePattern, "");
     result = std::regex_replace(result, modDatePattern, "");
     result = std::regex_replace(result, titlePattern, "");
+    result = std::regex_replace(result, xrefPattern, "");
     return result;
 }
 
