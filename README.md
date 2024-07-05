@@ -47,7 +47,10 @@ ctest -R macrofolder
 Important: Replace macrofolder
 
 
-### Checking Differences in Reference and Generated Files (Git diff and diff)
+### Checking Differences in Reference and Generated Files (git diff or diff)
+Important: Both ways can be implemented but not at the same time.
+
+#### Git diff (Implemented)
 When comparing generated and reference files using git diff, you can directly observe changes when a test fails and the reference file is overwritten. It's crucial to note that certain parts of the files should be considered separately, as they are not part of standard comparison algorithms:
 
  - JSON Files: fTsumwx, ftsumwx2
@@ -56,6 +59,7 @@ When comparing generated and reference files using git diff, you can directly ob
 
 For detailed information please have a look at the PREPROCESSCONTENT functions.
 
+#### Diff (Not implemented)
 To check differences between generated and reference jsons one can use diff in the root-graphics-tests repository. These files are saved in the folders json_pro and json_ref.
 ```shell
 diff builddir/json_pro/macroname_pro.json json_ref/macroname.json
