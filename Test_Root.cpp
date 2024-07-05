@@ -124,23 +124,23 @@ void test_json(TCanvas* c1, const std::string& macroName) {
 
     // Path to the reference and produced JSON file
     std::string ref_filename = "./json_ref/" + macroName + ".json";
-    std::string jsonFilePath = "./json_pro/" + macroName + "_pro.json";
+    std::string jsonFilePath = "./build/json_pro/" + macroName + "_pro.json"; // Not good
+
+    // Save Json file if generated one is different
+    std::ofstream jsonFile(jsonFilePath);
+    if (jsonFile.is_open()) {
+        jsonFile << jsonOutput.Data();
+        jsonFile.close();
+    } else {
+        std::cerr << "Error: Unable to open file for writing" << std::endl;
+        return;
+    }
 
     // Compare the created JSON to the reference JSON
     if (compare_json(jsonOutput, ref_filename, macroName)) {
         std::cout << "JSON test passed for " << macroName << std::endl;
     } else {
         std::cerr << "JSON test failed for " << macroName << std::endl;
-
-        // Save Json file if generated one is different
-        std::ofstream jsonFile(jsonFilePath);
-        if (jsonFile.is_open()) {
-            jsonFile << jsonOutput.Data();
-            jsonFile.close();
-        } else {
-            std::cerr << "Error: Unable to open file for writing" << std::endl;
-            return;
-        }
         exit(EXIT_FAILURE);
     }
 }
@@ -183,8 +183,7 @@ bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2)
 void test_svg(TCanvas* c1, const std::string& macroName) {
     // Paths to the reference and generated SVG files
     std::string refFilePath = "./old_svg_ref/" + macroName + ".svg";
-    std::string tempFilePath = "./old_svg_pro/temp_" + macroName + "_pro.svg";
-    std::string genFilePath = "./old_svg_pro/" + macroName + "_pro.svg";
+    std::string genFilePath = "./build/old_svg_pro/" + macroName + "_pro.svg";
 
     // Check if the reference file exists
     if (!std::filesystem::exists(refFilePath)) {
@@ -193,16 +192,14 @@ void test_svg(TCanvas* c1, const std::string& macroName) {
         exit(EXIT_FAILURE);
     } else {
         // Save the generated SVG file
-        c1->SaveAs(tempFilePath.c_str());
+        c1->SaveAs(genFilePath.c_str());
     }
 
     // Compare the generated SVG file with the reference SVG file
-    if (compareSVGFiles(refFilePath, tempFilePath)) {
+    if (compareSVGFiles(refFilePath, genFilePath)) {
         std::cout << "SVG test passed for " << macroName << std::endl;
-        std::filesystem::remove(tempFilePath);
     } else {
         std::cout << "SVG test failed for " << macroName << std::endl;
-        std::filesystem::rename(tempFilePath, genFilePath);
         exit(EXIT_FAILURE);
     }
 }
@@ -246,8 +243,7 @@ bool comparePDFFiles(const std::string& filePath1, const std::string& filePath2)
 void test_pdf(TCanvas* c1, const std::string& macroName) {
     // Paths to the reference and generated SVG files
     std::string refFilePath = "./pdf_ref/" + macroName + ".pdf";
-    std::string tempFilePath = "./pdf_pro/temp_" + macroName + "_pro.pdf";
-    std::string genFilePath = "./pdf_pro/" + macroName + "_pro.pdf";
+    std::string genFilePath = "./build/pdf_pro/" + macroName + "_pro.pdf";
 
     // Check if the reference file exists
     if (!std::filesystem::exists(refFilePath)) {
@@ -256,16 +252,14 @@ void test_pdf(TCanvas* c1, const std::string& macroName) {
         exit(EXIT_FAILURE);
     } else {
         // Save the generated PDF file
-        c1->SaveAs(tempFilePath.c_str());
+        c1->SaveAs(genFilePath.c_str());
     }
 
     // Compare the generated PDF file with the reference PDF file
-    if (comparePDFFiles(refFilePath, tempFilePath)) {
+    if (comparePDFFiles(refFilePath, genFilePath)) {
         std::cout << "PDF test passed for " << macroName << std::endl;
-        std::filesystem::remove(tempFilePath);
     } else {
         std::cout << "PDF test failed for " << macroName << std::endl;
-        std::filesystem::rename(tempFilePath, genFilePath);
         exit(EXIT_FAILURE);
     }
 }

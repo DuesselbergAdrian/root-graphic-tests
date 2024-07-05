@@ -14,6 +14,19 @@ endif()
 find_package(ROOT REQUIRED COMPONENTS RIO Net Hist Graf Gpad Tree Matrix Physics MathCore Graf3d WebGui6)
 include(${ROOT_USE_FILE})
 
+# Folders for generated files
+set(BUILD_DIR ${CMAKE_BINARY_DIR})
+set(JSON_PRO_DIR ${BUILD_DIR}/json_pro)
+set(SVG_PRO_DIR ${BUILD_DIR}/svg_pro)
+set(OLD_SVG_PRO_DIR ${BUILD_DIR}/old_svg_pro)
+set(PDF_PRO_DIR ${BUILD_DIR}/pdf_pro)
+
+# Create the generated directory
+file(MAKE_DIRECTORY ${JSON_PRO_DIR})
+file(MAKE_DIRECTORY ${SVG_PRO_DIR})
+file(MAKE_DIRECTORY ${OLD_SVG_PRO_DIR})
+file(MAKE_DIRECTORY ${PDF_PRO_DIR})
+
 enable_testing()
 
 # Sources and headers
@@ -93,8 +106,6 @@ foreach(macro_content ${macros})
         add_custom_target(${macro}_All
             DEPENDS ${macro}_ALL_JSON ${macro}_ALL_newSVG
         )
-        # Next steps:
-        #2. always overwrite JSON
 
     endif()
     

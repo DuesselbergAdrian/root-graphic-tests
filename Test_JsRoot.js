@@ -26,7 +26,7 @@ function isEqual(obj1, obj2) {
 /**
  * Compares two SVG files, creating a reference file if the second file does not exist.
  * @param {string} svgContent1 - The content of the first SVG.
- * @param {string} svgFile2 - The path to the second SVG file.
+ * @param {string} svgContent2 - The content of the second SVG.
  * @param {string} baseName - The base name for logging.
  */
 async function compareSVG(svgContent1, svgContent2, baseName) {
@@ -52,7 +52,7 @@ async function compareSVG(svgContent1, svgContent2, baseName) {
 async function createSVGFromJSON(filePath) {
     const baseName = path.basename(filePath, path.extname(filePath));
     const svgRefPath = `./svg_ref/${baseName}.svg`;
-    const svgProPath = `./svg_pro/${baseName}_pro.svg`;
+    const svgProPath = `./build/svg_pro/${baseName}_pro.svg`;
 
     try {
         // Read and parse JSON data
