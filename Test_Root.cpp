@@ -112,8 +112,8 @@ bool compare_json(const TString& jsonOutput, const std::string& ref_filename, co
     std::string reference_json = preprocessJSONContent(refBuffer.str());
 
     // Compare the created JSON to the reference JSON
-    std::cerr << "Length of produced JSON: " << jsonOutput.Length() << std::endl;
-    std::cerr << "Length of reference JSON: " << refBuffer.str().length() << std::endl;
+    std::cerr << "Length of produced JSON after adjustments: " << jsonOutput.Length() << std::endl;
+    std::cerr << "Length of reference JSON after adjustments: " << refBuffer.str().length() << std::endl;
 
     return produced_json == reference_json;
 }
@@ -168,9 +168,6 @@ std::string preprocessSVGContent(const std::string& svgContent) {
     std::regex descRegex(R"(<desc>(.|\n)*?<\/desc>)");
     result = std::regex_replace(result, descRegex, "");
 
-    // Print the lengths of the contents
-    std::cout << "Length of result: " << result.length() << std::endl;
-
     return result;
 }
 
@@ -183,7 +180,12 @@ bool compareSVGFiles(const std::string& filePath1, const std::string& filePath2)
         content1 = preprocessSVGContent(content1);
         content2 = preprocessSVGContent(content2);
 
+         // Compare the created SVG to the reference SVG
+        std::cerr << "Length of produced SVG after adjustments: " << content1.length() << std::endl;
+        std::cerr << "Length of reference SVG after adjustments: " << content2.length() << std::endl;
+
         return content1 == content2;
+
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
         return false;
@@ -248,7 +250,12 @@ bool comparePDFFiles(const std::string& filePath1, const std::string& filePath2)
         content1 = preprocessPDFContent(content1);
         content2 = preprocessPDFContent(content2);
 
+         // Compare the created JSON to the reference JSON
+        std::cerr << "Length of produced PDF after adjustments: " << content1.length() << std::endl;
+        std::cerr << "Length of reference PDF after adjustments: " << content2.length() << std::endl;
+
         return content1 == content2;
+
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
         return false;
