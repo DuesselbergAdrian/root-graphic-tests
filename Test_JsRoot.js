@@ -49,10 +49,10 @@ async function compareSVG(svgContent1, svgContent2, baseName) {
 * @param {string} filePath - The path to the JSON file.
 * @returns {Promise<boolean>} - True if SVG creation and comparison are successful, false otherwise.
 */
-async function createSVGFromJSON(filePath) {
+async function createSVGFromJSON(filePath, builddir) {
     const baseName = path.basename(filePath, path.extname(filePath));
     const svgRefPath = `./svg_ref/${baseName}.svg`;
-    const svgProPath = `./build/svg_pro/${baseName}_pro.svg`;
+    const svgProPath = builddir + `/svg_pro/${baseName}_pro.svg`;
 
     try {
         // Read and parse JSON data
@@ -104,10 +104,15 @@ async function main() {
         console.error(chalk.red('No macro specified'));
         process.exit(1);
     }
+    const builddir = process.argv[3];
+    if (!macro) {
+        console.error(chalk.red('No builddir specified'));
+        process.exit(1);
+    }
 
     const jsonFilePath = `./json_ref/${macro}.json`;
     try {
-        const success = await createSVGFromJSON(jsonFilePath);
+        const success = await createSVGFromJSON(jsonFilePath, builddir);
         if (!success) {
             process.exit(1);
         }
