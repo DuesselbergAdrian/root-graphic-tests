@@ -50,9 +50,9 @@ Important: Replace macrofolder
 ### Checking Differences in Reference and Generated Files (Git diff and diff)
 When comparing generated and reference files using git diff, you can directly observe changes when a test fails and the reference file is overwritten. It's crucial to note that certain parts of the files should be considered separately, as they are not part of standard comparison algorithms:
 
-JSON Files: fTsumwx, ftsumwx2
-Old SVG Files: <title> and <desc> sections
-PDF files: creationDate-, modDate-, title- and xrefPattern
+ - JSON Files: fTsumwx, ftsumwx2
+ - Old SVG Files: <title> and <desc> sections
+ - PDF files: creationDate-, modDate-, title- and xrefPattern
 
 For detailed information please have a look at the PREPROCESSCONTENT functions.
 
