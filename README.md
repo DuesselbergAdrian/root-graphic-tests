@@ -90,7 +90,7 @@ To update reference files if there are changes, delete the corresponding referen
 
 
 ### Adding New Tests
-For instructions on how to add new tests, refer to the CONTRIBUTING.md file.
+For instructions on how to add new tests, refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 
 ### Running the Tests in root-graphic-tests

@@ -17,7 +17,7 @@ root-graphic-test/
 │ └── ....
 ├── json_ref/
 ├── svg_ref/
-├── old_svg_pro/
+├── pdf_ref/
 ├── old_svg_ref/
 │
 ├── package.json
@@ -38,13 +38,11 @@ root-graphic-test/
 ### Directories
 
 - **macros/**: Contains all macro scripts organized in subfolders.
-  - **macros_1/, macros_2/,graphs,...**: Subfolders with specific macros scripts.
+  - **graphics/, hist/,graphs,...**: Subfolders with specific macros scripts.
 - **json_ref/**: Contains reference JSON files for tests and comparisons.
 - **svg_ref/**: Contains reference SVG files for tests and comparisons.
-- **old_svg_pro/**: Contains produced/generated old SVG files.
+- **pdf_ref/**: Contains reference PDF files for tests and comparisons.
 - **old_svg_ref/**: Contains reference old SVG files for tests and comparisons.
-- **node_modules/**: Conatins Node.js modules required for the project
-  - **chalk/, xml-formatter/, xml-pasrer-xo/**: Specific Node.js modules used by the project.
 
 ### Main Components
 
@@ -71,4 +69,4 @@ For more details on how to get started with the project, refer to the [README.md
 
 ## Contributing
 
-Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
+Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project and add tests.
