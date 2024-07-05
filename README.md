@@ -47,32 +47,38 @@ ctest -R macrofolder
 Important: Replace macrofolder
 
 
-### Checking Differences in Produced Files
-Currently, checking differences in produced new svgs or json files using git diff or a special shell script is not implemented.
+### Checking Differences in Reference and Generated Files (Git diff and diff)
+When comparing generated and reference files using git diff, you can directly observe changes when a test fails and the reference file is overwritten. It's crucial to note that certain parts of the files should be considered separately, as they are not part of standard comparison algorithms:
+
+JSON Files: fTsumwx, ftsumwx2
+Old SVG Files: <title> and <desc> sections
+PDF files: creationDate-, modDate-, title- and xrefPattern
+
+For detailed information please have a look at the PREPROCESSCONTENT functions.
 
 To check differences between generated and reference jsons one can use diff in the root-graphics-tests repository. These files are saved in the folders json_pro and json_ref.
 ```shell
-diff json_pro/macroname_pro.json json_ref/macroname.json
+diff builddir/json_pro/macroname_pro.json json_ref/macroname.json
 ```
-Important: Replace macroname
+Important: Replace macroname and builddir
 
 To check differences between new generated and reference svgs one can use diff root-graphics-tests repository. These files are saved in the folders svg_pro and svg_ref.
 ```shell
-diff svg_pro/macroname_pro.svg svg_ref/macroname.svg
+diff builddir/svg_pro/macroname_pro.svg svg_ref/macroname.svg
 ```
-Important: Replace macroname
+Important: Replace macroname and builddir
 
 To check differences between old generated and refernece svgs one can use diff in the root-graphics-tests repository. These files are saved in the folders old_svg_pro and old_svg_ref.
 ```shell
-diff old_svg_pro/macroname_pro.svg old_svg_ref/macroname.svg
+diff builddir/old_svg_pro/macroname_pro.svg old_svg_ref/macroname.svg
 ```
-Important: Replace macroname
+Important: Replace macroname and builddir
 
 To check differences between old generated and refernece pdfs one can use diff in the root-graphics-tests repository. These files are saved in the folders pdf_pro and pdf_ref.
 ```shell
-diff pdf_pro/macroname_pro.pdf pdf_ref/macroname.pdf
+diff builddir/pdf_pro/macroname_pro.pdf pdf_ref/macroname.pdf
 ```
-Important: Replace macroname
+Important: Replace macroname and builddir
 
 
 ### Updating Reference Files

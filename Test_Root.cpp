@@ -126,7 +126,7 @@ void test_json(TCanvas* c1, const std::string& macroName) {
     std::string ref_filename = "./json_ref/" + macroName + ".json";
     std::string jsonFilePath = "./build/json_pro/" + macroName + "_pro.json"; // Not good
 
-    // Save Json file if generated one is different
+    // Save generated Json file
     std::ofstream jsonFile(jsonFilePath);
     if (jsonFile.is_open()) {
         jsonFile << jsonOutput.Data();
@@ -141,6 +141,16 @@ void test_json(TCanvas* c1, const std::string& macroName) {
         std::cout << "JSON test passed for " << macroName << std::endl;
     } else {
         std::cerr << "JSON test failed for " << macroName << std::endl;
+
+        // Overwrite the reference JSON file with the produced one
+        std::ofstream refFile(ref_filename);
+        if (refFile.is_open()) {
+            refFile << jsonOutput.Data();
+            refFile.close();
+            std::cerr << "Reference JSON file updated for " << macroName << std::endl;
+        } else {
+            std::cerr << "Error: Unable to open reference file for writing" << std::endl;
+        }
         exit(EXIT_FAILURE);
     }
 }
@@ -200,6 +210,11 @@ void test_svg(TCanvas* c1, const std::string& macroName) {
         std::cout << "SVG test passed for " << macroName << std::endl;
     } else {
         std::cout << "SVG test failed for " << macroName << std::endl;
+
+        // Overwrite the reference SVG file with the generated one
+        std::filesystem::copy_file(genFilePath, refFilePath, std::filesystem::copy_options::overwrite_existing);
+        std::cout << "Reference SVG file updated for " << macroName << std::endl;
+
         exit(EXIT_FAILURE);
     }
 }
@@ -260,6 +275,10 @@ void test_pdf(TCanvas* c1, const std::string& macroName) {
         std::cout << "PDF test passed for " << macroName << std::endl;
     } else {
         std::cout << "PDF test failed for " << macroName << std::endl;
+
+        // Overwrite the reference PDF file with the generated one
+        std::filesystem::copy_file(genFilePath, refFilePath, std::filesystem::copy_options::overwrite_existing);
+        std::cout << "Reference PDF file updated for " << macroName << std::endl;
         exit(EXIT_FAILURE);
     }
 }

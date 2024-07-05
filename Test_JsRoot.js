@@ -75,6 +75,9 @@ async function createSVGFromJSON(filePath) {
             if (compareSVG(svgPro, svgRef, baseName)) {
                 return true;
             } else {
+                // Overwrite the reference SVG file with the produced one
+                await fs.writeFile(svgRefPath, svgPro);
+                console.log(chalk.yellow("Reference SVG file updated"));
                 return false;
             }
         } catch (error) {
