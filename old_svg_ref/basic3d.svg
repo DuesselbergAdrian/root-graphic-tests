@@ -4,8 +4,8 @@
 ./old_svg_ref/basic3d.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33/01
-CreationDate: Tue Jun  4 11:54:09 2024</desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul 10 09:52:44 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
@@ -83,7 +83,7 @@ CreationDate: Tue Jun  4 11:54:09 2024</desc>
 <rect x="57.1929" y="11.5341" width="453.543" height="46.1363" fill="#b2a596"/>
 <path d="M62.0802,57.6704v 3.25821h 451.914v -44.5072h -3.25821v 41.249z" fill="black"/>
 <path d="M57.1929,57.6704v -46.1363h 453.543v 46.1363h -453.543z" fill="none" stroke="black"/>
-<text xml:space="preserve" x="169.113" y="28.5094" fill="black" font-size="18.4889" font-family="Helvetica" font-weight="bold">Examples of 3-D primitives
+<text xml:space="preserve" x="177.258" y="28.5094" fill="black" font-size="18.4889" font-family="Helvetica">Examples of 3-D primitives
 </text>
-<text xml:space="preserve" x="118.61" y="52.1314" fill="#0000ff" font-size="18.4889" font-family="Helvetica" font-weight="bold">Click anywhere on the picture to rotate
+<text xml:space="preserve" x="130.829" y="52.1314" fill="#0000ff" font-size="18.4889" font-family="Helvetica">Click anywhere on the picture to rotate
 </text></svg>

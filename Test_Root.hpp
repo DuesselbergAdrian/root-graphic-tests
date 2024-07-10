@@ -2,6 +2,7 @@
 #define Test_Root_HPP
 
 #include "TString.h"
+#include "TStyle.h"
 #include "TROOT.h"
 #include "TCanvas.h"
 #include "TPaveLabel.h"

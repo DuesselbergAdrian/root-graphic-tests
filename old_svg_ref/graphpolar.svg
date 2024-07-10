@@ -4,8 +4,8 @@
 ./old_svg_ref/graphpolar.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33/01
-CreationDate: Thu Jun  6 11:09:38 2024</desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul 10 09:57:25 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="271.14" fill="white"/>
@@ -834,6 +834,8 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
  -3.22062l 0.798265, -3.24671l 0.69343, -3.26959l 0.587911, -3.28924l 0.481811, -3.30565l 0.375236, -3.3188l 0.268291, -3.32867l 0.16108, -3.33526l 0.0537111, -3.33855" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <text xml:space="preserve" x="255.523" y="138.414" fill="black" font-size="10.2511" font-family="Helvetica" font-weight="bold">0
 </text>
+<path d="M248.906,135.57h 4.35402" fill="none" stroke="black"/>
+<path d="M35.5589,135.57h -4.35402" fill="none" stroke="black"/>
 <path d="M142.232,135.57h 108.85" fill="none" stroke="black"/>
 <path d="M142.232,135.57l 104.014, -31.3286" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M142.232,135.57l 89.9364, -59.8735" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
@@ -848,6 +850,7 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
 <text xml:space="preserve" x="74.9213" y="34.1295" fill="black" font-size="10.2511" font-family="Helvetica" font-weight="bold">2
 </text>
 <path d="M74.9213,36.0256h 10.9025" fill="none" stroke="black" stroke-width="2"/>
+<path d="M89.064,45.6486l -2.51379, -4.25148" fill="none" stroke="black"/>
 <path d="M142.232,135.57l -54.4252, -92.0471" fill="none" stroke="black"/>
 <path d="M142.232,135.57l -79.793, -72.2934" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M142.232,135.57l -98.0708, -46.1161" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
@@ -862,6 +865,7 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
 <text xml:space="preserve" x="74.9213" y="237.01" fill="black" font-size="10.2511" font-family="Helvetica" font-weight="bold">4
 </text>
 <path d="M74.9213,238.907h 10.9025" fill="none" stroke="black" stroke-width="2"/>
+<path d="M86.5502,229.743l 2.51379, -4.25148" fill="none" stroke="black"/>
 <path d="M142.232,135.57l -54.4252, 92.0471" fill="none" stroke="black"/>
 <path d="M142.232,135.57l -24.2215, 103.622" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M142.232,135.57l 8.1344, 105.99" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
@@ -869,8 +873,6 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
 <path d="M142.232,135.57l 67.8671, 83.0984" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M142.232,135.57l 89.9364, 59.8735" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M142.232,135.57l 104.014, 31.3286" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
-<text xml:space="preserve" x="124.219" y="16.1167" fill="black" font-size="13.3638" font-family="Helvetica">Graph
-</text>
 <rect x="289.634" y="2.7114" width="272.126" height="265.717" fill="white"/>
 <path d="M464.949,135.57h 30.347" fill="none" stroke="#ff00ff" stroke-width="2"/>
 <path d="M470.282,126.412l 29.697, -6.10019" fill="none" stroke="#ff00ff" stroke-width="2"/>
@@ -1883,6 +1885,8 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
  -3.2074l 0.685035, -3.23l 0.580793, -3.24942l 0.475978, -3.26563l 0.370693, -3.27862l 0.265042, -3.28837l 0.15913, -3.29488l 0.0530608, -3.29813" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <text xml:space="preserve" x="538.988" y="138.414" fill="black" font-size="10.2511" font-family="Helvetica" font-weight="bold">0
 </text>
+<path d="M532.37,135.57h 4.35402" fill="none" stroke="black"/>
+<path d="M319.023,135.57h -4.35402" fill="none" stroke="black"/>
 <path d="M425.697,135.57h 108.85" fill="none" stroke="black"/>
 <path d="M425.697,135.57l 107.51, -16.6269" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M425.697,135.57l 103.523, -32.8445" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
@@ -1893,6 +1897,7 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
 <text xml:space="preserve" x="505.806" y="48.3501" fill="black" font-size="10.2511" font-family="Times">&#0960;
 </text>
 <path d="M505.806,50.2462h 5.68825" fill="none" stroke="black" stroke-width="2"/>
+<path d="M500.489,62.5396l 4.35402, -4.25148" fill="none" stroke="black"/>
 <path d="M425.697,135.57l 76.9688, -75.1562" fill="none" stroke="black"/>
 <path d="M425.697,135.57l 63.9807, -85.9879" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M425.697,135.57l 49.417, -94.7023" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
@@ -1903,6 +1908,7 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
 <text xml:space="preserve" x="422.853" y="16.1167" fill="black" font-size="10.2511" font-family="Times">&#0960;
 </text>
 <path d="M422.853,18.0128h 5.68825" fill="none" stroke="black" stroke-width="2"/>
+<path d="M425.697,31.4089v -4.25148" fill="none" stroke="black"/>
 <path d="M425.697,135.57v -106.287" fill="none" stroke="black"/>
 <path d="M425.697,135.57l -17.028, -104.978" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M425.697,135.57l -33.6366, -101.085" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
@@ -1915,6 +1921,7 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
 <text xml:space="preserve" x="334.685" y="51.6683" fill="black" font-size="10.2511" font-family="Helvetica" font-weight="bold">3
 </text>
 <path d="M334.685,53.5644h 10.9025" fill="none" stroke="black" stroke-width="2"/>
+<path d="M350.905,62.5396l -4.35402, -4.25148" fill="none" stroke="black"/>
 <path d="M425.697,135.57l -76.9688, -75.1562" fill="none" stroke="black"/>
 <path d="M425.697,135.57l -88.0618, -62.4739" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M425.697,135.57l -96.9864, -48.2532" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
@@ -1922,6 +1929,8 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
 <path d="M425.697,135.57l -107.51, -16.6269" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <text xml:space="preserve" x="306.718" y="137.466" fill="black" font-size="10.2511" font-family="Times">&#0960;
 </text>
+<path d="M532.37,135.57h 4.35402" fill="none" stroke="black"/>
+<path d="M319.023,135.57h -4.35402" fill="none" stroke="black"/>
 <path d="M425.697,135.57h -108.85" fill="none" stroke="black"/>
 <path d="M425.697,135.57l -107.51, 16.6269" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M425.697,135.57l -103.523, 32.8445" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
@@ -1934,6 +1943,7 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
 <text xml:space="preserve" x="334.685" y="219.472" fill="black" font-size="10.2511" font-family="Helvetica" font-weight="bold">5
 </text>
 <path d="M334.685,221.368h 10.9025" fill="none" stroke="black" stroke-width="2"/>
+<path d="M346.551,212.852l 4.35402, -4.25148" fill="none" stroke="black"/>
 <path d="M425.697,135.57l -76.9688, 75.1562" fill="none" stroke="black"/>
 <path d="M425.697,135.57l -63.9807, 85.9879" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M425.697,135.57l -49.417, 94.7023" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
@@ -1946,6 +1956,7 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
 <text xml:space="preserve" x="420.009" y="252.179" fill="black" font-size="10.2511" font-family="Helvetica" font-weight="bold">3
 </text>
 <path d="M420.009,254.075h 10.9025" fill="none" stroke="black" stroke-width="2"/>
+<path d="M425.697,243.983v -4.25148" fill="none" stroke="black"/>
 <path d="M425.697,135.57v 106.287" fill="none" stroke="black"/>
 <path d="M425.697,135.57l 17.028, 104.978" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M425.697,135.57l 33.6366, 101.085" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
@@ -1958,10 +1969,9 @@ CreationDate: Thu Jun  6 11:09:38 2024</desc>
 <text xml:space="preserve" x="505.806" y="219.472" fill="black" font-size="10.2511" font-family="Helvetica" font-weight="bold">7
 </text>
 <path d="M505.806,221.368h 11.3765" fill="none" stroke="black" stroke-width="2"/>
+<path d="M504.843,212.852l -4.35402, -4.25148" fill="none" stroke="black"/>
 <path d="M425.697,135.57l 76.9688, 75.1562" fill="none" stroke="black"/>
 <path d="M425.697,135.57l 88.0618, 62.4739" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M425.697,135.57l 96.9864, 48.2532" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
 <path d="M425.697,135.57l 103.523, 32.8445" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
-<path d="M425.697,135.57l 107.51, 16.6269" fill="none" stroke="black" stroke-dasharray=" 3, 3"/>
-<text xml:space="preserve" x="407.684" y="16.1167" fill="black" font-size="13.3638" font-family="Helvetica">Graph
-</text></svg>
+<path d="M425.697,135.57l 107.51, 16.6269" fill="none" stroke="black" stroke-dasharray=" 3, 3"/></svg>

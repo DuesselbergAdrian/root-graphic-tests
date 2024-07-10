@@ -4,21 +4,21 @@
 ./old_svg_ref/quarks.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33/01
-CreationDate: Tue Jun  4 11:55:41 2024</desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul 10 09:55:13 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="662.927" fill="black"/>
-<g transform="rotate(-90,524.864,487.233)">
-<text xml:space="preserve" x="524.864" y="487.233" fill="#7c99d1" font-size="36.9083" font-family="Helvetica" font-weight="bold">Force Carriers
+<g transform="rotate(-90,524.864,479.082)">
+<text xml:space="preserve" x="524.864" y="479.082" fill="#7c99d1" font-size="36.9083" font-family="Helvetica">Force Carriers
 </text>
 </g>
-<g transform="rotate(-90,72.951,543.383)">
-<text xml:space="preserve" x="72.951" y="543.383" fill="#b2b2b2" font-size="36.9083" font-family="Helvetica" font-weight="bold">Leptons
+<g transform="rotate(-90,72.951,537.043)">
+<text xml:space="preserve" x="72.951" y="537.043" fill="#b2b2b2" font-size="36.9083" font-family="Helvetica">Leptons
 </text>
 </g>
-<g transform="rotate(-90,76.5736,312.445)">
-<text xml:space="preserve" x="76.5736" y="312.445" fill="#d35954" font-size="36.9083" font-family="Helvetica" font-weight="bold">Quarks
+<g transform="rotate(-90,76.5736,307.917)">
+<text xml:space="preserve" x="76.5736" y="307.917" fill="#d35954" font-size="36.9083" font-family="Helvetica">Quarks
 </text>
 </g>
 <text xml:space="preserve" x="106.46" y="65.2059" fill="#ffff00" font-size="73.3166" font-family="Times" font-weight="bold" font-style="italic">Elementary

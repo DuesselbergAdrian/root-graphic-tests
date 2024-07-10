@@ -4,15 +4,15 @@
 ./old_svg_ref/arrows.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33/01
-CreationDate: Tue Jun  4 11:53:55 2024</desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul 10 09:52:23 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
 <rect x="57.1929" y="19.2235" width="453.543" height="57.6704" fill="#ddba87"/>
 <path d="M60.8584,76.8938v 2.44366h 452.321v -56.4485h -2.44366v 54.0049z" fill="black"/>
 <path d="M57.1929,76.8938v -57.6704h 453.543v 57.6704h -453.543z" fill="none" stroke="black"/>
-<text xml:space="preserve" x="80.3262" y="54.5751" fill="black" font-size="24.0473" font-family="Helvetica" font-weight="bold">Examples of various arrows formats
+<text xml:space="preserve" x="83.5844" y="55.3896" fill="black" font-size="25.6353" font-family="Helvetica">Examples of various arrows formats
 </text>
 <path d="M57.1929,346.022v -230.682" fill="none" stroke="black"/>
 <path d="M45.7368,135.183l 11.4561, -19.8425l 11.4561, 19.8425" fill="none" stroke="black"/>

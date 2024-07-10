@@ -4,8 +4,8 @@
 ./old_svg_ref/greyscale.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33/01
-CreationDate: Tue Jun  4 11:54:58 2024</desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul 10 09:54:02 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="539.497" fill="white"/>
@@ -40010,5 +40010,5 @@ CreationDate: Tue Jun  4 11:54:58 2024</desc>
 <rect x="561.76" y="536.8" width="2.83468" height="2.69749" fill="white"/>
 <rect x="564.594" y="536.8" width="2.83464" height="2.69749" fill="white"/>
 <rect x="170.579" y="161.849" width="226.772" height="215.799" fill="#e7e7e7"/>
-<text xml:space="preserve" x="283.965" y="278.908" text-anchor="middle" fill="black" font-size="18.3183" font-family="Helvetica" font-weight="bold">GUI Background Color
+<text xml:space="preserve" x="283.965" y="278.908" text-anchor="middle" fill="black" font-size="18.3183" font-family="Helvetica">GUI Background Color
 </text></svg>

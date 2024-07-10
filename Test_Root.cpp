@@ -2,6 +2,7 @@
 #include "Test_Root.hpp"
 
 #include "TROOT.h"
+#include "TStyle.h"
 #include "TCanvas.h"
 #include "TPaveLabel.h"
 #include "TPaveText.h"
@@ -295,6 +296,20 @@ void Test_Root(const std::string& macroName, const std::string& test_type, const
     // Set paths
     std::string macroPath = macro_folder + "/" + macroName + ".C";
     gROOT->SetMacroPath("./macros");
+    gROOT->SetStyle("ATLAS");
+
+   // Set statistics box parameters explicitly
+    gStyle->SetStatX(0.7);     // X position of stat box
+    gStyle->SetStatY(0.8);     // Y position of stat box
+    gStyle->SetStatW(0.2);     // Width of stat box
+    gStyle->SetStatH(0.1);     // Height of stat box
+    gStyle->SetStatFormat("6.4g"); // Number format in stat box
+    gStyle->SetStatFont(42);            // Font type for stat box (Helvetica)
+    gStyle->SetStatFontSize(0.025);     // Font size for stat box
+    gStyle->SetStatColor(0);            // Background color of stat box
+    gStyle->SetStatTextColor(1);        // Text color of stat box
+    gStyle->SetStatBorderSize(1);       // Border size of stat box
+
 
     // Call the macro to generate the canvas
     std::string command = ".x " + macroPath;

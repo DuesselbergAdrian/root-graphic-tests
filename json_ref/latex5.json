@@ -14,10 +14,10 @@
 "fLineWidth" : 1,
 "fFillColor" : 0,
 "fFillStyle" : 1001,
-"fLeftMargin" : 0.1,
-"fRightMargin" : 0.1,
-"fBottomMargin" : 0.1,
-"fTopMargin" : 0.1,
+"fLeftMargin" : 0.16,
+"fRightMargin" : 0.05,
+"fBottomMargin" : 0.16,
+"fTopMargin" : 0.05,
 "fXfile" : 2,
 "fYfile" : 2,
 "fAfile" : 1,
@@ -71,8 +71,8 @@
 "fPhi" : 30,
 "fAspectRatio" : 0,
 "fNumber" : 0,
-"fTickx" : 0,
-"fTicky" : 0,
+"fTickx" : 1,
+"fTicky" : 1,
 "fLogx" : 0,
 "fLogy" : 0,
 "fLogz" : 0,
@@ -157,21 +157,21 @@
 "_typename" : "TStyle",
 "fUniqueID" : 0,
 "fBits" : 0,
-"fName" : "Modern",
-"fTitle" : "Modern Style",
+"fName" : "ATLAS",
+"fTitle" : "ATLAS Style",
 "fLineColor" : 1,
 "fLineStyle" : 1,
 "fLineWidth" : 1,
 "fFillColor" : 19,
 "fFillStyle" : 1001,
 "fMarkerColor" : 1,
-"fMarkerStyle" : 1,
-"fMarkerSize" : 1,
+"fMarkerStyle" : 20,
+"fMarkerSize" : 1.2,
 "fTextAngle" : 0,
 "fTextSize" : 0.05,
 "fTextAlign" : 11,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fXaxis" : {
 "_typename" : "TAttAxis",
 "fNdivisions" : 510,
@@ -179,10 +179,10 @@
 "fLabelColor" : 1,
 "fLabelFont" : 42,
 "fLabelOffset" : 0.005,
-"fLabelSize" : 0.035,
+"fLabelSize" : 0.05,
 "fTickLength" : 0.03,
-"fTitleOffset" : 1,
-"fTitleSize" : 0.035,
+"fTitleOffset" : 1.4,
+"fTitleSize" : 0.05,
 "fTitleColor" : 1,
 "fTitleFont" : 42
 },
@@ -193,10 +193,10 @@
 "fLabelColor" : 1,
 "fLabelFont" : 42,
 "fLabelOffset" : 0.005,
-"fLabelSize" : 0.035,
+"fLabelSize" : 0.05,
 "fTickLength" : 0.03,
-"fTitleOffset" : 0,
-"fTitleSize" : 0.035,
+"fTitleOffset" : 1.4,
+"fTitleSize" : 0.05,
 "fTitleColor" : 1,
 "fTitleFont" : 42
 },
@@ -207,10 +207,10 @@
 "fLabelColor" : 1,
 "fLabelFont" : 42,
 "fLabelOffset" : 0.005,
-"fLabelSize" : 0.035,
+"fLabelSize" : 0.05,
 "fTickLength" : 0.03,
 "fTitleOffset" : 1,
-"fTitleSize" : 0.035,
+"fTitleSize" : 0.05,
 "fTitleColor" : 1,
 "fTitleFont" : 42
 },
@@ -222,8 +222,8 @@
 "fOptLogy" : 0,
 "fOptLogz" : 0,
 "fOptDate" : 0,
-"fOptStat" : 1111,
-"fOptTitle" : 1,
+"fOptStat" : 0,
+"fOptTitle" : 0,
 "fOptFile" : 0,
 "fOptFit" : 0,
 "fShowEventStatus" : 0,
@@ -240,18 +240,18 @@
 },
 "fDateX" : 0.01,
 "fDateY" : 0.01,
-"fEndErrorSize" : 2,
+"fEndErrorSize" : 0,
 "fErrorX" : 0.5,
-"fFuncColor" : 2,
+"fFuncColor" : 1,
 "fFuncStyle" : 1,
-"fFuncWidth" : 2,
+"fFuncWidth" : 3,
 "fGridColor" : 0,
 "fGridStyle" : 3,
 "fGridWidth" : 1,
-"fLegendBorderSize" : 1,
+"fLegendBorderSize" : 4,
 "fLegendFillColor" : 0,
 "fLegendFillStyle" : 1001,
-"fLegendFont" : 42,
+"fLegendFont" : 62,
 "fLegendTextSize" : 0,
 "fHatchesLineWidth" : 1,
 "fHatchesSpacing" : 1,
@@ -263,10 +263,10 @@
 "fFrameBorderSize" : 1,
 "fFrameBorderMode" : 0,
 "fHistFillColor" : 0,
-"fHistLineColor" : 602,
+"fHistLineColor" : 1,
 "fHistFillStyle" : 1001,
 "fHistLineStyle" : 1,
-"fHistLineWidth" : 1,
+"fHistLineWidth" : 2,
 "fHistMinimumZero" : false,
 "fHistTopMargin" : 0.05,
 "fCanvasPreferGL" : false,
@@ -280,14 +280,14 @@
 "fPadColor" : 0,
 "fPadBorderSize" : 2,
 "fPadBorderMode" : 0,
-"fPadBottomMargin" : 0.1,
-"fPadTopMargin" : 0.1,
-"fPadLeftMargin" : 0.1,
-"fPadRightMargin" : 0.1,
+"fPadBottomMargin" : 0.16,
+"fPadTopMargin" : 0.05,
+"fPadLeftMargin" : 0.16,
+"fPadRightMargin" : 0.05,
 "fPadGridX" : false,
 "fPadGridY" : false,
-"fPadTickX" : 0,
-"fPadTickY" : 0,
+"fPadTickX" : 1,
+"fPadTickY" : 1,
 "fPaperSizeX" : 20,
 "fPaperSizeY" : 26,
 "fScreenFactor" : 1,
@@ -295,27 +295,27 @@
 "fStatTextColor" : 1,
 "fStatBorderSize" : 1,
 "fStatFont" : 42,
-"fStatFontSize" : 0,
+"fStatFontSize" : 0.025,
 "fStatStyle" : 1001,
 "fStatFormat" : "6.4g",
-"fStatX" : 0.98,
-"fStatY" : 0.935,
+"fStatX" : 0.7,
+"fStatY" : 0.8,
 "fStatW" : 0.2,
-"fStatH" : 0.16,
+"fStatH" : 0.1,
 "fStripDecimals" : true,
-"fTitleAlign" : 23,
-"fTitleColor" : 0,
+"fTitleAlign" : 13,
+"fTitleColor" : 19,
 "fTitleTextColor" : 1,
-"fTitleBorderSize" : 0,
-"fTitleFont" : 42,
-"fTitleFontSize" : 0.05,
-"fTitleStyle" : 0,
-"fTitleX" : 0.5,
+"fTitleBorderSize" : 2,
+"fTitleFont" : 62,
+"fTitleFontSize" : 0,
+"fTitleStyle" : 1001,
+"fTitleX" : 0.01,
 "fTitleY" : 0.995,
 "fTitleW" : 0,
 "fTitleH" : 0,
 "fLegoInnerR" : 0.5,
-"fLineStyles" : ["", "  ", " 12 12", " 4 8", " 12 16 4 16", " 20 12 4 12", " 20 12 4 12 4 12 4 12", " 20 20", " 20 12 4 12 4 12", " 80 20", " 80 40 4 40", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "],
+"fLineStyles" : ["", "  ", "  12 12 ", " 4 8", " 12 16 4 16", " 20 12 4 12", " 20 12 4 12 4 12 4 12", " 20 20", " 20 12 4 12 4 12", " 80 20", " 80 40 4 40", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  ", "  "],
 "fHeaderPS" : "",
 "fTitlePS" : "",
 "fFitFormat" : "5.4g",
@@ -353,7 +353,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.959999978542328,
 "fLineColor" : 1,
@@ -379,7 +379,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.959999978542328
 }
@@ -400,7 +400,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.91349995136261,
 "fLineColor" : 1,
@@ -426,7 +426,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.91349995136261
 }
@@ -447,7 +447,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.866999924182892,
 "fLineColor" : 1,
@@ -473,7 +473,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.866999924182892
 }
@@ -494,7 +494,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.820499897003174,
 "fLineColor" : 1,
@@ -520,7 +520,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.820499897003174
 }
@@ -541,7 +541,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.773999869823456,
 "fLineColor" : 1,
@@ -567,7 +567,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.773999869823456
 }
@@ -588,7 +588,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.727499842643738,
 "fLineColor" : 1,
@@ -614,7 +614,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.727499842643738
 }
@@ -635,7 +635,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.68099981546402,
 "fLineColor" : 1,
@@ -661,7 +661,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.68099981546402
 }
@@ -682,7 +682,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.634499788284302,
 "fLineColor" : 1,
@@ -708,7 +708,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.634499788284302
 }
@@ -729,7 +729,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.587999761104584,
 "fLineColor" : 1,
@@ -755,7 +755,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.587999761104584
 }
@@ -776,7 +776,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.541499733924866,
 "fLineColor" : 1,
@@ -802,7 +802,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.541499733924866
 }
@@ -823,7 +823,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.49499973654747,
 "fLineColor" : 1,
@@ -849,7 +849,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.49499973654747
 }
@@ -870,7 +870,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.448499739170074,
 "fLineColor" : 1,
@@ -896,7 +896,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.448499739170074
 }
@@ -917,7 +917,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.401999741792679,
 "fLineColor" : 1,
@@ -943,7 +943,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.401999741792679
 }
@@ -964,7 +964,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.355499744415283,
 "fLineColor" : 1,
@@ -990,7 +990,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.355499744415283
 }
@@ -1011,7 +1011,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.308999747037888,
 "fLineColor" : 1,
@@ -1037,7 +1037,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.308999747037888
 }
@@ -1058,7 +1058,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.262499749660492,
 "fLineColor" : 1,
@@ -1084,7 +1084,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.262499749660492
 }
@@ -1105,7 +1105,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.215999752283096,
 "fLineColor" : 1,
@@ -1131,7 +1131,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.215999752283096
 }
@@ -1152,7 +1152,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.169499754905701,
 "fLineColor" : 1,
@@ -1178,7 +1178,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.169499754905701
 }
@@ -1199,7 +1199,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.122999757528305,
 "fLineColor" : 1,
@@ -1225,7 +1225,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.122999757528305
 }
@@ -1246,7 +1246,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.0764997601509094,
 "fLineColor" : 1,
@@ -1272,7 +1272,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.0764997601509094
 }
@@ -1293,7 +1293,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0199999995529652,
 "fY" : 0.0299997590482235,
 "fLineColor" : 1,
@@ -1319,7 +1319,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.0599999986588955,
 "fY" : 0.0299997590482235
 }
@@ -1340,7 +1340,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.959999978542328,
 "fLineColor" : 1,
@@ -1366,7 +1366,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.959999978542328
 }
@@ -1387,7 +1387,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.91349995136261,
 "fLineColor" : 1,
@@ -1413,7 +1413,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.91349995136261
 }
@@ -1434,7 +1434,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.866999924182892,
 "fLineColor" : 1,
@@ -1460,7 +1460,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.866999924182892
 }
@@ -1481,7 +1481,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.820499897003174,
 "fLineColor" : 1,
@@ -1507,7 +1507,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.820499897003174
 }
@@ -1528,7 +1528,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.773999869823456,
 "fLineColor" : 1,
@@ -1554,7 +1554,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.773999869823456
 }
@@ -1575,7 +1575,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.727499842643738,
 "fLineColor" : 1,
@@ -1601,7 +1601,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.727499842643738
 }
@@ -1622,7 +1622,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.68099981546402,
 "fLineColor" : 1,
@@ -1648,7 +1648,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.68099981546402
 }
@@ -1669,7 +1669,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.634499788284302,
 "fLineColor" : 1,
@@ -1695,7 +1695,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.634499788284302
 }
@@ -1716,7 +1716,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.587999761104584,
 "fLineColor" : 1,
@@ -1742,7 +1742,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.587999761104584
 }
@@ -1763,7 +1763,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.541499733924866,
 "fLineColor" : 1,
@@ -1789,7 +1789,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.541499733924866
 }
@@ -1810,7 +1810,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.49499973654747,
 "fLineColor" : 1,
@@ -1836,7 +1836,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.49499973654747
 }
@@ -1857,7 +1857,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.448499739170074,
 "fLineColor" : 1,
@@ -1883,7 +1883,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.448499739170074
 }
@@ -1904,7 +1904,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.401999741792679,
 "fLineColor" : 1,
@@ -1930,7 +1930,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.401999741792679
 }
@@ -1951,7 +1951,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.355499744415283,
 "fLineColor" : 1,
@@ -1977,7 +1977,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.355499744415283
 }
@@ -1998,7 +1998,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.308999747037888,
 "fLineColor" : 1,
@@ -2024,7 +2024,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.308999747037888
 }
@@ -2045,7 +2045,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.262499749660492,
 "fLineColor" : 1,
@@ -2071,7 +2071,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.262499749660492
 }
@@ -2092,7 +2092,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.215999752283096,
 "fLineColor" : 1,
@@ -2118,7 +2118,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.215999752283096
 }
@@ -2139,7 +2139,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.169499754905701,
 "fLineColor" : 1,
@@ -2165,7 +2165,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.169499754905701
 }
@@ -2186,7 +2186,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.122999757528305,
 "fLineColor" : 1,
@@ -2212,7 +2212,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.122999757528305
 }
@@ -2233,7 +2233,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.0764997601509094,
 "fLineColor" : 1,
@@ -2259,7 +2259,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.0764997601509094
 }
@@ -2280,7 +2280,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.270000010728836,
 "fY" : 0.0299997590482235,
 "fLineColor" : 1,
@@ -2306,7 +2306,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.310000002384186,
 "fY" : 0.0299997590482235
 }
@@ -2327,7 +2327,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.959999978542328,
 "fLineColor" : 1,
@@ -2353,7 +2353,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.959999978542328
 }
@@ -2374,7 +2374,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.91349995136261,
 "fLineColor" : 1,
@@ -2400,7 +2400,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.91349995136261
 }
@@ -2421,7 +2421,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.866999924182892,
 "fLineColor" : 1,
@@ -2447,7 +2447,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.866999924182892
 }
@@ -2468,7 +2468,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.820499897003174,
 "fLineColor" : 1,
@@ -2494,7 +2494,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.820499897003174
 }
@@ -2515,7 +2515,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.773999869823456,
 "fLineColor" : 1,
@@ -2541,7 +2541,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.773999869823456
 }
@@ -2562,7 +2562,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.727499842643738,
 "fLineColor" : 1,
@@ -2588,7 +2588,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.727499842643738
 }
@@ -2609,7 +2609,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.68099981546402,
 "fLineColor" : 1,
@@ -2635,7 +2635,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.68099981546402
 }
@@ -2656,7 +2656,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.634499788284302,
 "fLineColor" : 1,
@@ -2682,7 +2682,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.634499788284302
 }
@@ -2703,7 +2703,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.587999761104584,
 "fLineColor" : 1,
@@ -2729,7 +2729,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.587999761104584
 }
@@ -2750,7 +2750,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.541499733924866,
 "fLineColor" : 1,
@@ -2776,7 +2776,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.541499733924866
 }
@@ -2797,7 +2797,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.49499973654747,
 "fLineColor" : 1,
@@ -2823,7 +2823,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.49499973654747
 }
@@ -2844,7 +2844,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.448499739170074,
 "fLineColor" : 1,
@@ -2870,7 +2870,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.448499739170074
 }
@@ -2891,7 +2891,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.401999741792679,
 "fLineColor" : 1,
@@ -2917,7 +2917,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.401999741792679
 }
@@ -2938,7 +2938,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.355499744415283,
 "fLineColor" : 1,
@@ -2964,7 +2964,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.355499744415283
 }
@@ -2985,7 +2985,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.308999747037888,
 "fLineColor" : 1,
@@ -3011,7 +3011,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.308999747037888
 }
@@ -3032,7 +3032,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.262499749660492,
 "fLineColor" : 1,
@@ -3058,7 +3058,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.262499749660492
 }
@@ -3079,7 +3079,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.215999752283096,
 "fLineColor" : 1,
@@ -3105,7 +3105,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.215999752283096
 }
@@ -3126,7 +3126,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.169499754905701,
 "fLineColor" : 1,
@@ -3152,7 +3152,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.169499754905701
 }
@@ -3173,7 +3173,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.112999757528305,
 "fLineColor" : 1,
@@ -3199,7 +3199,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.122999757528305
 }
@@ -3220,7 +3220,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.519999980926514,
 "fY" : 0.0764997601509094,
 "fLineColor" : 1,
@@ -3246,7 +3246,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.560000002384186,
 "fY" : 0.0764997601509094
 }
@@ -3267,7 +3267,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.959999978542328,
 "fLineColor" : 1,
@@ -3293,7 +3293,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.959999978542328
 }
@@ -3314,7 +3314,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.91349995136261,
 "fLineColor" : 1,
@@ -3340,7 +3340,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.91349995136261
 }
@@ -3361,7 +3361,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.866999924182892,
 "fLineColor" : 1,
@@ -3387,7 +3387,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.866999924182892
 }
@@ -3408,7 +3408,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.820499897003174,
 "fLineColor" : 1,
@@ -3434,7 +3434,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.820499897003174
 }
@@ -3455,7 +3455,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.773999869823456,
 "fLineColor" : 1,
@@ -3481,7 +3481,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.773999869823456
 }
@@ -3502,7 +3502,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.727499842643738,
 "fLineColor" : 1,
@@ -3528,7 +3528,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.727499842643738
 }
@@ -3549,7 +3549,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.68099981546402,
 "fLineColor" : 1,
@@ -3575,7 +3575,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.68099981546402
 }
@@ -3596,7 +3596,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.634499788284302,
 "fLineColor" : 1,
@@ -3622,7 +3622,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.634499788284302
 }
@@ -3643,7 +3643,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.587999761104584,
 "fLineColor" : 1,
@@ -3669,7 +3669,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.587999761104584
 }
@@ -3690,7 +3690,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.541499733924866,
 "fLineColor" : 1,
@@ -3716,7 +3716,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.541499733924866
 }
@@ -3737,7 +3737,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.49499973654747,
 "fLineColor" : 1,
@@ -3763,7 +3763,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.49499973654747
 }
@@ -3784,7 +3784,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.448499739170074,
 "fLineColor" : 1,
@@ -3810,7 +3810,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.448499739170074
 }
@@ -3831,7 +3831,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.401999741792679,
 "fLineColor" : 1,
@@ -3857,7 +3857,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.401999741792679
 }
@@ -3878,7 +3878,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.355499744415283,
 "fLineColor" : 1,
@@ -3904,7 +3904,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.355499744415283
 }
@@ -3925,7 +3925,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.308999747037888,
 "fLineColor" : 1,
@@ -3951,7 +3951,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.308999747037888
 }
@@ -3972,7 +3972,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.262499749660492,
 "fLineColor" : 1,
@@ -3998,7 +3998,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.262499749660492
 }
@@ -4019,7 +4019,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.215999752283096,
 "fLineColor" : 1,
@@ -4045,7 +4045,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.215999752283096
 }
@@ -4066,7 +4066,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.169499754905701,
 "fLineColor" : 1,
@@ -4092,7 +4092,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.169499754905701
 }
@@ -4113,7 +4113,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.107999757528305,
 "fLineColor" : 1,
@@ -4139,7 +4139,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.122999757528305
 }
@@ -4160,7 +4160,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.769999980926514,
 "fY" : 0.0764997601509094,
 "fLineColor" : 1,
@@ -4186,7 +4186,7 @@
 "fTextSize" : 0.03,
 "fTextAlign" : 12,
 "fTextColor" : 1,
-"fTextFont" : 62,
+"fTextFont" : 42,
 "fX" : 0.810000002384186,
 "fY" : 0.0764997601509094
 }

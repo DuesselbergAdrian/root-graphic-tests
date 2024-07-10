@@ -4,8 +4,8 @@
 ./old_svg_ref/feynman.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33/01
-CreationDate: Tue Jun  4 11:54:28 2024</desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul 10 09:53:19 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="258.733" fill="white"/>
@@ -41,13 +41,13 @@ CreationDate: Tue Jun  4 11:54:28 2024</desc>
  0.681787l -0.566395, 0.71056l -0.579785, 0.727839l -0.574931, 0.733038l -0.552027, 0.725871l -0.511713, 0.706359l -0.455053, 0.674831l -0.383513, 0.631925l -0.298915, 0.57857l -0.203397, 0.515968l -0.0993551, 0.445567l 0.0106183, 0.369025l 0.123798,
  0.288174l 0.237395, 0.204974l 0.348625, 0.121461l 0.45478, 0.0397058l 0.553291, -0.0382472l 0.641794, -0.110426l 0.718186, -0.174984l 0.780678, -0.230246l 0.827831, -0.274753l 0.858597, -0.307302l 0.87234, -0.326976l 5.27093, 5.92356" fill="none"
  stroke="black" stroke-width="3"/>
-<text xml:space="preserve" x="32.8416" y="229.245" fill="black" font-size="16.3246" font-family="Helvetica" font-weight="bold">-
+<text xml:space="preserve" x="32.8416" y="228.294" fill="black" font-size="16.3246" font-family="Helvetica">-
 </text>
-<text xml:space="preserve" x="19.5245" y="239.708" fill="black" font-size="24.2369" font-family="Helvetica" font-weight="bold">e
+<text xml:space="preserve" x="20.4757" y="239.708" fill="black" font-size="24.2369" font-family="Helvetica">e
 </text>
-<text xml:space="preserve" x="30.9391" y="21.8781" fill="black" font-size="16.3246" font-family="Helvetica" font-weight="bold">+
+<text xml:space="preserve" x="30.9391" y="21.8781" fill="black" font-size="16.3246" font-family="Helvetica">+
 </text>
-<text xml:space="preserve" x="17.622" y="30.4391" fill="black" font-size="24.2369" font-family="Helvetica" font-weight="bold">e
+<text xml:space="preserve" x="18.5732" y="30.4391" fill="black" font-size="24.2369" font-family="Helvetica">e
 </text>
 <text xml:space="preserve" x="22.3781" y="133.171" fill="black" font-size="24.2369" font-family="Times">&#0947;
 </text>
@@ -95,10 +95,10 @@ CreationDate: Tue Jun  4 11:54:28 2024</desc>
  3.7373, 1.68756l 3.8348, 1.41798l 3.91518, 1.14206l 3.97807, 0.861036l 4.02319, 0.576169l 4.05035, 0.288729h 4.05941l 4.05035, -0.288729l 4.02319, -0.576169l 3.97807, -0.861036l 3.91518, -1.14206l 3.8348, -1.41798l 3.7373, -1.68756l 3.6231,
  -1.94962l 3.49272, -2.20296l 3.34675, -2.44646l 3.18582, -2.67904l 3.01067, -2.89965l 2.82207, -3.10731l 2.62087, -3.3011l 2.40796, -3.48014l 2.1843, -3.64363l 1.95088, -3.79086l 1.70875, -3.92115l 1.45898, -4.03393l 1.2027, -4.12869l 0.941054,
  -4.20502l 0.675199, -4.26256l 0.40633, -4.30106l 0.135645, -4.32036" fill="none" stroke="black" stroke-width="3"/>
-<text xml:space="preserve" x="216.428" y="73.2442" fill="black" font-size="24.2369" font-family="Helvetica" font-weight="bold">q
+<text xml:space="preserve" x="216.428" y="73.2442" fill="black" font-size="24.2369" font-family="Helvetica">q
 </text>
-<path d="M216.428,58.0246h 13.3171" fill="none" stroke="black" stroke-width="2"/>
-<text xml:space="preserve" x="338.184" y="198.806" fill="black" font-size="24.2369" font-family="Helvetica" font-weight="bold">q
+<path d="M216.428,58.0246h 12.3659" fill="none" stroke="black" stroke-width="2"/>
+<text xml:space="preserve" x="338.184" y="198.806" fill="black" font-size="24.2369" font-family="Helvetica">q
 </text>
 <path d="M283.965,64.6832v 5.15563l -0.886873, 0.353263l -0.865035, 0.491141l -0.821897, 0.623905l -0.758521, 0.748287l -0.676468, 0.861223l -0.577759, 0.959933l -0.464823, 1.04199l -0.340441, 1.10536l -0.207676, 1.1485l -0.0697984, 1.17034l
  0.0697984, 1.17034l 0.207676, 1.1485l 0.340441, 1.10536l 0.464823, 1.04199l 0.577759, 0.959933l 0.676468, 0.861223l 0.758521, 0.748287l 0.821897, 0.623905l 0.865035, 0.491141l 0.886873, 0.353263l 0.886873, 0.213666l 0.865035, 0.0757881l 0.821897,
@@ -133,7 +133,7 @@ CreationDate: Tue Jun  4 11:54:28 2024</desc>
  -0.464823, -0.475057l -0.577759, -0.393004l -0.676468, -0.294294l -0.758521, -0.181358l -0.821897, -0.0569763l -0.865035, 0.0757881l -0.886873, 0.213666l -0.886873, 0.353263l -0.865035, 0.491141l -0.821897, 0.623905l -0.758521, 0.748287l -0.676468,
  0.861223l -0.577759, 0.959933l -0.464823, 1.04199l -0.340441, 1.10536l -0.207676, 1.1485l -0.0697984, 1.17034l 0.0697984, 1.17034l 0.207676, 1.1485l 0.340441, 1.10536l 0.464823, 1.04199l 0.577759, 0.959933l 0.676468, 0.861223l 0.758521, 0.748287l
  0.821897, 0.623905l 0.865035, 0.491141l 0.886873, 0.353263l -1.7053e-12, 5.15563" fill="none" stroke="black" stroke-width="3"/>
-<text xml:space="preserve" x="307.745" y="134.122" fill="black" font-size="24.2369" font-family="Helvetica" font-weight="bold">g
+<text xml:space="preserve" x="307.745" y="134.122" fill="black" font-size="24.2369" font-family="Helvetica">g
 </text>
 <path d="M344.707,129.366h 7.89515l 0.283465, 0.886873l 0.283465, 0.865035l 0.283465, 0.821897l 0.283465, 0.758521l 0.283465, 0.676468l 0.283465, 0.577759l 0.283465, 0.464823l 0.283465, 0.340441l 0.283465, 0.207676l 0.283465, 0.0697984l 0.283465,
  -0.0697984l 0.283465, -0.207676l 0.283465, -0.340441l 0.283465, -0.464823l 0.283465, -0.577759l 0.283465, -0.676468l 0.283465, -0.758521l 0.283465, -0.821897l 0.283465, -0.865035l 0.283465, -0.886873l 0.283465, -0.886873l 0.283465, -0.865035l
@@ -161,9 +161,9 @@ CreationDate: Tue Jun  4 11:54:28 2024</desc>
  0.207676l 0.283465, 0.340441l 0.283465, 0.464823l 0.283465, 0.577759l 0.283465, 0.676468l 0.283465, 0.758521l 0.283465, 0.821897l 0.283465, 0.865035l 0.283465, 0.886873l 0.283465, 0.886873l 0.283465, 0.865035l 0.283465, 0.821897l 0.283465, 0.758521l
  0.283465, 0.676468l 0.283465, 0.577759l 0.283465, 0.464823l 0.283465, 0.340441l 0.283465, 0.207676l 0.283465, 0.0697984l 0.283465, -0.0697984l 0.283465, -0.207676l 0.283465, -0.340441l 0.283465, -0.464823l 0.283465, -0.577759l 0.283465, -0.676468l
  0.283465, -0.758521l 0.283465, -0.821897l 0.283465, -0.865035l 0.283465, -0.886873l 7.89515, 1.36424e-12" fill="none" stroke="black" stroke-width="3"/>
-<text xml:space="preserve" x="408.575" y="97.0248" fill="black" font-size="16.3246" font-family="Helvetica" font-weight="bold">0
+<text xml:space="preserve" x="408.575" y="97.0248" fill="black" font-size="16.3246" font-family="Helvetica">0
 </text>
-<text xml:space="preserve" x="394.306" y="109.391" fill="black" font-size="24.2369" font-family="Helvetica" font-weight="bold">Z
+<text xml:space="preserve" x="394.306" y="109.391" fill="black" font-size="24.2369" font-family="Helvetica">Z
 </text>
 <path d="M445.944,129.366l 80.9899, 86.2443" fill="none" stroke="black" stroke-width="3"/>
 <path d="M445.944,129.366l 80.9899, -86.2443" fill="none" stroke="black" stroke-width="3"/>
@@ -197,10 +197,10 @@ CreationDate: Tue Jun  4 11:54:28 2024</desc>
  0.669194, -0.619524l 0.596145, -0.746656l 0.50066, -0.864759l 0.384668, -0.969879l 0.250944, -1.05804l 0.103082, -1.12547l -0.0545929, -1.16886l -0.217169, -1.18562l -0.379354, -1.17411l -0.535715, -1.13378l -0.680963, -1.06532l -0.810227,
  -0.970647l -0.919316, -0.852821l -1.00494, -0.715913l -1.06485, -0.564761l -1.09792, -0.404703l -1.10412, -0.241284l -1.08445, -0.0799688l -1.04074, 0.0741223l -0.975515, 0.216425l -0.891723, 0.343093l -1.57065, -1.63031" fill="none" stroke="black"
  stroke-width="3"/>
-<text xml:space="preserve" x="540.795" y="241.611" fill="black" font-size="24.2369" font-family="Helvetica" font-weight="bold">q
+<text xml:space="preserve" x="540.795" y="241.611" fill="black" font-size="24.2369" font-family="Helvetica">q
 </text>
-<path d="M540.795,226.391h 13.3171" fill="none" stroke="black" stroke-width="2"/>
-<text xml:space="preserve" x="540.795" y="26.6343" fill="black" font-size="24.2369" font-family="Helvetica" font-weight="bold">q
+<path d="M540.795,226.391h 12.3659" fill="none" stroke="black" stroke-width="2"/>
+<text xml:space="preserve" x="540.795" y="26.6343" fill="black" font-size="24.2369" font-family="Helvetica">q
 </text>
-<text xml:space="preserve" x="540.795" y="134.122" fill="black" font-size="24.2369" font-family="Helvetica" font-weight="bold">g
+<text xml:space="preserve" x="540.795" y="134.122" fill="black" font-size="24.2369" font-family="Helvetica">g
 </text></svg>

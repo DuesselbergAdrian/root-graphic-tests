@@ -87,11 +87,13 @@ async function createSVGFromJSON(filePath, builddir) {
                 console.log("Create a new reference file");
                 return false;
             } else {
-                throw error;
+                console.error(chalk.red('Error accessing or reading the reference SVG file:'), error);
+                return false;
             }
         }
     } catch (error) {
-        console.error(chalk.red('Failed to process JSON file:'), error);
+        console.error(chalk.red('Failed to process JSON file or create SVG:'), error);
+        return false;
     }
 }
 

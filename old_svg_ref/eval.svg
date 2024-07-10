@@ -4,41 +4,41 @@
 ./old_svg_ref/eval.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33/01
-CreationDate: Tue Jun  4 11:54:19 2024</desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul 10 09:53:06 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
 <rect x="6.16929" y="153.788" width="79.3701" height="76.8938" fill="#ddba87"/>
 <path d="M9.83478,230.682v 2.44366h 78.1482v -75.672h -2.44366v 73.2283z" fill="black"/>
 <path d="M6.16929,230.682v -76.8938h 79.3701v 76.8938h -79.3701z" fill="none" stroke="black"/>
-<text xml:space="preserve" x="10.2746" y="206.082" fill="black" font-size="35.6229" font-family="Helvetica" font-weight="bold">Eval
+<text xml:space="preserve" x="11.9037" y="206.082" fill="black" font-size="35.6229" font-family="Helvetica">Eval
 </text>
 <rect x="128.059" y="153.788" width="93.5433" height="76.8938" fill="#f2f2f2"/>
 <path d="M132.946,230.682v 3.25821h 91.9142v -75.2647h -3.25821v 72.0065z" fill="black"/>
 <path d="M128.059,230.682v -76.8938h 93.5433v 76.8938h -93.5433z" fill="none" stroke="black"/>
-<text xml:space="preserve" x="132.458" y="176.758" fill="black" font-size="12.8254" font-family="Helvetica" font-weight="bold">Read Operator
+<text xml:space="preserve" x="131.643" y="176.758" fill="black" font-size="13.4291" font-family="Helvetica">Read Operator
 </text>
-<text xml:space="preserve" x="148.749" y="216.671" fill="black" font-size="12.8254" font-family="Helvetica" font-weight="bold">number i
+<text xml:space="preserve" x="149.563" y="216.671" fill="black" font-size="13.4291" font-family="Helvetica">number i
 </text>
 <rect x="255.618" y="134.564" width="240.945" height="115.341" fill="#f2f2f2"/>
 <path d="M260.505,249.905v 3.25821h 239.316v -113.712h -3.25821v 110.453z" fill="black"/>
 <path d="M255.618,249.905v -115.341h 240.945v 115.341h -240.945z" fill="none" stroke="black"/>
-<text xml:space="preserve" x="262.786" y="158.023" fill="black" font-size="12.4634" font-family="Helvetica" font-weight="bold">Apply Operator to current stack values
+<text xml:space="preserve" x="265.23" y="158.023" fill="black" font-size="13.4921" font-family="Helvetica">Apply Operator to current stack values
 </text>
-<text xml:space="preserve" x="311.659" y="196.307" fill="#0000ff" font-size="12.4634" font-family="Helvetica" font-weight="bold">Example: if operator +
+<text xml:space="preserve" x="312.474" y="196.307" fill="#0000ff" font-size="13.4921" font-family="Helvetica">Example: if operator +
 </text>
-<text xml:space="preserve" x="317.361" y="234.591" fill="#ff0000" font-size="12.4634" font-family="Helvetica" font-weight="bold">value[i] += value[i-1]
+<text xml:space="preserve" x="317.361" y="234.591" fill="#ff0000" font-size="13.4921" font-family="Helvetica">value[i] += value[i-1]
 </text>
 <rect x="113.886" y="288.352" width="226.772" height="76.8938" fill="#f2f2f2"/>
 <path d="M117.551,365.246v 2.44366h 225.55v -75.672h -2.44366v 73.2283z" fill="black"/>
 <path d="M113.886,365.246v -76.8938h 226.772v 76.8938h -226.772z" fill="none" stroke="black"/>
-<text xml:space="preserve" x="124.312" y="332.338" fill="black" font-size="19.3265" font-family="Helvetica" font-weight="bold">return result = value[i]
+<text xml:space="preserve" x="125.127" y="332.338" fill="black" font-size="21.0667" font-family="Helvetica">return result = value[i]
 </text>
 <path d="M170.579,230.682v 42.044" fill="none" stroke="black"/>
 <path d="M175.161,272.725l -4.58243, 7.93701l -4.58243, -7.93701z" fill="black"/>
 <path d="M175.161,272.725l -4.58243, 7.93701l -4.58243, -7.93701h 9.16487z" fill="none" stroke="black"/>
-<text xml:space="preserve" x="186.453" y="280.663" fill="black" font-size="14.609" font-family="Helvetica" font-weight="bold">if i = number of stack elements
+<text xml:space="preserve" x="186.453" y="280.663" fill="black" font-size="14.609" font-family="Helvetica">if i = number of stack elements
 </text>
 <path d="M170.579,76.8938v 61.2674" fill="none" stroke="black"/>
 <path d="M175.161,138.161l -4.58243, 7.93701l -4.58243, -7.93701z" fill="black"/>

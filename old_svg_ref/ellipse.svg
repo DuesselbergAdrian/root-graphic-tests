@@ -4,15 +4,15 @@
 ./old_svg_ref/ellipse.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33/01
-CreationDate: Tue Jun  4 11:54:14 2024</desc>
+Creator: ROOT Version 6.33.01
+CreationDate: Wed Jul 10 09:52:59 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
 <rect x="57.1929" y="19.2235" width="453.543" height="57.6704" fill="#ddba87"/>
 <path d="M60.8584,76.8938v 2.44366h 452.321v -56.4485h -2.44366v 54.0049z" fill="black"/>
 <path d="M57.1929,76.8938v -57.6704h 453.543v 57.6704h -453.543z" fill="none" stroke="black"/>
-<text xml:space="preserve" x="77.8826" y="59.4624" fill="black" font-size="41.3153" font-family="Helvetica" font-weight="bold">Examples of Ellipses
+<text xml:space="preserve" x="81.9553" y="60.2769" fill="black" font-size="43.9079" font-family="Helvetica">Examples of Ellipses
 </text>
 <path d="M198.925,288.352l -0.126602, -5.13594l -0.379241, -5.113l -0.630186, -5.06723l -0.878317, -4.99882l -1.12252, -4.90809l -1.36172, -4.79544l -1.59483, -4.66137l -1.82082, -4.50648l -2.03868, -4.33146l -2.24743, -4.1371l -2.44615, -3.92426l
  -2.63393, -3.6939l -2.80996, -3.44704l -2.97344, -3.18478l -3.12363, -2.9083l -3.25988, -2.61882l -3.38156, -2.31766l -3.48814, -2.00614l -3.57915, -1.68566l -3.65417, -1.35765l -3.71286, -1.02358l -3.75498, -0.684937l -3.78032, -0.343235h -3.78878l
