@@ -1,6 +1,7 @@
 //IMPORTS
-const rootSys = process.env.ROOTSYS;
-const path_jsroot = `${rootSys}/js/modules/main.mjs`;
+// const rootSys = process.env.ROOTSYS;
+// const path_jsroot = `${rootSys}/js/modules/main.mjs`;
+const path_jsroot = `/home/adrianduesselberg/root/js/modules/main.mjs`;
 const { version, parse, makeSVG } = await import(path_jsroot);
 
 import { promises as fs } from 'fs';
@@ -12,43 +13,26 @@ import chalk from 'chalk';
 console.log(chalk.blue(`JSROOT version ${version}`));
 
 //FUNCTIONS
-
-/**
- * Checks if two objects are equal by comparing their JSON string representations.
- * @param {Object} obj1 - The first object to compare.
- * @param {Object} obj2 - The second object to compare.
- * @returns {boolean} - True if the objects are equal, false otherwise.
- */
-function isEqual(obj1, obj2) {
-    return JSON.stringify(obj1) === JSON.stringify(obj2);
-}
-
-/**
- * Compares two SVG files, creating a reference file if the second file does not exist.
- * @param {string} svgContent1 - The content of the first SVG.
- * @param {string} svgContent2 - The content of the second SVG.
- * @param {string} baseName - The base name for logging.
- */
-async function compareSVG(svgContent1, svgContent2, baseName) {
+async function compareSVG(svgPro, svgRef, baseName, svgRefPath) {
     try {
-        const parsedSVG1 = xmlParser(svgContent1);
-        const parsedSVG2 = xmlParser(svgContent2);
+        const parsedProSVG = xmlParser(svgPro);
+        const parsedRefSVG = xmlParser(svgRef);
 
-        if (isEqual(parsedSVG1, parsedSVG2)) {
-            console.log(chalk.green(`MATCH: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
+        if (JSON.stringify(parsedProSVG) === JSON.stringify(parsedRefSVG)) {
+            console.log(chalk.green(`MATCH: ${baseName} - Lengths [Pro: ${svgPro.length}, Ref: ${svgRef.length}]`));
+            return true;
         } else {
-            console.error(chalk.red(`DIFF: ${baseName} - Lengths [Pro: ${svgContent1.length}, Ref: ${svgContent2.length}]`));
-            throw Error;
+            console.error(chalk.red(`DIFF: ${baseName} - Lengths [Pro: ${svgPro.length}, Ref: ${svgRef.length}]`));
+            // Overwrite the reference SVG file with the produced one
+            await fs.writeFile(svgRefPath, svgPro);
+            console.log(chalk.yellow("Reference SVG file updated"));
+            throw error;
         }
     } catch (error) {
         throw error;
     }
 }
-/**
-* Creates an SVG from a JSON file.
-* @param {string} filePath - The path to the JSON file.
-* @returns {Promise<boolean>} - True if SVG creation and comparison are successful, false otherwise.
-*/
+//Creates an SVG from a JSON file.
 async function createSVGFromJSON(filePath, builddir) {
     const baseName = path.basename(filePath, path.extname(filePath));
     const svgRefPath = `./svg_ref/${baseName}.svg`;
@@ -63,8 +47,8 @@ async function createSVGFromJSON(filePath, builddir) {
         let obj = parse(data);
         let svgPro = await makeSVG({ object: obj, option: 'lego2,pal50', width: 1200, height: 800 });
 
-        // Check if reference SVG file exists
         try {
+            // Check if reference SVG file exists
             await fs.access(svgRefPath);
             const svgRef = await fs.readFile(svgRefPath, 'utf8');
 
@@ -72,17 +56,11 @@ async function createSVGFromJSON(filePath, builddir) {
             await fs.writeFile(svgProPath, svgPro);
 
             // Compare the produced SVG with the reference SVG
-            if (compareSVG(svgPro, svgRef, baseName)) {
-                return true;
-            } else {
-                // Overwrite the reference SVG file with the produced one
-                await fs.writeFile(svgRefPath, svgPro);
-                console.log(chalk.yellow("Reference SVG file updated"));
-                return false;
-            }
+            compareSVG(svgPro, svgRef, baseName, svgRefPath);
+
         } catch (error) {
+            // Reference file does not exist, create a new one
             if (error.code === 'ENOENT') {
-                // Reference file does not exist, create a new one
                 await fs.writeFile(svgRefPath, svgPro);
                 console.log("Create a new reference file");
                 return false;
