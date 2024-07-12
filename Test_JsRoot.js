@@ -25,7 +25,7 @@ async function compareSVG(svgPro, svgRef, baseName, svgRefPath) {
             console.error(chalk.red(`DIFF: ${baseName} - Lengths [Pro: ${svgPro.length}, Ref: ${svgRef.length}]`));
             // Overwrite the reference SVG file with the produced one
             await fs.writeFile(svgRefPath, svgPro);
-            console.log(chalk.yellow("Reference SVG file updated"));
+            await console.log(chalk.yellow("Reference SVG file updated"));
             throw error;
         }
     } catch (error) {
@@ -57,6 +57,7 @@ async function createSVGFromJSON(filePath, builddir) {
 
             // Compare the produced SVG with the reference SVG
             compareSVG(svgPro, svgRef, baseName, svgRefPath);
+            return true;
 
         } catch (error) {
             // Reference file does not exist, create a new one
