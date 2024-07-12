@@ -14,29 +14,34 @@ jobs:
       matrix:
         node-version: [18.x, 20.x]
         cxx: [g++-11, g++-12, g++-13]
-
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
       - name: Install Node.js dependencies
         run: npm install
 
-      - name: Set up C++ compiler (Ubuntu)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ${{ matrix.cxx }}
-          sudo apt-get install -y xutils-dev libxi-dev libxxf86vm-dev x11proto-xf86vidmode-dev mesa-utils xvfb libgl1-mesa-dri libglapi-mesa libosmesa6 musl-dev libgl1-mesa-dev
-          sudo apt-get install -y build-essential libxi-dev libglu1-mesa-dev libglew-dev pkg-config
-          echo "CXX=${{ matrix.cxx }}" >> $GITHUB_ENV
+      - name: Install C++ compiler ${{ matrix.cxx }}
+        run: sudo apt-get install -y ${{ matrix.cxx }}
 
-      - name: Build Root-graphic test
-        run: mkdir -p build
+      - name: Install CMake
+        run: sudo apt-get install -y cmake
 
-      - name: Configure and build project
+      - name: Build project
         run: |
+          mkdir -p build
           cd build
           cmake ..
           make
 
-      - name: Run my test
+      - name: Run tests with ctest
         run: |
           cd build
-          ctest --parallel 9
+          ctest --output-on-failure
+ 
