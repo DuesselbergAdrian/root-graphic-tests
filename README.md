@@ -118,4 +118,62 @@ cd build
 ctest --verbose
 ```
 
+### Run the test without having to deal with required npm packages
+```shell
+if [ -z "$ROOTSYS" ]; then
+    echo "ROOTSYS is not set. Please set the ROOTSYS environment variable."
+    exit 1
+fi
+
+JS_DIR="$ROOTSYS/js"
+
+if [ -d "$JS_DIR" ]; then
+    cd "$JS_DIR"
+else
+    echo "$JS_DIR does not exist. Please check your ROOTSYS path."
+    exit 1
+fi
+
+cat <<EOL > package.json
+{
+    "name": "js",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">= 0.18.0"
+    },
+    "description": "JavaScript ROOT",
+    "homepage": "https://root.cern/js/",
+    "type": "module",
+    "main": "./build/jsroot.js",
+    "module": "./modules/main.mjs",
+    "dependencies": {
+        "canvas": "^2.11.2",
+        "gl": "^8.0.2",
+        "jsdom": "^22.1.0",
+        "mathjax": "^3.2.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/root-project/root.git"
+    },
+    "license": "MIT",
+    "author": "Adrian D."
+}
+EOL
+
+npm install
+
+cd -
+git clone https://github.com/DuesselbergAdrian/root-graphic-tests.git
+cd root-graphic-tests
+
+npm install
+
+mkdir build
+cd build
+
+cmake ..
+make
+ctest
+```
 
