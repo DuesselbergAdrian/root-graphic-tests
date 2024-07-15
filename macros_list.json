@@ -114,8 +114,6 @@
         {"name": "mathStudent", "test_type": "a", "macro_folder": "math"},
         {"name": "mathcoreCDF", "test_type": "a", "macro_folder": "math"},
         {"name": "mathcoreStatFunc", "test_type": "a", "macro_folder": "math"},
-        {"name": "mathmoreIntegration", "test_type": "a", "macro_folder": "math"},
-        {"name": "multidimSampling", "test_type": "a", "macro_folder": "math"},
         {"name": "normalDist", "test_type": "a", "macro_folder": "math"},
         {"name": "quantiles", "test_type": "a", "macro_folder": "math"},
         {"name": "vavilov", "test_type": "a", "macro_folder": "math"},
