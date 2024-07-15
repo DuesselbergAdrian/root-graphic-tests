@@ -1,7 +1,6 @@
 //IMPORTS
 const rootSys = process.env.ROOTSYS;
 const path_jsroot = `${rootSys}/js/modules/main.mjs`;
-// const path_jsroot = `/home/adrianduesselberg/root/js/modules/main.mjs`;
 const { version, parse, makeSVG } = await import(path_jsroot);
 
 import { promises as fs } from 'fs';
