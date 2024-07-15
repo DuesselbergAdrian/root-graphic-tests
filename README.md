@@ -21,7 +21,13 @@ npm install
 ```
 ### Prepare and run test
 To prepare and run tests, ensure you have the required node packages installed in the root/js directory.
-
+```shell
+mkdir build
+cd build
+cmake ..
+make
+ctest
+```
 
 ### Running specific tests
 You can use ctest with various options to run specific tests. Below are some examples:
