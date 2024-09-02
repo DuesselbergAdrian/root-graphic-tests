@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="271.64" viewBox="0 0 567.429 271.64" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/th2polyHoneycomb.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/th2polyHoneycomb_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 10:04:00 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:36:11 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="271.14" fill="white"/>
@@ -423,7 +423,6 @@ CreationDate: Wed Jul 10 10:04:00 2024</desc>
 <path d="M555.174,78.9722h 6.44939" fill="none" stroke="black"/>
 <path d="M555.174,57.9806h 6.44939" fill="none" stroke="black"/>
 <path d="M555.174,36.9889h 6.44939" fill="none" stroke="black"/>
-<path d="M555.174,15.9973h 6.44939" fill="none" stroke="black"/>
 <path d="M555.174,15.9973h 6.44939" fill="none" stroke="black"/>
 <text xml:space="preserve" x="563.163" y="230.848" fill="black" font-size="12.6889" font-family="Helvetica">0
 </text>

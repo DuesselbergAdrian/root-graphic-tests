@@ -16,7 +16,7 @@ root-graphic-test/
 │ ├── hist/
 │ └── ....
 ├── json_ref/
-├── svg_ref/
+├── new_svg_ref/
 ├── pdf_ref/
 ├── old_svg_ref/
 │
@@ -27,7 +27,6 @@ root-graphic-test/
 ├── generate_macros_cmake.py
 │
 ├── Test_Root.cpp
-├── Test_Root.hpp
 ├── Test_JsRoot.js
 │
 ├── README.md
@@ -40,7 +39,7 @@ root-graphic-test/
 - **macros/**: Contains all macro scripts organized in subfolders.
   - **graphics/, hist/,graphs,...**: Subfolders with specific macros scripts.
 - **json_ref/**: Contains reference JSON files for tests and comparisons.
-- **svg_ref/**: Contains reference SVG files for tests and comparisons.
+- **new_svg_ref/**: Contains reference SVG files for tests and comparisons.
 - **pdf_ref/**: Contains reference PDF files for tests and comparisons.
 - **old_svg_ref/**: Contains reference old SVG files for tests and comparisons.
 
@@ -53,7 +52,6 @@ root-graphic-test/
   - **generate_macros_cmake.py**: Python script to generate CMake configurations for macros.
 3. **Source Code**:  Primary codebase of the project.
   - **Test_Root.cpp**: Main C++ test source file.
-  - **Test_Root.hpp**: Header file for the C++ test.
   - **Test_JsRoot.js**: JavaScript file for testing JSROOT.
 
 ### Interaction Between Components

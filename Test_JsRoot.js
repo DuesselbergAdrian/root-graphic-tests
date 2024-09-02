@@ -34,8 +34,8 @@ async function compareSVG(svgPro, svgRef, baseName, svgRefPath) {
 //Creates an SVG from a JSON file.
 async function createSVGFromJSON(filePath, builddir) {
     const baseName = path.basename(filePath, path.extname(filePath));
-    const svgRefPath = `./svg_ref/${baseName}.svg`;
-    const svgProPath = builddir + `/svg_pro/${baseName}_pro.svg`;
+    const svgRefPath = `./new_svg_ref/${baseName}.svg`;
+    const svgProPath = builddir + `/new_svg_pro/${baseName}_pro.svg`;
 
     try {
         // Read and parse JSON data

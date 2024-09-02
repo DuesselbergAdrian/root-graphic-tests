@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="384.969" viewBox="0 0 567.429 384.969" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/multigraph.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/multigraph_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 09:58:15 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:34:27 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
@@ -460,13 +460,6 @@ CreationDate: Wed Jul 10 09:58:15 2024</desc>
 <circle cx="474.145" cy="151.553" r="3.90986"/>
 <circle cx="506.837" cy="226.203" r="3.90986"/>
 </g>
-<path d="M116.643,322.954l 0.623449, -10.7783" fill="none" stroke="#ff0000" stroke-width="3" stroke-dasharray=" 3, 3"/>
-<path d="M117.267,312.176l 4.8859, -68.868l 4.8859, -55.0211l 4.8859, -42.8126l 4.8859, -32.1311l 4.8859, -22.8686l 4.8859, -14.9208l 4.8859, -8.18654l 4.8859, -2.56843l 4.8859, 2.02766l 4.8859, 5.69234l 4.8859, 8.51276l 4.8859, 10.5726l 4.8859,
- 11.9522l 4.8859, 12.7282l 4.8859, 12.974l 4.8859, 12.7594l 4.8859, 12.1509l 4.8859, 11.2113l 4.8859, 10.0003l 4.8859, 8.57373l 4.8859, 6.98425l 4.8859, 5.28094l 4.8859, 3.50946l 4.8859, 1.71201l 4.8859, -0.0727011l 4.8859, -1.80938l 4.8859,
- -3.46623l 4.8859, -5.01487l 4.8859, -6.43043l 4.8859, -7.69146l 4.8859, -8.77997l 4.8859, -9.68146l 4.8859, -10.3849l 4.8859, -10.8826l 4.8859, -11.1704l 4.8859, -11.2478l 4.8859, -11.1174l 4.8859, -10.7855l 4.8859, -10.2617l 4.8859, -9.55933l
- 4.8859, -8.69486l 4.8859, -7.68839l 4.8859, -6.56346l 4.8859, -5.34704l 4.8859, -4.06959l 4.8859, -2.76501l 4.8859, -1.47065l 4.8859, -0.227351" fill="none" stroke="#ff0000" stroke-width="3" stroke-dasharray=" 3, 3"/>
-<path d="M351.79,36.2583l 4.8859, 0.92062l 4.8859, 1.92552l 4.8859, 2.73615l 4.8859, 3.29786l 4.8859, 3.55253l 4.8859, 3.43858l 4.8859, 2.89098l 4.8859, 1.84125l 4.8859, 0.217417l 4.8859, -2.05591l 4.8859, -5.05761l 4.8859, -8.87001l 4.8859,
- -13.5789l 2.10238, -8.29331" fill="none" stroke="#ff0000" stroke-width="3" stroke-dasharray=" 3, 3"/>
 <rect x="408.689" y="76.8938" width="113.386" height="19.2235" fill="white"/>
 <path d="M408.689,96.1173h 113.386" fill="none" stroke="black"/>
 <path d="M522.075,96.1173v -19.2235" fill="none" stroke="black"/>
@@ -478,63 +471,63 @@ CreationDate: Wed Jul 10 09:58:15 2024</desc>
 </text>
 <text xml:space="preserve" x="414.293" y="79.8262" fill="#ff0000" font-size="2.8179" font-family="Times">&#0967;
 </text>
-<text xml:space="preserve" x="506.338" y="79.8262" fill="#ff0000" font-size="2.8179" font-family="Helvetica">  17.7 / 4
+<text xml:space="preserve" x="505.523" y="79.8262" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 16.25 / 4
 </text>
 <text xml:space="preserve" x="414.293" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p0       
 </text>
-<text xml:space="preserve" x="503.894" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 7.809e+04
+<text xml:space="preserve" x="503.894" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 8.711e+04
 </text>
 <text xml:space="preserve" x="502.265" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="493.305" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 4.644 
+<text xml:space="preserve" x="488.417" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 1.955e+05 
 </text>
 <text xml:space="preserve" x="414.293" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p1       
 </text>
-<text xml:space="preserve" x="503.894" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 7.804e+04
+<text xml:space="preserve" x="504.709" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 4.99e+05
 </text>
-<text xml:space="preserve" x="502.265" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
+<text xml:space="preserve" x="503.079" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="494.119" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica">28.63 
+<text xml:space="preserve" x="489.232" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica">1.727e+06 
 </text>
-<text xml:space="preserve" x="492.49" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Times">&#8722;
+<text xml:space="preserve" x="487.603" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Times">&#8722;
 </text>
-<text xml:space="preserve" x="490.861" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 
+<text xml:space="preserve" x="485.974" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 
 </text>
 <text xml:space="preserve" x="414.293" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p2       
 </text>
-<text xml:space="preserve" x="503.894" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 7.803e+04
+<text xml:space="preserve" x="503.894" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 1.518e+06
 </text>
 <text xml:space="preserve" x="502.265" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="494.119" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Helvetica">   109 
+<text xml:space="preserve" x="488.417" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 1.926e+06 
 </text>
 <text xml:space="preserve" x="414.293" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p3       
 </text>
-<text xml:space="preserve" x="506.338" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 7.1e+04
+<text xml:space="preserve" x="503.894" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 3.442e+06
 </text>
-<text xml:space="preserve" x="504.709" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
+<text xml:space="preserve" x="502.265" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="495.748" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 388.5 
+<text xml:space="preserve" x="488.417" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 1.844e+07 
 </text>
 <text xml:space="preserve" x="414.293" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p4       
 </text>
-<text xml:space="preserve" x="508.781" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 39.86
+<text xml:space="preserve" x="503.894" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 4.688e+06
 </text>
-<text xml:space="preserve" x="507.152" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
+<text xml:space="preserve" x="502.265" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="499.821" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica">1437 
+<text xml:space="preserve" x="488.417" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica">5.662e+07 
 </text>
-<text xml:space="preserve" x="498.192" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Times">&#8722;
+<text xml:space="preserve" x="486.788" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Times">&#8722;
 </text>
-<text xml:space="preserve" x="496.563" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 
+<text xml:space="preserve" x="485.159" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 
 </text>
 <text xml:space="preserve" x="414.293" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p5       
 </text>
-<text xml:space="preserve" x="503.894" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 6.502e+04
+<text xml:space="preserve" x="503.894" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 4.974e+06
 </text>
 <text xml:space="preserve" x="502.265" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="493.305" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Helvetica">  1100 
+<text xml:space="preserve" x="489.232" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 4.53e+07 
 </text>
 <rect x="408.689" y="76.8938" width="113.386" height="19.2235" fill="white"/>
 <path d="M408.689,96.1173h 113.386" fill="none" stroke="black"/>
@@ -547,61 +540,61 @@ CreationDate: Wed Jul 10 09:58:15 2024</desc>
 </text>
 <text xml:space="preserve" x="414.293" y="79.8262" fill="#ff0000" font-size="2.8179" font-family="Times">&#0967;
 </text>
-<text xml:space="preserve" x="506.338" y="79.8262" fill="#ff0000" font-size="2.8179" font-family="Helvetica">  17.7 / 4
+<text xml:space="preserve" x="505.523" y="79.8262" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 16.25 / 4
 </text>
 <text xml:space="preserve" x="414.293" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p0       
 </text>
-<text xml:space="preserve" x="503.894" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 7.809e+04
+<text xml:space="preserve" x="503.894" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 8.711e+04
 </text>
 <text xml:space="preserve" x="502.265" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="493.305" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 4.644 
+<text xml:space="preserve" x="488.417" y="82.2699" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 1.955e+05 
 </text>
 <text xml:space="preserve" x="414.293" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p1       
 </text>
-<text xml:space="preserve" x="503.894" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 7.804e+04
+<text xml:space="preserve" x="504.709" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 4.99e+05
 </text>
-<text xml:space="preserve" x="502.265" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
+<text xml:space="preserve" x="503.079" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="494.119" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica">28.63 
+<text xml:space="preserve" x="489.232" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica">1.727e+06 
 </text>
-<text xml:space="preserve" x="492.49" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Times">&#8722;
+<text xml:space="preserve" x="487.603" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Times">&#8722;
 </text>
-<text xml:space="preserve" x="490.861" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 
+<text xml:space="preserve" x="485.974" y="85.5281" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 
 </text>
 <text xml:space="preserve" x="414.293" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p2       
 </text>
-<text xml:space="preserve" x="503.894" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 7.803e+04
+<text xml:space="preserve" x="503.894" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 1.518e+06
 </text>
 <text xml:space="preserve" x="502.265" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="494.119" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Helvetica">   109 
+<text xml:space="preserve" x="488.417" y="87.9718" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 1.926e+06 
 </text>
 <text xml:space="preserve" x="414.293" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p3       
 </text>
-<text xml:space="preserve" x="506.338" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 7.1e+04
+<text xml:space="preserve" x="503.894" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 3.442e+06
 </text>
-<text xml:space="preserve" x="504.709" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
+<text xml:space="preserve" x="502.265" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="495.748" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 388.5 
+<text xml:space="preserve" x="488.417" y="91.23" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 1.844e+07 
 </text>
 <text xml:space="preserve" x="414.293" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p4       
 </text>
-<text xml:space="preserve" x="508.781" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 39.86
+<text xml:space="preserve" x="503.894" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 4.688e+06
 </text>
-<text xml:space="preserve" x="507.152" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
+<text xml:space="preserve" x="502.265" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="499.821" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica">1437 
+<text xml:space="preserve" x="488.417" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica">5.662e+07 
 </text>
-<text xml:space="preserve" x="498.192" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Times">&#8722;
+<text xml:space="preserve" x="486.788" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Times">&#8722;
 </text>
-<text xml:space="preserve" x="496.563" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 
+<text xml:space="preserve" x="485.159" y="93.6736" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 
 </text>
 <text xml:space="preserve" x="414.293" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Helvetica">p5       
 </text>
-<text xml:space="preserve" x="503.894" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 6.502e+04
+<text xml:space="preserve" x="503.894" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 4.974e+06
 </text>
 <text xml:space="preserve" x="502.265" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Times">&#0177;
 </text>
-<text xml:space="preserve" x="493.305" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Helvetica">  1100 
+<text xml:space="preserve" x="489.232" y="96.1173" fill="#ff0000" font-size="2.8179" font-family="Helvetica"> 4.53e+07 
 </text></svg>

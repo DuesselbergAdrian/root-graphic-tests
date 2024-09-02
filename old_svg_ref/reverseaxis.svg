@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="384.969" viewBox="0 0 567.429 384.969" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/reverseaxis.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/reverseaxis_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 10:03:17 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:35:59 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
@@ -1144,7 +1144,6 @@ CreationDate: Wed Jul 10 10:03:17 2024</desc>
 <path d="M113.602,318.398v 4.55596" fill="none" stroke="black"/>
 <path d="M102.406,318.398v 4.55596" fill="none" stroke="black"/>
 <path d="M91.2087,313.842v 9.11192" fill="none" stroke="black"/>
-<path d="M91.2087,313.842v 9.11192" fill="none" stroke="black"/>
 <text xml:space="preserve" x="538.105" y="340.483" fill="black" font-size="14.609" font-family="Helvetica" font-weight="bold">4
 </text>
 <text xml:space="preserve" x="530.774" y="340.483" fill="black" font-size="14.609" font-family="Times">&#8722;
@@ -1212,6 +1211,7 @@ CreationDate: Wed Jul 10 10:03:17 2024</desc>
 <path d="M97.875,300.175l -6.71811, -0.000569495" fill="none" stroke="black"/>
 <path d="M97.8736,307.768l -6.71811, -0.000569495" fill="none" stroke="black"/>
 <path d="M97.8722,315.361l -6.71811, -0.000569495" fill="none" stroke="black"/>
+<path d="M104.589,322.955l -13.4362, -0.00113899" fill="none" stroke="black"/>
 <path d="M104.589,322.955l -13.4362, -0.00113899" fill="none" stroke="black"/>
 <text xml:space="preserve" x="81.1408" y="25.2512" fill="black" font-size="14.609" font-family="Helvetica" font-weight="bold">4
 </text>

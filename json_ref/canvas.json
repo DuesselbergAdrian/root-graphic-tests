@@ -250,7 +250,6 @@
 "fGridWidth" : 1,
 "fLegendBorderSize" : 4,
 "fLegendFillColor" : 0,
-"fLegendFillStyle" : 1001,
 "fLegendFont" : 62,
 "fLegendTextSize" : 0,
 "fHatchesLineWidth" : 1,
@@ -465,7 +464,7 @@
 "fTextColor" : 2,
 "fTextFont" : 42,
 "fX" : 0.5,
-"fY" : 0.786000072956085
+"fY" : 0.78600001335144
 }
 }, {
 "_typename" : "TWebSnapshot",
@@ -1014,13 +1013,13 @@
 "fLineWidth" : 1,
 "fFillColor" : 24,
 "fFillStyle" : 1001,
-"fX1" : 0.0981999933719635,
+"fX1" : 0.0982000008225441,
 "fY1" : 0.392199993133545,
-"fX2" : 0.898199993371964,
+"fX2" : 0.898200000822544,
 "fY2" : 0.592199993133545,
-"fX1NDC" : 0.0981999933719635,
+"fX1NDC" : 0.0982000008225441,
 "fY1NDC" : 0.392199993133545,
-"fX2NDC" : 0.898199993371964,
+"fX2NDC" : 0.898200000822544,
 "fY2NDC" : 0.592199993133545,
 "fBorderSize" : 3,
 "fInit" : 1,

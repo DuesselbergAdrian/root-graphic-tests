@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="384.969" viewBox="0 0 567.429 384.969" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/graph2derrorsfit.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/graph2derrorsfit_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 09:57:03 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:34:04 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
@@ -32,6 +32,7 @@ CreationDate: Wed Jul 10 09:57:03 2024</desc>
 <path d="M375.149,189.031l 163.933, 84.9038" fill="none" stroke="black"/>
 <path d="M539.083,273.935v -169.808" fill="none" stroke="black"/>
 <path d="M375.149,19.2235l 163.933, 84.9038" fill="none" stroke="black"/>
+<path d="M375.149,189.031z" fill="none" stroke="black"/>
 <path d="M373.149,166.247l -6.40372, 0.650832l 5.29042, 0.136856z" fill="#1063db"/>
 <path d="M366.746,166.898l -3.06097, 0.311097l 5.46444, 1.86836l 2.88696, -2.0426z" fill="#1171d8"/>
 <path d="M373.149,166.247l -9.46469, 0.961928l 5.46444, 1.86836" fill="none" stroke="black"/>

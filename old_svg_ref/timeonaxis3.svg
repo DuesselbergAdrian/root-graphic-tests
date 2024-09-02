@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="384.969" viewBox="0 0 567.429 384.969" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/timeonaxis3.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/timeonaxis3_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 09:58:51 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:34:36 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
@@ -22,7 +22,7 @@ CreationDate: Wed Jul 10 09:58:51 2024</desc>
 </text>
 <text xml:space="preserve" x="2.94366" y="29.3239" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 0, option local
 </text>
-<text xml:space="preserve" x="2.94366" y="18.7347" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-03-07  21:00:00 CET, 2012-03-07  20:00:00 GMT
+<text xml:space="preserve" x="2.94366" y="18.7347" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-03-07  21:00:00 CET, 2012-03-07  20:00:00 UTC
 </text>
 <text xml:space="preserve" x="2.94366" y="48.0586" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F1970-01-01 00:00:00s0
 </text>
@@ -43,7 +43,7 @@ CreationDate: Wed Jul 10 09:58:51 2024</desc>
 </text>
 <text xml:space="preserve" x="2.94366" y="125.441" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 0, option local
 </text>
-<text xml:space="preserve" x="2.94366" y="114.852" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-05-07  21:00:00 CEST, 2012-05-07  19:00:00 GMT
+<text xml:space="preserve" x="2.94366" y="114.852" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-05-07  21:00:00 CEST, 2012-05-07  19:00:00 UTC
 </text>
 <text xml:space="preserve" x="2.94366" y="144.176" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F1970-01-01 00:00:00s0
 </text>
@@ -109,7 +109,7 @@ CreationDate: Wed Jul 10 09:58:51 2024</desc>
 </text>
 <text xml:space="preserve" x="286.408" y="29.3239" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 0, option gmt
 </text>
-<text xml:space="preserve" x="286.408" y="18.7347" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-03-07  21:00:00 CET, 2012-03-07  20:00:00 GMT
+<text xml:space="preserve" x="286.408" y="18.7347" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-03-07  21:00:00 CET, 2012-03-07  20:00:00 UTC
 </text>
 <text xml:space="preserve" x="286.408" y="48.0586" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F1970-01-01 00:00:00s0 GMT
 </text>
@@ -130,7 +130,7 @@ CreationDate: Wed Jul 10 09:58:51 2024</desc>
 </text>
 <text xml:space="preserve" x="286.408" y="125.441" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 0, option gmt
 </text>
-<text xml:space="preserve" x="286.408" y="114.852" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-05-07  21:00:00 CEST, 2012-05-07  19:00:00 GMT
+<text xml:space="preserve" x="286.408" y="114.852" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">2012-05-07  21:00:00 CEST, 2012-05-07  19:00:00 UTC
 </text>
 <text xml:space="preserve" x="286.408" y="144.176" fill="#663300" font-size="11.6108" font-family="Courier" font-weight="bold">%F1970-01-01 00:00:00s0 GMT
 </text>
@@ -150,7 +150,7 @@ CreationDate: Wed Jul 10 09:58:51 2024</desc>
 </text>
 <text xml:space="preserve" x="1589.69" y="281.021" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
 </text>
-<text xml:space="preserve" x="286.408" y="221.559" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 2012-01-01  00:00:00 GMT, option gmt
+<text xml:space="preserve" x="286.408" y="221.559" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 2012-01-01  00:00:00 UTC, option gmt
 </text>
 <text xml:space="preserve" x="286.408" y="211.784" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">0 h 0 m 0 s
 </text>
@@ -172,7 +172,7 @@ CreationDate: Wed Jul 10 09:58:51 2024</desc>
 </text>
 <text xml:space="preserve" x="1589.69" y="377.138" fill="#000099" font-size="11.6108" font-family="Courier" font-weight="bold">TGaxis label: 
 </text>
-<text xml:space="preserve" x="286.408" y="317.676" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 2012-07-01  00:00:00 GMT, option gmt
+<text xml:space="preserve" x="286.408" y="317.676" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">offset: 2012-07-01  00:00:00 UTC, option gmt
 </text>
 <text xml:space="preserve" x="286.408" y="307.901" fill="black" font-size="9.22992" font-family="Courier" font-weight="bold">10 h 0 m 0 s
 </text>

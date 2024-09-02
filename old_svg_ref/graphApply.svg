@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="384.969" viewBox="0 0 567.429 384.969" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/graphApply.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/graphApply_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 09:57:11 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:34:08 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="384.469" fill="white"/>
@@ -379,6 +379,7 @@ CreationDate: Wed Jul 10 09:57:11 2024</desc>
 <path d="M246.774,230.338v 2.85507" fill="none" stroke="black"/>
 <path d="M252.746,231.766v 1.42753" fill="none" stroke="black"/>
 <path d="M258.717,231.766v 1.42753" fill="none" stroke="black"/>
+<path d="M264.689,231.766v 1.42753" fill="none" stroke="black"/>
 <text xml:space="preserve" x="63.2206" y="238.664" fill="black" font-size="6.02601" font-family="Helvetica">0.5
 </text>
 <text xml:space="preserve" x="95.8027" y="238.664" fill="black" font-size="6.02601" font-family="Helvetica">1
@@ -432,6 +433,7 @@ CreationDate: Wed Jul 10 09:57:11 2024</desc>
 <path d="M246.774,140.88v -2.85507" fill="none" stroke="black"/>
 <path d="M252.746,139.452v -1.42753" fill="none" stroke="black"/>
 <path d="M258.717,139.452v -1.42753" fill="none" stroke="black"/>
+<path d="M264.689,139.452v -1.42753" fill="none" stroke="black"/>
 <path d="M49.7094,233.193v -95.1689" fill="none" stroke="black"/>
 <path d="M56.1588,225.263h -6.44939" fill="none" stroke="black"/>
 <path d="M52.9341,222.619h -3.22469" fill="none" stroke="black"/>
@@ -595,6 +597,7 @@ CreationDate: Wed Jul 10 09:57:11 2024</desc>
 <path d="M530.239,230.338v 2.85507" fill="none" stroke="black"/>
 <path d="M536.21,231.766v 1.42753" fill="none" stroke="black"/>
 <path d="M542.182,231.766v 1.42753" fill="none" stroke="black"/>
+<path d="M548.154,231.766v 1.42753" fill="none" stroke="black"/>
 <text xml:space="preserve" x="346.685" y="238.664" fill="black" font-size="6.02601" font-family="Helvetica">0.5
 </text>
 <text xml:space="preserve" x="379.267" y="238.664" fill="black" font-size="6.02601" font-family="Helvetica">1
@@ -648,6 +651,7 @@ CreationDate: Wed Jul 10 09:57:11 2024</desc>
 <path d="M530.239,140.88v -2.85507" fill="none" stroke="black"/>
 <path d="M536.21,139.452v -1.42753" fill="none" stroke="black"/>
 <path d="M542.182,139.452v -1.42753" fill="none" stroke="black"/>
+<path d="M548.154,139.452v -1.42753" fill="none" stroke="black"/>
 <path d="M333.174,233.193v -95.1689" fill="none" stroke="black"/>
 <path d="M339.623,232.867h -6.44939" fill="none" stroke="black"/>
 <path d="M336.399,230.016h -3.22469" fill="none" stroke="black"/>
@@ -829,6 +833,7 @@ CreationDate: Wed Jul 10 09:57:11 2024</desc>
 <path d="M246.774,358.495v 2.85507" fill="none" stroke="black"/>
 <path d="M252.746,359.922v 1.42753" fill="none" stroke="black"/>
 <path d="M258.717,359.922v 1.42753" fill="none" stroke="black"/>
+<path d="M264.689,359.922v 1.42753" fill="none" stroke="black"/>
 <text xml:space="preserve" x="63.2206" y="366.549" fill="black" font-size="6.02601" font-family="Helvetica">0.5
 </text>
 <text xml:space="preserve" x="95.8027" y="366.549" fill="black" font-size="6.02601" font-family="Helvetica">1
@@ -882,6 +887,7 @@ CreationDate: Wed Jul 10 09:57:11 2024</desc>
 <path d="M246.774,269.036v -2.85507" fill="none" stroke="black"/>
 <path d="M252.746,267.608v -1.42753" fill="none" stroke="black"/>
 <path d="M258.717,267.608v -1.42753" fill="none" stroke="black"/>
+<path d="M264.689,267.608v -1.42753" fill="none" stroke="black"/>
 <path d="M49.7094,361.35v -95.1689" fill="none" stroke="black"/>
 <path d="M56.1588,353.419h -6.44939" fill="none" stroke="black"/>
 <path d="M52.9341,350.775h -3.22469" fill="none" stroke="black"/>
@@ -1045,6 +1051,7 @@ CreationDate: Wed Jul 10 09:57:11 2024</desc>
 <path d="M530.239,358.495v 2.85507" fill="none" stroke="black"/>
 <path d="M536.21,359.922v 1.42753" fill="none" stroke="black"/>
 <path d="M542.182,359.922v 1.42753" fill="none" stroke="black"/>
+<path d="M548.154,359.922v 1.42753" fill="none" stroke="black"/>
 <text xml:space="preserve" x="346.685" y="366.549" fill="black" font-size="6.02601" font-family="Helvetica">0.5
 </text>
 <text xml:space="preserve" x="379.267" y="366.549" fill="black" font-size="6.02601" font-family="Helvetica">1
@@ -1098,6 +1105,7 @@ CreationDate: Wed Jul 10 09:57:11 2024</desc>
 <path d="M530.239,269.036v -2.85507" fill="none" stroke="black"/>
 <path d="M536.21,267.608v -1.42753" fill="none" stroke="black"/>
 <path d="M542.182,267.608v -1.42753" fill="none" stroke="black"/>
+<path d="M548.154,267.608v -1.42753" fill="none" stroke="black"/>
 <path d="M333.174,361.35v -95.1689" fill="none" stroke="black"/>
 <path d="M339.623,353.419h -6.44939" fill="none" stroke="black"/>
 <path d="M336.399,351.106h -3.22469" fill="none" stroke="black"/>

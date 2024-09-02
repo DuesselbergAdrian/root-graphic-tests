@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="692.78" viewBox="0 0 567.429 692.78" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/rebin.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/rebin_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 10:03:10 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:35:57 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="692.28" fill="white"/>
@@ -50,7 +50,6 @@ CreationDate: Wed Jul 10 10:03:10 2024</desc>
 <path d="M490.089,186.561v 2.57044" fill="none" stroke="black"/>
 <path d="M504.719,186.561v 2.57044" fill="none" stroke="black"/>
 <path d="M519.35,186.561v 2.57044" fill="none" stroke="black"/>
-<path d="M533.98,183.99v 5.14087" fill="none" stroke="black"/>
 <path d="M533.98,183.99v 5.14087" fill="none" stroke="black"/>
 <text xml:space="preserve" x="94.5134" y="198.71" fill="black" font-size="10.4502" font-family="Helvetica">3
 </text>
@@ -103,7 +102,6 @@ CreationDate: Wed Jul 10 10:03:10 2024</desc>
 <path d="M490.089,20.339v -2.57044" fill="none" stroke="black"/>
 <path d="M504.719,20.339v -2.57044" fill="none" stroke="black"/>
 <path d="M519.35,20.339v -2.57044" fill="none" stroke="black"/>
-<path d="M533.98,22.9094v -5.14087" fill="none" stroke="black"/>
 <path d="M533.98,22.9094v -5.14087" fill="none" stroke="black"/>
 <path d="M95.0638,189.131v -171.362" fill="none" stroke="black"/>
 <path d="M108.231,189.131h -13.1675" fill="none" stroke="black"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="685.983" viewBox="0 0 567.429 685.983" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/archi.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/archi_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 09:52:16 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:29:43 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="685.483" fill="white"/>
@@ -45,7 +45,7 @@ CreationDate: Wed Jul 10 09:52:16 2024</desc>
 </text>
 <text xml:space="preserve" x="51.4172" y="149.712" fill="black" font-size="12.4627" font-family="Helvetica">Linked
 </text>
-<text xml:space="preserve" x="46.0975" y="176.31" fill="black" font-size="12.4627" font-family="Helvetica">Libraries
+<text xml:space="preserve" x="46.0975" y="175.55" fill="black" font-size="12.4627" font-family="Helvetica">Libraries
 </text>
 <rect x="41.9826" y="71.1847" width="55.3102" height="18.4553" fill="#876656"/>
 <path d="M45.4024,89.64v 2.27988h 54.1702v -17.3154h -2.27988v 15.0355z" fill="black"/>
@@ -83,7 +83,7 @@ CreationDate: Wed Jul 10 09:52:16 2024</desc>
 </text>
 <text xml:space="preserve" x="187.45" y="149.712" fill="black" font-size="12.4627" font-family="Helvetica">Header
 </text>
-<text xml:space="preserve" x="195.049" y="176.31" fill="black" font-size="12.4627" font-family="Helvetica">Files
+<text xml:space="preserve" x="195.049" y="175.55" fill="black" font-size="12.4627" font-family="Helvetica">Files
 </text>
 <rect x="180.258" y="71.1847" width="55.3102" height="18.4553" fill="#876656"/>
 <path d="M183.678,89.64v 2.27988h 54.1702v -17.3154h -2.27988v 15.0355z" fill="black"/>
@@ -121,7 +121,7 @@ CreationDate: Wed Jul 10 09:52:16 2024</desc>
 </text>
 <text xml:space="preserve" x="315.883" y="148.952" fill="black" font-size="12.4627" font-family="Helvetica">Description
 </text>
-<text xml:space="preserve" x="333.362" y="176.31" fill="black" font-size="12.4627" font-family="Helvetica">Files
+<text xml:space="preserve" x="333.362" y="175.55" fill="black" font-size="12.4627" font-family="Helvetica">Files
 </text>
 <rect x="318.533" y="71.1847" width="55.3102" height="18.4553" fill="#876656"/>
 <path d="M321.953,89.64v 2.27988h 54.1702v -17.3154h -2.27988v 15.0355z" fill="black"/>
@@ -159,7 +159,7 @@ CreationDate: Wed Jul 10 09:52:16 2024</desc>
 </text>
 <text xml:space="preserve" x="459.515" y="149.712" fill="black" font-size="12.4627" font-family="Helvetica">Definition
 </text>
-<text xml:space="preserve" x="457.235" y="175.55" fill="black" font-size="12.4627" font-family="Helvetica">Language
+<text xml:space="preserve" x="457.235" y="174.79" fill="black" font-size="12.4627" font-family="Helvetica">Language
 </text>
 <rect x="456.809" y="71.1847" width="55.3102" height="18.4553" fill="#876656"/>
 <path d="M460.229,89.64v 2.27988h 54.1702v -17.3154h -2.27988v 15.0355z" fill="black"/>

@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="443.502" viewBox="0 0 567.429 443.502" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/mathStudent.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/mathStudent_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 10:05:44 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:36:46 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="443.002" fill="#cccccc"/>
@@ -582,7 +582,7 @@ CreationDate: Wed Jul 10 10:05:44 2024</desc>
 <text xml:space="preserve" x="472.704" y="98.9989" fill="black" font-size="5.60003" font-family="Helvetica" font-weight="bold">10 degrees of freedom
 </text>
 <path d="M455.869,96.5745h 13.8104" fill="none" stroke="#0000ff"/>
-<text xml:space="preserve" x="472.704" y="113.243" fill="black" font-size="5.60003" font-family="Helvetica" font-weight="bold">3 degrees of freedom
+<text xml:space="preserve" x="472.704" y="112.531" fill="black" font-size="5.60003" font-family="Helvetica" font-weight="bold">3 degrees of freedom
 </text>
 <path d="M455.869,110.751h 13.8104" fill="none" stroke="#ff0000"/>
 <text xml:space="preserve" x="472.704" y="126.776" fill="black" font-size="5.60003" font-family="Helvetica" font-weight="bold">1 degree of freedom

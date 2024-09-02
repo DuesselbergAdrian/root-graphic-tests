@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="701.799" viewBox="0 0 567.429 701.799" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/analyze.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/analyze_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 09:52:09 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:29:39 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="701.299" fill="white"/>
@@ -89,7 +89,7 @@ CreationDate: Wed Jul 10 09:52:09 2024</desc>
 <path d="M425.697,187.013v -46.7532h 85.0394v 46.7532h -85.0394z" fill="none" stroke="black"/>
 <text xml:space="preserve" x="441.343" y="156.458" fill="black" font-size="15.2367" font-family="Helvetica">Analyze
 </text>
-<text xml:space="preserve" x="455.148" y="180.387" fill="black" font-size="15.2367" font-family="Helvetica">Left
+<text xml:space="preserve" x="455.148" y="181.307" fill="black" font-size="15.2367" font-family="Helvetica">Left
 </text>
 <rect x="425.697" y="210.39" width="85.0394" height="46.7532" fill="#ddba87"/>
 <path d="M431.219,257.143v 3.68136h 83.1987v -44.9126h -3.68136v 41.2312z" fill="black"/>

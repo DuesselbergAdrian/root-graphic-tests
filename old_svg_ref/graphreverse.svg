@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="552.244" viewBox="0 0 567.429 552.244" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/graphreverse.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/graphreverse_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 09:57:46 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:34:19 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="551.744" fill="white"/>
@@ -579,7 +579,6 @@ CreationDate: Wed Jul 10 09:57:46 2024</desc>
 <path d="M235.262,14.1614v 136.575" fill="none" stroke="black" stroke-dasharray=" 1, 2"/>
 <path d="M231.364,148.688v 2.04862" fill="none" stroke="black"/>
 <path d="M227.466,148.688v 2.04862" fill="none" stroke="black"/>
-<path d="M223.568,148.688v 2.04862" fill="none" stroke="black"/>
 <text xml:space="preserve" x="349.769" y="158.183" fill="black" font-size="8.43026" font-family="Helvetica">4
 </text>
 <text xml:space="preserve" x="330.154" y="158.183" fill="black" font-size="8.43026" font-family="Helvetica">5
@@ -1496,12 +1495,12 @@ CreationDate: Wed Jul 10 09:57:46 2024</desc>
 <path d="M355.131,332.602v 2.04862" fill="none" stroke="black"/>
 <path d="M358.054,332.602v 2.04862" fill="none" stroke="black"/>
 <path d="M360.978,332.602v 2.04862" fill="none" stroke="black"/>
-<path d="M363.902,332.602v 2.04862" fill="none" stroke="black"/>
 <path d="M235.262,330.554v 4.09725" fill="none" stroke="black"/>
 <path d="M235.262,198.076v 136.575" fill="none" stroke="black" stroke-dasharray=" 1, 2"/>
 <path d="M232.339,332.602v 2.04862" fill="none" stroke="black"/>
 <path d="M229.415,332.602v 2.04862" fill="none" stroke="black"/>
 <path d="M226.491,332.602v 2.04862" fill="none" stroke="black"/>
+<path d="M223.568,332.602v 2.04862" fill="none" stroke="black"/>
 <text xml:space="preserve" x="349.769" y="342.309" fill="black" font-size="8.43026" font-family="Helvetica">4
 </text>
 <text xml:space="preserve" x="335.216" y="342.309" fill="black" font-size="8.43026" font-family="Helvetica">5
@@ -2422,12 +2421,12 @@ CreationDate: Wed Jul 10 09:57:46 2024</desc>
 <path d="M355.131,516.517v 2.04862" fill="none" stroke="black"/>
 <path d="M358.054,516.517v 2.04862" fill="none" stroke="black"/>
 <path d="M360.978,516.517v 2.04862" fill="none" stroke="black"/>
-<path d="M363.902,516.517v 2.04862" fill="none" stroke="black"/>
 <path d="M235.262,514.468v 4.09725" fill="none" stroke="black"/>
 <path d="M235.262,381.99v 136.575" fill="none" stroke="black" stroke-dasharray=" 1, 2"/>
 <path d="M232.339,516.517v 2.04862" fill="none" stroke="black"/>
 <path d="M229.415,516.517v 2.04862" fill="none" stroke="black"/>
 <path d="M226.491,516.517v 2.04862" fill="none" stroke="black"/>
+<path d="M223.568,516.517v 2.04862" fill="none" stroke="black"/>
 <text xml:space="preserve" x="349.769" y="526.434" fill="black" font-size="8.43026" font-family="Helvetica">4
 </text>
 <text xml:space="preserve" x="335.216" y="526.434" fill="black" font-size="8.43026" font-family="Helvetica">5

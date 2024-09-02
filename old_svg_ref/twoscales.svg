@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567.429" height="354.355" viewBox="0 0 567.429 354.355" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
 <title>
-./old_svg_ref/twoscales.svg
+/Users/adrianduesselberg/root-graphic-tests/build/old_svg_pro/twoscales_pro.svg
 </title>
 <desc>
-Creator: ROOT Version 6.33.01
-CreationDate: Wed Jul 10 10:04:22 2024</desc>
+Creator: ROOT Version 6.32.02
+CreationDate: Mon Sep  2 14:36:21 2024</desc>
 <defs>
 </defs>
 <rect x="0.5" y="0" width="566.929" height="353.855" fill="white"/>
@@ -52,7 +52,6 @@ CreationDate: Wed Jul 10 10:04:22 2024</desc>
 <path d="M494.295,293.045v 4.19318" fill="none" stroke="black"/>
 <path d="M509.224,293.045v 4.19318" fill="none" stroke="black"/>
 <path d="M524.154,293.045v 4.19318" fill="none" stroke="black"/>
-<path d="M539.083,288.852v 8.38636" fill="none" stroke="black"/>
 <path d="M539.083,288.852v 8.38636" fill="none" stroke="black"/>
 <text xml:space="preserve" x="90.8662" y="312.952" fill="black" font-size="16.7319" font-family="Helvetica">3
 </text>
@@ -105,7 +104,6 @@ CreationDate: Wed Jul 10 10:04:22 2024</desc>
 <path d="M494.295,21.8859v -4.19318" fill="none" stroke="black"/>
 <path d="M509.224,21.8859v -4.19318" fill="none" stroke="black"/>
 <path d="M524.154,21.8859v -4.19318" fill="none" stroke="black"/>
-<path d="M539.083,26.0791v -8.38636" fill="none" stroke="black"/>
 <path d="M539.083,26.0791v -8.38636" fill="none" stroke="black"/>
 <path d="M91.2087,297.238v -279.546" fill="none" stroke="black"/>
 <path d="M104.645,297.238h -13.4362" fill="none" stroke="black"/>
